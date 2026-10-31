@@ -1,0 +1,142 @@
+{
+  "row_count": 23385,
+  "columns": {
+    "timestamp": "datetime64[ns]",
+    "announce_seq": "int64",
+    "bar_buy_thb": "float64",
+    "bar_sell_thb": "float64",
+    "ornament_tax_base_thb": "float64",
+    "ornament_sell_thb": "float64",
+    "gold_spot_usd": "float64",
+    "usd_thb": "float64",
+    "change_thb": "float64",
+    "source_url": "object"
+  },
+  "min_timestamp": "2006-05-01 09:30:00",
+  "max_timestamp": "2026-10-22 17:06:00",
+  "missing_by_column_year": {
+    "bar_buy": {},
+    "bar_sell": {},
+    "ornament_sell": {},
+    "ornament_tax_base": {},
+    "gold_spot_usd": {
+      "2006": 10,
+      "2007": 4,
+      "2008": 17,
+      "2009": 1,
+      "2010": 49,
+      "2011": 52,
+      "2012": 52,
+      "2013": 49,
+      "2014": 51,
+      "2015": 50,
+      "2016": 36,
+      "2017": 32,
+      "2018": 50,
+      "2019": 52,
+      "2020": 1
+    },
+    "usd_thb": {
+      "2006": 12,
+      "2007": 4,
+      "2008": 36,
+      "2009": 67,
+      "2010": 66,
+      "2011": 67,
+      "2012": 63,
+      "2013": 56,
+      "2014": 60,
+      "2015": 58,
+      "2016": 53,
+      "2017": 44,
+      "2018": 76,
+      "2019": 81,
+      "2020": 2
+    },
+    "change": {
+      "2013": 2,
+      "2016": 1,
+      "2017": 1,
+      "2018": 2,
+      "2021": 1
+    }
+  },
+  "bar_buy_invalid_count": 0,
+  "bar_buy_missing_count": 0,
+  "bar_sell_invalid_count": 0,
+  "bar_sell_missing_count": 0,
+  "ornament_sell_invalid_count": 0,
+  "ornament_sell_missing_count": 0,
+  "exact_duplicate_rows": 17,
+  "rows_sharing_timestamp": 52,
+  "share_change_nonzero": 0.9394483643361129,
+  "bar_mid_intraday_moves_per_day_mean": 3.9415135681779874,
+  "intraday_obs_per_date": {
+    "mean": 3.9415135681779874,
+    "median": 2.0,
+    "max": 106,
+    "min": 1
+  },
+  "calendar_days_total": 7480,
+  "calendar_days_with_valid_quote": 5933,
+  "calendar_days_missing": 1547,
+  "missing_weekdays": 416,
+  "missing_weekday_blocks": [
+    {
+      "start": "2013-02-25",
+      "end": "2013-03-29",
+      "n": 22
+    },
+    {
+      "start": "2016-08-01",
+      "end": "2016-12-05",
+      "n": 89
+    },
+    {
+      "start": "2017-08-01",
+      "end": "2017-12-15",
+      "n": 99
+    },
+    {
+      "start": "2018-01-01",
+      "end": "2018-01-15",
+      "n": 11
+    },
+    {
+      "start": "2021-05-03",
+      "end": "2021-05-27",
+      "n": 19
+    },
+    {
+      "start": "2025-07-01",
+      "end": "2025-07-16",
+      "n": 12
+    },
+    {
+      "start": "2026-09-01",
+      "end": "2026-10-14",
+      "n": 26
+    }
+  ],
+  "bar_spread_stats": {
+    "mean": 118.97370109044259,
+    "p5": 100.0,
+    "p95": 200.0,
+    "min": 100.0,
+    "max": 300.0
+  },
+  "ornament_wage_stats": {
+    "mean": 569.87812700449,
+    "min": 400.0,
+    "max": 800.0
+  },
+  "bar_spread_negative_announcements": 0,
+  "ornament_below_bar_announcements": 0,
+  "policy_return_sensitivity": {
+    "alt_policy": "first_valid_of_day",
+    "corr": 0.8034306365128691,
+    "mean_abs_return_diff": 0.003300292312059358,
+    "annualized_vol_primary": 0.1350827613563042,
+    "annualized_vol_alt": 0.13487621560948365
+  }
+}

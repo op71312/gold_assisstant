@@ -1,0 +1,33 @@
+{
+  "target_count": 100,
+  "candidate_count_after_source_validation": 100,
+  "selected_query_count": 100,
+  "unique_source_document_count": 100,
+  "unique_publication_date_count": 100,
+  "existing_ground_truth_source_overlap_count": 0,
+  "source_group_overlap_by_existing_split": {
+    "development": 0,
+    "test": 0,
+    "validation": 0
+  },
+  "query_type_counts": {
+    "numeric_fact": 100
+  },
+  "human_semantic_review_complete": false,
+  "qdrant_index_coverage_verified": false,
+  "split": "held_out",
+  "rejected_source_rows": {
+    "overlapping_existing_source": 57,
+    "not_fomc_statement": 19435,
+    "invalid_source_metadata": 1,
+    "no_explicit_target_fact": 186
+  },
+  "date_min": "2006-08-08",
+  "date_max": "2026-07-29",
+  "source_path": "D:\\Project_Github\\gold assisstant\\embedding\\artifacts\\chunking_real\\structure_aware\\chunks_structure_aware_real.jsonl",
+  "source_sha256": "5f7c2880f1bed234e1fa874ed98316ce44ae7e46a9250d6376b35fcd98a2d102",
+  "existing_ground_truth_sha256": "4e05032f4cec2430ac85e0a0d7cc1bb891f482b1ff3ced449036eb3e1718cbfa",
+  "output_path": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\ground_truth_fed_numeric_acceptance_v2.jsonl",
+  "output_sha256": "a180b7d9f9cfd074ac88a0cd8ecdb5b06da84a03ec8b10de436292d0baa00fce",
+  "generator_sha256": "9be9aebc2d6e3398928ce766c14ef926aea018f913dcef974811a678e44aa64c"
+}

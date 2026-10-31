@@ -1,0 +1,138 @@
+﻿query_id,agent,status,api_success,json_parse,schema_valid,task_success,task_validation_status,schema_errors,repair_attempts,attempt_count,finish_reason,latency_ms,prompt_tokens,completion_tokens,total_tokens,initial_tokens,repair_tokens,error_type,error,traceback
+thgold_001,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8514.119899999969,2250.0,1058.0,3308.0,,,,,
+thgold_001,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9128.897999999936,2519.0,1068.0,3587.0,,,,,
+thgold_001,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,12236.147000000528,4495.0,1588.0,6083.0,,,,,
+thgold_001,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,19802.410999999665,5141.0,2647.0,7788.0,,,,,
+thgold_001,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,15713.02680000008,7252.0,2122.0,9374.0,,,,,
+thgold_002,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7515.636000000086,2522.0,868.0,3390.0,,,,,
+thgold_002,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8272.447199999988,4368.0,969.0,5337.0,,,,,
+thgold_002,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8302.836300000308,2253.0,978.0,3231.0,,,,,
+thgold_002,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9418.117700000039,3505.0,1134.0,4639.0,,,,,
+thgold_002,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,5139.8159000000305,6534.0,663.0,7197.0,,,,,
+thgold_003,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7235.183499999948,2508.0,844.0,3352.0,,,,,
+thgold_003,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8432.719000000361,3332.0,982.0,4314.0,,,,,
+thgold_003,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10133.023000000321,4195.0,1215.0,5410.0,,,,,
+thgold_003,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10239.3605999996,2239.0,1234.0,3473.0,,,,,
+thgold_003,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,5644.614200000433,6577.0,704.0,7281.0,,,,,
+thgold_004,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9939.914300000055,2243.0,1242.0,3485.0,,,,,
+thgold_004,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10266.58740000039,4174.0,1289.0,5463.0,,,,,
+thgold_004,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,74126.6040999999,3311.0,1010.0,4321.0,,,,,
+thgold_004,AI4_Risk_Data_Auditor,truncated_output,True,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],2,3,length,221830.51999999952,7530.0,4500.0,12030.0,,,truncated_output,finish_reason_indicates_output_truncation,
+thgold_004,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6410.815000000184,5906.0,852.0,6758.0,,,,,
+thgold_005,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6567.1768000001975,3270.0,824.0,4094.0,,,,,
+thgold_005,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7110.191499999928,4133.0,900.0,5033.0,,,,,
+thgold_005,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7272.809500000221,2514.0,926.0,3440.0,,,,,
+thgold_005,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10305.227599999853,2245.0,1384.0,3629.0,,,,,
+thgold_005,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4761.568100000659,5891.0,628.0,6519.0,,,,,
+thgold_006,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7307.963599999312,2514.0,927.0,3441.0,,,,,
+thgold_006,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8192.742299999736,2245.0,1053.0,3298.0,,,,,
+thgold_006,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8822.879500000454,4195.0,1142.0,5337.0,,,,,
+thgold_006,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9603.000900000552,3332.0,1261.0,4593.0,,,,,
+thgold_006,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7847.585299999992,6625.0,1069.0,7694.0,,,,,
+thgold_007,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10539.612099999431,2516.0,1285.0,3801.0,,,,,
+thgold_007,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10599.481500000365,2247.0,1294.0,3541.0,,,,,
+thgold_007,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,14406.335300000137,4397.0,1806.0,6203.0,,,,,
+thgold_007,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,19203.696800000216,4867.0,2405.0,7272.0,,,,,
+thgold_007,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,23614.118299999973,10155.0,3041.0,13196.0,,,,,
+thgold_008,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8596.122099999775,2512.0,989.0,3501.0,,,,,
+thgold_008,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,12432.651199999782,4268.0,1430.0,5698.0,,,,,
+thgold_008,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,16204.368000000613,3718.0,1899.0,5617.0,,,,,
+thgold_008,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,19272.780199999943,4506.0,2354.0,6860.0,,,,,
+thgold_008,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7603.960399999778,6638.0,953.0,7591.0,,,,,
+thgold_009,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8719.155199999477,2512.0,1026.0,3538.0,,,,,
+thgold_009,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10320.355399999244,2243.0,1259.0,3502.0,,,,,
+thgold_009,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,77879.67149999985,5775.0,2616.0,8391.0,,,,,
+thgold_009,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,78298.61339999933,4472.0,1397.0,5869.0,,,,,
+thgold_009,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4998.831999999311,7115.0,580.0,7695.0,,,,,
+thgold_010,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8063.605600000301,2536.0,899.0,3435.0,,,,,
+thgold_010,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9331.892600000174,3950.0,1051.0,5001.0,,,,,
+thgold_010,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,16340.28920000037,4813.0,1961.0,6774.0,,,,,
+thgold_010,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,17701.416599999902,2267.0,2153.0,4420.0,,,,,
+thgold_010,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10823.592400000052,8795.0,1285.0,10080.0,,,,,
+thgold_011,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4646.6073999999935,2239.0,458.0,2697.0,,,,,
+thgold_011,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,5765.637000000424,2508.0,595.0,3103.0,,,,,
+thgold_011,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7699.450299999626,5145.0,846.0,5991.0,,,,,
+thgold_011,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10443.051300000661,4282.0,1224.0,5506.0,,,,,
+thgold_011,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7082.129999999779,6451.0,795.0,7246.0,,,,,
+thgold_012,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,3610.737599999993,2532.0,404.0,2936.0,,,,,
+thgold_012,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4534.956999999849,2263.0,533.0,2796.0,,,,,
+thgold_012,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7476.288699999714,3958.0,951.0,4909.0,,,,,
+thgold_012,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,12006.864800000585,4821.0,1624.0,6445.0,,,,,
+thgold_012,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8392.201900000146,6652.0,974.0,7626.0,,,,,
+thgold_013,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,3036.280400000578,2525.0,315.0,2840.0,,,,,
+thgold_013,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4934.914600000411,2256.0,591.0,2847.0,,,,,
+thgold_013,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8374.267600000167,3776.0,1071.0,4847.0,,,,,
+thgold_013,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,13521.878700000343,4639.0,1775.0,6414.0,,,,,
+thgold_013,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,128771.6502000003,6819.0,847.0,7666.0,,,,,
+thgold_014,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9608.70419999992,2528.0,1124.0,3652.0,,,,,
+thgold_014,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9625.23929999952,4771.0,1115.0,5886.0,,,,,
+thgold_014,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,16787.65410000051,2259.0,2127.0,4386.0,,,,,
+thgold_014,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,21857.69639999944,5490.0,2783.0,8273.0,,,,,
+thgold_014,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7459.364499999538,8323.0,924.0,9247.0,,,,,
+thgold_015,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6051.4382999999725,2520.0,703.0,3223.0,,,,,
+thgold_015,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9412.122800000361,3699.0,1142.0,4841.0,,,,,
+thgold_015,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,11542.604600000232,4562.0,1430.0,5992.0,,,,,
+thgold_015,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,15333.166999999776,2251.0,1970.0,4221.0,,,,,
+thgold_015,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,130541.68440000011,,,,,,api_error,"RuntimeError:ThaiLLM failed after 3 attempts using configured key slots ['THAILLM_API_KEY7', 'THAILLM_API_KEY1', 'THAILLM_API_KEY2']: InternalServerError: Error code: 502 - {'type': 'https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/', 'title': 'Error 502: Bad gateway', 'status': 502, 'detail': 'The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.', 'instance': 'a52727a41dc6ff8a', 'error_code': 502, 'error_name': 'origin_bad_gateway', 'error_category': 'origin', 'ray_id': 'a52727a41dc6ff8a', 'timestamp': '2026-10-30T02:57:53Z', 'zone': 'thaillm.or.th', 'cloudflare_error': True, 'retryable': True, 'retry_after': 60, 'owner_action_required': True, 'what_you_should_do': '**Wait and retry.** Back off for at least 60 seconds. If the error persists, the website operator should check their origin server health and configuration.', 'footer': 'This error was generated by Cloudflare on behalf of the website owner.'}","Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12960\1730484834.py"", line 33, in generate
+    resp, _gate_attempts = THAILLM_GATE.call(request_generation, max_retries=0)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12960\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12960\1730484834.py"", line 27, in request_generation
+    return client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py"", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py"", line 1251, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py"", line 1332, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py"", line 1105, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 502 - {'type': 'https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/', 'title': 'Error 502: Bad gateway', 'status': 502, 'detail': 'The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.', 'instance': 'a52727a41dc6ff8a', 'error_code': 502, 'error_name': 'origin_bad_gateway', 'error_category': 'origin', 'ray_id': 'a52727a41dc6ff8a', 'timestamp': '2026-10-30T02:57:53Z', 'zone': 'thaillm.or.th', 'cloudflare_error': True, 'retryable': True, 'retry_after': 60, 'owner_action_required': True, 'what_you_should_do': '**Wait and retry.** Back off for at least 60 seconds. If the error persists, the website operator should check their origin server health and configuration.', 'footer': 'This error was generated by Cloudflare on behalf of the website owner.'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12960\1730484834.py"", line 266, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12960\1730484834.py"", line 62, in generate
+    raise RuntimeError(
+RuntimeError: ThaiLLM failed after 3 attempts using configured key slots ['THAILLM_API_KEY7', 'THAILLM_API_KEY1', 'THAILLM_API_KEY2']: InternalServerError: Error code: 502 - {'type': 'https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-502/', 'title': 'Error 502: Bad gateway', 'status': 502, 'detail': 'The origin web server returned an invalid or incomplete response to Cloudflare. This typically indicates the origin is overloaded or misconfigured.', 'instance': 'a52727a41dc6ff8a', 'error_code': 502, 'error_name': 'origin_bad_gateway', 'error_category': 'origin', 'ray_id': 'a52727a41dc6ff8a', 'timestamp': '2026-10-30T02:57:53Z', 'zone': 'thaillm.or.th', 'cloudflare_error': True, 'retryable': True, 'retry_after': 60, 'owner_action_required': True, 'what_you_should_do': '**Wait and retry.** Back off for at least 60 seconds. If the error persists, the website operator should check their origin server health and configuration.', 'footer': 'This error was generated by Cloudflare on behalf of the website owner.'}
+"
+thgold_016,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,11247.924400000556,2513.0,1112.0,3625.0,,,,,
+thgold_016,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,11636.638300000413,3685.0,1166.0,4851.0,,,,,
+thgold_016,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,13583.839799999623,2244.0,1448.0,3692.0,,,,,
+thgold_016,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,13829.949500000112,4548.0,1484.0,6032.0,,,,,
+thgold_016,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9936.248500000147,7435.0,1350.0,8785.0,,,,,
+thgold_017,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10389.052200000151,2244.0,1158.0,3402.0,,,,,
+thgold_017,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,12053.042300000016,2513.0,1369.0,3882.0,,,,,
+thgold_017,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,12423.203700000158,3575.0,1416.0,4991.0,,,,,
+thgold_017,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,14153.895499999635,4438.0,1654.0,6092.0,,,,,
+thgold_017,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8578.631100000166,7421.0,1012.0,8433.0,,,,,
+thgold_018,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,4196.894300000167,2244.0,489.0,2733.0,,,,,
+thgold_018,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9539.826000000176,2513.0,1230.0,3743.0,,,,,
+thgold_018,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9762.332700000115,4395.0,1262.0,5657.0,,,,,
+thgold_018,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,9856.032499999856,3532.0,1276.0,4808.0,,,,,
+thgold_018,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6144.964500000242,6572.0,808.0,7380.0,,,,,
+thgold_019,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6015.504599999986,2536.0,739.0,3275.0,,,,,
+thgold_019,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,6426.744100000178,3584.0,802.0,4386.0,,,,,
+thgold_019,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7361.754900000051,2267.0,933.0,3200.0,,,,,
+thgold_019,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,11082.020300000295,4447.0,1487.0,5934.0,,,,,
+thgold_019,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,5625.949100000071,6310.0,729.0,7039.0,,,,,
+thgold_020,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7062.976499999422,4663.0,876.0,5539.0,,,,,
+thgold_020,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7880.505299999641,2555.0,992.0,3547.0,,,,,
+thgold_020,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,8343.201200000294,3800.0,1059.0,4859.0,,,,,
+thgold_020,AI3_Quant_Regime_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10271.610599999804,2286.0,1350.0,3636.0,,,,,
+thgold_020,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,5529.882299999372,6739.0,728.0,7467.0,,,,,
+thgold_021,AI4_Risk_Data_Auditor,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7811.122299999624,2582.0,974.0,3556.0,,,,,
+thgold_021,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,10416.863399999784,3596.0,1332.0,4928.0,,,,,
+thgold_021,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,16788.243599999987,4459.0,2239.0,6698.0,,,,,
+thgold_021,AI3_Quant_Regime_Analyst,truncated_output,True,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],2,3,length,67493.07620000036,10193.0,9000.0,19193.0,,,truncated_output,finish_reason_indicates_output_truncation,
+thgold_021,AI5_Lead_Researcher,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,7112.3460999997405,7109.0,868.0,7977.0,,,,,

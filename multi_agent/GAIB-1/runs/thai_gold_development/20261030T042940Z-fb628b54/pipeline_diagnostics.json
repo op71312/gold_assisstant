@@ -1,0 +1,24 @@
+{
+  "run_id": "20261030T042940Z-fb628b54",
+  "benchmark_split": "development",
+  "expected_query_count": 21,
+  "result_query_count": 0,
+  "error_query_count": 21,
+  "expected_agent_result_count": 0,
+  "observed_agent_result_count": 0,
+  "agent_json_parse_rate": null,
+  "agent_schema_valid_rate": null,
+  "missing_query_ids": [],
+  "duplicate_query_ids": 0,
+  "agent_telemetry_integrity": false,
+  "missing_agent_columns": [
+    "agent",
+    "api_success",
+    "json_parse",
+    "query_id",
+    "schema_valid"
+  ],
+  "duplicate_agent_results": null,
+  "missing_agent_results": [],
+  "unexpected_agent_results": []
+}

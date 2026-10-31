@@ -1,0 +1,457 @@
+﻿query_id,query,method,document_hit_at_10,evidence_recall_at_10,quote_text_recall_at_10,mrr_at_10,evidence_document_count,evidence_documents_mapped,evidence_document_coverage,missing_evidence_document_ids,jina_api_status,rerank_outcome,fallback_used,jina_http_status,jina_error_reason,jina_attempts,jina_api_latency_seconds,jina_retry_wait_seconds,rerank_latency_seconds
+gtv2_000001,ตามรายงาน CPI ของสหรัฐฯ สำหรับ July 2016 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,0,0.0,1.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000001,ตามรายงาน CPI ของสหรัฐฯ สำหรับ July 2016 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000001,ตามรายงาน CPI ของสหรัฐฯ สำหรับ July 2016 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,0,0.0,1.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000001,ตามรายงาน CPI ของสหรัฐฯ สำหรับ July 2016 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,0,0.0,1.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.2083944999976666,0.0,1.2096885999999358
+gtv2_000002,What 12-month change in the all-items index did the U.S. CPI release report for July 2016?,dense,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000002,What 12-month change in the all-items index did the U.S. CPI release report for July 2016?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000002,What 12-month change in the all-items index did the U.S. CPI release report for July 2016?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000002,What 12-month change in the all-items index did the U.S. CPI release report for July 2016?,hybrid_rrf_jina,1,1.0,1.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.005455800004711,0.0,1.006219399998372
+gtv2_000003,"According to the U.S. CPI release for January 2023, how did the CPI-U change on a seasonally adjusted basis?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000003,"According to the U.S. CPI release for January 2023, how did the CPI-U change on a seasonally adjusted basis?",bm25,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000003,"According to the U.S. CPI release for January 2023, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000003,"According to the U.S. CPI release for January 2023, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf_jina,1,0.0,0.0,0.1111111111111111,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.9480993999968632,0.0,0.94926800000394
+gtv2_000004,รายงาน CPI ของสหรัฐฯ สำหรับ January 2023 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000004,รายงาน CPI ของสหรัฐฯ สำหรับ January 2023 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000004,รายงาน CPI ของสหรัฐฯ สำหรับ January 2023 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000004,รายงาน CPI ของสหรัฐฯ สำหรับ January 2023 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf_jina,1,1.0,1.0,0.1,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.051685999998881,0.0,1.0535763000007137
+gtv2_000005,ตามรายงาน CPI ของสหรัฐฯ สำหรับ December 2025 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000005,ตามรายงาน CPI ของสหรัฐฯ สำหรับ December 2025 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000005,ตามรายงาน CPI ของสหรัฐฯ สำหรับ December 2025 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,1,1.0,1.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000005,ตามรายงาน CPI ของสหรัฐฯ สำหรับ December 2025 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.053569099996821,0.0,1.0544587000040337
+gtv2_000006,What 12-month change in the all-items index did the U.S. CPI release report for December 2025?,dense,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000006,What 12-month change in the all-items index did the U.S. CPI release report for December 2025?,bm25,0,0.0,1.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000006,What 12-month change in the all-items index did the U.S. CPI release report for December 2025?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000006,What 12-month change in the all-items index did the U.S. CPI release report for December 2025?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.0550046999996994,0.0,1.0559588000032818
+gtv2_000007,"According to the U.S. CPI release for September 2024, how did the CPI-U change on a seasonally adjusted basis?",dense,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000007,"According to the U.S. CPI release for September 2024, how did the CPI-U change on a seasonally adjusted basis?",bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000007,"According to the U.S. CPI release for September 2024, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf,1,1.0,1.0,0.14285714285714285,1,1,1.0,,,,,,,,,,
+gtv2_000007,"According to the U.S. CPI release for September 2024, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf_jina,1,1.0,1.0,0.125,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.9754714999944554,0.0,0.9762205000006361
+gtv2_000008,รายงาน CPI ของสหรัฐฯ สำหรับ September 2024 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000008,รายงาน CPI ของสหรัฐฯ สำหรับ September 2024 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000008,รายงาน CPI ของสหรัฐฯ สำหรับ September 2024 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000008,รายงาน CPI ของสหรัฐฯ สำหรับ September 2024 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf_jina,1,1.0,1.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.7081345000042347,0.0,1.7089779000016279
+gtv2_000009,ตามรายงาน CPI ของสหรัฐฯ สำหรับ March 2012 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000009,ตามรายงาน CPI ของสหรัฐฯ สำหรับ March 2012 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000009,ตามรายงาน CPI ของสหรัฐฯ สำหรับ March 2012 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000009,ตามรายงาน CPI ของสหรัฐฯ สำหรับ March 2012 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.0874322000017855,0.0,1.0885913999954937
+gtv2_000010,What 12-month change in the all-items index did the U.S. CPI release report for March 2012?,dense,1,1.0,1.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000010,What 12-month change in the all-items index did the U.S. CPI release report for March 2012?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000010,What 12-month change in the all-items index did the U.S. CPI release report for March 2012?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000010,What 12-month change in the all-items index did the U.S. CPI release report for March 2012?,hybrid_rrf_jina,1,1.0,1.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.9811712999944575,0.0,0.9827390000064042
+gtv2_000011,"According to the U.S. CPI release for March 2019, how did the CPI-U change on a seasonally adjusted basis?",dense,1,1.0,1.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000011,"According to the U.S. CPI release for March 2019, how did the CPI-U change on a seasonally adjusted basis?",bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000011,"According to the U.S. CPI release for March 2019, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000011,"According to the U.S. CPI release for March 2019, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf_jina,1,1.0,1.0,0.1111111111111111,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.904690399998799,0.0,0.9053828999967664
+gtv2_000012,รายงาน CPI ของสหรัฐฯ สำหรับ March 2019 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,dense,1,1.0,1.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000012,รายงาน CPI ของสหรัฐฯ สำหรับ March 2019 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000012,รายงาน CPI ของสหรัฐฯ สำหรับ March 2019 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000012,รายงาน CPI ของสหรัฐฯ สำหรับ March 2019 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf_jina,1,1.0,1.0,0.14285714285714285,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.7900332999997772,6.0,8.792353900003945
+gtv2_000013,ตามรายงาน CPI ของสหรัฐฯ สำหรับ February 2011 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000013,ตามรายงาน CPI ของสหรัฐฯ สำหรับ February 2011 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000013,ตามรายงาน CPI ของสหรัฐฯ สำหรับ February 2011 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000013,ตามรายงาน CPI ของสหรัฐฯ สำหรับ February 2011 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,1,1.0,1.0,0.14285714285714285,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.857089699995413,2.0,3.8594535999945947
+gtv2_000014,What 12-month change in the all-items index did the U.S. CPI release report for February 2011?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000014,What 12-month change in the all-items index did the U.S. CPI release report for February 2011?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000014,What 12-month change in the all-items index did the U.S. CPI release report for February 2011?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000014,What 12-month change in the all-items index did the U.S. CPI release report for February 2011?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.6374249000145937,6.0,8.640609900001436
+gtv2_000015,"According to the U.S. CPI release for January 2009, how did the CPI-U change before seasonal adjustment?",dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000015,"According to the U.S. CPI release for January 2009, how did the CPI-U change before seasonal adjustment?",bm25,1,0.0,0.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000015,"According to the U.S. CPI release for January 2009, how did the CPI-U change before seasonal adjustment?",hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000015,"According to the U.S. CPI release for January 2009, how did the CPI-U change before seasonal adjustment?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.780918999997084,2.0,3.7829199000043445
+gtv2_000016,ในรายงาน CPI สำหรับ January 2009 ดัชนี CPI-U อยู่ที่ระดับเท่าใด?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000016,ในรายงาน CPI สำหรับ January 2009 ดัชนี CPI-U อยู่ที่ระดับเท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000016,ในรายงาน CPI สำหรับ January 2009 ดัชนี CPI-U อยู่ที่ระดับเท่าใด?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000016,ในรายงาน CPI สำหรับ January 2009 ดัชนี CPI-U อยู่ที่ระดับเท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.7322606000016094,6.0,8.734672300000966
+gtv2_000017,ตามรายงาน CPI ของสหรัฐฯ สำหรับ September 2019 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000017,ตามรายงาน CPI ของสหรัฐฯ สำหรับ September 2019 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000017,ตามรายงาน CPI ของสหรัฐฯ สำหรับ September 2019 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000017,ตามรายงาน CPI ของสหรัฐฯ สำหรับ September 2019 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.8599977999911061,2.0,3.8616327999989153
+gtv2_000018,What 12-month change in the all-items index did the U.S. CPI release report for September 2019?,dense,0,0.0,1.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000018,What 12-month change in the all-items index did the U.S. CPI release report for September 2019?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000018,What 12-month change in the all-items index did the U.S. CPI release report for September 2019?,hybrid_rrf,0,0.0,1.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000018,What 12-month change in the all-items index did the U.S. CPI release report for September 2019?,hybrid_rrf_jina,0,0.0,1.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.676868900001864,6.0,8.679961300003924
+gtv2_000019,"According to the U.S. CPI release for January 2026, how did the CPI-U change on a seasonally adjusted basis?",dense,1,1.0,1.0,0.14285714285714285,1,1,1.0,,,,,,,,,,
+gtv2_000019,"According to the U.S. CPI release for January 2026, how did the CPI-U change on a seasonally adjusted basis?",bm25,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000019,"According to the U.S. CPI release for January 2026, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000019,"According to the U.S. CPI release for January 2026, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf_jina,1,1.0,1.0,0.125,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.189648599996872,2.0,4.193419399998675
+gtv2_000020,รายงาน CPI ของสหรัฐฯ สำหรับ January 2026 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000020,รายงาน CPI ของสหรัฐฯ สำหรับ January 2026 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000020,รายงาน CPI ของสหรัฐฯ สำหรับ January 2026 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000020,รายงาน CPI ของสหรัฐฯ สำหรับ January 2026 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.464422500001092,2.0,4.467264300001261
+gtv2_000021,ตามรายงาน CPI ของสหรัฐฯ สำหรับ August 2022 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000021,ตามรายงาน CPI ของสหรัฐฯ สำหรับ August 2022 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000021,ตามรายงาน CPI ของสหรัฐฯ สำหรับ August 2022 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000021,ตามรายงาน CPI ของสหรัฐฯ สำหรับ August 2022 ค่า CPI-U เปลี่ยนแปลงอย่างไร เมื่อปรับฤดูกาลแล้ว?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.6039067000019713,2.0,4.6063160999983666
+gtv2_000022,What 12-month change in the all-items index did the U.S. CPI release report for August 2022?,dense,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000022,What 12-month change in the all-items index did the U.S. CPI release report for August 2022?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000022,What 12-month change in the all-items index did the U.S. CPI release report for August 2022?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000022,What 12-month change in the all-items index did the U.S. CPI release report for August 2022?,hybrid_rrf_jina,1,1.0,1.0,0.125,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.2674458999972558,6.0,9.281441400002223
+gtv2_000023,"According to the U.S. CPI release for November 2020, how did the CPI-U change on a seasonally adjusted basis?",dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000023,"According to the U.S. CPI release for November 2020, how did the CPI-U change on a seasonally adjusted basis?",bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000023,"According to the U.S. CPI release for November 2020, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000023,"According to the U.S. CPI release for November 2020, how did the CPI-U change on a seasonally adjusted basis?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1174541000000318,2.0,4.121797799998603
+gtv2_000024,รายงาน CPI ของสหรัฐฯ สำหรับ November 2020 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,dense,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000024,รายงาน CPI ของสหรัฐฯ สำหรับ November 2020 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000024,รายงาน CPI ของสหรัฐฯ สำหรับ November 2020 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000024,รายงาน CPI ของสหรัฐฯ สำหรับ November 2020 ระบุว่า all-items index เปลี่ยนแปลงเท่าใดในช่วง 12 เดือน?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.81320190000406,2.0,3.814546599998721
+gtv2_000025,How much did U.S. nonfarm payroll employment change in the June 2018 Employment Situation report?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000025,How much did U.S. nonfarm payroll employment change in the June 2018 Employment Situation report?,bm25,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000025,How much did U.S. nonfarm payroll employment change in the June 2018 Employment Situation report?,hybrid_rrf,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000025,How much did U.S. nonfarm payroll employment change in the June 2018 Employment Situation report?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.017827600000601,6.0,8.020561600002111
+gtv2_000026,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,0.0,0.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000026,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000026,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000026,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.8448153999997885,0.0,0.8467989999990095
+gtv2_000027,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2019 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000027,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2019 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000027,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2019 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000027,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2019 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.383336600003531,6.0,8.386116599998786
+gtv2_000028,What unemployment rate was reported in the January 2019 U.S. Employment Situation release?,dense,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000028,What unemployment rate was reported in the January 2019 U.S. Employment Situation release?,bm25,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000028,What unemployment rate was reported in the January 2019 U.S. Employment Situation release?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000028,What unemployment rate was reported in the January 2019 U.S. Employment Situation release?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.637243800003489,2.0,3.6382612000015797
+gtv2_000029,How much did U.S. nonfarm payroll employment change in the July 2024 Employment Situation report?,dense,1,0.0,0.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000029,How much did U.S. nonfarm payroll employment change in the July 2024 Employment Situation report?,bm25,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000029,How much did U.S. nonfarm payroll employment change in the July 2024 Employment Situation report?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000029,How much did U.S. nonfarm payroll employment change in the July 2024 Employment Situation report?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.334427699992375,6.0,8.336289900005795
+gtv2_000030,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2024 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000030,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2024 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000030,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2024 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000030,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2024 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.16666666666666666,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.075387500000943,0.0,1.0773501999938162
+gtv2_000031,รายงาน Employment Situation ของสหรัฐฯ สำหรับ May 2017 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000031,รายงาน Employment Situation ของสหรัฐฯ สำหรับ May 2017 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000031,รายงาน Employment Situation ของสหรัฐฯ สำหรับ May 2017 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,0.0,0.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000031,รายงาน Employment Situation ของสหรัฐฯ สำหรับ May 2017 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,0.0,0.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.4896313000135706,6.0,8.491263299998536
+gtv2_000032,What unemployment rate was reported in the May 2017 U.S. Employment Situation release?,dense,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000032,What unemployment rate was reported in the May 2017 U.S. Employment Situation release?,bm25,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000032,What unemployment rate was reported in the May 2017 U.S. Employment Situation release?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000032,What unemployment rate was reported in the May 2017 U.S. Employment Situation release?,hybrid_rrf_jina,1,0.0,0.0,0.14285714285714285,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.257224099994346,2.0,3.258922300003178
+gtv2_000033,How much did U.S. nonfarm payroll employment change in the December 2022 Employment Situation report?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000033,How much did U.S. nonfarm payroll employment change in the December 2022 Employment Situation report?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000033,How much did U.S. nonfarm payroll employment change in the December 2022 Employment Situation report?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000033,How much did U.S. nonfarm payroll employment change in the December 2022 Employment Situation report?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.197004800000286,6.0,8.199489200000244
+gtv2_000034,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2022 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000034,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2022 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000034,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2022 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000034,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2022 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,1.7019612999938545,2.0,3.704795400000876
+gtv2_000035,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2016 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000035,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2016 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000035,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2016 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000035,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2016 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1145267999963835,2.0,4.116041699999187
+gtv2_000036,What unemployment rate was reported in the December 2016 U.S. Employment Situation release?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000036,What unemployment rate was reported in the December 2016 U.S. Employment Situation release?,bm25,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000036,What unemployment rate was reported in the December 2016 U.S. Employment Situation release?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000036,What unemployment rate was reported in the December 2016 U.S. Employment Situation release?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.458957399998326,6.0,8.462517600004503
+gtv2_000037,How much did U.S. nonfarm payroll employment change in the January 2007 Employment Situation report?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000037,How much did U.S. nonfarm payroll employment change in the January 2007 Employment Situation report?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000037,How much did U.S. nonfarm payroll employment change in the January 2007 Employment Situation report?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000037,How much did U.S. nonfarm payroll employment change in the January 2007 Employment Situation report?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.0781409999981406,0.0,1.0804261000012048
+gtv2_000038,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2007 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000038,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2007 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000038,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2007 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000038,รายงาน Employment Situation ของสหรัฐฯ สำหรับ January 2007 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.0678235000086715,6.0,9.0710184999989
+gtv2_000039,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2024 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000039,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2024 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000039,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2024 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000039,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2024 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,1.0,1.0,0.1,1,1,1.0,,success,jina_success,False,200.0,,1.0,8.005648400001519,0.0,8.008488899999065
+gtv2_000040,What unemployment rate was reported in the February 2024 U.S. Employment Situation release?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000040,What unemployment rate was reported in the February 2024 U.S. Employment Situation release?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000040,What unemployment rate was reported in the February 2024 U.S. Employment Situation release?,hybrid_rrf,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000040,What unemployment rate was reported in the February 2024 U.S. Employment Situation release?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.1201234999971348,0.0,1.122450499999104
+gtv2_000041,How much did U.S. nonfarm payroll employment change in the February 2006 Employment Situation report?,dense,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000041,How much did U.S. nonfarm payroll employment change in the February 2006 Employment Situation report?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000041,How much did U.S. nonfarm payroll employment change in the February 2006 Employment Situation report?,hybrid_rrf,1,1.0,1.0,0.14285714285714285,1,1,1.0,,,,,,,,,,
+gtv2_000041,How much did U.S. nonfarm payroll employment change in the February 2006 Employment Situation report?,hybrid_rrf_jina,1,1.0,1.0,0.125,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.1996641000005184,0.0,1.2014024000018253
+gtv2_000042,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2006 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000042,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2006 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000042,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2006 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000042,รายงาน Employment Situation ของสหรัฐฯ สำหรับ February 2006 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,0.14285714285714285,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.1779796999981045,0.0,1.1800405000030878
+gtv2_000043,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2021 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000043,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2021 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000043,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2021 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000043,รายงาน Employment Situation ของสหรัฐฯ สำหรับ June 2021 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,0.0,0.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,3.0,2.9832056000013836,6.0,8.986478499995428
+gtv2_000044,What unemployment rate was reported in the June 2021 U.S. Employment Situation release?,dense,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000044,What unemployment rate was reported in the June 2021 U.S. Employment Situation release?,bm25,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000044,What unemployment rate was reported in the June 2021 U.S. Employment Situation release?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000044,What unemployment rate was reported in the June 2021 U.S. Employment Situation release?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.8771105000050738,0.0,0.8782432000007248
+gtv2_000045,How much did U.S. nonfarm payroll employment change in the July 2018 Employment Situation report?,dense,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000045,How much did U.S. nonfarm payroll employment change in the July 2018 Employment Situation report?,bm25,1,0.0,0.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000045,How much did U.S. nonfarm payroll employment change in the July 2018 Employment Situation report?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000045,How much did U.S. nonfarm payroll employment change in the July 2018 Employment Situation report?,hybrid_rrf_jina,1,1.0,1.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,3.0,1.8437851999988197,6.0,7.845109400004731
+gtv2_000046,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,dense,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000046,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000046,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000046,รายงาน Employment Situation ของสหรัฐฯ สำหรับ July 2018 ระบุอัตราการว่างงานไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,0.8420384999990347,0.0,0.8434664000014891
+gtv2_000047,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2011 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000047,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2011 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000047,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2011 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000047,รายงาน Employment Situation ของสหรัฐฯ สำหรับ December 2011 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงกี่ตำแหน่ง?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.0191408000027877,6.0,9.02290820000053
+gtv2_000048,What unemployment rate was reported in the December 2011 U.S. Employment Situation release?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000048,What unemployment rate was reported in the December 2011 U.S. Employment Situation release?,bm25,1,1.0,1.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000048,What unemployment rate was reported in the December 2011 U.S. Employment Situation release?,hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000048,What unemployment rate was reported in the December 2011 U.S. Employment Situation release?,hybrid_rrf_jina,1,1.0,1.0,0.25,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.5420860999947763,0.0,1.5449410999935935
+gtv2_000049,"According to the FOMC's policy-normalization statement dated 2014-09-17, under what condition would the Committee raise the target range for the federal funds rate?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000049,"According to the FOMC's policy-normalization statement dated 2014-09-17, under what condition would the Committee raise the target range for the federal funds rate?",bm25,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000049,"According to the FOMC's policy-normalization statement dated 2014-09-17, under what condition would the Committee raise the target range for the federal funds rate?",hybrid_rrf,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000049,"According to the FOMC's policy-normalization statement dated 2014-09-17, under what condition would the Committee raise the target range for the federal funds rate?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,3.0729681000011624,2.0,5.075123100003111
+gtv2_000050,What target range for the federal funds rate did the FOMC state on 2014-07-30?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000050,What target range for the federal funds rate did the FOMC state on 2014-07-30?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000050,What target range for the federal funds rate did the FOMC state on 2014-07-30?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000050,What target range for the federal funds rate did the FOMC state on 2014-07-30?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1166064999997616,2.0,4.1193063000027905
+gtv2_000051,แถลงการณ์ FOMC วันที่ 2014-07-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000051,แถลงการณ์ FOMC วันที่ 2014-07-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000051,แถลงการณ์ FOMC วันที่ 2014-07-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000051,แถลงการณ์ FOMC วันที่ 2014-07-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.3140191999991657,2.0,4.316922199999681
+gtv2_000052,ในแถลงการณ์ FOMC วันที่ 2014-06-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000052,ในแถลงการณ์ FOMC วันที่ 2014-06-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000052,ในแถลงการณ์ FOMC วันที่ 2014-06-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000052,ในแถลงการณ์ FOMC วันที่ 2014-06-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.352003700005298,2.0,4.355909699996118
+gtv2_000053,How did the FOMC statement dated 2014-06-18 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000053,How did the FOMC statement dated 2014-06-18 characterize inflation conditions at that time?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000053,How did the FOMC statement dated 2014-06-18 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000053,How did the FOMC statement dated 2014-06-18 characterize inflation conditions at that time?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.192896299995482,2.0,4.196018099995854
+gtv2_000054,What target range for the federal funds rate did the FOMC state on 2016-11-02?,dense,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000054,What target range for the federal funds rate did the FOMC state on 2016-11-02?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000054,What target range for the federal funds rate did the FOMC state on 2016-11-02?,hybrid_rrf,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000054,What target range for the federal funds rate did the FOMC state on 2016-11-02?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.3120697000049404,2.0,4.3145863999961875
+gtv2_000055,แถลงการณ์ FOMC วันที่ 2016-11-02 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,1,0.0,0.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000055,แถลงการณ์ FOMC วันที่ 2016-11-02 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000055,แถลงการณ์ FOMC วันที่ 2016-11-02 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,1,0.0,0.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000055,แถลงการณ์ FOMC วันที่ 2016-11-02 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,1,0.0,0.0,0.1111111111111111,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1285977000006824,2.0,4.130783300002804
+gtv2_000056,ในแถลงการณ์ FOMC วันที่ 2017-12-13 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000056,ในแถลงการณ์ FOMC วันที่ 2017-12-13 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000056,ในแถลงการณ์ FOMC วันที่ 2017-12-13 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000056,ในแถลงการณ์ FOMC วันที่ 2017-12-13 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1273139999975683,2.0,4.129780800001754
+gtv2_000057,How did the FOMC statement dated 2017-12-13 characterize inflation conditions at that time?,dense,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000057,How did the FOMC statement dated 2017-12-13 characterize inflation conditions at that time?,bm25,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000057,How did the FOMC statement dated 2017-12-13 characterize inflation conditions at that time?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000057,How did the FOMC statement dated 2017-12-13 characterize inflation conditions at that time?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.18258190000779,2.0,4.184701499994844
+gtv2_000058,What target range for the federal funds rate did the FOMC state on 2018-09-26?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000058,What target range for the federal funds rate did the FOMC state on 2018-09-26?,bm25,1,1.0,1.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000058,What target range for the federal funds rate did the FOMC state on 2018-09-26?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000058,What target range for the federal funds rate did the FOMC state on 2018-09-26?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.1897928999969736,2.0,4.19291350000276
+gtv2_000059,แถลงการณ์ FOMC วันที่ 2018-09-26 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000059,แถลงการณ์ FOMC วันที่ 2018-09-26 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000059,แถลงการณ์ FOMC วันที่ 2018-09-26 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000059,แถลงการณ์ FOMC วันที่ 2018-09-26 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.353189499997825,2.0,4.355770800000755
+gtv2_000060,ในแถลงการณ์ FOMC วันที่ 2019-09-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000060,ในแถลงการณ์ FOMC วันที่ 2019-09-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000060,ในแถลงการณ์ FOMC วันที่ 2019-09-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000060,ในแถลงการณ์ FOMC วันที่ 2019-09-18 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.2687760000044364,2.0,4.271248600001854
+gtv2_000061,How did the FOMC statement dated 2019-09-18 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000061,How did the FOMC statement dated 2019-09-18 characterize inflation conditions at that time?,bm25,1,0.0,0.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000061,How did the FOMC statement dated 2019-09-18 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000061,How did the FOMC statement dated 2019-09-18 characterize inflation conditions at that time?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.143643700001121,2.0,4.146390600006271
+gtv2_000062,What target range for the federal funds rate did the FOMC state on 2019-01-30?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000062,What target range for the federal funds rate did the FOMC state on 2019-01-30?,bm25,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000062,What target range for the federal funds rate did the FOMC state on 2019-01-30?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000062,What target range for the federal funds rate did the FOMC state on 2019-01-30?,hybrid_rrf_jina,0,0.0,1.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,4.616969900002005,2.0,6.622444799999357
+gtv2_000063,แถลงการณ์ FOMC วันที่ 2019-01-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000063,แถลงการณ์ FOMC วันที่ 2019-01-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000063,แถลงการณ์ FOMC วันที่ 2019-01-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,1,0.0,0.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000063,แถลงการณ์ FOMC วันที่ 2019-01-30 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.0545304999977816,2.0,4.05728100000124
+gtv2_000064,ในแถลงการณ์ FOMC วันที่ 2020-12-16 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000064,ในแถลงการณ์ FOMC วันที่ 2020-12-16 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000064,ในแถลงการณ์ FOMC วันที่ 2020-12-16 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000064,ในแถลงการณ์ FOMC วันที่ 2020-12-16 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.4657501000037882,0.0,1.4690976000056253
+gtv2_000065,How did the FOMC statement dated 2020-12-16 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000065,How did the FOMC statement dated 2020-12-16 characterize inflation conditions at that time?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000065,How did the FOMC statement dated 2020-12-16 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000065,How did the FOMC statement dated 2020-12-16 characterize inflation conditions at that time?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.450738999999885,2.0,4.453180099997553
+gtv2_000066,What target range for the federal funds rate did the FOMC state on 2020-03-15?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000066,What target range for the federal funds rate did the FOMC state on 2020-03-15?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000066,What target range for the federal funds rate did the FOMC state on 2020-03-15?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000066,What target range for the federal funds rate did the FOMC state on 2020-03-15?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.798963499997626,2.0,4.801448500002152
+gtv2_000067,แถลงการณ์ FOMC วันที่ 2020-03-15 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000067,แถลงการณ์ FOMC วันที่ 2020-03-15 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000067,แถลงการณ์ FOMC วันที่ 2020-03-15 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000067,แถลงการณ์ FOMC วันที่ 2020-03-15 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.5616411000009975,6.0,9.56561860000511
+gtv2_000068,ในแถลงการณ์ FOMC วันที่ 2022-05-04 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000068,ในแถลงการณ์ FOMC วันที่ 2022-05-04 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000068,ในแถลงการณ์ FOMC วันที่ 2022-05-04 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000068,ในแถลงการณ์ FOMC วันที่ 2022-05-04 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.6375182999981917,0.0,1.6397253999966779
+gtv2_000069,How did the FOMC statement dated 2022-05-04 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000069,How did the FOMC statement dated 2022-05-04 characterize inflation conditions at that time?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000069,How did the FOMC statement dated 2022-05-04 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000069,How did the FOMC statement dated 2022-05-04 characterize inflation conditions at that time?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.674156999994011,2.0,4.6769606999951066
+gtv2_000070,What target range for the federal funds rate did the FOMC state on 2023-11-01?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000070,What target range for the federal funds rate did the FOMC state on 2023-11-01?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000070,What target range for the federal funds rate did the FOMC state on 2023-11-01?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000070,What target range for the federal funds rate did the FOMC state on 2023-11-01?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.6269698000032804,2.0,4.629492400003073
+gtv2_000071,แถลงการณ์ FOMC วันที่ 2023-11-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000071,แถลงการณ์ FOMC วันที่ 2023-11-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000071,แถลงการณ์ FOMC วันที่ 2023-11-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000071,แถลงการณ์ FOMC วันที่ 2023-11-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.558707399999548,2.0,4.561441599995305
+gtv2_000072,ในแถลงการณ์ FOMC วันที่ 2024-07-31 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000072,ในแถลงการณ์ FOMC วันที่ 2024-07-31 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000072,ในแถลงการณ์ FOMC วันที่ 2024-07-31 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000072,ในแถลงการณ์ FOMC วันที่ 2024-07-31 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.7220272999984445,2.0,4.7243128000045544
+gtv2_000073,How did the FOMC statement dated 2024-07-31 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000073,How did the FOMC statement dated 2024-07-31 characterize inflation conditions at that time?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000073,How did the FOMC statement dated 2024-07-31 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000073,How did the FOMC statement dated 2024-07-31 characterize inflation conditions at that time?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.6198547999956645,2.0,4.622415800004092
+gtv2_000074,What target range for the federal funds rate did the FOMC state on 2024-05-01?,dense,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000074,What target range for the federal funds rate did the FOMC state on 2024-05-01?,bm25,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000074,What target range for the federal funds rate did the FOMC state on 2024-05-01?,hybrid_rrf,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000074,What target range for the federal funds rate did the FOMC state on 2024-05-01?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,success,jina_success,False,200.0,,1.0,1.2680307999980869,0.0,1.2702721000023303
+gtv2_000075,แถลงการณ์ FOMC วันที่ 2024-05-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000075,แถลงการณ์ FOMC วันที่ 2024-05-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000075,แถลงการณ์ FOMC วันที่ 2024-05-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,,,,,,,,,
+gtv2_000075,แถลงการณ์ FOMC วันที่ 2024-05-01 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,0,0.0,b02a64d82ed9df9163de5ecd2d4439a50d80f587,success,jina_success,False,200.0,,3.0,4.164801200000511,6.0,10.167513000000326
+gtv2_000076,ในแถลงการณ์ FOMC วันที่ 2025-01-29 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000076,ในแถลงการณ์ FOMC วันที่ 2025-01-29 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,bm25,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000076,ในแถลงการณ์ FOMC วันที่ 2025-01-29 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000076,ในแถลงการณ์ FOMC วันที่ 2025-01-29 คณะกรรมการกำหนดหรือคงช่วงเป้าหมาย federal funds rate ไว้ที่เท่าใด?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,success,jina_success,False,200.0,,1.0,1.398494799999753,0.0,1.4002096999975038
+gtv2_000077,How did the FOMC statement dated 2025-01-29 characterize inflation conditions at that time?,dense,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000077,How did the FOMC statement dated 2025-01-29 characterize inflation conditions at that time?,bm25,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000077,How did the FOMC statement dated 2025-01-29 characterize inflation conditions at that time?,hybrid_rrf,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000077,How did the FOMC statement dated 2025-01-29 characterize inflation conditions at that time?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,success,jina_success,False,200.0,,2.0,2.493682100001024,2.0,4.496548200004327
+gtv2_000078,What target range for the federal funds rate did the FOMC state on 2026-01-28?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000078,What target range for the federal funds rate did the FOMC state on 2026-01-28?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000078,What target range for the federal funds rate did the FOMC state on 2026-01-28?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000078,What target range for the federal funds rate did the FOMC state on 2026-01-28?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.481176699999196,2.0,4.483593400000245
+gtv2_000079,แถลงการณ์ FOMC วันที่ 2026-01-28 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000079,แถลงการณ์ FOMC วันที่ 2026-01-28 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000079,แถลงการณ์ FOMC วันที่ 2026-01-28 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000079,แถลงการณ์ FOMC วันที่ 2026-01-28 อธิบายภาวะเงินเฟ้อในขณะนั้นไว้อย่างไร?,hybrid_rrf_jina,0,0.0,0.0,0.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.8653017000033287,2.0,4.868025299998408
+gtv2_000080,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000080,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000080,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000080,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.6916439999913564,2.0,4.694843700002821
+gtv2_000081,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000081,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000081,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000081,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.6668138000095496,2.0,4.6699313999997685
+gtv2_000082,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000082,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000082,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000082,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.842778599995654,2.0,4.847013600003265
+gtv2_000083,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000083,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",bm25,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000083,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,0.0,0.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000083,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.3189180999979726,2.0,4.3221792000040296
+gtv2_000084,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000084,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",bm25,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000084,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,1.0,1.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000084,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.821899900001881,2.0,4.825521700004174
+gtv2_000085,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000085,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",bm25,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000085,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000085,"ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 23 ต.ค.2569 ปิดตลาด ผันผวน 24 ครั้ง ลบ 1,000 บาท” วันที่ 2026-10-23 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.432504999997036,2.0,4.434559699999227
+gtv2_000086,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000086,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000086,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000086,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.3607937000051606,2.0,4.363280099998519
+gtv2_000087,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000087,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000087,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,1.0,1.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000087,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.81529259999661,2.0,4.819962699999451
+gtv2_000088,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000088,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000088,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000088,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 21ต.ค.2569 ผันผวน 20 ครั้ง ไม่เปลี่ยนแปลง” วันที่ 2026-10-21 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.9418670000013663,2.0,4.944464000000153
+gtv2_000089,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000089,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000089,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000089,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.8462386000028346,2.0,4.848733700004232
+gtv2_000090,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000090,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000090,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000090,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.3937227000060375,2.0,4.396166100006667
+gtv2_000091,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000091,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,0.0,0.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000091,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000091,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 16 ต.ค.2569 ปิดตลาด ผันผวน 23 ครั้ง บวก 150 บาท” วันที่ 2026-10-16 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.7749449999973876,2.0,4.7780128000013065
+gtv2_000092,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000092,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.1,1,1,1.0,,,,,,,,,,
+gtv2_000092,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000092,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.964028899994446,2.0,4.967258800003037
+gtv2_000093,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000093,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000093,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000093,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.4608471000028658,0.0,1.462589200004004
+gtv2_000094,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000094,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,0.0,0.0,0.1111111111111111,1,1,1.0,,,,,,,,,,
+gtv2_000094,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000094,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 15 ต.ค.2569 ปิดตลาด ไม่เปลี่ยนแปลง ผันผวน 18 ครั้ง” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.813780200005567,6.0,9.818428899998253
+gtv2_000095,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000095,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",bm25,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000095,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000095,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.755989999997837,0.0,1.7597257000015816
+gtv2_000096,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000096,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",bm25,1,1.0,1.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000096,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,0.0,0.0,0.125,1,1,1.0,,,,,,,,,,
+gtv2_000096,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,0.16666666666666666,1,1,1.0,,success,jina_success,False,200.0,,3.0,4.520324299999629,6.0,10.529380399995716
+gtv2_000097,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000097,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000097,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000097,"ตามบทความ Thai PBS เรื่อง “ราคา ""ทองคำ"" เช้านี้ -100 บาท ""รูปพรรณ"" ขายออก 66,650 บาท” วันที่ 2026-10-15 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,1.0,2.5568966999999247,0.0,2.56037159999687
+gtv2_000098,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000098,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000098,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000098,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.4314747999960673,0.0,1.4336261999997078
+gtv2_000099,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000099,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000099,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000099,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?",hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.872056199994404,6.0,9.875460700000986
+gtv2_000100,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000100,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000100,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000100,"ตามบทความ Thai PBS เรื่อง “ราคา“ทองคำ” เช้านี้ -300 บาท “รูปพรรณ” ขายออก 67,000 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?",hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.3241387999951257,0.0,1.326142500001879
+gtv2_000101,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000101,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.14285714285714285,1,1,1.0,,,,,,,,,,
+gtv2_000101,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000101,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.611995699997351,2.0,4.6153335999988485
+gtv2_000102,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000102,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000102,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000102,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.5708825000037905,2.0,4.573003800003789
+gtv2_000103,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000103,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,0.0,0.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000103,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,1,0.0,0.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000103,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 22 ต.ค.2569 ปิดตลาด ผันผวน 25 ครั้ง ลบ 250 บาท” วันที่ 2026-10-22 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,0.0,0.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.621370400003798,6.0,9.624332200000936
+gtv2_000104,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000104,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000104,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000104,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองคำแท่งที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,1.0,1.2091858000057982,0.0,1.2110488999969675
+gtv2_000105,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000105,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,bm25,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000105,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf,1,0.0,0.0,0.16666666666666666,1,1,1.0,,,,,,,,,,
+gtv2_000105,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 ราคาขายออกทองรูปพรรณที่รายงานอยู่ที่เท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.3333333333333333,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.0788881000044057,2.0,4.081835299999511
+gtv2_000106,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000106,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,bm25,1,0.0,0.0,0.25,1,1,1.0,,,,,,,,,,
+gtv2_000106,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf,1,1.0,1.0,0.3333333333333333,1,1,1.0,,,,,,,,,,
+gtv2_000106,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 14 ต.ค.2569 ปิดตลาด ผันผวน 19 ครั้ง ลบ 550 บาท” วันที่ 2026-10-14 บทความเชื่อมโยงปัจจัยใดกับแนวโน้มหรือแรงกดดันต่อราคาทองคำ?,hybrid_rrf_jina,1,1.0,1.0,1.0,1,1,1.0,,success,jina_success,False,200.0,,3.0,3.183343099997728,6.0,9.185886600003869
+gtv2_000107,Compare the reported 12-month all-items CPI changes for January 2023 and December 2025.,dense,1,0.5,0.5,0.25,2,2,1.0,,,,,,,,,,
+gtv2_000107,Compare the reported 12-month all-items CPI changes for January 2023 and December 2025.,bm25,1,0.5,0.5,0.14285714285714285,2,2,1.0,,,,,,,,,,
+gtv2_000107,Compare the reported 12-month all-items CPI changes for January 2023 and December 2025.,hybrid_rrf,1,1.0,1.0,0.25,2,2,1.0,,,,,,,,,,
+gtv2_000107,Compare the reported 12-month all-items CPI changes for January 2023 and December 2025.,hybrid_rrf_jina,1,1.0,1.0,0.5,2,2,1.0,,success,jina_success,False,200.0,,1.0,1.1682891999953426,0.0,1.1711069000011776
+gtv2_000108,Compare the nonfarm payroll employment changes reported for June 2021 and December 2022.,dense,1,0.5,0.5,0.5,2,2,1.0,,,,,,,,,,
+gtv2_000108,Compare the nonfarm payroll employment changes reported for June 2021 and December 2022.,bm25,1,0.0,0.0,0.5,2,2,1.0,,,,,,,,,,
+gtv2_000108,Compare the nonfarm payroll employment changes reported for June 2021 and December 2022.,hybrid_rrf,1,0.5,0.5,0.25,2,2,1.0,,,,,,,,,,
+gtv2_000108,Compare the nonfarm payroll employment changes reported for June 2021 and December 2022.,hybrid_rrf_jina,1,0.0,0.0,1.0,2,2,1.0,,success,jina_success,False,200.0,,3.0,3.5162403999929666,6.0,9.520510700000159
+gtv2_000109,"Compare the federal funds target ranges stated in the FOMC statements of November 1, 2023 and January 29, 2025.",dense,0,0.0,0.0,0.0,2,1,0.5,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000109,"Compare the federal funds target ranges stated in the FOMC statements of November 1, 2023 and January 29, 2025.",bm25,0,0.0,0.0,0.0,2,1,0.5,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000109,"Compare the federal funds target ranges stated in the FOMC statements of November 1, 2023 and January 29, 2025.",hybrid_rrf,0,0.0,0.0,0.0,2,1,0.5,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000109,"Compare the federal funds target ranges stated in the FOMC statements of November 1, 2023 and January 29, 2025.",hybrid_rrf_jina,0,0.0,0.0,0.0,2,1,0.5,ac319d30376fdd820473b04e39ade2c5a3a65089,success,jina_success,False,200.0,,2.0,2.5075085000062245,2.0,4.519040400002268
+gtv2_000110,เปรียบเทียบราคาขายออกทองคำแท่งที่ Thai PBS รายงานวันที่ 20 และ 23 ตุลาคม 2569 ราคาในวันที่ 23 ตุลาคมต่างจากวันที่ 20 ตุลาคมเท่าใด?,dense,1,1.0,1.0,1.0,2,2,1.0,,,,,,,,,,
+gtv2_000110,เปรียบเทียบราคาขายออกทองคำแท่งที่ Thai PBS รายงานวันที่ 20 และ 23 ตุลาคม 2569 ราคาในวันที่ 23 ตุลาคมต่างจากวันที่ 20 ตุลาคมเท่าใด?,bm25,1,1.0,1.0,1.0,2,2,1.0,,,,,,,,,,
+gtv2_000110,เปรียบเทียบราคาขายออกทองคำแท่งที่ Thai PBS รายงานวันที่ 20 และ 23 ตุลาคม 2569 ราคาในวันที่ 23 ตุลาคมต่างจากวันที่ 20 ตุลาคมเท่าใด?,hybrid_rrf,1,1.0,1.0,1.0,2,2,1.0,,,,,,,,,,
+gtv2_000110,เปรียบเทียบราคาขายออกทองคำแท่งที่ Thai PBS รายงานวันที่ 20 และ 23 ตุลาคม 2569 ราคาในวันที่ 23 ตุลาคมต่างจากวันที่ 20 ตุลาคมเท่าใด?,hybrid_rrf_jina,1,1.0,1.0,1.0,2,2,1.0,,success,jina_success,False,200.0,,1.0,1.3095118999990518,0.0,1.3131506999998237
+gtv2_000111,"For January 2026, what were the monthly changes in headline CPI-U and the index excluding food and energy?",dense,1,1.0,1.0,0.2,1,1,1.0,,,,,,,,,,
+gtv2_000111,"For January 2026, what were the monthly changes in headline CPI-U and the index excluding food and energy?",bm25,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000111,"For January 2026, what were the monthly changes in headline CPI-U and the index excluding food and energy?",hybrid_rrf,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000111,"For January 2026, what were the monthly changes in headline CPI-U and the index excluding food and energy?",hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.5499529000007897,2.0,4.553179399998044
+gtv2_000112,"In the December 2022 U.S. Employment Situation release, what were the reported nonfarm payroll change and unemployment rate?",dense,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000112,"In the December 2022 U.S. Employment Situation release, what were the reported nonfarm payroll change and unemployment rate?",bm25,1,1.0,1.0,0.5,1,1,1.0,,,,,,,,,,
+gtv2_000112,"In the December 2022 U.S. Employment Situation release, what were the reported nonfarm payroll change and unemployment rate?",hybrid_rrf,1,1.0,1.0,1.0,1,1,1.0,,,,,,,,,,
+gtv2_000112,"In the December 2022 U.S. Employment Situation release, what were the reported nonfarm payroll change and unemployment rate?",hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.450860700002522,2.0,4.4585212000019965
+gtv2_000113,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งและทองรูปพรรณเป็นเท่าใด?,dense,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000113,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งและทองรูปพรรณเป็นเท่าใด?,bm25,1,1.0,1.0,0.14285714285714285,1,1,1.0,,,,,,,,,,
+gtv2_000113,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งและทองรูปพรรณเป็นเท่าใด?,hybrid_rrf,0,0.0,0.0,0.0,1,1,1.0,,,,,,,,,,
+gtv2_000113,ตามบทความ Thai PBS เรื่อง “สรุปราคาทองคำ 20 ต.ค.2569 ปิดตลาด ผันผวน 21 ครั้ง ลบ 650 บาท” วันที่ 2026-10-20 ราคาขายออกทองคำแท่งและทองรูปพรรณเป็นเท่าใด?,hybrid_rrf_jina,1,1.0,1.0,0.5,1,1,1.0,,success,jina_success,False,200.0,,2.0,2.7787922999996226,2.0,4.783353499995428
+gtv2_000114,"According to the January 29, 2025 FOMC statement, what federal funds target range did the Committee maintain, and how did it describe inflation?",dense,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000114,"According to the January 29, 2025 FOMC statement, what federal funds target range did the Committee maintain, and how did it describe inflation?",bm25,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000114,"According to the January 29, 2025 FOMC statement, what federal funds target range did the Committee maintain, and how did it describe inflation?",hybrid_rrf,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,,,,,,,,,
+gtv2_000114,"According to the January 29, 2025 FOMC statement, what federal funds target range did the Committee maintain, and how did it describe inflation?",hybrid_rrf_jina,0,0.0,0.0,0.0,1,0,0.0,ac319d30376fdd820473b04e39ade2c5a3a65089,success,jina_success,False,200.0,,2.0,2.62144470000203,2.0,4.625441000003775

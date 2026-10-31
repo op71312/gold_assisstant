@@ -1,0 +1,10 @@
+﻿check,value,status
+feature_rows,6261,INFO
+feature_columns,32,INFO
+timestamp_missing_rate,0.0,PASS
+date_min,2006-05-01 09:30:00,INFO
+date_max,2026-10-13 12:09:00,INFO
+duplicate_timestamps,0,PASS
+invalid_bar_price_pairs,0,PASS
+data_quality_flag_non_original_rate,0.0,INFO
+overall_cell_missing_rate,0.16977619389873821,WARN

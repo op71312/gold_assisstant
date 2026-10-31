@@ -1,0 +1,131 @@
+{
+  "status": "PARTIAL",
+  "built_at_utc": "2026-10-30T08:03:34.342615+00:00",
+  "checks": [
+    {
+      "id": "fed_counts",
+      "status": "PASS",
+      "observed": {
+        "all": 43,
+        "ready": 37,
+        "gaps": 6
+      }
+    },
+    {
+      "id": "fed_unique_query_ids",
+      "status": "PASS"
+    },
+    {
+      "id": "retrieval_metric_document_identity",
+      "status": "PASS",
+      "method": "Match canonical judged document IDs against candidate document_id, original_id, source_document_id, and source URL aliases; count each judged document once."
+    },
+    {
+      "id": "fed_ready_source_and_quote_mapping",
+      "status": "PASS",
+      "observed": {
+        "chunk_file_exists": true,
+        "fed_chunk_count": 7200,
+        "mapped_query_count": 37,
+        "unmapped_query_ids": [],
+        "quote_mismatch_query_ids": [],
+        "qdrant_index_coverage": "UNVERIFIED",
+        "note": "Local chunk mapping is not proof that the corresponding documents are present in Qdrant."
+      }
+    },
+    {
+      "id": "qdrant_full_corpus_index_coverage",
+      "status": "BLOCKED",
+      "reason": "A one-query live retrieval smoke test is not a full point-to-source audit across all 37 records."
+    },
+    {
+      "id": "remote_qdrant_cloudflare_smoke_test",
+      "status": "PASS",
+      "observed": {
+        "status": "PASS",
+        "tested_at_utc": "2026-10-28T11:14:09.901326+00:00",
+        "cloudflare": {
+          "status": "PASS",
+          "http_status": 200,
+          "model": "@cf/baai/bge-m3",
+          "embedding_dimensions": 1024
+        },
+        "qdrant": {
+          "status": "PASS",
+          "collection": "gold_news_structure_aware",
+          "collection_status": "green",
+          "points_count": 19784,
+          "returned_top_k": 10,
+          "top_k": 10,
+          "expected_source_document_found": true,
+          "expected_source_document_ranks": [
+            6
+          ]
+        },
+        "sample": {
+          "query_id": "gtv2_000054",
+          "split": "development",
+          "qdrant_index_coverage": "SMOKE_TESTED_FOR_THIS_QUERY_ONLY"
+        },
+        "note": "This proves one Cloudflare embedding and Qdrant search succeeded; it is not full-corpus index verification or a benchmark run."
+      }
+    },
+    {
+      "id": "fed_semantic_review",
+      "status": "BLOCKED",
+      "reason": "All supplied records need human semantic review."
+    },
+    {
+      "id": "quant_track",
+      "status": "BLOCKED",
+      "reason": "No verified production function-calling tool contract was found in the target multi-agent notebook; dataset inspection alone is insufficient to author exact expected tool calls."
+    },
+    {
+      "id": "hmm_track",
+      "status": "BLOCKED",
+      "reason": "Model metadata requires bar_buy_log_return and intraday_range_pct; the processed feature dataset contract and training preprocessing have not been independently reconciled. Model bundle is not deserialized by this build."
+    },
+    {
+      "id": "portfolio_track",
+      "status": "BLOCKED",
+      "reason": "Simulator files and outputs exist, but this build does not assert independent ledger formulas or produce synthetic transaction-level reference cases without completing accounting-code validation."
+    },
+    {
+      "id": "multi_agent_track",
+      "status": "BLOCKED",
+      "reason": "Exact required tool-call expectations and human-approved semantic claims are unavailable; E2E ground truth must not be generated from unreviewed model answers."
+    }
+  ],
+  "track_status": {
+    "fed": {
+      "status": "PARTIAL",
+      "reason": "All supplied Fed records are preserved; 6 source-gap cases remain blocked, Qdrant index mapping is unverified, and human semantic review is pending."
+    },
+    "quant": {
+      "status": "BLOCKED",
+      "reason": "No verified production function-calling tool contract was found in the target multi-agent notebook; dataset inspection alone is insufficient to author exact expected tool calls."
+    },
+    "hmm": {
+      "status": "BLOCKED",
+      "reason": "Model metadata requires bar_buy_log_return and intraday_range_pct; the processed feature dataset contract and training preprocessing have not been independently reconciled. Model bundle is not deserialized by this build."
+    },
+    "portfolio": {
+      "status": "BLOCKED",
+      "reason": "Simulator files and outputs exist, but this build does not assert independent ledger formulas or produce synthetic transaction-level reference cases without completing accounting-code validation."
+    },
+    "multi_agent": {
+      "status": "BLOCKED",
+      "reason": "Exact required tool-call expectations and human-approved semantic claims are unavailable; E2E ground truth must not be generated from unreviewed model answers."
+    }
+  },
+  "api_benchmark_executed": false,
+  "test_split_used_for_prompt_development": false,
+  "retrieval_metric_logic": "document_identity_aliases_v2",
+  "legacy_114_query_results_require_rescoring": true,
+  "limitations": [
+    "The notebook copy defaults to the development split; setting RUN_RETRIEVAL_BENCHMARK or RUN_AGENT_BENCHMARK to true starts remote API calls.",
+    "The connectivity smoke test is not a scored benchmark run; per-query latency and agent results require an opted-in evaluation run.",
+    "Fed source-document and exact-quote mapping was checked against the local chunk file only; Qdrant coverage remains unverified.",
+    "The historical 114-query retrieval CSV was produced before document-ID alias matching; its zero relevance scores must not be interpreted as measured retrieval failure until rerun with the corrected scorer."
+  ]
+}

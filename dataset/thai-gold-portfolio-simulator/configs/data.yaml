@@ -1,0 +1,34 @@
+# Active market input is generated from thai_gold_features_v1.csv by
+# scripts/recalculate_from_features.py. The upstream feature source is never
+# modified; gold_data_raw.csv remains available as the original raw archive.
+# Override with GOLD_DATA_PATH or the CLI --input option when needed.
+input_path: "dataset/thai_gold_features_v1_simulator_input.csv"
+date_column: "timestamp"
+
+# Mapping of canonical names -> columns in the normalized feature-dataset input.
+columns:
+  timestamp: timestamp
+  announce_seq: announce_seq
+  ornament_buy: ornament_buy_thb
+  bar_buy: bar_buy_thb
+  bar_sell: bar_sell_thb
+  ornament_sell: ornament_sell_thb
+  ornament_tax_base: ornament_tax_base_thb
+  gold_spot_usd: gold_spot_usd
+  usd_thb: usd_thb
+  change: change_thb
+  source_url: source_url
+
+daily_price_policy:
+  # Feature input is one quote per date; keep the standard policy for compatible
+  # raw-announcement inputs and future source revisions.
+  selection: "last_valid_of_day"
+  # Alternative policy tested in the audit for sensitivity of derived returns.
+  alt_selection: "first_valid_of_day"
+  # A day is valid for execution only if both sides of the bar quote exist and
+  # are positive (valid_price_pair).
+  require_valid_pair: true
+
+min_positive_price: 1000.0   # THB per baht-weight; guards against corrupt rows
+
+outputs_dir: "outputs"

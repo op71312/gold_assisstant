@@ -1,0 +1,1663 @@
+{
+  "built_at_utc": "2026-10-30T08:03:34.295461+00:00",
+  "project_root": "D:\\Project_Github\\gold assisstant",
+  "inputs": [
+    {
+      "path": "multi_agent/gt/ground_truth_fed_v1.jsonl",
+      "role": "fed_ground_truth",
+      "exists": true,
+      "bytes": 122186,
+      "sha256": "b575c2b10133ebb80b28f22d80a4641f41af5e67793b1335e4807f13e17bb7be"
+    },
+    {
+      "path": "multi_agent/gt/ground_truth_fed_ready_v1.jsonl",
+      "role": "fed_ground_truth_source_present",
+      "exists": true,
+      "bytes": 102710,
+      "sha256": "d3ef761ef96abf2071df19301c5fe2eea24d43509369b39393653494513053eb"
+    },
+    {
+      "path": "multi_agent/gt/ground_truth_fed_source_gaps_v1.jsonl",
+      "role": "fed_ground_truth_source_gaps",
+      "exists": true,
+      "bytes": 19476,
+      "sha256": "57753c94ac3a9b06e16b0475a9ca8b265a9bdaeff0ae2ec9612e4ad1e4175938"
+    },
+    {
+      "path": "multi_agent/gt/fed_groundtruth_audit_report.json",
+      "role": "fed_ground_truth_audit",
+      "exists": true,
+      "bytes": 3791,
+      "sha256": "247ce7a48c9f1dacdfea7efc48940dff6f306a41e7eebc4dea7b3f946a50457b"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/fed_press_releases_rag_chunks.jsonl",
+      "role": "rag_chunk_corpus",
+      "exists": true,
+      "bytes": 17771497,
+      "sha256": "f9412b5cf0bfa9d34b89404e29e282999d971e0079dee01f519aa1937d48ef1a"
+    },
+    {
+      "path": "multi_agent/Gold_Assistant_5_Agent_Collaborative_Pipeline.ipynb",
+      "role": "multi_agent_notebook_source",
+      "exists": true,
+      "bytes": 221634,
+      "sha256": "b268f10d737220a672b432ebd67dff2ea93262d1ff0d54d40b5ab7a3ac32745d"
+    },
+    {
+      "path": "rag/2.Gold_Assistant_RAG_Latency_Experiments.ipynb",
+      "role": "a2_control_notebook",
+      "exists": true,
+      "bytes": 116589,
+      "sha256": "6dd696e0c9939adb2f77e2811b238cbfb77d2153d7d3d3a9b02e34d7dad349e2"
+    },
+    {
+      "path": "multi_agent/GAIB-1/remote_rag_smoke_test.json",
+      "role": "remote_rag_connectivity_probe",
+      "exists": true,
+      "bytes": 812,
+      "sha256": "7db171da2ffb720de251ca537387b9a82b5123f6ccd976db71f80fc61578390f"
+    },
+    {
+      "path": "dataset/datset a gold price/data/processed/thai_gold_features_v1.csv",
+      "role": "quant_feature_dataset",
+      "exists": true,
+      "bytes": 2239108,
+      "sha256": "ea0aed919d99ff855721d7c0296bedc13cec5e3e70beecee7989cef06171a680"
+    },
+    {
+      "path": "dataset/datset a gold price/data/processed/thai_gold_features_v1.parquet",
+      "role": "quant_feature_dataset",
+      "exists": true,
+      "bytes": 878767,
+      "sha256": "d18bf071fe240bdfc19ef8df9b18a8f853f7d7deb5f17c4fef381c54d3f1985f"
+    },
+    {
+      "path": "model/gold_hmm_v1/metadata.json",
+      "role": "hmm_model_bundle",
+      "exists": true,
+      "bytes": 421,
+      "sha256": "154e99201ce488609dedf391fe120dee730157b691d798af91fe71e39399a876"
+    },
+    {
+      "path": "model/gold_hmm_v1/model.joblib",
+      "role": "hmm_model_bundle",
+      "exists": true,
+      "bytes": 2541,
+      "sha256": "f1d102ad24b83e9546b066a74a5b22a343bf111ae9ad711db9a90327d0e27492"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/.gitignore",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 45,
+      "sha256": "7877d01d14fa0ec858940b998cdd20623ba52ce77110c1cca2fb11dc0b554dfa"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/artifacts/checksums.txt",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2243,
+      "sha256": "8d1e4c5320f332a87c76a4a9afbc4f22005d99e617d1df58f37ec61d74b4358d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/artifacts/run_manifest.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 18081,
+      "sha256": "5ff179ff55a0eef3a18c4733788dc05b6a577dba3e32b5f3b5844ba26decd779"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/assumptions_register.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4466,
+      "sha256": "799833f84458c350aae6deb0ccfa61ceda2485b3b48d196ff78ccd03616d5ded"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/cashflow_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1331025,
+      "sha256": "ffcebca3f4a470c9457a872073c7dbe839d69742463a5889ae83abffc3518293"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/cashflow_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 157391,
+      "sha256": "1cba51a1588aa04b1a24c2acf23bb0d30e959709a864fd2bf1dd09d6013c99f6"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/daily_market_prices.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 614947,
+      "sha256": "08067cfe0fd05b07531e094970fc8331393ad743168afca34f858c16be191a2b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/daily_market_prices.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 204221,
+      "sha256": "1dd525cdf182e282f402dba46e96d89275d4326f845d7359d495c5125572dfe9"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/data_audit_report.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3055,
+      "sha256": "9bb694447dc87dda51cd277b24b9bcc06e21c7f8eadfcc6ea0d91862ae46626f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/data_quality_summary.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1647,
+      "sha256": "727cc78ea5d457f164e8273796bb14a39718e3958a8d91fdebe7a4e6b3b9bf29"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f01_asset_allocation_evidence.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 33130,
+      "sha256": "6855a74a22fa5811bb3f530cfb736b68d0c624590e36f2ad1be5ccd28f6bd0f5"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f02_initial_capital_and_allocation.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31818,
+      "sha256": "e616cb718707985192e5ec8c414d159c1ad9c6f91d358b74d659fcbc94f9c53a"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f03_transaction_size.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 26963,
+      "sha256": "baa7fd19fd46ed8a0bc36d11fcab1030a895b73455d2c73984ddfad39b7ac453"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f04_transaction_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 21764,
+      "sha256": "cb7c66c7d70e1410d53a362a013ee3fb31f4fd76f2c0e83fbfa45c0cd498c74c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f05_annual_counts_coverage.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31450,
+      "sha256": "f506ee3e19ff89bd159ea5d00560f2b47479031511572bf45debd854abe3db17"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f06_annual_pnl_by_year.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31961,
+      "sha256": "1ae4cefa421e97c83eafa53870967335e234265c5f6582dbf2a6606939d0db00"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f07_cumulative_pnl_by_cohort.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 33830,
+      "sha256": "2c99487e81d204fe2cdc3959a42715ba19070df0759d1e57641bf760657961c8"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f08_equity_drawdown_examples.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 116595,
+      "sha256": "ac73514c28c79f37fe0d62812d85de39f4029b621ed0daf381f7927f9e2a9638"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f09_realized_vs_unrealized.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31178,
+      "sha256": "d4e3a2d735cc83e27932b974d988e6f62ffc8c003755f34a9483af81730beb7c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f10_costs_vs_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 30332,
+      "sha256": "bf4ddefdc2bf7bd2f464b4ccda0d32b27e5301c2ee89ebed5350de9d86eaff66"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f11_benchmark_comparison.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 36218,
+      "sha256": "5ad4ea6f863d4de98dccc165fbeadcb4232d4edf54f5651c9b7d6e5123a8d3b5"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f12_reference_vs_simulated.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 42756,
+      "sha256": "79781db3a90ec6e7241fe05608335a59b023dfd81deea11614e06c3145950fe6"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/figures/f13_sensitivity.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 42510,
+      "sha256": "9ba58d1d6375203daf8720bac7f0531e40e1bb843992e38c8603fbf262c1f660"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/market_coverage_by_year.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1561,
+      "sha256": "3e0745dc7aea97413ce1b1c535f194725b9b865059611e6a4214d6fb0fd31007"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/parameter_evidence.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4645,
+      "sha256": "d6a58f70f247432574907f943231043f3a3fa0d5e6527b27792b84a653d6f6bc"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/pnl_attribution_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1506708,
+      "sha256": "e6cd0f3fb972f87e00bb67cb5213606f0bd0103c5b559e551b1a1f1e2fd8b7d5"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/pnl_attribution_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 112438,
+      "sha256": "57a8a023d85529bf8a02159ea72de4dad5156f3b0f6b3cf3f40501798ebd96f5"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_master.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 173444,
+      "sha256": "735d7aab898c074cdaa40e88d173b2935ffa4389d558e945d183630b5558ab1b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_master.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 52915,
+      "sha256": "82adf7ff29bcbac5720001a5012e062dbe84cb5fc4db7e5ed78fc0ffc647b602"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_valuation_monthly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 17501624,
+      "sha256": "7b8802125031c7586b09bde1ab3d8d6783a4cbb9b95681f0e9c3a61bbe72dda3"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_valuation_monthly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2830045,
+      "sha256": "767d9b0d308e03ced9a1dfe87a02e7a613d2e181c2107eb31cbe594a8b5c8e2b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2460311,
+      "sha256": "16aab9ee4e99054b3ba278c5a1d8a8bb40fb5aadf91eeb0e661fc6b2b6fca2b1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/portfolio_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 695201,
+      "sha256": "d1ab6ebbbc89c3a61021d4e8c04cf9136a86bdf6486567d9d4e90bfaed89864e"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/sensitivity_analysis.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 637,
+      "sha256": "7db96e7891b6e509215355e396876baa8a99b5c1549e6c85377376f5c4b77337"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/simulation_diagnostics.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1386,
+      "sha256": "9caf8d2c165e5bc3e01e4c67bdaa0db239fbcd080199dda1d4f671b242d02f97"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/source_registry.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6679,
+      "sha256": "ba955eab5db4883241c0d3ccff5ba3384f143c17009b0223b56b46c773508179"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/transaction_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 8424290,
+      "sha256": "0e49ad340961829bb8e054ed90caa4ae009c2ac365a1e33fdc9ff3468a39d800"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/outputs/transaction_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1325146,
+      "sha256": "6673c23d82cafd58f7a513383feaa085df6a64d8255da12f26167531099b548f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/baseline_raw_R001/README.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 474,
+      "sha256": "bb8ff0ed490f68ec4baaf7a02413c6e2f069b4d014daf23be4c5d8d1aae3a052"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/configs/data.yaml",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1337,
+      "sha256": "f5da59bbdec0c6ef00591bf6a8537018b2c63050efc88b19fff4353019b56b34"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/configs/research_parameters.yaml",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1491,
+      "sha256": "7ea26e9a8424adb9cc04bfc0ee0131a0a733281b79324b6de2f7ebe523957aeb"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/configs/simulation.yaml",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3733,
+      "sha256": "fcb5baa3621882f2a80a54cca381f8343f70bbf640c9e1bfe26bd2df936493bd"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/dataset/gold_data_raw.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 8401328,
+      "sha256": "f5f707922a989ae89a65ef4e05e42467e32e2c3ab3f3ebf3c9f2e83d02ccc293"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/dataset/thai_gold_features_v1_simulator_input.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 517367,
+      "sha256": "f1314f1f011ca52b1f04d2c3914bf2e6eaed0f1e1f565ef87415432d50cac744"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/docs/accounting_rules.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5758,
+      "sha256": "beeb916b504f338bbf8f2401275c4866d78964cbd9b45bf130ae966219989868"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/docs/data_dictionary.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6523,
+      "sha256": "107284dcd37f8e8a61e01a23724bc504b74168f3f2a06ad1325208585ff81b7c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/docs/limitations.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4832,
+      "sha256": "32fe28292a79dbad6d993b465b780cd88603f227d0079bad4b0dbac2712e61ef"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/docs/methodology.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 7682,
+      "sha256": "992a7b196507cab893084f1c52fa871d0509a9646ccd20b8d37f10d81f24b67a"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/eda.ipynb",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 13487537,
+      "sha256": "d0077aacbb2c69268cab80aeb1a204919af2c3255546be919ea090132e2679bd"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/assumptions_register.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4563,
+      "sha256": "9225bc286b1388180c3311a4eec56047cb6e8bde8acdcb7b2d7d3859b7030498"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/cashflow_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1517178,
+      "sha256": "e245f0c344dbab3ba4544bcdaae661432918cb0b1a1a33d9793af165ee683f96"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/cashflow_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 164576,
+      "sha256": "58ddaaa020cac4fb6666cf2a87d75a8370b59fb195b9c709c164ae57c1c89f42"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/daily_market_prices.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 681274,
+      "sha256": "538e09fabb921ba9f5e36c6614fe95afe462bbb83d9b403f6134f7859b6dbd14"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/daily_market_prices.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 246699,
+      "sha256": "c6ebe0c867cb73982d696629468d9e23f9694666f15da2d87f62495b2dee3135"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/data_audit_report.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3095,
+      "sha256": "89e150f6868b7a4b84132ff94d5e078e3c6bea68ffe8a606d47bc91115107b71"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/data_quality_summary.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1667,
+      "sha256": "4ace6c11f6388e57d495d8757d2fde0944c1e71a1c56c3a7bae07bc064f3f7b8"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/feature_recalculation_manifest.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 18081,
+      "sha256": "5ff179ff55a0eef3a18c4733788dc05b6a577dba3e32b5f3b5844ba26decd779"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f01_asset_allocation_evidence.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27376,
+      "sha256": "a4043c5bafe5bf8997988211d3e5a6f97a3da3047d7921c27bc5527aa0a5c9c1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f02_initial_capital_and_allocation.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27155,
+      "sha256": "512c4dabed49920822b99d964ffdb82756ded2f81b0d5238cda0a789369431be"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f03_transaction_size.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 19158,
+      "sha256": "b8413927c64b10ac06190154046f1ad5cfd13d13420e56215503a3315e0ead9a"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f04_transaction_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 18311,
+      "sha256": "ab670377cc42deeea5da630549b3d430d3c4a1748f21461cf225ad82863ea181"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f05_annual_counts_coverage.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27660,
+      "sha256": "93b4c1d671d9999ba1aee23c1472078f539c674d86039ddcb4c00fe1bd96f02d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f06_annual_pnl_by_year.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27500,
+      "sha256": "f0c48a31cd914769d19a3fcb290e615d9d833b7546980a0a0a1418035a5416ff"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f07_cumulative_pnl_by_cohort.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 28898,
+      "sha256": "40bab93036c859a513cc7e57a42f911fc0920cd8b31158f335f3941a072b8766"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f08_equity_drawdown_examples.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 111476,
+      "sha256": "f70d592d3fe0b213d59facf30595b698d4a7db3e0a6465b490141d9bb3a2cc12"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f09_realized_vs_unrealized.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27132,
+      "sha256": "60da3fbf1a41e791334e28a2a0acafd7370ced7521cf34462176174845fe6101"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f10_costs_vs_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 26230,
+      "sha256": "982d1cde82e788acf2e20440ae33f3e09b0ab70f4ed5d300ec05257534ffc115"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f11_benchmark_comparison.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31702,
+      "sha256": "db630160cc444fad675f636a255bcb7bf17363a90d5cabdefcd689f06b9ab82b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f12_reference_vs_simulated.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 37085,
+      "sha256": "bda5eb309ffb34317f14000db80e730692edc0c13662e24c5219ef6a9dc06d1d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/figures/f13_sensitivity.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 37484,
+      "sha256": "8dccfcc78209d138306b7a04e449e3988d916f103a701712879eb8dbd6678791"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/ground_truth_price_coverage_audit.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4343,
+      "sha256": "beed100421b412b8aa43d17eda7dab204be4955790ded9868d4f3939b03f285d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/market_coverage_by_year.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1583,
+      "sha256": "b80f909cccf21e8d546f63d7862715bae405fa65c159f1808d283e73850bdebe"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/parameter_evidence.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 4718,
+      "sha256": "50dae25ebd234df244597c083202932939d0b5adf4b1da619f17412094b75e4b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/pnl_attribution_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1745183,
+      "sha256": "46405af18ead4f6024ef94de79c8bb890487ed4943077d38dbf85276da3409cc"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/pnl_attribution_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 139316,
+      "sha256": "448947ba98a1bacc7984b803cbc9e9af9b3fb01df50b243354f9bd1654921a09"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_master.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 191303,
+      "sha256": "6d79bd10f08ff08bc1c30edcdae2f8294e4669b2416425d9d10fcc2ad5b96aa6"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_master.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 53116,
+      "sha256": "26e7b8a0118310eb5572987df9906f969d23a544735f1b2c8f417c44e5c777f9"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_valuation_monthly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 20463746,
+      "sha256": "b613d79fb49eddbf78b9a450c084d8c47b1eee718d9ef98743f8055bb01397e8"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_valuation_monthly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3511884,
+      "sha256": "c2477588ee1e899c1d9cf597b97103873d4d57f2ca39fa616d458b8e6de045dc"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2729013,
+      "sha256": "71a4eea23f1babe5f6d288ea308d31e6765679cdce6c0d015a04ef1d90308f86"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/portfolio_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 734678,
+      "sha256": "65f42e77750c1d6cb3c8de14bff080e6ab22ff1cc494605e6c61710a9714278b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/sensitivity_analysis.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 705,
+      "sha256": "4a6576c8775ac7e0e6a0ac0a1249e221d400e1de9f1276a307451e7592178799"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/simulation_diagnostics.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1486,
+      "sha256": "040aa7f6b9594947b37c35b16ad7750d4289890bf37925ad060996f0b2b43e64"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/source_registry.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 7247,
+      "sha256": "b527c482fa7670efefa1a2b652a30cd2926f538bf86d1d4fdb0d6bba5b1979fa"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/transaction_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 9342326,
+      "sha256": "fe9e0a921a449ab1a312c1f8366a9e6465f0f8c79e192c84709c86156c6b6ece"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs/transaction_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1397766,
+      "sha256": "450e764f3c63ed8b84c8865c7afdb16778887fa71a7b4e84228360984aa980d8"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/cashflow_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1517037,
+      "sha256": "c39d3ff724c816163c735aa15551deb97ed64c6e68a2590defed417cc37dfd2c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/cashflow_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 164535,
+      "sha256": "74e9f2f0a1201bcbeba7a9e60aaf07866c67cdd8506d837d2756d66135fc91b1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/daily_market_prices.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 626128,
+      "sha256": "c98958192817c14992c87368ad6f9fd5d1eaf6d6d91dc053b148a2b208d5b404"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/daily_market_prices.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 232445,
+      "sha256": "a0198a5efad4ff757b53a988441e10bf9abb6e7bf94280e2804a829dea8f36f2"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/data_audit.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6498,
+      "sha256": "63ad929a25126bb110f550560bd46d8a14bb8c4c76c4971daf1538549a43751f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/data_audit_report.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2914,
+      "sha256": "02c691f28304ed3f019e9b10004a518bb9ddf2d3007a62b23e24e8c01e0da426"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/data_quality_summary.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1667,
+      "sha256": "4ace6c11f6388e57d495d8757d2fde0944c1e71a1c56c3a7bae07bc064f3f7b8"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/feature_recalculation_manifest.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5471,
+      "sha256": "814ee049df8dbe4275c62ea5aa747e0056e77d1a07e8d7f892ed8c4aad2d0756"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f01_asset_allocation_evidence.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27376,
+      "sha256": "a4043c5bafe5bf8997988211d3e5a6f97a3da3047d7921c27bc5527aa0a5c9c1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f02_initial_capital_and_allocation.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27155,
+      "sha256": "512c4dabed49920822b99d964ffdb82756ded2f81b0d5238cda0a789369431be"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f03_transaction_size.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 19579,
+      "sha256": "f984ec44a04f135ab1da213f969f72d5943c20115a42d8aa3bc38be6b0cf56bd"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f04_transaction_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 18479,
+      "sha256": "254835a8821370f9ab4ec28113e9657a2dfed9a182b6dfa0df636dbecd9f5431"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f05_annual_counts_coverage.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27660,
+      "sha256": "93b4c1d671d9999ba1aee23c1472078f539c674d86039ddcb4c00fe1bd96f02d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f06_annual_pnl_by_year.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27447,
+      "sha256": "1b6da59b07a3ff659f1076044cc9c76c43b2147399d3b62c727ab2c580e37676"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f07_cumulative_pnl_by_cohort.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 29761,
+      "sha256": "6b66eae8f93bbcc88e357027b6f2abae955ce4eb99b6b7c0e9689169ce3d9e85"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f08_equity_drawdown_examples.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 113092,
+      "sha256": "4a6fef7cc092859ac5c7dcc820fa2f83e7f6b499a71ba4c5ccf01e4e5f70e1b1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f09_realized_vs_unrealized.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 27273,
+      "sha256": "cb4498dbf96a4918b0a3302b49fa31db42e8ea0dce876e4a29c0a50fc548b98f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f10_costs_vs_frequency.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 26471,
+      "sha256": "2e04035c1666357ca964c2cd06e74d8b37d394d02955e39fe521ffd6ef19d781"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f11_benchmark_comparison.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 31737,
+      "sha256": "87b93eb8d52037ddc93ac769893801233e3854c593efeef8bd8d24fe8084045e"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f12_reference_vs_simulated.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 37085,
+      "sha256": "bda5eb309ffb34317f14000db80e730692edc0c13662e24c5219ef6a9dc06d1d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/figures/f13_sensitivity.png",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 38441,
+      "sha256": "23df8a9de5b9ff2a158e9ecc9f0d1a2ea97efdc81027bc4274b0a525e356f85a"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/market_coverage_by_year.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1583,
+      "sha256": "b80f909cccf21e8d546f63d7862715bae405fa65c159f1808d283e73850bdebe"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/pnl_attribution_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1603195,
+      "sha256": "1774aae683c4ae04d739e4e52bc9d1ab59e0bc3b8d214011be1b0eafb3cffb48"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/pnl_attribution_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 113076,
+      "sha256": "f36b32bd1cb44aaac9c6b3d26e144f63d80018237ac98420f11be8eade9346a7"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_master.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 191303,
+      "sha256": "6d79bd10f08ff08bc1c30edcdae2f8294e4669b2416425d9d10fcc2ad5b96aa6"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_master.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 53116,
+      "sha256": "26e7b8a0118310eb5572987df9906f969d23a544735f1b2c8f417c44e5c777f9"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_valuation_monthly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 19265464,
+      "sha256": "2b7ba785eb737238045eda9f86db86e729515fb998bc0718826bb50efd7eaa7f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_valuation_monthly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2965769,
+      "sha256": "ace05adbe985d14b5c6f4e0c1060d33f09c7d0e163a3d23204ec288774c50523"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_yearly.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2558013,
+      "sha256": "9a2ea8b6518c9d5cacadeecf82f3522a6c961d7f46c2411653cf9737a06b0cfe"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/portfolio_yearly.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 696252,
+      "sha256": "b94093cef5c25deed8af221783d495987a9ff2861babb2c8052080e05b6ecbeb"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/sensitivity_analysis.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 649,
+      "sha256": "a3319f8158284b44134e95b98bae066946fd79f7bfff3d807ec1762a686d9930"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/simulation_diagnostics.json",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1486,
+      "sha256": "4ed4a403d5ac7d81fe43362ece1fc2d7ad4cb92f38e4f0aa3477015dab5fe7bf"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/transaction_ledger.csv",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 9338787,
+      "sha256": "c3b652e1118fb9b770a54c2ac38723552219aceedb012ac379895d8671652b96"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/outputs_features_v1/transaction_ledger.parquet",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1376444,
+      "sha256": "bbd4e2259ced4cbeff3f94040cc4001cdd159b32c5d30601b1529e9a547a5b1d"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/pyproject.toml",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 611,
+      "sha256": "15108d846dcf3ac3fab6045624e2a40897920eb7ea00dc9822ccc37be2cf203c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/README.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6520,
+      "sha256": "d9843b39225bda34f3a742d65a478501ce8f8d24667083e1c942789aed1819a4"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/data_audit.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6726,
+      "sha256": "5bd302dc87d3b5679ed59165fbf1279d33f619690efa646c42f5ca60c4857493"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/deep_research.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 8013,
+      "sha256": "ef561cc1bf58ab4d6ee66ecff9e08900e3588b360cbfc16306a184a071736725"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/feature_v1_recalculation.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2276,
+      "sha256": "341c60f14d6b587a1fe7c6bdde8fbb2de0848624f12ffcdea76da35acb15b1ec"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/final_summary.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 8740,
+      "sha256": "943ffc6481982f44582642726e2eb13695452b2027171b0abffea968d737a5a2"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/methodology_review.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3915,
+      "sha256": "db1161ace66189ebcb1e9225bddd08f401228cc0b808a85d0b9fef0c5e3e0248"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/reports/validation_report.md",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2697,
+      "sha256": "01ed52b7b2f98166fd2adf92993640e200faec6d7f87481c2a9315126b050d0c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/requirements.txt",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 90,
+      "sha256": "9ef2b3148b51eedd4a74ea9757a41cdc5ab80b0ba3723ae31ed638c91330fb66"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/scripts/recalculate_from_features.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 26202,
+      "sha256": "b9803f6216ef3dae7611f717f1a3c339c94e773c3631624629e62a686ab8158b"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/accounting/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/accounting/portfolio.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5252,
+      "sha256": "83a86826671f816b2ad8739a7e3d50ecf0bfda26eeb3f2879896f64a60620aa4"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/attribution/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/behavior/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/behavior/rules.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5657,
+      "sha256": "e91b0f8e3d96f2e92f1f72d2e776d324ccb62fc2dd385d7239896e7b90a5752f"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/cli.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 20721,
+      "sha256": "a0a217d8657dddd5db1a790f559c23c19ed5501a1e1126030be463901759ec23"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/config.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2999,
+      "sha256": "e540f9a12ac85ff89143ce2ab0afab692a03b0825ecef37f2f3d0e7d7698b640"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/data/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/data/audit.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 11367,
+      "sha256": "2d813d17758d64259c5f322bd9aed16959ead7eea066bb295271248fd355d7aa"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/data/feature_adapter.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2930,
+      "sha256": "90bd08e25d93a825ae0f14ed62448a2124b9a1dd3c12bf284a53062f5d3bea66"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/population/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/population/generator.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 7122,
+      "sha256": "75432b2f7261f6063da9f019e6da2e87d7ce8aef0565272380fc2402f2ee960a"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/pricing/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/pricing/quotes.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5952,
+      "sha256": "d6d9835b6fd7b1c49ad1f83977df27fa11f302454c108777a3f587fbdf72f414"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/simulation/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/simulation/engine.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 23729,
+      "sha256": "4fb13ddcedc8721cdcd11d1b55fa7b97ca5285a447c32813674d3996e903f1b0"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/simulation/run.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 7469,
+      "sha256": "71888ae631d22f6a0cc3f46145d9930d61aba587e32172613dbc8d1f249d3e7c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/validation/__init__.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/validation/checks.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 10312,
+      "sha256": "d56d686385519ee18538b3b01796a7e856e87f10c2b2f204c9e0fffab05ddf33"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/src/gold_portfolio_simulator/validation/figures.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 13111,
+      "sha256": "9c52683296d2135dcfc19b987ce927c4fb12191ddfe5c4447356cda81a288172"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/conftest.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1815,
+      "sha256": "6ce3e7d3de09d33f3afd8e981ecface78a57891463ffe889ad581a0e6065cbd2"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_accounting.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 6106,
+      "sha256": "11766416a95b85d15a6fc8cb09661fec4b8b72e678025ca5844994138f3157f1"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_attribution.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 5399,
+      "sha256": "caabaaf286e15cc119f6f7921913c5aba549ecbc2e42aa1d1a8f02bca5fe4ea7"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_feature_adapter.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1757,
+      "sha256": "8d391666286af553cef3703a87227ca55eeeed42a77bd653faaad686980bbd5c"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_no_lookahead.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3818,
+      "sha256": "30d8ff69de5ff0257b1e17bfb05511cdbfc91000b71fb54b565d7f9f4ba5acec"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_pricing.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 3411,
+      "sha256": "2156f29e799d1d19e056f282c0a37299ddcfe8b3cc1afc7276d7a8741da2f236"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_reproducibility.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 1711,
+      "sha256": "568c02a23ef119ef05e57dfffeb842c7b73339d7cf9f1cbb45dd5058221d12b0"
+    },
+    {
+      "path": "dataset/thai-gold-portfolio-simulator/tests/test_transactions.py",
+      "role": "portfolio_simulator",
+      "exists": true,
+      "bytes": 2866,
+      "sha256": "42aebba81a833f7e62066ee0125380ccfa6337153f8c5b52bb42f47ced339623"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_index.csv",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 4319,
+      "sha256": "e90445fe4faf46ac64064b3a71de69230ef7b83a57929e8c9eb4e749aec501a1"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_index.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 5825,
+      "sha256": "15851579fb6d06a72d3d4ca26547e4b7da35110e23e3df49ff2fe9eded19416c"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_index_v2.csv",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 1190582,
+      "sha256": "19fa3c37df458a222db4a1ab603b9a49835a1be26d805f67527a4ce0c8315801"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_index_v3.csv",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 1187172,
+      "sha256": "49894b4c62b11beca61c7420fc20b8799765fd744c436970180bf63837e5d287"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 10362898,
+      "sha256": "b03d3ce8926112fd3a5a712958066f8810f0e41a29ac30e22ae3889b430796db"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/cleaning_report.json",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 1195,
+      "sha256": "1e13bf2e4bdb1544cb90feb73fb1c8bea1a3e1962893496a8e952ffb6f353a51"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/fed_press_release_archive_pages_raw.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 631408,
+      "sha256": "f0bc71ca949374a79b0c95d683abf0b22b85b07ee0bea2a962887b57cd02a24a"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/fed_press_releases_clean.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 8803779,
+      "sha256": "93e67740de5fd82bef3071f7898d55ccda9d2c8d29ea55a1aca048e28ad57827"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/fed_press_releases_needs_review.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned/fed_press_releases_rag_chunks.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 17771497,
+      "sha256": "f9412b5cf0bfa9d34b89404e29e282999d971e0079dee01f519aa1937d48ef1a"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned_audit/fed_press_releases_classification_errors.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 349602,
+      "sha256": "73589a839438d721f52fb553f433d1913f80548265e5b5da3c388b0b4e95122f"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned_audit/fed_press_releases_classification_progress.json",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 485,
+      "sha256": "ad75b9d386131862a6ac97b5c40c4a4770a4d40579136cef76519ad36b7b84d8"
+    },
+    {
+      "path": "dataset/news/fed/fed_press_releases_cleaned_audit/fed_press_releases_classified.jsonl",
+      "role": "fed_source_corpus",
+      "exists": true,
+      "bytes": 16000870,
+      "sha256": "06c2c8f7c23b3230b654057e357efc5dfb0b60be1772643aaa215918ee989035"
+    }
+  ],
+  "fed_source_mapping": {
+    "chunk_file_exists": true,
+    "fed_chunk_count": 7200,
+    "mapped_query_count": 37,
+    "unmapped_query_ids": [],
+    "quote_mismatch_query_ids": [],
+    "qdrant_index_coverage": "UNVERIFIED",
+    "note": "Local chunk mapping is not proof that the corresponding documents are present in Qdrant."
+  },
+  "feature_datasets": [
+    {
+      "path": "dataset/datset a gold price/data/processed/thai_gold_features_v1.csv",
+      "exists": true,
+      "rows": 6261,
+      "columns": [
+        {
+          "name": "timestamp_parsed",
+          "dtype": "str",
+          "nulls": 0
+        },
+        {
+          "name": "session",
+          "dtype": "int64",
+          "nulls": 0
+        },
+        {
+          "name": "ornament_buy",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "ornament_sell",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "bar_buy",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "bar_sell",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "gold_spot_clean",
+          "dtype": "float64",
+          "nulls": 540
+        },
+        {
+          "name": "thb_usd_clean",
+          "dtype": "float64",
+          "nulls": 691
+        },
+        {
+          "name": "change",
+          "dtype": "float64",
+          "nulls": 1
+        },
+        {
+          "name": "price_changed",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "valid_price_pair",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "is_first_session",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "data_quality_flag",
+          "dtype": "str",
+          "nulls": 0
+        },
+        {
+          "name": "date",
+          "dtype": "str",
+          "nulls": 0
+        },
+        {
+          "name": "thai_gold_return",
+          "dtype": "float64",
+          "nulls": 1
+        },
+        {
+          "name": "global_gold_return",
+          "dtype": "float64",
+          "nulls": 1072
+        },
+        {
+          "name": "usd_thb_return",
+          "dtype": "float64",
+          "nulls": 1325
+        },
+        {
+          "name": "global_plus_fx_return",
+          "dtype": "float64",
+          "nulls": 1326
+        },
+        {
+          "name": "thai_minus_global_return",
+          "dtype": "float64",
+          "nulls": 1072
+        },
+        {
+          "name": "fx_adjusted_residual",
+          "dtype": "float64",
+          "nulls": 1326
+        },
+        {
+          "name": "thai_gold_vol_20d",
+          "dtype": "float64",
+          "nulls": 20
+        },
+        {
+          "name": "global_gold_vol_20d",
+          "dtype": "float64",
+          "nulls": 3379
+        },
+        {
+          "name": "fx_vol_20d",
+          "dtype": "float64",
+          "nulls": 3755
+        },
+        {
+          "name": "residual_vol_20d",
+          "dtype": "float64",
+          "nulls": 3755
+        },
+        {
+          "name": "thai_gold_vol_60d",
+          "dtype": "float64",
+          "nulls": 60
+        },
+        {
+          "name": "global_gold_vol_60d",
+          "dtype": "float64",
+          "nulls": 3697
+        },
+        {
+          "name": "fx_vol_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        },
+        {
+          "name": "residual_vol_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        },
+        {
+          "name": "corr_thai_global_60d",
+          "dtype": "float64",
+          "nulls": 35
+        },
+        {
+          "name": "corr_thai_global_fx_60d",
+          "dtype": "float64",
+          "nulls": 38
+        },
+        {
+          "name": "residual_robust_z_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        }
+      ],
+      "date_columns": {
+        "timestamp_parsed": {
+          "min_utc": "2006-05-01T09:30:00+00:00",
+          "max_utc": "2026-10-13T12:09:00+00:00",
+          "invalid_or_missing": 0,
+          "duplicate_count": 0,
+          "monotonic_increasing": true
+        },
+        "date": {
+          "min_utc": "2006-05-01T00:00:00+00:00",
+          "max_utc": "2026-10-13T00:00:00+00:00",
+          "invalid_or_missing": 0,
+          "duplicate_count": 0,
+          "monotonic_increasing": true
+        }
+      }
+    },
+    {
+      "path": "dataset/datset a gold price/data/processed/thai_gold_features_v1.parquet",
+      "exists": true,
+      "rows": 6261,
+      "columns": [
+        {
+          "name": "timestamp_parsed",
+          "dtype": "datetime64[us]",
+          "nulls": 0
+        },
+        {
+          "name": "session",
+          "dtype": "int64",
+          "nulls": 0
+        },
+        {
+          "name": "ornament_buy",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "ornament_sell",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "bar_buy",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "bar_sell",
+          "dtype": "float64",
+          "nulls": 0
+        },
+        {
+          "name": "gold_spot_clean",
+          "dtype": "float64",
+          "nulls": 540
+        },
+        {
+          "name": "thb_usd_clean",
+          "dtype": "float64",
+          "nulls": 691
+        },
+        {
+          "name": "change",
+          "dtype": "float64",
+          "nulls": 1
+        },
+        {
+          "name": "price_changed",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "valid_price_pair",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "is_first_session",
+          "dtype": "bool",
+          "nulls": 0
+        },
+        {
+          "name": "data_quality_flag",
+          "dtype": "str",
+          "nulls": 0
+        },
+        {
+          "name": "date",
+          "dtype": "datetime64[us]",
+          "nulls": 0
+        },
+        {
+          "name": "thai_gold_return",
+          "dtype": "float64",
+          "nulls": 1
+        },
+        {
+          "name": "global_gold_return",
+          "dtype": "float64",
+          "nulls": 1072
+        },
+        {
+          "name": "usd_thb_return",
+          "dtype": "float64",
+          "nulls": 1325
+        },
+        {
+          "name": "global_plus_fx_return",
+          "dtype": "float64",
+          "nulls": 1326
+        },
+        {
+          "name": "thai_minus_global_return",
+          "dtype": "float64",
+          "nulls": 1072
+        },
+        {
+          "name": "fx_adjusted_residual",
+          "dtype": "float64",
+          "nulls": 1326
+        },
+        {
+          "name": "thai_gold_vol_20d",
+          "dtype": "float64",
+          "nulls": 20
+        },
+        {
+          "name": "global_gold_vol_20d",
+          "dtype": "float64",
+          "nulls": 3379
+        },
+        {
+          "name": "fx_vol_20d",
+          "dtype": "float64",
+          "nulls": 3755
+        },
+        {
+          "name": "residual_vol_20d",
+          "dtype": "float64",
+          "nulls": 3755
+        },
+        {
+          "name": "thai_gold_vol_60d",
+          "dtype": "float64",
+          "nulls": 60
+        },
+        {
+          "name": "global_gold_vol_60d",
+          "dtype": "float64",
+          "nulls": 3697
+        },
+        {
+          "name": "fx_vol_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        },
+        {
+          "name": "residual_vol_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        },
+        {
+          "name": "corr_thai_global_60d",
+          "dtype": "float64",
+          "nulls": 35
+        },
+        {
+          "name": "corr_thai_global_fx_60d",
+          "dtype": "float64",
+          "nulls": 38
+        },
+        {
+          "name": "residual_robust_z_60d",
+          "dtype": "float64",
+          "nulls": 3974
+        }
+      ],
+      "date_columns": {
+        "timestamp_parsed": {
+          "min_utc": "2006-05-01T09:30:00+00:00",
+          "max_utc": "2026-10-13T12:09:00+00:00",
+          "invalid_or_missing": 0,
+          "duplicate_count": 0,
+          "monotonic_increasing": true
+        },
+        "date": {
+          "min_utc": "2006-05-01T00:00:00+00:00",
+          "max_utc": "2026-10-13T00:00:00+00:00",
+          "invalid_or_missing": 0,
+          "duplicate_count": 0,
+          "monotonic_increasing": true
+        }
+      }
+    }
+  ],
+  "source_classification_notice": "Fed ThaiLLM classifications are silver labels, not human gold labels.",
+  "simulator_notice": "Portfolio simulator outputs are synthetic and are not customer observations."
+}

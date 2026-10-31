@@ -1,0 +1,110 @@
+﻿query_id,query,stage,error_type,error,traceback
+thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY4 failed with ConnectionError,"Traceback (most recent call last):
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connection.py"", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\util\connection.py"", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Roaming\uv\python\cpython-3.11.12-windows-x86_64-none\Lib\socket.py"", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connectionpool.py"", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connectionpool.py"", line 494, in _make_request
+    raise new_e
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connectionpool.py"", line 470, in _make_request
+    self._validate_conn(conn)
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connectionpool.py"", line 1125, in _validate_conn
+    conn.connect()
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connection.py"", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connection.py"", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.jina.ai', port=443): Failed to resolve 'api.jina.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\adapters.py"", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\connectionpool.py"", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\urllib3\util\retry.py"", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.jina.ai', port=443): Max retries exceeded with url: /v1/rerank (Caused by NameResolutionError(""HTTPSConnection(host='api.jina.ai', port=443): Failed to resolve 'api.jina.ai' ([Errno 11001] getaddrinfo failed)""))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\3185561157.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 298, in request_rerank
+    response=requests.post(""https://api.jina.ai/v1/rerank"",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\api.py"", line 134, in post
+    return request(""post"", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\api.py"", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\sessions.py"", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\sessions.py"", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""d:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\adapters.py"", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.jina.ai', port=443): Max retries exceeded with url: /v1/rerank (Caused by NameResolutionError(""HTTPSConnection(host='api.jina.ai', port=443): Failed to resolve 'api.jina.ai' ([Errno 11001] getaddrinfo failed)""))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr,rerank_metadata=self.reranker.rerank(retrieval_query,raw,top_n)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY4 failed with ConnectionError
+"
+thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,assistant.run_or_metrics,RuntimeError,A2 hybrid retrieval failed; dense/BM25 errors: dense:ConnectionError,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 356, in retrieve
+    raw,metrics=self.backend.retrieve(retrieval_query,HYBRID_CANDIDATES)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_12396\2701477828.py"", line 269, in retrieve
+    raise RuntimeError(f""A2 hybrid retrieval failed; dense/BM25 errors: {metrics['retrieval_errors']}"")
+RuntimeError: A2 hybrid retrieval failed; dense/BM25 errors: dense:ConnectionError
+"

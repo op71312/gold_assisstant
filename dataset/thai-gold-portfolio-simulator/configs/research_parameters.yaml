@@ -1,0 +1,30 @@
+# Research parameters: evidence-backed values used by the simulator.
+# Each entry points to a source in outputs/source_registry.csv.
+# Status: observed = measured in data/sources; assumption = labelled scenario input.
+
+unit_conventions:
+  baht_weight_grams: 15.244        # S11
+  gold_purity: 0.965               # S11
+  quantity_unit: "baht-weight"
+  currency: "THB"
+
+price_semantics:                    # S10, verified against published header
+  customer_buy_price: {bar: "bar_sell", ornament: "ornament_sell"}
+  customer_sell_price: {bar: "bar_buy", ornament: "ornament_buy when present, otherwise MODELED(A04)"}
+  liquidation_value_basis: "customer_sell_price"
+  notes: "รับซื้อ = dealer buys (customer sells); ขายออก = dealer sells (customer buys); ornament_buy is observed in the active feature input and A04 is a fallback"
+
+market_context:                     # plausibility references, NOT calibration targets
+  bar_coin_demand_2024_tonnes: 39.8           # S01/S02
+  bar_coin_demand_2024_rank_global: 7         # S02
+  jewellery_consumption_2024_tonnes: 9.0      # S01/S02
+  investor_ownership_prevalence_pct: 46       # S05 (investor survey population)
+  wealth_top10_share_pct: 66                  # S07
+
+empirical_gaps:                     # spec 2.3 — retained as explicit uncertainty
+  - transaction_frequency
+  - transaction_size
+  - initial_capital_distribution
+  - holding_period
+  - household_gold_value_share
+  - ornament_buyback_quote_history

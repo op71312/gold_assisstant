@@ -1,0 +1,6 @@
+﻿method,chunk_count,avg_tokens_estimate,median_tokens_estimate,p95_tokens_estimate,estimated_json_bytes,retrieval_latency_seconds,embedding_api_requests,embedding_cache_hits,embedding_latency_seconds,cost_estimate,cost_status
+existing_baseline,1146,320.36561954624784,392.0,434.0,3743947,0.6582201000001078,0,1146,0.0,,N/A; no verified provider price was configured
+recursive_fixed,1522,243.45795006570302,253.0,318.95000000000005,3946973,0.7993925000009767,0,1517,0.0,,N/A; no verified provider price was configured
+structure_aware,1605,238.98380062305296,251.0,324.0,4092675,0.8813138999994408,0,1600,0.0,,N/A; no verified provider price was configured
+semantic,7707,77.22771506422733,61.0,180.0,10881708,3.5575560000015685,0,6168,0.0,,N/A; no verified provider price was configured
+adaptive,2498,165.9903923138511,144.0,303.0,4962101,1.2479564999994182,0,2461,0.0,,N/A; no verified provider price was configured

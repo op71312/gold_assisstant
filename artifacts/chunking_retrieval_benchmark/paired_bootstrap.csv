@@ -1,0 +1,5 @@
+﻿baseline,method,metric,query_count,mean_difference,ci_95_low,ci_95_high,status,resampling_unit
+existing_baseline,recursive_fixed,evidence_recall@10,39,0.01282051282051282,0.0,0.047619047619047616,paired_cluster_bootstrap,source_document_cluster
+existing_baseline,structure_aware,evidence_recall@10,39,-0.02564102564102564,-0.08571428571428572,0.0,paired_cluster_bootstrap,source_document_cluster
+existing_baseline,semantic,evidence_recall@10,39,-0.19230769230769232,-0.5882352941176471,-0.0853543488265072,paired_cluster_bootstrap,source_document_cluster
+existing_baseline,adaptive,evidence_recall@10,39,-0.02564102564102564,-0.15384615384615385,0.0,paired_cluster_bootstrap,source_document_cluster

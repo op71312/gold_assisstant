@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+
+/artifacts/chunking_retrieval_benchmark/cache/embedding_cache.sqlite3
+/dataset/news/pbs/thaipbs_cache.json
+/dataset/news/pbs/thaipbs_classified.jsonl
+/dataset/news/pbs/thaipbs_raw.jsonl
+/vector_database/embeddings_checkpoint.jsonl

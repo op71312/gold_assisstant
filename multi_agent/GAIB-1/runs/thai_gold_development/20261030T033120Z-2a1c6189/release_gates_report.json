@@ -1,0 +1,99 @@
+{
+  "decision": "NO-GO",
+  "decision_reason": "ACCEPTANCE_GATES_UNMET",
+  "release_tier": "not_approved",
+  "benchmark_split": "development",
+  "query_count": 21,
+  "eligible_query_count": 21,
+  "dataset_readiness": "development_only",
+  "retrieval_metrics": {
+    "reranked_known_relevant_recall@10": 0.9523809523809523,
+    "reranked_mrr@10": 0.8825396825396824
+  },
+  "quality_metrics": {
+    "claim_or_abstention_count": 60,
+    "factual_claim_count": 60,
+    "correctness_by_query_type": {
+      "data_quality": 1.0,
+      "economic_explanation": 1.0,
+      "multi_evidence": 0.0,
+      "numeric_fact": 0.7586206896551724
+    },
+    "fully_judged_claim_count": 58,
+    "second_judge_required_count": 0,
+    "schema_valid_call_count": 58,
+    "judge_call_count": 60,
+    "judge_output_schema_valid_rate": 0.9666666666666667,
+    "supported_complete_factual_claim_count": 52,
+    "ai_judge_correctness_rate": 0.8666666666666667,
+    "answer_completeness_rate": 0.8833333333333333,
+    "expected_fact_comparison_count": 0,
+    "expected_fact_comparison_required_count": 0,
+    "expected_fact_match_rate": null,
+    "citation_supported_claim_count": 60,
+    "ai_judge_citation_entailment_rate": 0.8666666666666667,
+    "material_claim_citation_coverage": 1.0,
+    "citation_id_validity_rate": 1.0,
+    "unsupported_critical_claim_count": 8,
+    "critical_claim_count": 41,
+    "judge_disagreement_count": 0,
+    "abstention_count": 0,
+    "appropriate_abstention_count": 0,
+    "abstention_precision": null,
+    "abstention_recall": null,
+    "abstention_recall_expected_positive_count": 0,
+    "agent_json_parse_rate": 0.9714285714285714,
+    "agent_schema_valid_rate": 0.9714285714285714,
+    "unsupported_critical_numeric_claim_count": 8,
+    "critical_truncation_count": 2,
+    "judge_timeout_count": 0,
+    "retrieval_error_count": 0,
+    "deterministic_numeric_query_count": 16,
+    "deterministic_numeric_match_rate": 0.125
+  },
+  "calibration_metrics": {
+    "reviewed_claim_count": 0
+  },
+  "latency_metrics": {
+    "judge_p95_ms": 4719.969824999493,
+    "judge_timeout_ms": 90000
+  },
+  "diagnostics": {
+    "baseline_comparison_complete": false,
+    "source_coverage_complete": true,
+    "index_version_recorded": true,
+    "second_judge_configured": false
+  },
+  "judge": {
+    "rubric_version": "gaib1-claim-rubric-v2",
+    "primary_model": "pathumma-thaillm-qwen3-8b-think-3.0.0",
+    "second_model": null,
+    "generator_model": "openthaigpt-thaillm-8b-instruct-v7.2",
+    "timestamp_utc": "2026-10-30T03:57:25.947737+00:00"
+  },
+  "gates": {
+    "pipeline_integrity": "PASS",
+    "agent_json_parse_rate_min_095": "PASS",
+    "document_recall_at_10_min_085": "PASS",
+    "mrr_at_10_min_060": "PASS",
+    "citation_id_validity_100_percent": "PASS",
+    "ai_judge_correctness_min_085": "PASS",
+    "ai_judge_citation_entailment_min_085": "PASS",
+    "unsupported_critical_numeric_claims_zero": "FAIL",
+    "deterministic_numeric_checks_pass": "FAIL",
+    "judge_model_distinct_from_generator": "PASS",
+    "critical_truncations_zero": "FAIL",
+    "judge_timeouts_zero": "PASS",
+    "judge_latency_within_api_limit": "PASS",
+    "human_spot_check_10_to_20_claims": "NOT_REQUIRED_FOR_DEVELOPMENT",
+    "ground_truth_human_review_complete": "NOT_REQUIRED_FOR_DEVELOPMENT"
+  },
+  "run_id": "20261030T033120Z-2a1c6189",
+  "dataset_source": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\ground_truth_gold_market_v1.jsonl",
+  "human_semantic_review_complete": false,
+  "generator_model": "openthaigpt-thaillm-8b-instruct-v7.2",
+  "primary_judge_model": "pathumma-thaillm-qwen3-8b-think-3.0.0",
+  "rubric_version": "gaib1-claim-rubric-v2",
+  "prompt_hash": "310a992b9feb4de750d2d943468f5ff194f535e4be8b1a91cdf6983f15c78212",
+  "created_at_utc": "2026-10-30T03:57:25.997591+00:00"
+}

@@ -1,0 +1,797 @@
+﻿run_id,query_id,query,split,review_status,review_type,claim_id,claim_index,claim_text,evidence_ids,expected_answer,generated_answer,answer_status,abstention_reason,expected_fact_coverage,evidence_span_in_final_context,evidence_ids_expected,source_urls,reviewer_slot,reviewer_id,human_correctness,citation_supported,unsupported_critical_claim,reviewed_at,reviewer_notes
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-1,1,"Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-1,1,"Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-2,2,"Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-2,2,"Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-3,3,Thai gold bar price changed -1.19% over last 20 observations [Q18],"[""Q18""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-3,3,Thai gold bar price changed -1.19% over last 20 observations [Q18],"[""Q18""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-4,4,Synthetic portfolio behaviors may not reflect real customer trading [R8],"[""R8""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-4,4,Synthetic portfolio behaviors may not reflect real customer trading [R8],"[""R8""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-5,5,Duplicate transaction IDs may weaken event traceability [R17],"[""R17""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_001:claim-5,5,Duplicate transaction IDs may weaken event traceability [R17],"[""R17""]",,"## Evidence-based findings
+- Thai gold bar buy price on latest observation (2026-10-13) is 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on latest observation (2026-10-13) is 66,700 THB per baht-weight [Q3]
+- Thai gold bar price changed -1.19% over last 20 observations [Q18]
+- Synthetic portfolio behaviors may not reflect real customer trading [R8]
+- Duplicate transaction IDs may weaken event traceability [R17]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-1,1,"Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-1,1,"Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-2,2,"Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-2,2,"Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-3,3,Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_002:claim-3,3,Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold bar sell price on 2026-10-23 was 64,350 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold jewelry sell price on 2026-10-23 was 65,150 THB [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Gold prices changed 24 times on 2026-10-23 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.75,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-1,1,"Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-1,1,"Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-2,2,"Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-2,2,"Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-3,3,"Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-3,3,"Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-4,4,"USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]","[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_003:claim-4,4,"USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]","[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price on October 13, 2026, was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price on October 13, 2026, was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price on October 13, 2026, was 4,197 USD per troy ounce. [Q4]
+- USD/THB exchange rate on October 13, 2026, was 33.58 THB per USD. [Q5]",ANSWERED_WITH_MODEL_FINDINGS,"No direct evidence for the requested date (October 21, 2026) is available in the provided manifest.",0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-1,1,Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-1,1,Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-2,2,"AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-2,2,"AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-3,3,AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_004:claim-3,3,AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66700 THB per baht-weight [Q3]
+- AI1_News_Analyst reports a price range of 66,000-66,950 THB for October 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- AI2_Macro_Analyst notes a 150-200 THB increase from October 15 to 16 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-1,1,"Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-1,1,"Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-2,2,"Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-2,2,"Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-3,3,"Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-3,3,"Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-4,4,USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_005:claim-4,4,USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price on 2026-10-15 was 66,500 THB per baht-weight [Q2]
+- Thai gold bar sell price on 2026-10-15 was 66,700 THB per baht-weight [Q3]
+- Global gold spot price on 2026-10-15 was 4,197 USD per troy ounce [Q4]
+- USD/THB exchange rate on 2026-10-15 was 33.58 THB per USD [Q5]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-1,1,Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-1,1,Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-2,2,Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2],"[""Q2""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-2,2,Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2],"[""Q2""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-3,3,No data exists for Thai gold price change on 2026-10-15 [R1] [R3],"[""R1"", ""R3""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_006:claim-3,3,No data exists for Thai gold price change on 2026-10-15 [R1] [R3],"[""R1"", ""R3""]",,"## Evidence-based findings
+- Thai gold bar sell price as of 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- Thai gold bar buy price as of 2026-10-13 is 66500.0 THB per baht-weight [Q2]
+- No data exists for Thai gold price change on 2026-10-15 [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,,0.3333333333333333,False,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-1,1,"Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-1,1,"Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-2,2,"Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-2,2,"Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-3,3,"Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-3,3,"Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]","[""S1"", ""S2"", ""S3"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-4,4,"Gold price decreased by 300 THB on October 14, 2026. [S5]","[""S5""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_007:claim-4,4,"Gold price decreased by 300 THB on October 14, 2026. [S5]","[""S5""]",,"## Evidence-based findings
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,850 THB. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold jewelry selling price in the morning of October 14, 2026, was 66,700 THB. [Q3]
+- Gold price decreased by 550 THB on October 14, 2026. [S1] [S2] [S3] [S7] [S8] [S9] [S10]
+- Gold price decreased by 300 THB on October 14, 2026. [S5]",ANSWERED_WITH_MODEL_FINDINGS,,0.5,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-1,1,"Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-1,1,"Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-2,2,"Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-2,2,"Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-3,3,Data provided is synthetic and not observed customer trading. [R8],"[""R8""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_008:claim-3,3,Data provided is synthetic and not observed customer trading. [R8],"[""R8""]",,"## Evidence-based findings
+- Latest Thai gold bar sell price is 66,700 THB per baht-weight. [Q3]
+- Latest Thai gold bar buy price is 66,500 THB per baht-weight. [Q2]
+- Data provided is synthetic and not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,Evidence timestamps do not match requested date,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-1,1,"Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-1,1,"Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-2,2,"Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-2,2,"Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-3,3,Price change in Thai gold bar over last 20 observations was -1.1887% [Q18],"[""Q18""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-3,3,Price change in Thai gold bar over last 20 observations was -1.1887% [Q18],"[""Q18""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-4,4,Synthetic data used in analysis [R8],"[""R8""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_009:claim-4,4,Synthetic data used in analysis [R8],"[""R8""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 was 66,700 THB per baht-weight [Q3]
+- Thai gold bar buy price on 2026-10-13 was 66,500 THB per baht-weight [Q2]
+- Price change in Thai gold bar over last 20 observations was -1.1887% [Q18]
+- Synthetic data used in analysis [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-1,1,Gold price decline on 2023-10-20 [Q2] [Q3],"[""Q2"", ""Q3""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-1,1,Gold price decline on 2023-10-20 [Q2] [Q3],"[""Q2"", ""Q3""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-2,2,International tensions between US and Iran [S1] [S4] [S5],"[""S1"", ""S4"", ""S5""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-2,2,International tensions between US and Iran [S1] [S4] [S5],"[""S1"", ""S4"", ""S5""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-3,3,Rising crude oil prices [S1] [S4] [S6],"[""S1"", ""S4"", ""S6""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-3,3,Rising crude oil prices [S1] [S4] [S6],"[""S1"", ""S4"", ""S6""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-4,4,Potential Fed interest rate hike [S1] [S4] [S7],"[""S1"", ""S4"", ""S7""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_010:claim-4,4,Potential Fed interest rate hike [S1] [S4] [S7],"[""S1"", ""S4"", ""S7""]",,"## Evidence-based findings
+- Gold price decline on 2023-10-20 [Q2] [Q3]
+- International tensions between US and Iran [S1] [S4] [S5]
+- Rising crude oil prices [S1] [S4] [S6]
+- Potential Fed interest rate hike [S1] [S4] [S7]",ANSWERED_WITH_MODEL_FINDINGS,Invalid evidence IDs in specialist outputs,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_011,ข่าววันที่ 23 ต.ค. 2569 ระบุว่าราคาทองคำโลกปรับลงกี่ดอลลาร์?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_011:claim-1,1,No direct data for gold price on 2023-10-23 [Q1] [Q4],"[""Q1"", ""Q4""]",,"## Evidence-based findings
+- No direct data for gold price on 2023-10-23 [Q1] [Q4]
+- Data date mismatch between query and available data [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,"Insufficient evidence to determine the change in global gold prices on October 23, 2023.",0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_011,ข่าววันที่ 23 ต.ค. 2569 ระบุว่าราคาทองคำโลกปรับลงกี่ดอลลาร์?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_011:claim-1,1,No direct data for gold price on 2023-10-23 [Q1] [Q4],"[""Q1"", ""Q4""]",,"## Evidence-based findings
+- No direct data for gold price on 2023-10-23 [Q1] [Q4]
+- Data date mismatch between query and available data [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,"Insufficient evidence to determine the change in global gold prices on October 23, 2023.",0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_011,ข่าววันที่ 23 ต.ค. 2569 ระบุว่าราคาทองคำโลกปรับลงกี่ดอลลาร์?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_011:claim-2,2,Data date mismatch between query and available data [R1] [R3],"[""R1"", ""R3""]",,"## Evidence-based findings
+- No direct data for gold price on 2023-10-23 [Q1] [Q4]
+- Data date mismatch between query and available data [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,"Insufficient evidence to determine the change in global gold prices on October 23, 2023.",0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_011,ข่าววันที่ 23 ต.ค. 2569 ระบุว่าราคาทองคำโลกปรับลงกี่ดอลลาร์?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_011:claim-2,2,Data date mismatch between query and available data [R1] [R3],"[""R1"", ""R3""]",,"## Evidence-based findings
+- No direct data for gold price on 2023-10-23 [Q1] [Q4]
+- Data date mismatch between query and available data [R1] [R3]",ANSWERED_WITH_MODEL_FINDINGS,"Insufficient evidence to determine the change in global gold prices on October 23, 2023.",0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_012,ข่าววันที่ 21 ต.ค. 2569 กล่าวถึงดอลลาร์ ยีลด์พันธบัตร 2 ปี และการเจรจาสหรัฐฯ–อิหร่านอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_012:claim-1,1,"On October 21, 2026, the Thai PBS Gold report mentioned the US dollar's stability, potential rise in 2-year Treasury yield, and tense US-Iran negotiations. [S1] [S2] [S5] [S6]","[""S1"", ""S2"", ""S5"", ""S6""]",,"## Evidence-based findings
+- On October 21, 2026, the Thai PBS Gold report mentioned the US dollar's stability, potential rise in 2-year Treasury yield, and tense US-Iran negotiations. [S1] [S2] [S5] [S6]",ANSWERED_WITH_MODEL_FINDINGS,,1.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_012,ข่าววันที่ 21 ต.ค. 2569 กล่าวถึงดอลลาร์ ยีลด์พันธบัตร 2 ปี และการเจรจาสหรัฐฯ–อิหร่านอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_012:claim-1,1,"On October 21, 2026, the Thai PBS Gold report mentioned the US dollar's stability, potential rise in 2-year Treasury yield, and tense US-Iran negotiations. [S1] [S2] [S5] [S6]","[""S1"", ""S2"", ""S5"", ""S6""]",,"## Evidence-based findings
+- On October 21, 2026, the Thai PBS Gold report mentioned the US dollar's stability, potential rise in 2-year Treasury yield, and tense US-Iran negotiations. [S1] [S2] [S5] [S6]",ANSWERED_WITH_MODEL_FINDINGS,,1.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-1,1,World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1],"[""S1""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-1,1,World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1],"[""S1""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-2,2,"Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]","[""S2""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-2,2,"Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]","[""S2""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-3,3,"Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]","[""S2"", ""S8""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-3,3,"Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]","[""S2"", ""S8""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-4,4,"Portfolio behaviors are synthetic, not observed customer trading. [R8]","[""R8""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_013:claim-4,4,"Portfolio behaviors are synthetic, not observed customer trading. [R8]","[""R8""]",,"## Evidence-based findings
+- World Bank announced a $19 billion investment in critical minerals from 2026 to 2030. [S1]
+- Increased demand for critical minerals from EV, clean energy, and technology industries. [S2]
+- Geopolitical tensions, including Ukraine-Russia conflicts and US-Iran tensions, may influence gold prices. [S2] [S8]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-1,1,"Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]","[""S1"", ""S5"", ""S7"", ""S8"", ""S9""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-1,1,"Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]","[""S1"", ""S5"", ""S7"", ""S8"", ""S9""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-2,2,"Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]","[""S1"", ""S2"", ""S3"", ""S5"", ""S9""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-2,2,"Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]","[""S1"", ""S2"", ""S3"", ""S5"", ""S9""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-3,3,Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23],"[""R8"", ""R23""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-3,3,Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23],"[""R8"", ""R23""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-4,4,Transaction ID reuse may weaken event-level traceability. [R17] [R18],"[""R17"", ""R18""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_014:claim-4,4,Transaction ID reuse may weaken event-level traceability. [R17] [R18],"[""R17"", ""R18""]",,"## Evidence-based findings
+- Geopolitical risks, including US-Iran tensions and Russia-Ukraine war, are driving gold prices. [S1] [S5] [S7] [S8] [S9]
+- Energy crises and high oil prices increase inflationary pressures, making gold an attractive hedge. [S1] [S2] [S3] [S5] [S9]
+- Synthetic portfolio behaviors may not reflect real customer trading patterns. [R8] [R23]
+- Transaction ID reuse may weaken event-level traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-1,1,"CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]","[""S1""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-1,1,"CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]","[""S1""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-2,2,Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11],"[""Q11""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-2,2,Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11],"[""Q11""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-3,3,USD/THB exchange rate is 33.58 THB per USD. [Q5],"[""Q5""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-3,3,USD/THB exchange rate is 33.58 THB per USD. [Q5],"[""Q5""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-4,4,"Portfolio behaviors are synthetic, not observed customer trading. [R8]","[""R8""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-4,4,"Portfolio behaviors are synthetic, not observed customer trading. [R8]","[""R8""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-5,5,"Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]","[""R17"", ""R18""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_015:claim-5,5,"Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]","[""R17"", ""R18""]",,"## Evidence-based findings
+- CPI and Core CPI in the U.S. exceeded expectations, prompting market concerns about Fed rate hikes. [S1]
+- Thai gold prices and global gold spot prices show high correlation (0.9693). [Q11]
+- USD/THB exchange rate is 33.58 THB per USD. [Q5]
+- Portfolio behaviors are synthetic, not observed customer trading. [R8]
+- Duplicate transaction IDs are prevalent, affecting traceability. [R17] [R18]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-1,1,"Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-1,1,"Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]","[""Q2""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-2,2,"Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-2,2,"Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]","[""Q3""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-3,3,"Global gold spot price was $4,197 per troy ounce. [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-3,3,"Global gold spot price was $4,197 per troy ounce. [Q4]","[""Q4""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-4,4,USD/THB exchange rate was 33.58 THB per USD. [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-4,4,USD/THB exchange rate was 33.58 THB per USD. [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-5,5,"Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]","[""S1"", ""S2"", ""S5""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-5,5,"Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]","[""S1"", ""S2"", ""S5""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-6,6,Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12],"[""Q11"", ""Q12""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_016:claim-6,6,Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12],"[""Q11"", ""Q12""]",,"## Evidence-based findings
+- Thai gold bar buy price was 66,500 THB per baht-weight. [Q2]
+- Thai gold bar sell price was 66,700 THB per baht-weight. [Q3]
+- Global gold spot price was $4,197 per troy ounce. [Q4]
+- USD/THB exchange rate was 33.58 THB per USD. [Q5]
+- Gold price in Thailand fluctuated 19 times, ending at a loss of 550 THB. [S1] [S2] [S5]
+- Gold price movements correlated with USD/THB exchange rate. [Q11] [Q12]",ANSWERED_WITH_MODEL_FINDINGS,,0.0,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-1,1,Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-1,1,Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10],"[""S1"", ""S2"", ""S3"", ""S4"", ""S5"", ""S6"", ""S7"", ""S8"", ""S9"", ""S10""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-2,2,"Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]","[""Q2"", ""Q3""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-2,2,"Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]","[""Q2"", ""Q3""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-3,3,Global gold spot price was 4197 USD per troy ounce [Q4],"[""Q4""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-3,3,Global gold spot price was 4197 USD per troy ounce [Q4],"[""Q4""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-4,4,USD/THB exchange rate was 33.58 THB per USD [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-4,4,USD/THB exchange rate was 33.58 THB per USD [Q5],"[""Q5""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-5,5,Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18],"[""R8"", ""R17"", ""R18""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-5,5,Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18],"[""R8"", ""R17"", ""R18""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-6,6,FX-adjusted residual was -0.000241 [Q10],"[""Q10""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_017:claim-6,6,FX-adjusted residual was -0.000241 [Q10],"[""Q10""]",,"## Evidence-based findings
+- Thai gold prices declined by 250 Baht on 2026-10-22 [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S10]
+- Thai gold bar buy/sell prices were 66,500/66,700 THB per baht-weight [Q2] [Q3]
+- Global gold spot price was 4197 USD per troy ounce [Q4]
+- USD/THB exchange rate was 33.58 THB per USD [Q5]
+- Synthetic portfolio transactions may skew PNL calculations [R8] [R17] [R18]
+- FX-adjusted residual was -0.000241 [Q10]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-1,1,Market monitors energy and inflation risks [S1] [S3] [S4],"[""S1"", ""S3"", ""S4""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-1,1,Market monitors energy and inflation risks [S1] [S3] [S4],"[""S1"", ""S3"", ""S4""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-2,2,Gold price volatility observed [S1] [S6] [S7] [S8] [S9],"[""S1"", ""S6"", ""S7"", ""S8"", ""S9""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-2,2,Gold price volatility observed [S1] [S6] [S7] [S8] [S9],"[""S1"", ""S6"", ""S7"", ""S8"", ""S9""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-3,3,High correlation between Thai gold and global gold plus FX [Q11] [Q12],"[""Q11"", ""Q12""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-3,3,High correlation between Thai gold and global gold plus FX [Q11] [Q12],"[""Q11"", ""Q12""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-4,4,FX volatility noted [Q16],"[""Q16""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_018:claim-4,4,FX volatility noted [Q16],"[""Q16""]",,"## Evidence-based findings
+- Market monitors energy and inflation risks [S1] [S3] [S4]
+- Gold price volatility observed [S1] [S6] [S7] [S8] [S9]
+- High correlation between Thai gold and global gold plus FX [Q11] [Q12]
+- FX volatility noted [Q16]",ANSWERED_WITH_MODEL_FINDINGS,,,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-1,1,"The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]","[""Q3""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-1,1,"The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]","[""Q3""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-2,2,"The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]","[""Q2""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-2,2,"The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]","[""Q2""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-3,3,"The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]","[""Q2"", ""Q3""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_019:claim-3,3,"The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]","[""Q2"", ""Q3""]",,"## Evidence-based findings
+- The sell price of gold bars on October 14, 2026, was 66700 THB. [Q3]
+- The buy price of gold bars on October 23, 2026, was 66500 THB. [Q2]
+- The sell price on October 14, 2026, was 200 THB higher than the buy price on October 23, 2026. [Q2] [Q3]",ANSWERED_WITH_MODEL_FINDINGS,,0.4,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_020:claim-1,1,Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- GaussianHMM latent state on 2026-10-13 is 0 [H2]",ANSWERED_WITH_MODEL_FINDINGS,,0.2857142857142857,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_020:claim-1,1,Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3],"[""Q3""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- GaussianHMM latent state on 2026-10-13 is 0 [H2]",ANSWERED_WITH_MODEL_FINDINGS,,0.2857142857142857,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_020:claim-2,2,GaussianHMM latent state on 2026-10-13 is 0 [H2],"[""H2""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- GaussianHMM latent state on 2026-10-13 is 0 [H2]",ANSWERED_WITH_MODEL_FINDINGS,,0.2857142857142857,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_020:claim-2,2,GaussianHMM latent state on 2026-10-13 is 0 [H2],"[""H2""]",,"## Evidence-based findings
+- Thai gold bar sell price on 2026-10-13 is 66700.0 THB per baht-weight [Q3]
+- GaussianHMM latent state on 2026-10-13 is 0 [H2]",ANSWERED_WITH_MODEL_FINDINGS,,0.2857142857142857,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-1,1,"The latest available data is from October 13, 2026. [H3] [Q1]","[""H3"", ""Q1""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-1,1,"The latest available data is from October 13, 2026. [H3] [Q1]","[""H3"", ""Q1""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-2,2,"The data is 10 days old compared to the requested date of October 23, 2026. [R21]","[""R21""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-2,2,"The data is 10 days old compared to the requested date of October 23, 2026. [R21]","[""R21""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-3,3,"The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]","[""H2"", ""H3""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-3,3,"The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]","[""H2"", ""H3""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],B,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-4,4,Synthetic data usage may affect the accuracy of the model. [R8] [R23],"[""R8"", ""R23""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],A,,,,,,
+20261030T012451Z-c2adc1cc,thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,development,source_verified_not_human_reviewed,factual_claim,20261030T012451Z-c2adc1cc:thgold_021:claim-4,4,Synthetic data usage may affect the accuracy of the model. [R8] [R23],"[""R8"", ""R23""]",,"## Evidence-based findings
+- The latest available data is from October 13, 2026. [H3] [Q1]
+- The data is 10 days old compared to the requested date of October 23, 2026. [R21]
+- The HMM model's latest state is based on data from October 13, 2026. [H2] [H3]
+- Synthetic data usage may affect the accuracy of the model. [R8] [R23]",ANSWERED_WITH_MODEL_FINDINGS,,0.5714285714285714,True,[],[],B,,,,,,

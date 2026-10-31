@@ -1,0 +1,6 @@
+﻿source_id,source_name,source_type,languages,historical_start,historical_end,access_type,status,coverage_verified,license_reviewed,url,url_original
+gdelt_events,GDELT Event Database,structured_events,multilingual,1979-01-01,,open_data,candidate,False,False,https://www.gdeltproject.org/,https://www.gdeltproject.org/
+gdelt_doc,GDELT DOC API,article_search,multilingual,,,public_api,recent_search_only,False,False,https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/,https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
+newsapi,NewsAPI,article_metadata,multiple,,,api_key_and_plan,plan_review_required,False,False,https://newsapi.org/pricing,https://newsapi.org/pricing
+newsdata_archive,NewsData.io Archive,article_metadata,multiple,,,paid_api,plan_review_required,False,False,https://newsdata.io/documentation/news-archive-api,https://newsdata.io/documentation/news-archive-api
+nbt_open_api,NBT Open API,thai_news,th,,,registration_or_api_access,historical_coverage_unknown,False,False,https://openapi-thainews.prd.go.th/,https://openapi-thainews.prd.go.th/

@@ -1,0 +1,22 @@
+{
+  "dataset_version": "thai_gold_market_v1",
+  "query_count": 21,
+  "unique_news_document_count": 9,
+  "query_type_counts": {
+    "data_quality": 1,
+    "economic_explanation": 8,
+    "multi_evidence": 1,
+    "numeric_fact": 11
+  },
+  "split": "development",
+  "human_semantic_review_complete": false,
+  "qdrant_index_coverage_verified": false,
+  "source_files": {
+    "dataset\\news\\pbs\\gold_audit_direct.jsonl": "086d0305e73802359854104b055a33fb22da195907e7a9c508aa5df616364c25",
+    "embedding\\artifacts\\chunking_real\\structure_aware\\chunks_structure_aware_real.jsonl": "5f7c2880f1bed234e1fa874ed98316ce44ae7e46a9250d6376b35fcd98a2d102",
+    "dataset\\datset a gold price\\data\\processed\\thai_gold_features_v1.csv": "ea0aed919d99ff855721d7c0296bedc13cec5e3e70beecee7989cef06171a680",
+    "model\\gold_hmm_v1\\model.joblib": "f1d102ad24b83e9546b066a74a5b22a343bf111ae9ad711db9a90327d0e27492"
+  },
+  "output_path": "multi_agent\\GAIB-1\\ground_truth_gold_market_v1.jsonl",
+  "output_sha256": "cb8305a0d10739d79293bac79a1c60a4321e2f15c95bb76118878da673b30741"
+}

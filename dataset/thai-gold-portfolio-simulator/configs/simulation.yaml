@@ -1,0 +1,106 @@
+# Simulation configuration (spec section 15).
+# All values here are SCENARIO parameters documented in
+# outputs/assumptions_register.csv and docs/methodology.md.
+
+run_id: "R_FEATURE_V1"
+global_seed: 20261022
+
+# Cohort years constrained by available market data (2006-05 .. 2026-10).
+cohort_years: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015,
+               2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+portfolios_per_cohort: 50
+
+pricing:
+  # Data-driven: customer buy price = bar_sell / ornament_sell quotes;
+  # customer sell price = bar_buy quote; liquidation value = customer sell side.
+  # Used only as a fallback when an input has no historical ornament_buy quote
+  # (assumption A04); the active feature dataset supplies observed quotes.
+  ornament_buyback_delta_thb: 100.0
+  # Explicit per-trade fee in THB (assumption A10). Spread is already embedded
+  # in the observed quotes, so baseline fee is zero.
+  explicit_fee_thb: 0.0
+  # Price announcements are market-wide GTA quotes (spec 9.2): applied as-is.
+
+inventory_costing: "weighted_average"
+valuation_frequency: "monthly"
+missing_price_policy: "skip_and_log"
+output_formats: ["parquet", "csv"]
+
+population:
+  # A01: lognormal in baht-weight affordability units, median 1.0 baht-weight
+  # (about THB 11.8k at 2006 prices, THB 65k at 2026 prices; scales with the
+  # observed price level).
+  initial_capital:
+    dist: "lognormal_bw"
+    median_bw: 1.0
+    sigma: 0.9
+    min_capital_thb: 6000.0
+  # A02: share of capital deployed into gold at start.
+  gold_allocation:
+    dist: "beta_scaled"
+    a: 2.0
+    b: 2.0
+    low: 0.3
+    high: 0.9
+  # A03: product mix.
+  product_mix:
+    bar: 0.65
+    ornament: 0.35
+  bar_increment_bw: 1.0
+  ornament_increment_bw: 0.5
+  initialization: "contribute_then_buy"   # A13: no unobserved historical cost basis
+
+behavior:
+  decision_frequency: "monthly"
+  decision_roll_forward_days: 5
+  # A05: equal-weight scenario mix (NOT an empirical distribution).
+  weights:
+    buy_hold: 1.0
+    dca: 1.0
+    buy_dip: 1.0
+    buy_momentum: 1.0
+    partial_profit_taking: 1.0
+    active_rotation: 1.0
+    liquidity_sale: 1.0
+    inactive: 1.0
+  params:
+    dca_monthly_contribution_thb: 1000.0
+    dca_initial_fraction: 0.1
+    dip_lookback_days: 90
+    dip_threshold: 0.97          # A07
+    dip_buy_fraction_of_cash: 0.5
+    momentum_fast_days: 20       # A08
+    momentum_slow_days: 60
+    momentum_buy_fraction_of_cash: 0.5
+    momentum_sell_fraction: 0.5
+    profit_gain_threshold: 0.15  # partial profit taking
+    profit_sell_fraction: 0.25
+    rotation_buy_prob: 0.30      # A06-family discretionary rules
+    rotation_sell_prob: 0.20
+    rotation_trade_fraction: 0.2
+    liquidity_shock_lambda_month: 0.02   # A09
+    min_cash_buffer_fraction: 0.05
+    max_fraction_equity_in_gold: 1.0
+
+validation_thresholds:
+  accounting_identity_tol_thb: 0.01
+  attribution_residual_tol_frac: 0.000001
+  reproducibility_required: true
+
+sensitivity:
+  # Executed by `sensitivity` CLI command (Stage H, spec 11.4).
+  variants:
+    - name: base
+      overrides: {}
+    - name: capital_low
+      overrides: {population: {initial_capital: {median_bw: 0.5}}}
+    - name: capital_high
+      overrides: {population: {initial_capital: {median_bw: 2.0}}}
+    - name: behavior_dip_heavy
+      overrides: {behavior: {weights: {buy_hold: 1, dca: 1, buy_dip: 4, buy_momentum: 4,
+                                       partial_profit_taking: 1, active_rotation: 2,
+                                       liquidity_sale: 1, inactive: 1}}}
+    - name: ornament_wage_high
+      overrides: {pricing: {ornament_buyback_delta_thb: 0.0}}
+    - name: ornament_wage_low
+      overrides: {pricing: {ornament_buyback_delta_thb: 200.0}}

@@ -1,0 +1,16 @@
+{
+  "model_name": "GaussianHMM",
+  "model_version": "1.0.0",
+  "n_states": 3,
+  "feature_cols": [
+    "bar_buy_log_return",
+    "intraday_range_pct"
+  ],
+  "training_method": "hmmlearn",
+  "device": "CPU",
+  "purpose": "Thai gold market regime analysis",
+  "limitations": [
+    "States are statistical regimes, not confirmed crisis labels.",
+    "Not a standalone crisis predictor or trading signal."
+  ]
+}

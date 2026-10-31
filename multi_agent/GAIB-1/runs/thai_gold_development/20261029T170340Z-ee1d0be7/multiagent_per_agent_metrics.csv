@@ -1,0 +1,946 @@
+﻿query_id,agent,status,api_success,json_parse,schema_valid,task_success,task_validation_status,schema_errors,repair_attempts,attempt_count,finish_reason,latency_ms,prompt_tokens,completion_tokens,total_tokens,initial_tokens,repair_tokens,error_type,error,traceback
+thgold_001,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.453000000372413,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_001,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.358700000826502,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_001,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.908199999495992,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_001,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.789699999397271,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_001,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.05839999904856,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_002,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.133499999545165,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_002,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.444799999779207,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_002,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.643499999379856,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_002,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.868500000971835,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_002,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.122399998886976,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_003,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.320900000602705,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_003,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,11.23849999930826,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_003,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.402299999943352,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_003,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.619700000053854,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_003,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.573299999829032,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_004,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.53820000156702,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_004,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.463900000104331,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_004,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.408800000324845,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_004,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,16.913299999941955,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_004,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.515399998941575,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_005,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.778499999607448,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_005,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.51890000012645,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_005,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.014400000334717,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_005,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.630899999843678,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_005,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.03199999993376,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_006,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,14.616800001022057,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_006,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.087000000363332,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_006,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,12.769499999194522,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_006,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,23.367800000414718,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_006,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.828500000367058,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_007,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.367499998712447,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_007,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.629699999801232,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_007,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.932300001106341,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_007,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,16.807500000140863,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_007,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.158699998806696,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_008,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.11919999998645,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_008,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.540400000332738,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_008,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.211900000082096,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_008,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,18.541200000981917,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_008,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.104299999307841,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_009,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.531899999070447,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_009,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.122699999352335,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_009,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.594499999162508,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_009,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.14480000009644,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_009,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.56969999949797,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_010,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.899800001221593,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_010,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.841099999699509,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_010,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,19.56360000076529,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_010,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.926599999540485,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_010,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.003499999584164,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_011,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.544300000721705,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_011,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,16.98260000011942,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_011,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,22.580400000151712,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_011,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.175999999773921,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_011,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.314500000982662,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_012,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.33500000044296,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_012,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.687400000781054,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_012,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.308199998282362,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_012,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.832999999867752,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_012,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.056900000359747,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_013,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.365199999389006,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_013,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.01110000067274,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_013,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.6857999995118,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_013,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.367300000827527,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_013,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.408399999098037,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_014,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.832499999698484,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_014,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.341799999470823,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_014,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.98349999988568,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_014,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.650699999649078,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_014,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.078899998712586,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_015,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.685200000400073,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_015,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.480799999233568,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_015,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.267800000292482,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_015,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,18.33930000066175,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_015,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.123499999986961,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_016,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.392600000661332,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_016,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.59140000102343,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_016,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.748599999511498,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_016,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.071599999515456,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_016,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.110799999689334,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_017,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.49940000080096,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_017,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.620900000096299,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_017,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.590100000219536,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_017,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,17.119399999501184,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_017,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.049899999808986,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_018,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.536700001059216,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_018,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.41749999926833,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_018,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.496599999489263,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_018,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,18.1047000005492,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_018,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.57229999928677,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_019,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.486299999276525,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_019,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.70529999883729,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_019,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.430100000623497,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_019,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,16.90459999917948,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_019,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.078899998712586,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_020,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.732899999813526,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_020,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.76099999914004,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_020,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.014200000819983,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_020,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.252400001059868,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_020,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.289699999702862,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_021,AI3_Quant_Regime_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,9.805899999264511,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_021,AI2_Macro_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,19.46219999990717,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_021,AI1_News_Analyst,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,8.686200000738609,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_021,AI4_Risk_Data_Auditor,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,11.743099999875994,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"
+thgold_021,AI5_Lead_Researcher,api_error,False,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,0,,10.71349999983795,,,,,,api_error,NameError:name 'next_thaillm_client' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 217, in call_agent_json
+    response = llm.generate(system_prompt, request_payload, max_tokens=request_budget)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_14308\1707405483.py"", line 15, in generate
+    key_slot, client = next_thaillm_client()
+                       ^^^^^^^^^^^^^^^^^^^
+NameError: name 'next_thaillm_client' is not defined
+"

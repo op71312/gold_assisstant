@@ -1,0 +1,1145 @@
+﻿query_id,agent,status,api_success,json_parse,schema_valid,task_success,task_validation_status,schema_errors,repair_attempts,attempt_count,finish_reason,latency_ms,prompt_tokens,completion_tokens,total_tokens,initial_tokens,repair_tokens,error_type,error,traceback
+thgold_001,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_001,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_001,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_001,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_001,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_002,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_002,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_002,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_002,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_002,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_003,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_003,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_003,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_003,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_003,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_004,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_004,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_004,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_004,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_004,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_005,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_005,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_005,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_005,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_005,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_006,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_006,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_006,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_006,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_006,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_007,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_007,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_007,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_007,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_007,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_008,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_008,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_008,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_008,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_008,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_009,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_009,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_009,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_009,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_009,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_010,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_010,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_010,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_010,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_010,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_011,AI3_Quant_Regime_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 123, in <lambda>
+    ""AI3_Quant_Regime_Analyst"":lambda:agent3.run(self.llm,query,market,hmm),
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 46, in run
+    return call_agent_json(llm,self.name,self.role,payload,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_011,AI2_Macro_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 122, in <lambda>
+    ""AI2_Macro_Analyst"":lambda:agent2.run(self.llm,query,sources,market,max_tokens=GAIB_AI2_LIVE_MAX_TOKENS),
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 33, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_011,AI1_News_Analyst,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 121, in <lambda>
+    ""AI1_News_Analyst"":lambda:agent1.run(self.llm,query,sources,market,max_tokens=GAIB_AI1_LIVE_MAX_TOKENS),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 26, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_011,AI4_Risk_Data_Auditor,error,False,False,False,,,[],0,0,,,,,,,,NameError,name 'AGENT_SYSTEM_BASE' is not defined,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 137, in _run_specialists
+    result=future.result()
+           ^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py"", line 401, in __get_result
+    raise self._exception
+  File ""C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py"", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 124, in <lambda>
+    ""AI4_Risk_Data_Auditor"":lambda:agent4.run(self.llm,query,market,risk,max_tokens=GAIB_AI4_LIVE_MAX_TOKENS),
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\4069620350.py"", line 53, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"
+thgold_011,AI5_Lead_Researcher,error,False,False,False,,,[],0,0,,,,,,,,NameError,,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 184, in run
+    final=agent5.run(self.llm,query,specialist_results,manifest,market,hmm,risk,prechecks,max_tokens=GAIB_AI5_LIVE_MAX_TOKENS)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2618222276.py"", line 110, in run
+    return call_agent_json(llm,self.name,self.role,payload,max_tokens=max_tokens or THAILLM_MAX_TOKENS_FINAL,allowed_ids=allowed_ids)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21100\2162730886.py"", line 174, in call_agent_json
+    system_prompt = AGENT_SYSTEM_BASE + ""\nROLE: "" + role_instruction
+                    ^^^^^^^^^^^^^^^^^
+NameError: name 'AGENT_SYSTEM_BASE' is not defined
+"

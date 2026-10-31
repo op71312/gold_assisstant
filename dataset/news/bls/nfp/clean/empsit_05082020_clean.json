@@ -1,0 +1,1082 @@
+{
+  "doc_id": "bls_nfp_2020_04",
+  "source": "U.S. Bureau of Labor Statistics",
+  "source_file": "empsit_05082020.txt",
+  "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+  "publication_date": "2020-05-08",
+  "report_period": "April 2020",
+  "title": "THE EMPLOYMENT SITUATION -- APRIL 2020",
+  "content_type": "Employment Situation news release",
+  "cleaning": {
+    "header_removed": true,
+    "footer_removed_from_last_modified_date": true,
+    "table_a_parsed": true,
+    "table_a_format": "nfp_summary_table_tab",
+    "tables_preserved_as_raw_blocks": [
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "bls_nfp_2020_04_001",
+      "heading": "Overview",
+      "content": "Total nonfarm payroll employment fell by 20.5 million in April, and the unemployment rate rose to 14.7 percent, the U.S. Bureau of Labor Statistics reported today. The changes in these measures reflect the effects of the coronavirus (COVID-19) pandemic and efforts to contain it. Employment fell sharply in all major industry sectors, with particularly heavy job losses in leisure and hospitality.\n\nThis news release presents statistics from two monthly surveys. The household survey measures labor force status, including unemployment, by demographic characteristics. The establishment survey measures nonfarm employment, hours, and earnings by industry. For more information about the concepts and statistical methodology used in these two surveys, see the Technical Note.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_002",
+      "heading": "Household Survey Data",
+      "content": "In April, the unemployment rate increased by 10.3 percentage points to 14.7 percent. This is the highest rate and the largest over-the-month increase in the history of the series (seasonally adjusted data are available back to January 1948). The number of unemployed persons rose by 15.9 million to 23.1 million in April. The sharp increases in these measures reflect the effects of the coronavirus pandemic and efforts to contain it. (See table A-1. For more information about how the household survey and its measures were affected by the coronavirus pandemic, see the box at the end of the news release.)\n\nIn April, unemployment rates rose sharply among all major worker groups. The rate was 13.0 percent for adult men, 15.5 percent for adult women, 31.9 percent for teenagers, 14.2 percent for Whites, 16.7 percent for Blacks, 14.5 percent for Asians, and 18.9 percent for Hispanics. The rates for all of these groups, with the exception of Blacks, represent record highs for their respective series. (See tables A-1, A-2, and A-3.)\n\nThe number of unemployed persons who reported being on temporary layoff increased about ten-fold to 18.1 million in April. The number of permanent job losers increased by 544,000 to 2.0 million. (See table A-11.)\n\nIn April, the number of unemployed persons who were jobless less than 5 weeks increased by 10.7 million to 14.3 million, accounting for almost two-thirds of the unemployed. The number of unemployed persons who were jobless 5 to 14 weeks rose by 5.2 million to 7.0 million. The number of long-term unemployed (those jobless for 27 weeks or more), at 939,000, declined by 225,000 over the month and represented 4.1 percent of the unemployed. (See table A-12.)\n\nThe labor force participation rate decreased by 2.5 percentage points over the month to 60.2 percent, the lowest rate since January 1973 (when it was 60.0 percent). Total employment, as measured by the household survey, fell by 22.4 million to 133.4 million. The employment-population ratio, at 51.3 percent, dropped by 8.7 percentage points over the month. This is the lowest rate and largest over-the-month decline in the history of the series (seasonally adjusted data are available back to January 1948). (See table A-1.)\n\nThe number of persons who usually work full time declined by 15.0 million over the month, and the number who usually work part time declined by 7.4 million. Part-time workers accounted for one-third of the over-the-month employment decline. (See table A-9.)\n\nThe number of persons at work part time for economic reasons nearly doubled over the month to 10.9 million. These individuals, who would have preferred full-time employment, were working part time because their hours had been reduced or they were unable to find full-time jobs. This group includes persons who usually work full time and persons who usually work part time. (See table A-8.)\n\nThe number of persons not in the labor force who currently want a job, at 9.9 million, nearly doubled in April. These individuals were not counted as unemployed because they were not actively looking for work during the last 4 weeks or were unavailable to take a job. (See table A-1.)\n\nPersons marginally attached to the labor force--a subset of persons not in the labor force who currently want a job--numbered 2.3 million in April, up by 855,000 over the month. These individuals were not in the labor force, wanted and were available for work, and had looked for a job sometime in the prior 12 months but had not looked for work in the 4 weeks preceding the survey. Discouraged workers, a subset of the marginally attached who believed that no jobs were available for them, numbered 574,000 in April, little changed from the previous month. (See Summary table A.)",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_003",
+      "heading": "Establishment Survey Data",
+      "content": "Total nonfarm payroll employment fell by 20.5 million in April, after declining by 881,000 in March. The April over-the-month decline is the largest in the history of the series and brought employment to its lowest level since January 2011 (the series dates back to 1939). Job losses in April were widespread, with the largest employment decline occurring in leisure and hospitality. (See table B-1. For more information about how the establishment survey and its measures were affected by the coronavirus, see the box note at the end of the news release.)\n\nIn April, employment in leisure and hospitality plummeted by 7.7 million, or 47 percent. Almost three-quarters of the decrease occurred in food services and drinking places (-5.5 million). Employment also fell in the arts, entertainment, and recreation industry (-1.3 million) and in the accommodation industry (-839,000).\n\nEmployment declined by 2.5 million in education and health services in April. In health care, employment declined by 1.4 million, led by losses in offices of dentists (-503,000), offices of physicians (-243,000), and offices of other health care practitioners (-205,000). Employment also declined in social assistance (-651,000), reflecting job losses in child day care services (-336,000) and individual and family services (-241,000). Employment in private education declined by 457,000 over the month.\n\nProfessional and business services shed 2.2 million jobs in April. Sharp losses occurred in temporary help services (-842,000) and in services to buildings and dwellings (-259,000).\n\nIn April, employment in retail trade declined by 2.1 million. Job losses occurred in clothing and clothing accessories stores (-740,000), motor vehicle and parts dealers (-345,000), miscellaneous store retailers (-264,000), and furniture and home furnishings stores (-209,000). By contrast, the component of general merchandise stores that includes warehouse clubs and supercenters gained 93,000 jobs.\n\nIn April, manufacturing employment dropped by 1.3 million. About two-thirds of the decline was in durable goods manufacturing (-914,000), which saw losses in motor vehicles and parts (-382,000) and in fabricated metal products (-109,000). Nondurable goods manufacturing shed 416,000 jobs.\n\nEmployment in the other services industry declined by 1.3 million in April, with nearly two-thirds of the decline occurring in personal and laundry services (-797,000).\n\nGovernment employment dropped by 980,000 in April. Employment in local government was down by 801,000, in part reflecting school closures. Employment also declined in state government education (-176,000).\n\nConstruction employment fell by 975,000 in April, with much of the loss in specialty trade contractors (-691,000). Job losses also occurred in construction of buildings (-206,000).\n\nEmployment fell in transportation and warehousing in April (-584,000). Transit and ground passenger transportation and air transportation lost 185,000 jobs and 141,000 jobs, respectively.\n\nWholesale trade shed 363,000 jobs in April, largely reflecting losses in the durable and nondurable goods components.\n\nEmployment in financial activities fell by 262,000 over the month, with the vast majority of the decline occurring in real estate and rental and leasing (-222,000).\n\nEmployment in information fell by 254,000 in April, driven by a decline in motion picture and sound recording industries (-217,000).\n\nMining lost 46,000 jobs in April, with most of the decline occurring in support activities for mining (-33,000).\n\nIn April, average hourly earnings for all employees on private nonfarm payrolls increased by $1.34 to $30.01. Average hourly earnings of private-sector production and nonsupervisory employees increased by $1.04 to $25.12 in April. The increases in average hourly earnings largely reflect the substantial job loss among lower-paid workers; this change, along with earnings increases, put upward pressure on the average hourly earnings estimates. (See tables B-3 and B-8.)\n\nThe average workweek for all employees on private nonfarm payrolls increased by 0.1 hour to 34.2 hours in April. In manufacturing, the workweek declined by 2.1 hours to 38.3 hours, and overtime declined by 0.9 hour to 2.1 hours. The average workweek for production and nonsupervisory employees on private nonfarm payrolls increased by 0.1 hour to 33.5 hours. (See tables B-2 and B-7.)\n\nThe change in total nonfarm payroll employment for February was revised down by 24,000 from +275,000 to +251,000, and the change for March was revised down by 180,000 from -701,000 to -881,000. With these revisions, employment changes in February and March combined were 204,000 lower than previously reported. (Monthly revisions result from additional reports received from businesses and government agencies since the last published estimates and from the recalculation of seasonal factors.)\n\n_____________ The Employment Situation for May is scheduled to be released on Friday, June 5, 2020, at 8:30 a.m. (EDT).\n\n_______________________________________________________________________________________________________ | | | | | Coronavirus (COVID-19) Impact on April 2020 Establishment and Household Survey Data | | | | | | Data collection for both surveys was affected by the coronavirus (COVID-19) pandemic. The household | | survey is generally collected through in-person and telephone interviews, but personal interviews | | were not conducted for the safety of interviewers and respondents. The household survey response | | rate, at 70 percent, was about 13 percentage points lower than in months prior to the pandemic. | | In the establishment survey, approximately one-fifth of the data is collected at four regional data | | collection centers. Although these centers were closed, about half of the interviewers at these | | centers worked remotely to collect data by telephone. Additionally, BLS encouraged businesses to | | report electronically. The collection rate for the establishment survey in April was 74.9 percent, | | essentially unchanged from collection rates prior to the pandemic. | | | | In the establishment survey, workers who are paid by their employer for all or any part of the pay | | period including the 12th of the month are counted as employed, even if they were not actually at | | their jobs. Workers who are temporarily or permanently absent from their jobs and are not being | | paid are not counted as employed, even if they are continuing to receive benefits. The length of | | the reference period does vary across the respondents in the establishment survey; one-third of | | businesses have a weekly pay period, slightly over 40 percent a bi-weekly, about 20 percent | | semi-monthly, and a small amount monthly. | | | | There was a change to the estimation method used in the establishment survey for April. Business | | births and deaths cannot be adequately captured by the establishment survey as they occur. Therefore,| | the establishment survey estimates use a model to account for the relatively stable net employment | | change generated by business births and deaths. Due to the impact of the COVID-19 pandemic, the | | relationship between the two was no longer stable in April. Therefore, the establishment survey | | made modifications to the birth-death model. For more information, see | | www.bls.gov/cps/employment-situation-covid19-faq-april-2020.pdf. | | | | In the household survey, individuals are classified as employed, unemployed, or not in the labor | | force based on their answers to a series of questions about their activities during the survey | | reference week (April 12th through April 18th). Workers who indicate they were not working during | | the entire survey reference week and expect to be recalled to their jobs should be classified as | | unemployed on temporary layoff. In April, there was an extremely large increase in the number of | | persons classified as unemployed on temporary layoff. | | | | However, there was also a large increase in the number of workers who were classified as employed | | but absent from work. As was the case in March, special instructions sent to household survey | | interviewers called for all employed persons absent from work due to coronavirus-related business | | closures to be classified as unemployed on temporary layoff. However, it is apparent that not all | | such workers were so classified. | | | | If the workers who were recorded as employed but absent from work due to \"other reasons\" (over | | and above the number absent for other reasons in a typical April) had been classified as unemployed | | on temporary layoff, the overall unemployment rate would have been almost 5 percentage points higher | | than reported (on a not seasonally adjusted basis). However, according to usual practice, the data | | from the household survey are accepted as recorded. To maintain data integrity, no ad hoc actions | | are taken to reclassify survey responses. | | | | More information is available at www.bls.gov/cps/employment-situation-covid19-faq-april-2020.pdf. | | | |______________________________________________________________________________________________________ |\n\nHOUSEHOLD DATA\n\nNOTE: Persons whose ethnicity is identified as Hispanic or Latino may be of any race. Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nESTABLISHMENT DATA (2) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. (3) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding annual average aggregate hours. (4) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding annual average aggregate weekly payrolls. (5) Figures are the percent of industries with employment increasing plus one-half of the industries with unchanged employment, where 50 percent indicates an equal balance between industries with increasing and decreasing employment. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_004",
+      "heading": "1. Why are there two monthly measures of employment?",
+      "content": "The household survey and establishment survey both produce sample-based estimates of employment, and both have strengths and limitations. The establishment survey employment series has a smaller margin of error on the measurement of month-to- month change than the household survey because of its much larger sample size. An over-the-month employment change of about 100,000 is statistically significant in the establishment survey, while the threshold for a statistically significant change in the household survey is about 500,000. However, the household survey has a more expansive scope than the establishment survey because it includes self-employed workers whose businesses are unincorporated, unpaid family workers, agricultural workers, and private household workers, who are excluded by the establishment survey. The household survey also provides estimates of employment for demographic groups. For more information on the differences between the two surveys, please visit https://www.bls.gov/web/empsit/ces_cps_trends.htm.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_005",
+      "heading": "2. Are undocumented immigrants counted in the surveys?",
+      "content": "It is likely that both surveys include at least some undocumented immigrants. However, neither the establishment nor the household survey is designed to identify the legal status of workers. Therefore, it is not possible to determine how many are counted in either survey. The establishment survey does not collect data on the legal status of workers. The household survey does include questions which identify the foreign and native born, but it does not include questions about the legal status of the foreign born. Data on the foreign and native born are published each month in table A-7 of The Employment Situation news release.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_006",
+      "heading": "3. Why does the establishment survey have revisions?",
+      "content": "The establishment survey revises published estimates to improve its data series by incorporating additional information that was not available at the time of the initial publication of the estimates. The establishment survey revises its initial monthly estimates twice, in the immediately succeeding 2 months, to incorporate additional sample receipts from respondents in the survey and recalculated seasonal adjustment factors. For more information on the monthly revisions, please visit https://www.bls.gov/ces/cesrevinfo.htm.\n\nOn an annual basis, the establishment survey incorporates a benchmark revision that re-anchors estimates to nearly complete employment counts available from unemployment insurance tax records. The benchmark helps to control for sampling and modeling errors in the estimates. For more information on the annual benchmark revision, please visit https://www.bls.gov/web/empsit/cesbmart.htm.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_007",
+      "heading": "4. Does the establishment survey sample include small firms?",
+      "content": "Yes; about 40 percent of the establishment survey sample is comprised of business establishments with fewer than 20 employees. The establishment survey sample is designed to maximize the reliability of the statewide total nonfarm employment estimate; firms from all states, size classes, and industries are appropriately sampled to achieve that goal.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_008",
+      "heading": "5. Does the establishment survey account for employment from new businesses?",
+      "content": "Yes; monthly establishment survey estimates include an adjustment to account for the net employment change generated by business births and deaths. The adjustment comes from an econometric model that forecasts the monthly net jobs impact of business births and deaths based on the actual past values of the net impact that can be observed with a lag from the Quarterly Census of Employment and Wages. The establishment survey uses modeling rather than sampling for this purpose because the survey is not immediately able to bring new businesses into the sample. There is an unavoidable lag between the birth of a new firm and its appearance on the sampling frame and availability for selection. BLS adds new businesses to the survey twice a year.\n\n6. Is the count of unemployed persons limited to just those people receiving unemployment insurance benefits?\n\nNo; the estimate of unemployment is based on a monthly sample survey of households. All persons who are without jobs and are actively seeking and available to work are included among the unemployed. (People on temporary layoff are included even if they do not actively seek work.) There is no requirement or question relating to unemployment insurance benefits in the monthly survey.\n\n7. Does the official unemployment rate exclude people who want a job but are not currently looking for work?\n\nYes; however, there are separate estimates of persons outside the labor force who want a job, including those who are not currently looking because they believe no jobs are available (discouraged workers). In addition, alternative measures of labor underutilization (some of which include discouraged workers and other groups not officially counted as unemployed) are published each month in table A-15 of The Employment Situation news release. For more information about these alternative measures, please visit https://www.bls.gov/cps/lfcharacteristics.htm#altmeasures.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_009",
+      "heading": "8. How can unusually severe weather affect employment and hours estimates?",
+      "content": "In the establishment survey, the reference period is the pay period that includes the 12th of the month. Unusually severe weather is more likely to have an impact on average weekly hours than on employment. Average weekly hours are estimated for paid time during the pay period, including pay for holidays, sick leave, or other time off. The impact of severe weather on hours estimates typically, but not always, results in a reduction in average weekly hours. For example, some employees may be off work for part of the pay period and not receive pay for the time missed, while some workers, such as those dealing with cleanup or repair, may work extra hours.\n\nTypically, it is not possible to precisely quantify the effect of extreme weather on payroll employment estimates. In order for severe weather conditions to reduce employment estimates, employees have to be off work without pay for the entire pay period. Employees who receive pay for any part of the pay period, even 1 hour, are counted in the payroll employment figures. For more information on how often employees are paid, please visit https://www.bls.gov/opub/btn/volume-3/how-frequently-do-private- businesses-pay-workers.htm.\n\nIn the household survey, the reference period is generally the calendar week that includes the 12th of the month. Persons who miss the entire week's work for weather- related events are counted as employed whether or not they are paid for the time off. The household survey collects data on the number of persons who had a job but were not at work due to bad weather. It also provides a measure of the number of persons who usually work full time but had reduced hours due to bad weather. Current and historical data are available on the household survey's most requested statistics page, please visit https://data.bls.gov/cgi-bin/surveymost?ln.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_010",
+      "heading": "Technical Note",
+      "content": "This news release presents statistics from two major surveys, the Current Population Survey (CPS; household survey) and the Current Employment Statistics survey (CES; establishment survey). The household survey provides information on the labor force, employment, and unemployment that appears in the \"A\" tables, marked HOUSEHOLD DATA. It is a sample survey of about 60,000 eligible households conducted by the U.S. Census Bureau for the U.S. Bureau of Labor Statistics (BLS).\n\nThe establishment survey provides information on employment, hours, and earnings of employees on nonfarm payrolls; the data appear in the \"B\" tables, marked ESTABLISHMENT DATA. BLS collects these data each month from the payroll records of a sample of nonagricultural business establishments. Each month the CES program surveys about 145,000 businesses and government agencies, representing approximately 697,000 individual worksites, in order to provide detailed industry data on employment, hours, and earnings of workers on nonfarm payrolls. The active sample includes approximately one-third of all nonfarm payroll jobs.\n\nFor both surveys, the data for a given month relate to a particular week or pay period. In the household survey, the reference period is generally the calendar week that contains the 12th day of the month. In the establishment survey, the reference period is the pay period including the 12th, which may or may not correspond directly to the calendar week.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_011",
+      "heading": "Coverage, definitions, and differences between surveys",
+      "content": "Household survey. The sample is selected to reflect the entire civilian noninstitutional population. Based on responses to a series of questions on work and job search activities, each person 16 years and over in a sample household is classified as employed, unemployed, or not in the labor force.\n\nPeople are classified as employed if they did any work at all as paid employees during the reference week; worked in their own business, profession, or on their own farm; or worked without pay at least 15 hours in a family business or farm. People are also counted as employed if they were temporarily absent from their jobs because of illness, bad weather, vacation, labor-management disputes, or personal reasons.\n\nPeople are classified as unemployed if they meet all of the following criteria: they had no employment during the reference week; they were available for work at that time; and they made specific active efforts to find employment sometime during the 4-week period ending with the reference week. Persons laid off from a job and expecting recall need not be looking for work to be counted as unemployed. The unemployment data derived from the household survey in no way depend upon the eligibility for or receipt of unemployment insurance benefits.\n\nThe civilian labor force is the sum of employed and unemployed persons. Those persons not classified as employed or unemployed are not in the labor force. The unemployment rate is the number unemployed as a percent of the labor force. The labor force participation rate is the labor force as a percent of the population, and the employment-population ratio is the employed as a percent of the population. Additional information about the household survey can be found at www.bls.gov/cps/documentation.htm.\n\nEstablishment survey. The sample establishments are drawn from private nonfarm businesses such as factories, offices, and stores, as well as from federal, state, and local government entities. Employees on nonfarm payrolls are those who worked or received pay for any part of the reference pay period, including persons on paid leave. Persons are counted in each job they hold. Hours and earnings data are produced for the private sector for all employees and for production and nonsupervisory employees. Production and nonsupervisory employees are defined as production and related employees in manufacturing and mining and logging, construction workers in construction, and nonsupervisory employees in private service-providing industries.\n\nIndustries are classified on the basis of an establishment's principal activity in accordance with the 2017 version of the North American Industry Classification System. Additional information about the establishment survey can be found at www.bls.gov/ces/.\n\nDifferences in employment estimates. The numerous conceptual and methodological differences between the household and establishment surveys result in important distinctions in the employment estimates derived from the surveys. Among these are:\n\n--The household survey includes agricultural workers, self-employed workers whose businesses are unincorporated, unpaid family workers, and private household workers among the employed. These groups are excluded from the establishment survey.\n\n--The household survey includes people on unpaid leave among the employed. The establishment survey does not.\n\n--The household survey is limited to workers 16 years of age and older. The establishment survey is not limited by age.\n\n--The household survey has no duplication of individuals, because individuals are counted only once, even if they hold more than one job. In the establishment survey, employees working at more than one job and thus appearing on more than one payroll are counted separately for each appearance.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_012",
+      "heading": "Seasonal adjustment",
+      "content": "Over the course of a year, the size of the nation's labor force and the levels of employment and unemployment undergo regularly occurring fluctuations. These events may result from seasonal changes in weather, major holidays, and the opening and closing of schools. The effect of such seasonal variation can be very large.\n\nBecause these seasonal events follow a more or less regular pattern each year, their influence on the level of a series can be tempered by adjusting for regular seasonal variation. These adjustments make nonseasonal developments, such as declines in employment or increases in the participation of women in the labor force, easier to spot. For example, in the household survey, the large number of youth entering the labor force each June is likely to obscure any other changes that have taken place relative to May, making it difficult to determine if the level of economic activity has risen or declined. Similarly, in the establishment survey, payroll employment in education declines by about 20 percent at the end of the spring term and later rises with the start of the fall term, obscuring the underlying employment trends in the industry. Because seasonal employment changes at the end and beginning of the school year can be estimated, the statistics can be adjusted to make underlying employment patterns more discernable. The seasonally adjusted figures provide a more useful tool with which to analyze changes in month-to-month economic activity.\n\nMany seasonally adjusted series are independently adjusted in both the household and establishment surveys. However, the adjusted series for many major estimates, such as total payroll employment, employment in most major sectors, total employment, and unemployment are computed by aggregating independently adjusted component series. For example, total unemployment is derived by summing the adjusted series for four major age-sex components; this differs from the unemployment estimate that would be obtained by directly adjusting the total or by combining the duration, reasons, or more detailed age categories. Percentage distributions of unemployment by reason and duration are derived from the sum of the independently seasonally adjusted component series, and will not necessarily match calculations made using the seasonally adjusted total unemployment level. Additional information about seasonal adjustment in the household survey can be found at www.bls.gov/cps/documentation.htm#sa.\n\nFor both the household and establishment surveys, a concurrent seasonal adjustment methodology is used in which new seasonal factors are calculated each month using all relevant data, up to and including the data for the current month. In the household survey, new seasonal factors are used to adjust only the current month's data. In the establishment survey, however, new seasonal factors are used each month to adjust the three most recent monthly estimates. The prior 2 months are routinely revised to incorporate additional sample reports and recalculated seasonal adjustment factors. In both surveys, 5-year revisions to historical data are made once a year.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_013",
+      "heading": "Reliability of the estimates",
+      "content": "Statistics based on the household and establishment surveys are subject to both sampling and nonsampling error. When a sample, rather than the entire population, is surveyed, there is a chance that the sample estimates may differ from the true population values they represent. The component of this difference that occurs because samples differ by chance is known as sampling error, and its variability is measured by the standard error of the estimate. There is about a 90-percent chance, or level of confidence, that an estimate based on a sample will differ by no more than 1.6 standard errors from the true population value because of sampling error. BLS analyses are generally conducted at the 90-percent level of confidence.\n\nFor example, the confidence interval for the monthly change in total nonfarm employment from the establishment survey is on the order of plus or minus 110,000. Suppose the estimate of nonfarm employment increases by 50,000 from one month to the next. The 90-percent confidence interval on the monthly change would range from -60,000 to +160,000 (50,000 +/- 110,000). These figures do not mean that the sample results are off by these magnitudes, but rather that there is about a 90-percent chance that the true over-the-month change lies within this interval. Since this range includes values of less than zero, we could not say with confidence that nonfarm employment had, in fact, increased that month. If, however, the reported nonfarm employment rise was 250,000, then all of the values within the 90-percent confidence interval would be greater than zero. In this case, it is likely (at least a 90-percent chance) that nonfarm employment had, in fact, risen that month. At an unemployment rate of around 6.0 percent, the 90-percent confidence interval for the monthly change in unemployment as measured by the household survey is about +/- 300,000, and for the monthly change in the unemployment rate it is about +/- 0.2 percentage point.\n\nIn general, estimates involving many individuals or establishments have lower standard errors (relative to the size of the estimate) than estimates which are based on a small number of observations. The precision of estimates also is improved when the data are cumulated over time, such as for quarterly and annual averages.\n\nThe household and establishment surveys are also affected by nonsampling error, which can occur for many reasons, including the failure to sample a segment of the population, inability to obtain information for all respondents in the sample, inability or unwillingness of respondents to provide correct information on a timely basis, mistakes made by respondents, and errors made in the collection or processing of the data.\n\nFor example, in the establishment survey, estimates for the most recent 2 months are based on incomplete returns; for this reason, these estimates are labeled preliminary in the tables. It is only after two successive revisions to a monthly estimate, when nearly all sample reports have been received, that the estimate is considered final.\n\nAnother major source of nonsampling error in the establishment survey is the inability to capture, on a timely basis, employment generated by new firms. To correct for this systematic underestimation of employment growth, an estimation procedure with two components is used to account for business births. The first component excludes employment losses from business deaths from sample-based estimation in order to offset the missing employment gains from business births. This is incorporated into the sample-based estimation procedure by simply not reflecting sample units going out of business, but imputing to them the same employment trend as the other firms in the sample. This procedure accounts for most of the net birth/death employment.\n\nThe second component is an ARIMA time series model designed to estimate the residual net birth/death employment not accounted for by the imputation. The historical time series used to create and test the ARIMA model was derived from the unemployment insurance universe micro-level database, and reflects the actual residual net of births and deaths over the past 5 years.\n\nThe sample-based estimates from the establishment survey are adjusted once a year (on a lagged basis) to universe counts of payroll employment obtained from administrative records of the unemployment insurance program. The difference between the March sample-based employment estimates and the March universe counts is known as a benchmark revision, and serves as a rough proxy for total survey error. The new benchmarks also incorporate changes in the classification of industries. Over the past decade, absolute benchmark revisions for total nonfarm employment have averaged 0.2 percent, with a range from -0.7 percent to 0.3 percent.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    },
+    {
+      "chunk_id": "bls_nfp_2020_04_014",
+      "heading": "Other information",
+      "content": "Information in this release will be made available to sensory impaired individuals upon request. Voice phone: (202) 691-5200; Federal Relay Service: (800) 877-8339.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\nNOTE: Estimates for the above race groups will not sum to totals shown in table A-1 because data are not presented for all races. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\nNOTE: Persons whose ethnicity is identified as Hispanic or Latino may be of any race. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Includes persons with a high school diploma or equivalent. (2) Includes persons with bachelor's, master's, professional, and doctoral degrees.\n\nNOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals for those 25 years and over because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Veterans served on active duty in the U.S. Armed Forces and were not on active duty at the time of the survey. Nonveterans never served on active duty in the U.S. Armed Forces. Veterans could have served anywhere in the world during these periods of service: Gulf War era II (September 2001-present), Gulf War era I (August 1990-August 2001), Vietnam era (August 1964-April 1975), Korean War (July 1950-January 1955), World War II (December 1941-December 1946), and other service periods (all other time periods). Veterans who served in more than one wartime period are classified only in the most recent one. Veterans who served during one of the selected wartime periods and another period are classified only in the wartime period. Dash indicates no data or data that do not meet publication criteria (values not shown where base is less than 75,000). Updated population controls introduced with the release of January 2020 data.\n\nHOUSEHOLD DATA\n\nNOTE: A person with a disability has at least one of the following conditions: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition; has serious difficulty walking or climbing stairs; has difficulty dressing or bathing; or has difficulty doing errands alone such as visiting a doctor's office or shopping because of a physical, mental, or emotional condition. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: The foreign born are those residing in the United States who were not U.S. citizens at birth. That is, they were born outside the United States or one of its outlying areas such as Puerto Rico or Guam, to parents neither of whom was a U.S. citizen. The native born are persons who were born in the United States or one of its outlying areas such as Puerto Rico or Guam or who were born abroad of at least one parent who was a U.S. citizen. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Includes self-employed workers whose businesses are incorporated. (2) Refers to those who worked 1 to 34 hours during the survey reference week and excludes employed persons who were absent from their jobs for the entire week. (3) Refers to those who worked 1 to 34 hours during the reference week for an economic reason such as slack work or unfavorable business conditions, inability to find full-time work, or seasonal declines in demand. (4) Refers to persons who usually work part time for noneconomic reasons such as childcare problems, family or personal obligations, school or training, retirement or Social Security limits on earnings, and other reasons. This excludes persons who usually work full time but worked only 1 to 34 hours during the reference week for reasons such as vacations, holidays, illness, and bad weather.\n\n- Data not available. NOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (3) Employed full-time workers are persons who usually work 35 hours or more per week. (4) Employed part-time workers are persons who usually work less than 35 hours per week.\n\n- Data not available. NOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (3) Full-time workers are unemployed persons who have expressed a desire to work full time (35 hours or more per week) or are on layoff from full-time jobs. (4) Part-time workers are unemployed persons who have expressed a desire to work part time (less than 35 hours per week) or are on layoff from part-time jobs.\n\nNOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to total unemployed in table A-1 because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to total unemployed in table A-1 because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Persons with no previous work experience and persons whose last job was in the U.S. Armed Forces are included in the unemployed total.\n\nNOTE: Updated population controls are introduced annually with the release of January data. Effective with January 2020 data, occupations reflect the introduction of the 2018 Census occupational classification system into the Current Population Survey, or household survey. This classification system is derived from the 2018 Standard Occupational Classification (SOC). No historical data have been revised. Data for 2020 are not strictly comparable with earlier years.\n\nHOUSEHOLD DATA (1) Persons with no previous work experience and persons whose last job was in the U.S. Armed Forces are included in the unemployed total.\n\nNOTE: Updated population controls are introduced annually with the release of January data. Effective with January 2020 data, industries reflect the introduction of the 2017 Census industry classification system into the Current Population Survey. This industry classification system is derived from the 2017 North American Industry Classification System (NAICS). No historical data have been revised.\n\nHOUSEHOLD DATA\n\nNOTE: Persons marginally attached to the labor force are those who currently are neither working nor looking for work but indicate that they want and are available for a job and have looked for work sometime in the past 12 months. Discouraged workers, a subset of the marginally attached, have given a job-market related reason for not currently looking for work. Persons employed part time for economic reasons are those who want and are available for full-time work but have had to settle for a part-time schedule. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Data refer to persons who want a job, have searched for work during the prior 12 months, and were available to take a job during the reference week, but had not looked for work in the past 4 weeks. (2) Includes those who did not actively look for work in the prior 4 weeks for reasons such as thinks no work available, could not find work, lacks schooling or training, employer thinks too young or old, and other types of discrimination. (3) Includes those who did not actively look for work in the prior 4 weeks for such reasons as school or family responsibilities, ill health, and transportation problems, as well as a number for whom reason for nonparticipation was not determined. (4) Includes a small number of persons who work part time on their primary job and full time on their secondary job(s), not shown separately.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nESTABLISHMENT DATA (2) Includes motor vehicles, motor vehicle bodies and trailers, and motor vehicle parts. (3) Includes ambulatory health care services, hospitals, and nursing and residential care facilities. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA (1) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding 2007 annual average aggregate hours. Aggregate hours estimates are the product of estimates of average weekly hours and employment. (2) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding 2007 annual average aggregate weekly payrolls. Aggregate payrolls estimates are the product of estimates of average hourly earnings, average weekly hours, and employment. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (2) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding 2002 annual average aggregate hours. Aggregate hours estimates are the product of estimates of average weekly hours and employment. (3) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding 2002 annual average aggregate weekly payrolls. Aggregate payrolls estimates are the product of estimates of average hourly earnings, average weekly hours, and employment. (p) Preliminary\n\nNOTE: Data have been revised to reflect March 2019 benchmark levels and updated seasonal adjustment factors.",
+      "source_file": "empsit_05082020.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_05082020.htm",
+      "publication_date": "2020-05-08",
+      "report_period": "April 2020"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "A",
+      "title": "Summary table A. Household data, seasonally adjusted",
+      "start_line": 243,
+      "end_line": 464,
+      "raw_text": "Summary table A. Household data, seasonally adjusted\n[Numbers in thousands]\nCategory\tApr.\n2019\tFeb.\n2020\tMar.\n2020\tApr.\n2020\tChange from:\nMar.\n2020-\nApr.\n2020\n\n\nEmployment status\n\n\t\n\n\nCivilian noninstitutional population\n\n\t258,693\t259,628\t259,758\t259,896\t138\n\n\nCivilian labor force\n\n\t162,546\t164,546\t162,913\t156,481\t-6,432\n\n\nParticipation rate\n\n\t62.8\t63.4\t62.7\t60.2\t-2.5\n\n\nEmployed\n\n\t156,696\t158,759\t155,772\t133,403\t-22,369\n\n\nEmployment-population ratio\n\n\t60.6\t61.1\t60.0\t51.3\t-8.7\n\n\nUnemployed\n\n\t5,850\t5,787\t7,140\t23,078\t15,938\n\n\nUnemployment rate\n\n\t3.6\t3.5\t4.4\t14.7\t10.3\n\n\nNot in labor force\n\n\t96,147\t95,082\t96,845\t103,415\t6,570\n\n\n\nUnemployment rates\n\n\t\n\n\nTotal, 16 years and over\n\n\t3.6\t3.5\t4.4\t14.7\t10.3\n\n\nAdult men (20 years and over)\n\n\t3.4\t3.3\t4.0\t13.0\t9.0\n\n\nAdult women (20 years and over)\n\n\t3.1\t3.1\t4.0\t15.5\t11.5\n\n\nTeenagers (16 to 19 years)\n\n\t12.9\t11.0\t14.3\t31.9\t17.6\n\n\nWhite\n\n\t3.1\t3.1\t4.0\t14.2\t10.2\n\n\nBlack or African American\n\n\t6.6\t5.8\t6.7\t16.7\t10.0\n\n\nAsian\n\n\t2.2\t2.5\t4.1\t14.5\t10.4\n\n\nHispanic or Latino ethnicity\n\n\t4.2\t4.4\t6.0\t18.9\t12.9\n\n\n\nTotal, 25 years and over\n\n\t2.9\t2.9\t3.5\t13.1\t9.6\n\n\nLess than a high school diploma\n\n\t5.3\t5.7\t6.8\t21.2\t14.4\n\n\nHigh school graduates, no college\n\n\t3.4\t3.6\t4.4\t17.3\t12.9\n\n\nSome college or associate degree\n\n\t3.1\t3.0\t3.7\t15.0\t11.3\n\n\nBachelor's degree and higher\n\n\t2.1\t1.9\t2.5\t8.4\t5.9\n\n\n\nReason for unemployment\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t2,660\t2,723\t3,946\t20,626\t16,680\n\n\nJob leavers\n\n\t728\t777\t727\t570\t-157\n\n\nReentrants\n\n\t1,899\t1,803\t1,778\t1,477\t-301\n\n\nNew entrants\n\n\t535\t505\t509\t389\t-120\n\n\n\nDuration of unemployment\n\n\t\n\n\nLess than 5 weeks\n\n\t1,906\t2,013\t3,542\t14,283\t10,741\n\n\n5 to 14 weeks\n\n\t1,835\t1,803\t1,794\t7,004\t5,210\n\n\n15 to 26 weeks\n\n\t860\t825\t808\t833\t25\n\n\n27 weeks and over\n\n\t1,227\t1,102\t1,164\t939\t-225\n\n\n\nEmployed persons at work part time\n\n\t\n\n\nPart time for economic reasons\n\n\t4,706\t4,318\t5,765\t10,887\t5,122\n\n\nSlack work or business conditions\n\n\t2,868\t2,776\t4,043\t9,939\t5,896\n\n\nCould only find part-time work\n\n\t1,447\t1,317\t1,321\t697\t-624\n\n\nPart time for noneconomic reasons\n\n\t21,356\t22,175\t20,601\t12,355\t-8,246\n\n\n\nPersons not in the labor force\n\n\t\n\n\nMarginally attached to the labor force\n\n\t1,484\t1,440\t1,426\t2,281\t855\n\n\nDiscouraged workers\n\n\t446\t405\t514\t574\t60",
+      "parse_status": "parsed_table_a",
+      "format": "nfp_summary_table_tab",
+      "columns": [
+        "April 2019",
+        "February 2020",
+        "March 2020",
+        "April 2020",
+        "change_from_March_2020_April_2020"
+      ],
+      "rows": [
+        {
+          "category": "Civilian noninstitutional population",
+          "category_path": [
+            "Employment status",
+            "Civilian noninstitutional population"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 258693.0,
+            "February 2020": 259628.0,
+            "March 2020": 259758.0,
+            "April 2020": 259896.0,
+            "change_from_March_2020_April_2020": 138.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t258,693\t259,628\t259,758\t259,896\t138"
+        },
+        {
+          "category": "Civilian labor force",
+          "category_path": [
+            "Employment status",
+            "Civilian labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 162546.0,
+            "February 2020": 164546.0,
+            "March 2020": 162913.0,
+            "April 2020": 156481.0,
+            "change_from_March_2020_April_2020": -6432.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t162,546\t164,546\t162,913\t156,481\t-6,432"
+        },
+        {
+          "category": "Participation rate",
+          "category_path": [
+            "Employment status",
+            "Participation rate"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 62.8,
+            "February 2020": 63.4,
+            "March 2020": 62.7,
+            "April 2020": 60.2,
+            "change_from_March_2020_April_2020": -2.5
+          },
+          "missing_values": 0,
+          "raw_row": "\t62.8\t63.4\t62.7\t60.2\t-2.5"
+        },
+        {
+          "category": "Employed",
+          "category_path": [
+            "Employment status",
+            "Employed"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 156696.0,
+            "February 2020": 158759.0,
+            "March 2020": 155772.0,
+            "April 2020": 133403.0,
+            "change_from_March_2020_April_2020": -22369.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t156,696\t158,759\t155,772\t133,403\t-22,369"
+        },
+        {
+          "category": "Employment-population ratio",
+          "category_path": [
+            "Employment status",
+            "Employment-population ratio"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 60.6,
+            "February 2020": 61.1,
+            "March 2020": 60.0,
+            "April 2020": 51.3,
+            "change_from_March_2020_April_2020": -8.7
+          },
+          "missing_values": 0,
+          "raw_row": "\t60.6\t61.1\t60.0\t51.3\t-8.7"
+        },
+        {
+          "category": "Unemployed",
+          "category_path": [
+            "Employment status",
+            "Unemployed"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 5850.0,
+            "February 2020": 5787.0,
+            "March 2020": 7140.0,
+            "April 2020": 23078.0,
+            "change_from_March_2020_April_2020": 15938.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t5,850\t5,787\t7,140\t23,078\t15,938"
+        },
+        {
+          "category": "Unemployment rate",
+          "category_path": [
+            "Employment status",
+            "Unemployment rate"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.6,
+            "February 2020": 3.5,
+            "March 2020": 4.4,
+            "April 2020": 14.7,
+            "change_from_March_2020_April_2020": 10.3
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.6\t3.5\t4.4\t14.7\t10.3"
+        },
+        {
+          "category": "Not in labor force",
+          "category_path": [
+            "Employment status",
+            "Not in labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 96147.0,
+            "February 2020": 95082.0,
+            "March 2020": 96845.0,
+            "April 2020": 103415.0,
+            "change_from_March_2020_April_2020": 6570.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t96,147\t95,082\t96,845\t103,415\t6,570"
+        },
+        {
+          "category": "Total, 16 years and over",
+          "category_path": [
+            "Unemployment rates",
+            "Total, 16 years and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.6,
+            "February 2020": 3.5,
+            "March 2020": 4.4,
+            "April 2020": 14.7,
+            "change_from_March_2020_April_2020": 10.3
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.6\t3.5\t4.4\t14.7\t10.3"
+        },
+        {
+          "category": "Adult men (20 years and over)",
+          "category_path": [
+            "Unemployment rates",
+            "Adult men (20 years and over)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.4,
+            "February 2020": 3.3,
+            "March 2020": 4.0,
+            "April 2020": 13.0,
+            "change_from_March_2020_April_2020": 9.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.4\t3.3\t4.0\t13.0\t9.0"
+        },
+        {
+          "category": "Adult women (20 years and over)",
+          "category_path": [
+            "Unemployment rates",
+            "Adult women (20 years and over)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.1,
+            "February 2020": 3.1,
+            "March 2020": 4.0,
+            "April 2020": 15.5,
+            "change_from_March_2020_April_2020": 11.5
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.1\t3.1\t4.0\t15.5\t11.5"
+        },
+        {
+          "category": "Teenagers (16 to 19 years)",
+          "category_path": [
+            "Unemployment rates",
+            "Teenagers (16 to 19 years)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 12.9,
+            "February 2020": 11.0,
+            "March 2020": 14.3,
+            "April 2020": 31.9,
+            "change_from_March_2020_April_2020": 17.6
+          },
+          "missing_values": 0,
+          "raw_row": "\t12.9\t11.0\t14.3\t31.9\t17.6"
+        },
+        {
+          "category": "White",
+          "category_path": [
+            "Unemployment rates",
+            "White"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.1,
+            "February 2020": 3.1,
+            "March 2020": 4.0,
+            "April 2020": 14.2,
+            "change_from_March_2020_April_2020": 10.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.1\t3.1\t4.0\t14.2\t10.2"
+        },
+        {
+          "category": "Black or African American",
+          "category_path": [
+            "Unemployment rates",
+            "Black or African American"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 6.6,
+            "February 2020": 5.8,
+            "March 2020": 6.7,
+            "April 2020": 16.7,
+            "change_from_March_2020_April_2020": 10.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.6\t5.8\t6.7\t16.7\t10.0"
+        },
+        {
+          "category": "Asian",
+          "category_path": [
+            "Unemployment rates",
+            "Asian"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 2.2,
+            "February 2020": 2.5,
+            "March 2020": 4.1,
+            "April 2020": 14.5,
+            "change_from_March_2020_April_2020": 10.4
+          },
+          "missing_values": 0,
+          "raw_row": "\t2.2\t2.5\t4.1\t14.5\t10.4"
+        },
+        {
+          "category": "Hispanic or Latino ethnicity",
+          "category_path": [
+            "Unemployment rates",
+            "Hispanic or Latino ethnicity"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 4.2,
+            "February 2020": 4.4,
+            "March 2020": 6.0,
+            "April 2020": 18.9,
+            "change_from_March_2020_April_2020": 12.9
+          },
+          "missing_values": 0,
+          "raw_row": "\t4.2\t4.4\t6.0\t18.9\t12.9"
+        },
+        {
+          "category": "Total, 25 years and over",
+          "category_path": [
+            "Unemployment rates",
+            "Total, 25 years and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 2.9,
+            "February 2020": 2.9,
+            "March 2020": 3.5,
+            "April 2020": 13.1,
+            "change_from_March_2020_April_2020": 9.6
+          },
+          "missing_values": 0,
+          "raw_row": "\t2.9\t2.9\t3.5\t13.1\t9.6"
+        },
+        {
+          "category": "Less than a high school diploma",
+          "category_path": [
+            "Unemployment rates",
+            "Less than a high school diploma"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 5.3,
+            "February 2020": 5.7,
+            "March 2020": 6.8,
+            "April 2020": 21.2,
+            "change_from_March_2020_April_2020": 14.4
+          },
+          "missing_values": 0,
+          "raw_row": "\t5.3\t5.7\t6.8\t21.2\t14.4"
+        },
+        {
+          "category": "High school graduates, no college",
+          "category_path": [
+            "Unemployment rates",
+            "High school graduates, no college"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.4,
+            "February 2020": 3.6,
+            "March 2020": 4.4,
+            "April 2020": 17.3,
+            "change_from_March_2020_April_2020": 12.9
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.4\t3.6\t4.4\t17.3\t12.9"
+        },
+        {
+          "category": "Some college or associate degree",
+          "category_path": [
+            "Unemployment rates",
+            "Some college or associate degree"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 3.1,
+            "February 2020": 3.0,
+            "March 2020": 3.7,
+            "April 2020": 15.0,
+            "change_from_March_2020_April_2020": 11.3
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.1\t3.0\t3.7\t15.0\t11.3"
+        },
+        {
+          "category": "Bachelor's degree and higher",
+          "category_path": [
+            "Unemployment rates",
+            "Bachelor's degree and higher"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 2.1,
+            "February 2020": 1.9,
+            "March 2020": 2.5,
+            "April 2020": 8.4,
+            "change_from_March_2020_April_2020": 5.9
+          },
+          "missing_values": 0,
+          "raw_row": "\t2.1\t1.9\t2.5\t8.4\t5.9"
+        },
+        {
+          "category": "Job losers and persons who completed temporary jobs",
+          "category_path": [
+            "Reason for unemployment",
+            "Job losers and persons who completed temporary jobs"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 2660.0,
+            "February 2020": 2723.0,
+            "March 2020": 3946.0,
+            "April 2020": 20626.0,
+            "change_from_March_2020_April_2020": 16680.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t2,660\t2,723\t3,946\t20,626\t16,680"
+        },
+        {
+          "category": "Job leavers",
+          "category_path": [
+            "Reason for unemployment",
+            "Job leavers"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 728.0,
+            "February 2020": 777.0,
+            "March 2020": 727.0,
+            "April 2020": 570.0,
+            "change_from_March_2020_April_2020": -157.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t728\t777\t727\t570\t-157"
+        },
+        {
+          "category": "Reentrants",
+          "category_path": [
+            "Reason for unemployment",
+            "Reentrants"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1899.0,
+            "February 2020": 1803.0,
+            "March 2020": 1778.0,
+            "April 2020": 1477.0,
+            "change_from_March_2020_April_2020": -301.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,899\t1,803\t1,778\t1,477\t-301"
+        },
+        {
+          "category": "New entrants",
+          "category_path": [
+            "Reason for unemployment",
+            "New entrants"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 535.0,
+            "February 2020": 505.0,
+            "March 2020": 509.0,
+            "April 2020": 389.0,
+            "change_from_March_2020_April_2020": -120.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t535\t505\t509\t389\t-120"
+        },
+        {
+          "category": "Less than 5 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "Less than 5 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1906.0,
+            "February 2020": 2013.0,
+            "March 2020": 3542.0,
+            "April 2020": 14283.0,
+            "change_from_March_2020_April_2020": 10741.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,906\t2,013\t3,542\t14,283\t10,741"
+        },
+        {
+          "category": "5 to 14 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "5 to 14 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1835.0,
+            "February 2020": 1803.0,
+            "March 2020": 1794.0,
+            "April 2020": 7004.0,
+            "change_from_March_2020_April_2020": 5210.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,835\t1,803\t1,794\t7,004\t5,210"
+        },
+        {
+          "category": "15 to 26 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "15 to 26 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 860.0,
+            "February 2020": 825.0,
+            "March 2020": 808.0,
+            "April 2020": 833.0,
+            "change_from_March_2020_April_2020": 25.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t860\t825\t808\t833\t25"
+        },
+        {
+          "category": "27 weeks and over",
+          "category_path": [
+            "Duration of unemployment",
+            "27 weeks and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1227.0,
+            "February 2020": 1102.0,
+            "March 2020": 1164.0,
+            "April 2020": 939.0,
+            "change_from_March_2020_April_2020": -225.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,227\t1,102\t1,164\t939\t-225"
+        },
+        {
+          "category": "Part time for economic reasons",
+          "category_path": [
+            "Employed persons at work part time",
+            "Part time for economic reasons"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 4706.0,
+            "February 2020": 4318.0,
+            "March 2020": 5765.0,
+            "April 2020": 10887.0,
+            "change_from_March_2020_April_2020": 5122.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t4,706\t4,318\t5,765\t10,887\t5,122"
+        },
+        {
+          "category": "Slack work or business conditions",
+          "category_path": [
+            "Employed persons at work part time",
+            "Slack work or business conditions"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 2868.0,
+            "February 2020": 2776.0,
+            "March 2020": 4043.0,
+            "April 2020": 9939.0,
+            "change_from_March_2020_April_2020": 5896.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t2,868\t2,776\t4,043\t9,939\t5,896"
+        },
+        {
+          "category": "Could only find part-time work",
+          "category_path": [
+            "Employed persons at work part time",
+            "Could only find part-time work"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1447.0,
+            "February 2020": 1317.0,
+            "March 2020": 1321.0,
+            "April 2020": 697.0,
+            "change_from_March_2020_April_2020": -624.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,447\t1,317\t1,321\t697\t-624"
+        },
+        {
+          "category": "Part time for noneconomic reasons",
+          "category_path": [
+            "Employed persons at work part time",
+            "Part time for noneconomic reasons"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 21356.0,
+            "February 2020": 22175.0,
+            "March 2020": 20601.0,
+            "April 2020": 12355.0,
+            "change_from_March_2020_April_2020": -8246.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t21,356\t22,175\t20,601\t12,355\t-8,246"
+        },
+        {
+          "category": "Marginally attached to the labor force",
+          "category_path": [
+            "Persons not in the labor force",
+            "Marginally attached to the labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 1484.0,
+            "February 2020": 1440.0,
+            "March 2020": 1426.0,
+            "April 2020": 2281.0,
+            "change_from_March_2020_April_2020": 855.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,484\t1,440\t1,426\t2,281\t855"
+        },
+        {
+          "category": "Discouraged workers",
+          "category_path": [
+            "Persons not in the labor force",
+            "Discouraged workers"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "April 2019": 446.0,
+            "February 2020": 405.0,
+            "March 2020": 514.0,
+            "April 2020": 574.0,
+            "change_from_March_2020_April_2020": 60.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t446\t405\t514\t574\t60"
+        }
+      ],
+      "row_count": 35,
+      "notes": [
+        "2019\tFeb.",
+        "2020\tMar.",
+        "2020\tApr.",
+        "2020\tChange from:",
+        "5 to 14 weeks",
+        "15 to 26 weeks",
+        "27 weeks and over"
+      ],
+      "validation": {
+        "period_labels_resolved": true,
+        "month_tokens_found": 4,
+        "year_tokens_found": 4,
+        "monthly_change_hint": false,
+        "columns": 5,
+        "rows": 35,
+        "values_parsed": 175,
+        "values_missing": 0,
+        "rows_skipped": 0,
+        "hierarchy_source": "tab_groups"
+      }
+    },
+    {
+      "table_id": "B",
+      "title": "Summary table B. Establishment data, seasonally adjusted",
+      "start_line": 473,
+      "end_line": 706,
+      "raw_text": "Summary table B. Establishment data, seasonally adjusted\n\nCategory\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nEMPLOYMENT BY SELECTED INDUSTRY\n(Over-the-month change, in thousands)\n\n\t\n\n\nTotal nonfarm\n\n\t210\t251\t-881\t-20,537\n\n\nTotal private\n\n\t185\t220\t-853\t-19,557\n\n\nGoods-producing\n\n\t28\t56\t-74\t-2,355\n\n\nMining and logging\n\n\t0\t2\t-7\t-50\n\n\nConstruction\n\n\t26\t46\t-33\t-975\n\n\nManufacturing\n\n\t2\t8\t-34\t-1,330\n\n\nDurable goods(1)\n\n\t0\t6\t-20\t-914\n\n\nMotor vehicles and parts\n\n\t-2.9\t8.3\t-3.2\t-381.5\n\n\nNondurable goods\n\n\t2\t2\t-14\t-416\n\n\nPrivate service-providing\n\n\t157\t164\t-779\t-17,202\n\n\nWholesale trade\n\n\t13.4\t-3.3\t-2.9\t-362.8\n\n\nRetail trade\n\n\t-11.8\t3.0\t-44.8\t-2,106.9\n\n\nTransportation and warehousing\n\n\t7.0\t-0.4\t-7.2\t-584.1\n\n\nUtilities\n\n\t-2.6\t-0.8\t0.3\t-3.3\n\n\nInformation\n\n\t-6\t0\t-4\t-254\n\n\nFinancial activities\n\n\t14\t22\t-3\t-262\n\n\nProfessional and business services(1)\n\n\t50\t27\t-80\t-2,165\n\n\nTemporary help services\n\n\t-0.4\t-6.3\t-57.9\t-841.9\n\n\nEducation and health services(1)\n\n\t65\t52\t-101\t-2,544\n\n\nHealth care and social assistance\n\n\t49.9\t62.5\t-64.1\t-2,086.9\n\n\nLeisure and hospitality\n\n\t13\t59\t-499\t-7,653\n\n\nOther services\n\n\t15\t6\t-38\t-1,267\n\n\nGovernment\n\n\t25\t31\t-28\t-980\n\n\n\n(3-month average change, in thousands)\n\n\t\n\n\nTotal nonfarm\n\n\t119\t216\t-139\t-7,056\n\n\nTotal private\n\n\t104\t188\t-151\t-6,730\n\n\n\nWOMEN AND PRODUCTION AND NONSUPERVISORY EMPLOYEES\nAS A PERCENT OF ALL EMPLOYEES(2)\n\n\t\n\n\nTotal nonfarm women employees\n\n\t49.8\t50.0\t50.0\t49.3\n\n\nTotal private women employees\n\n\t48.5\t48.7\t48.6\t47.6\n\n\nTotal private production and nonsupervisory employees\n\n\t82.3\t82.3\t82.1\t80.2\n\n\n\nHOURS AND EARNINGS\nALL EMPLOYEES\n\n\t\n\n\nTotal private\n\n\t\n\n\nAverage weekly hours\n\n\t34.4\t34.4\t34.1\t34.2\n\n\nAverage hourly earnings\n\n\t$27.81\t$28.52\t$28.67\t$30.01\n\n\nAverage weekly earnings\n\n\t$956.66\t$981.09\t$977.65\t$1,026.34\n\n\nIndex of aggregate weekly hours (2007=100)(3)\n\n\t110.5\t112.0\t110.3\t93.8\n\n\nOver-the-month percent change\n\n\t-0.1\t0.4\t-1.5\t-15.0\n\n\nIndex of aggregate weekly payrolls (2007=100)(4)\n\n\t146.9\t152.7\t151.2\t134.6\n\n\nOver-the-month percent change\n\n\t0.1\t0.7\t-1.0\t-11.0\n\n\n\nDIFFUSION INDEX\n(Over 1-month span)(5)\n\n\t\n\n\nTotal private (258 industries)\n\n\t62.4\t53.7\t28.5\t4.8\n\n\nManufacturing (76 industries)\n\n\t53.9\t46.7\t26.3\t2.6\n\n\nFootnotes\n(1) Includes other industries, not shown separately.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-1",
+      "title": "Table A-1. Employment status of the civilian population by sex and age",
+      "start_line": 1065,
+      "end_line": 1360,
+      "raw_text": "Table A-1. Employment status of the civilian population by sex and age\n[Numbers in thousands]\nEmployment status, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nTOTAL\n\n\t\n\n\nCivilian noninstitutional population\n\n\t258,693\t259,758\t259,896\t258,693\t260,181\t259,502\t259,628\t259,758\t259,896\n\n\nCivilian labor force\n\n\t162,097\t162,537\t155,830\t162,546\t164,556\t164,606\t164,546\t162,913\t156,481\n\n\nParticipation rate\n\n\t62.7\t62.6\t60.0\t62.8\t63.2\t63.4\t63.4\t62.7\t60.2\n\n\nEmployed\n\n\t156,710\t155,167\t133,326\t156,696\t158,803\t158,714\t158,759\t155,772\t133,403\n\n\nEmployment-population ratio\n\n\t60.6\t59.7\t51.3\t60.6\t61.0\t61.2\t61.1\t60.0\t51.3\n\n\nUnemployed\n\n\t5,387\t7,370\t22,504\t5,850\t5,753\t5,892\t5,787\t7,140\t23,078\n\n\nUnemployment rate\n\n\t3.3\t4.5\t14.4\t3.6\t3.5\t3.6\t3.5\t4.4\t14.7\n\n\nNot in labor force\n\n\t96,596\t97,221\t104,066\t96,147\t95,625\t94,896\t95,082\t96,845\t103,415\n\n\nPersons who currently want a job\n\n\t4,951\t5,215\t9,761\t5,105\t4,832\t4,904\t4,962\t5,509\t9,916\n\n\n\nMen, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t125,114\t125,639\t125,707\t125,114\t125,852\t125,513\t125,575\t125,639\t125,707\n\n\nCivilian labor force\n\n\t86,027\t85,914\t82,820\t86,233\t87,049\t87,088\t87,008\t86,123\t83,139\n\n\nParticipation rate\n\n\t68.8\t68.4\t65.9\t68.9\t69.2\t69.4\t69.3\t68.5\t66.1\n\n\nEmployed\n\n\t82,963\t81,794\t71,810\t82,999\t84,034\t83,940\t83,871\t82,357\t71,916\n\n\nEmployment-population ratio\n\n\t66.3\t65.1\t57.1\t66.3\t66.8\t66.9\t66.8\t65.6\t57.2\n\n\nUnemployed\n\n\t3,064\t4,120\t11,010\t3,234\t3,015\t3,147\t3,137\t3,765\t11,223\n\n\nUnemployment rate\n\n\t3.6\t4.8\t13.3\t3.8\t3.5\t3.6\t3.6\t4.4\t13.5\n\n\nNot in labor force\n\n\t39,087\t39,725\t42,887\t38,881\t38,803\t38,426\t38,568\t39,516\t42,569\n\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t116,665\t117,254\t117,330\t116,665\t117,413\t117,110\t117,181\t117,254\t117,330\n\n\nCivilian labor force\n\n\t83,415\t83,174\t80,379\t83,421\t84,008\t84,087\t84,001\t83,176\t80,461\n\n\nParticipation rate\n\n\t71.5\t70.9\t68.5\t71.5\t71.5\t71.8\t71.7\t70.9\t68.6\n\n\nEmployed\n\n\t80,711\t79,448\t70,041\t80,609\t81,390\t81,345\t81,202\t79,832\t69,977\n\n\nEmployment-population ratio\n\n\t69.2\t67.8\t59.7\t69.1\t69.3\t69.5\t69.3\t68.1\t59.6\n\n\nUnemployed\n\n\t2,703\t3,726\t10,338\t2,812\t2,618\t2,743\t2,799\t3,344\t10,483\n\n\nUnemployment rate\n\n\t3.2\t4.5\t12.9\t3.4\t3.1\t3.3\t3.3\t4.0\t13.0\n\n\nNot in labor force\n\n\t33,251\t34,080\t36,951\t33,244\t33,405\t33,023\t33,180\t34,078\t36,870\n\n\n\nWomen, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t133,579\t134,119\t134,189\t133,579\t134,329\t133,988\t134,053\t134,119\t134,189\n\n\nCivilian labor force\n\n\t76,069\t76,623\t73,010\t76,313\t77,507\t77,518\t77,538\t76,790\t73,343\n\n\nParticipation rate\n\n\t56.9\t57.1\t54.4\t57.1\t57.7\t57.9\t57.8\t57.3\t54.7\n\n\nEmployed\n\n\t73,747\t73,373\t61,516\t73,697\t74,769\t74,774\t74,888\t73,415\t61,487\n\n\nEmployment-population ratio\n\n\t55.2\t54.7\t45.8\t55.2\t55.7\t55.8\t55.9\t54.7\t45.8\n\n\nUnemployed\n\n\t2,323\t3,250\t11,494\t2,616\t2,738\t2,744\t2,651\t3,375\t11,855\n\n\nUnemployment rate\n\n\t3.1\t4.2\t15.7\t3.4\t3.5\t3.5\t3.4\t4.4\t16.2\n\n\nNot in labor force\n\n\t57,510\t57,496\t61,179\t57,266\t56,822\t56,470\t56,514\t57,329\t60,847\n\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t125,332\t125,915\t125,991\t125,332\t126,082\t125,770\t125,841\t125,915\t125,991\n\n\nCivilian labor force\n\n\t73,382\t73,789\t70,790\t73,440\t74,584\t74,512\t74,501\t73,840\t70,913\n\n\nParticipation rate\n\n\t58.5\t58.6\t56.2\t58.6\t59.2\t59.2\t59.2\t58.6\t56.3\n\n\nEmployed\n\n\t71,327\t70,908\t60,124\t71,136\t72,200\t72,097\t72,179\t70,886\t59,947\n\n\nEmployment-population ratio\n\n\t56.9\t56.3\t47.7\t56.8\t57.3\t57.3\t57.4\t56.3\t47.6\n\n\nUnemployed\n\n\t2,055\t2,881\t10,666\t2,304\t2,383\t2,415\t2,323\t2,954\t10,966\n\n\nUnemployment rate\n\n\t2.8\t3.9\t15.1\t3.1\t3.2\t3.2\t3.1\t4.0\t15.5\n\n\nNot in labor force\n\n\t51,950\t52,126\t55,202\t51,892\t51,498\t51,258\t51,340\t52,075\t55,079\n\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian noninstitutional population\n\n\t16,696\t16,590\t16,574\t16,696\t16,686\t16,622\t16,606\t16,590\t16,574\n\n\nCivilian labor force\n\n\t5,300\t5,574\t4,661\t5,685\t5,964\t6,007\t6,043\t5,897\t5,108\n\n\nParticipation rate\n\n\t31.7\t33.6\t28.1\t34.1\t35.7\t36.1\t36.4\t35.5\t30.8\n\n\nEmployed\n\n\t4,672\t4,811\t3,161\t4,951\t5,213\t5,273\t5,378\t5,054\t3,479\n\n\nEmployment-population ratio\n\n\t28.0\t29.0\t19.1\t29.7\t31.2\t31.7\t32.4\t30.5\t21.0\n\n\nUnemployed\n\n\t628\t763\t1,500\t734\t752\t734\t665\t843\t1,628\n\n\nUnemployment rate\n\n\t11.9\t13.7\t32.2\t12.9\t12.6\t12.2\t11.0\t14.3\t31.9\n\n\nNot in labor force\n\n\t11,395\t11,015\t11,913\t11,010\t10,722\t10,614\t10,562\t10,693\t11,467\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-2",
+      "title": "Table A-2. Employment status of the civilian population by race, sex, and age",
+      "start_line": 1373,
+      "end_line": 1735,
+      "raw_text": "Table A-2. Employment status of the civilian population by race, sex, and age\n[Numbers in thousands]\nEmployment status, race, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nWHITE\n\n\t\n\n\nCivilian noninstitutional population\n\n\t200,576\t201,023\t201,082\t200,576\t201,326\t200,918\t200,968\t201,023\t201,082\n\n\nCivilian labor force\n\n\t125,627\t125,761\t120,795\t125,911\t127,197\t127,288\t127,146\t126,021\t121,242\n\n\nParticipation rate\n\n\t62.6\t62.6\t60.1\t62.8\t63.2\t63.4\t63.3\t62.7\t60.3\n\n\nEmployed\n\n\t122,036\t120,660\t104,083\t121,964\t123,175\t123,332\t123,189\t121,042\t104,065\n\n\nEmployment-population ratio\n\n\t60.8\t60.0\t51.8\t60.8\t61.2\t61.4\t61.3\t60.2\t51.8\n\n\nUnemployed\n\n\t3,591\t5,101\t16,713\t3,947\t4,022\t3,957\t3,957\t4,979\t17,176\n\n\nUnemployment rate\n\n\t2.9\t4.1\t13.8\t3.1\t3.2\t3.1\t3.1\t4.0\t14.2\n\n\nNot in labor force\n\n\t74,950\t75,261\t80,287\t74,665\t74,129\t73,630\t73,821\t75,002\t79,840\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t65,852\t65,501\t63,595\t65,815\t66,076\t66,279\t66,153\t65,522\t63,645\n\n\nParticipation rate\n\n\t71.7\t71.1\t69.0\t71.6\t71.6\t72.0\t71.8\t71.1\t69.1\n\n\nEmployed\n\n\t64,014\t62,842\t55,863\t63,915\t64,238\t64,341\t64,204\t63,120\t55,776\n\n\nEmployment-population ratio\n\n\t69.7\t68.2\t60.6\t69.6\t69.6\t69.9\t69.7\t68.5\t60.5\n\n\nUnemployed\n\n\t1,838\t2,659\t7,732\t1,900\t1,839\t1,938\t1,950\t2,402\t7,869\n\n\nUnemployment rate\n\n\t2.8\t4.1\t12.2\t2.9\t2.8\t2.9\t2.9\t3.7\t12.4\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t55,639\t55,894\t53,581\t55,657\t56,429\t56,324\t56,247\t55,878\t53,634\n\n\nParticipation rate\n\n\t57.7\t57.8\t55.4\t57.7\t58.3\t58.3\t58.2\t57.8\t55.4\n\n\nEmployed\n\n\t54,309\t53,974\t45,735\t54,120\t54,827\t54,807\t54,692\t53,878\t45,563\n\n\nEmployment-population ratio\n\n\t56.3\t55.8\t47.3\t56.1\t56.6\t56.7\t56.6\t55.7\t47.1\n\n\nUnemployed\n\n\t1,330\t1,921\t7,846\t1,538\t1,602\t1,517\t1,555\t2,000\t8,071\n\n\nUnemployment rate\n\n\t2.4\t3.4\t14.6\t2.8\t2.8\t2.7\t2.8\t3.6\t15.0\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t4,136\t4,366\t3,620\t4,438\t4,692\t4,686\t4,746\t4,621\t3,963\n\n\nParticipation rate\n\n\t33.8\t35.9\t29.8\t36.2\t38.4\t38.4\t39.0\t38.0\t32.6\n\n\nEmployed\n\n\t3,713\t3,844\t2,485\t3,930\t4,111\t4,184\t4,294\t4,043\t2,727\n\n\nEmployment-population ratio\n\n\t30.3\t31.6\t20.4\t32.1\t33.6\t34.3\t35.2\t33.2\t22.4\n\n\nUnemployed\n\n\t423\t521\t1,135\t509\t581\t502\t452\t578\t1,236\n\n\nUnemployment rate\n\n\t10.2\t11.9\t31.3\t11.5\t12.4\t10.7\t9.5\t12.5\t31.2\n\n\n\nBLACK OR AFRICAN AMERICAN\n\n\t\n\n\nCivilian noninstitutional population\n\n\t32,955\t33,238\t33,267\t32,955\t33,215\t33,184\t33,211\t33,238\t33,267\n\n\nCivilian labor force\n\n\t20,537\t20,455\t19,425\t20,587\t20,949\t20,790\t20,946\t20,596\t19,487\n\n\nParticipation rate\n\n\t62.3\t61.5\t58.4\t62.5\t63.1\t62.6\t63.1\t62.0\t58.6\n\n\nEmployed\n\n\t19,262\t19,018\t16,248\t19,235\t19,712\t19,549\t19,730\t19,208\t16,240\n\n\nEmployment-population ratio\n\n\t58.4\t57.2\t48.8\t58.4\t59.3\t58.9\t59.4\t57.8\t48.8\n\n\nUnemployed\n\n\t1,275\t1,438\t3,177\t1,352\t1,238\t1,241\t1,216\t1,387\t3,247\n\n\nUnemployment rate\n\n\t6.2\t7.0\t16.4\t6.6\t5.9\t6.0\t5.8\t6.7\t16.7\n\n\nNot in labor force\n\n\t12,418\t12,783\t13,841\t12,368\t12,266\t12,395\t12,266\t12,642\t13,780\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t9,449\t9,404\t8,856\t9,451\t9,591\t9,445\t9,499\t9,477\t8,880\n\n\nParticipation rate\n\n\t68.3\t67.2\t63.2\t68.3\t68.6\t67.6\t68.0\t67.7\t63.4\n\n\nEmployed\n\n\t8,827\t8,691\t7,431\t8,823\t9,034\t8,918\t8,945\t8,812\t7,448\n\n\nEmployment-population ratio\n\n\t63.8\t62.1\t53.0\t63.8\t64.6\t63.9\t64.0\t63.0\t53.2\n\n\nUnemployed\n\n\t622\t713\t1,425\t628\t557\t526\t554\t665\t1,432\n\n\nUnemployment rate\n\n\t6.6\t7.6\t16.1\t6.6\t5.8\t5.6\t5.8\t7.0\t16.1\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t10,406\t10,363\t9,997\t10,416\t10,625\t10,617\t10,721\t10,374\t9,995\n\n\nParticipation rate\n\n\t62.5\t61.6\t59.4\t62.6\t63.3\t63.3\t63.8\t61.7\t59.4\n\n\nEmployed\n\n\t9,907\t9,806\t8,413\t9,860\t10,094\t10,067\t10,207\t9,830\t8,351\n\n\nEmployment-population ratio\n\n\t59.5\t58.3\t50.0\t59.2\t60.1\t60.0\t60.8\t58.5\t49.6\n\n\nUnemployed\n\n\t499\t558\t1,584\t556\t530\t550\t514\t543\t1,644\n\n\nUnemployment rate\n\n\t4.8\t5.4\t15.8\t5.3\t5.0\t5.2\t4.8\t5.2\t16.4\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t681\t687\t573\t720\t734\t728\t725\t745\t612\n\n\nParticipation rate\n\n\t27.6\t28.3\t23.6\t29.2\t29.9\t29.8\t29.8\t30.7\t25.2\n\n\nEmployed\n\n\t527\t521\t405\t552\t583\t564\t578\t566\t441\n\n\nEmployment-population ratio\n\n\t21.3\t21.4\t16.7\t22.4\t23.8\t23.1\t23.7\t23.3\t18.2\n\n\nUnemployed\n\n\t155\t167\t168\t168\t151\t164\t148\t180\t171\n\n\nUnemployment rate\n\n\t22.7\t24.2\t29.4\t23.3\t20.6\t22.5\t20.4\t24.1\t28.0\n\n\n\nASIAN\n\n\t\n\n\nCivilian noninstitutional population\n\n\t16,290\t16,419\t16,363\t16,290\t16,482\t16,178\t16,421\t16,419\t16,363\n\n\nCivilian labor force\n\n\t10,166\t10,486\t9,893\t10,194\t10,478\t10,332\t10,574\t10,470\t9,938\n\n\nParticipation rate\n\n\t62.4\t63.9\t60.5\t62.6\t63.6\t63.9\t64.4\t63.8\t60.7\n\n\nEmployed\n\n\t9,954\t10,058\t8,476\t9,969\t10,214\t10,017\t10,312\t10,037\t8,499\n\n\nEmployment-population ratio\n\n\t61.1\t61.3\t51.8\t61.2\t62.0\t61.9\t62.8\t61.1\t51.9\n\n\nUnemployed\n\n\t212\t428\t1,418\t225\t264\t315\t262\t433\t1,438\n\n\nUnemployment rate\n\n\t2.1\t4.1\t14.3\t2.2\t2.5\t3.0\t2.5\t4.1\t14.5\n\n\nNot in labor force\n\n\t6,124\t5,932\t6,470\t6,096\t6,004\t5,847\t5,848\t5,948\t6,425\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-3",
+      "title": "Table A-3. Employment status of the Hispanic or Latino population by sex and age",
+      "start_line": 1748,
+      "end_line": 1913,
+      "raw_text": "Table A-3. Employment status of the Hispanic or Latino population by sex and age\n[Numbers in thousands]\nEmployment status, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nHISPANIC OR LATINO ETHNICITY\n\n\t\n\n\nCivilian noninstitutional population\n\n\t43,289\t43,895\t43,975\t43,289\t43,986\t43,742\t43,820\t43,895\t43,975\n\n\nCivilian labor force\n\n\t28,474\t29,372\t27,752\t28,561\t29,517\t29,672\t29,852\t29,443\t27,841\n\n\nParticipation rate\n\n\t65.8\t66.9\t63.1\t66.0\t67.1\t67.8\t68.1\t67.1\t63.3\n\n\nEmployed\n\n\t27,415\t27,531\t22,625\t27,364\t28,286\t28,397\t28,531\t27,672\t22,579\n\n\nEmployment-population ratio\n\n\t63.3\t62.7\t51.5\t63.2\t64.3\t64.9\t65.1\t63.0\t51.3\n\n\nUnemployed\n\n\t1,059\t1,841\t5,126\t1,198\t1,231\t1,275\t1,322\t1,771\t5,263\n\n\nUnemployment rate\n\n\t3.7\t6.3\t18.5\t4.2\t4.2\t4.3\t4.4\t6.0\t18.9\n\n\nNot in labor force\n\n\t14,814\t14,523\t16,223\t14,727\t14,468\t14,070\t13,968\t14,452\t16,133\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t15,595\t15,836\t15,319\t15,615\t15,875\t16,114\t16,035\t15,844\t15,337\n\n\nParticipation rate\n\n\t79.8\t79.9\t77.2\t79.9\t79.9\t81.6\t81.1\t80.0\t77.2\n\n\nEmployed\n\n\t15,074\t14,943\t12,817\t15,034\t15,393\t15,571\t15,519\t15,037\t12,776\n\n\nEmployment-population ratio\n\n\t77.2\t75.4\t64.6\t76.9\t77.5\t78.9\t78.5\t75.9\t64.3\n\n\nUnemployed\n\n\t521\t893\t2,502\t581\t483\t543\t516\t807\t2,561\n\n\nUnemployment rate\n\n\t3.3\t5.6\t16.3\t3.7\t3.0\t3.4\t3.2\t5.1\t16.7\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t11,776\t12,208\t11,341\t11,770\t12,293\t12,242\t12,441\t12,245\t11,348\n\n\nParticipation rate\n\n\t59.6\t60.8\t56.4\t59.5\t61.1\t61.2\t62.1\t61.0\t56.4\n\n\nEmployed\n\n\t11,381\t11,462\t9,090\t11,337\t11,736\t11,701\t11,834\t11,507\t9,060\n\n\nEmployment-population ratio\n\n\t57.6\t57.1\t45.2\t57.3\t58.4\t58.5\t59.1\t57.3\t45.0\n\n\nUnemployed\n\n\t395\t746\t2,251\t433\t558\t541\t607\t738\t2,288\n\n\nUnemployment rate\n\n\t3.4\t6.1\t19.8\t3.7\t4.5\t4.4\t4.9\t6.0\t20.2\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t1,103\t1,328\t1,092\t1,177\t1,349\t1,316\t1,377\t1,354\t1,157\n\n\nParticipation rate\n\n\t27.7\t33.2\t27.3\t29.6\t33.6\t32.9\t34.4\t33.8\t28.9\n\n\nEmployed\n\n\t961\t1,126\t719\t992\t1,157\t1,125\t1,177\t1,128\t743\n\n\nEmployment-population ratio\n\n\t24.2\t28.1\t18.0\t25.0\t28.8\t28.1\t29.4\t28.2\t18.6\n\n\nUnemployed\n\n\t142\t202\t373\t184\t191\t191\t199\t225\t414\n\n\nUnemployment rate\n\n\t12.9\t15.2\t34.2\t15.7\t14.2\t14.5\t14.5\t16.7\t35.8\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-4",
+      "title": "Table A-4. Employment status of the civilian population 25 years and over by educational attainment",
+      "start_line": 1926,
+      "end_line": 2084,
+      "raw_text": "Table A-4. Employment status of the civilian population 25 years and over by educational attainment\n[Numbers in thousands]\nEducational attainment\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nLess than a high school diploma\n\n\t\n\n\nCivilian labor force\n\n\t10,081\t9,184\t8,688\t9,985\t9,895\t9,621\t9,710\t9,251\t8,595\n\n\nParticipation rate\n\n\t45.7\t45.3\t43.3\t45.2\t46.5\t45.9\t47.8\t45.7\t42.8\n\n\nEmployed\n\n\t9,554\t8,439\t6,872\t9,453\t9,379\t9,090\t9,160\t8,626\t6,774\n\n\nEmployment-population ratio\n\n\t43.3\t41.6\t34.2\t42.8\t44.0\t43.4\t45.1\t42.6\t33.7\n\n\nUnemployed\n\n\t527\t745\t1,816\t532\t516\t531\t550\t625\t1,821\n\n\nUnemployment rate\n\n\t5.2\t8.1\t20.9\t5.3\t5.2\t5.5\t5.7\t6.8\t21.2\n\n\n\nHigh school graduates, no college(1)\n\n\t\n\n\nCivilian labor force\n\n\t35,900\t35,142\t33,203\t35,895\t36,094\t36,230\t36,309\t35,232\t33,252\n\n\nParticipation rate\n\n\t57.9\t57.3\t54.5\t57.9\t58.5\t58.7\t58.3\t57.4\t54.6\n\n\nEmployed\n\n\t34,729\t33,460\t27,557\t34,658\t34,764\t34,861\t34,986\t33,687\t27,505\n\n\nEmployment-population ratio\n\n\t56.0\t54.6\t45.2\t55.9\t56.3\t56.5\t56.2\t54.9\t45.1\n\n\nUnemployed\n\n\t1,172\t1,682\t5,646\t1,237\t1,330\t1,369\t1,323\t1,545\t5,747\n\n\nUnemployment rate\n\n\t3.3\t4.8\t17.0\t3.4\t3.7\t3.8\t3.6\t4.4\t17.3\n\n\n\nSome college or associate degree\n\n\t\n\n\nCivilian labor force\n\n\t37,494\t37,256\t35,935\t37,348\t37,509\t37,283\t37,325\t37,381\t35,860\n\n\nParticipation rate\n\n\t64.9\t64.5\t62.6\t64.7\t64.7\t64.6\t64.8\t64.7\t62.5\n\n\nEmployed\n\n\t36,405\t35,803\t30,634\t36,199\t36,491\t36,243\t36,209\t36,013\t30,485\n\n\nEmployment-population ratio\n\n\t63.0\t62.0\t53.4\t62.7\t63.0\t62.8\t62.9\t62.3\t53.1\n\n\nUnemployed\n\n\t1,089\t1,453\t5,301\t1,149\t1,018\t1,040\t1,116\t1,368\t5,376\n\n\nUnemployment rate\n\n\t2.9\t3.9\t14.8\t3.1\t2.7\t2.8\t3.0\t3.7\t15.0\n\n\n\nBachelor's degree and higher(2)\n\n\t\n\n\nCivilian labor force\n\n\t58,335\t60,888\t60,075\t58,361\t59,938\t60,176\t59,894\t60,487\t60,127\n\n\nParticipation rate\n\n\t73.8\t73.5\t71.5\t73.8\t73.5\t73.7\t73.1\t73.0\t71.6\n\n\nEmployed\n\n\t57,235\t59,405\t55,151\t57,150\t58,778\t59,002\t58,736\t59,000\t55,084\n\n\nEmployment-population ratio\n\n\t72.4\t71.7\t65.7\t72.3\t72.1\t72.3\t71.7\t71.2\t65.6\n\n\nUnemployed\n\n\t1,099\t1,484\t4,924\t1,211\t1,160\t1,174\t1,158\t1,487\t5,043\n\n\nUnemployment rate\n\n\t1.9\t2.4\t8.2\t2.1\t1.9\t2.0\t1.9\t2.5\t8.4\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-5",
+      "title": "Table A-5. Employment status of the civilian population 18 years and over by veteran status, period of service, and sex, not seasonally adjusted",
+      "start_line": 2098,
+      "end_line": 2382,
+      "raw_text": "Table A-5. Employment status of the civilian population 18 years and over by veteran status, period of service, and sex, not seasonally adjusted\n[Numbers in thousands]\nEmployment status, veteran status, and period of service\tTotal\tMen\tWomen\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nVETERANS, 18 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t18,903\t18,544\t17,022\t16,644\t1,881\t1,900\n\n\nCivilian labor force\n\n\t9,337\t8,944\t8,219\t7,854\t1,118\t1,090\n\n\nParticipation rate\n\n\t49.4\t48.2\t48.3\t47.2\t59.4\t57.4\n\n\nEmployed\n\n\t9,120\t7,894\t8,049\t6,956\t1,072\t938\n\n\nEmployment-population ratio\n\n\t48.2\t42.6\t47.3\t41.8\t57.0\t49.4\n\n\nUnemployed\n\n\t217\t1,050\t171\t898\t46\t152\n\n\nUnemployment rate\n\n\t2.3\t11.7\t2.1\t11.4\t4.1\t14.0\n\n\nNot in labor force\n\n\t9,566\t9,600\t8,803\t8,790\t763\t810\n\n\n\nGulf War-era II veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t4,248\t4,453\t3,552\t3,710\t697\t743\n\n\nCivilian labor force\n\n\t3,390\t3,478\t2,913\t2,949\t477\t530\n\n\nParticipation rate\n\n\t79.8\t78.1\t82.0\t79.5\t68.5\t71.3\n\n\nEmployed\n\n\t3,331\t3,025\t2,880\t2,601\t451\t424\n\n\nEmployment-population ratio\n\n\t78.4\t67.9\t81.1\t70.1\t64.8\t57.0\n\n\nUnemployed\n\n\t59\t453\t33\t347\t26\t106\n\n\nUnemployment rate\n\n\t1.7\t13.0\t1.1\t11.8\t5.4\t20.0\n\n\nNot in labor force\n\n\t858\t975\t639\t761\t220\t213\n\n\n\nGulf War-era I veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t3,119\t3,076\t2,593\t2,563\t525\t513\n\n\nCivilian labor force\n\n\t2,413\t2,260\t2,056\t1,946\t357\t315\n\n\nParticipation rate\n\n\t77.4\t73.5\t79.3\t75.9\t68.0\t61.3\n\n\nEmployed\n\n\t2,360\t2,100\t2,011\t1,817\t349\t283\n\n\nEmployment-population ratio\n\n\t75.7\t68.3\t77.5\t70.9\t66.6\t55.1\n\n\nUnemployed\n\n\t53\t160\t45\t129\t8\t32\n\n\nUnemployment rate\n\n\t2.2\t7.1\t2.2\t6.6\t2.2\t10.1\n\n\nNot in labor force\n\n\t705\t816\t538\t617\t168\t198\n\n\n\nWorld War II, Korean War, and Vietnam-era veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t7,298\t6,907\t7,047\t6,666\t251\t241\n\n\nCivilian labor force\n\n\t1,480\t1,294\t1,405\t1,262\t75\t31\n\n\nParticipation rate\n\n\t20.3\t18.7\t19.9\t18.9\t29.9\t13.0\n\n\nEmployed\n\n\t1,442\t1,073\t1,373\t1,043\t70\t31\n\n\nEmployment-population ratio\n\n\t19.8\t15.5\t19.5\t15.6\t27.8\t12.7\n\n\nUnemployed\n\n\t38\t221\t33\t220\t5\t1\n\n\nUnemployment rate\n\n\t2.6\t17.0\t2.3\t17.4\t7.3\t-\n\n\nNot in labor force\n\n\t5,818\t5,613\t5,642\t5,404\t176\t210\n\n\n\nVeterans of other service periods\n\n\t\n\n\nCivilian noninstitutional population\n\n\t4,238\t4,108\t3,830\t3,705\t408\t403\n\n\nCivilian labor force\n\n\t2,054\t1,912\t1,846\t1,698\t208\t214\n\n\nParticipation rate\n\n\t48.5\t46.5\t48.2\t45.8\t51.0\t53.1\n\n\nEmployed\n\n\t1,986\t1,696\t1,785\t1,495\t201\t201\n\n\nEmployment-population ratio\n\n\t46.9\t41.3\t46.6\t40.4\t49.3\t49.9\n\n\nUnemployed\n\n\t67\t216\t60\t203\t7\t13\n\n\nUnemployment rate\n\n\t3.3\t11.3\t3.3\t11.9\t3.2\t6.2\n\n\nNot in labor force\n\n\t2,184\t2,196\t1,984\t2,007\t200\t189\n\n\n\nNONVETERANS, 18 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t230,997\t232,724\t103,613\t104,740\t127,385\t127,985\n\n\nCivilian labor force\n\n\t150,960\t145,311\t76,873\t74,246\t74,087\t71,065\n\n\nParticipation rate\n\n\t65.4\t62.4\t74.2\t70.9\t58.2\t55.5\n\n\nEmployed\n\n\t146,047\t124,330\t74,093\t64,288\t71,953\t60,042\n\n\nEmployment-population ratio\n\n\t63.2\t53.4\t71.5\t61.4\t56.5\t46.9\n\n\nUnemployed\n\n\t4,913\t20,980\t2,780\t9,958\t2,133\t11,023\n\n\nUnemployment rate\n\n\t3.3\t14.4\t3.6\t13.4\t2.9\t15.5\n\n\nNot in labor force\n\n\t80,038\t87,414\t26,740\t30,494\t53,298\t56,920",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-6",
+      "title": "Table A-6. Employment status of the civilian population by sex, age, and disability status, not seasonally adjusted",
+      "start_line": 2392,
+      "end_line": 2567,
+      "raw_text": "Table A-6. Employment status of the civilian population by sex, age, and disability status, not seasonally adjusted\n[Numbers in thousands]\nEmployment status, sex, and age\tPersons with a disability\tPersons with no disability\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nTOTAL, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t30,770\t29,846\t227,923\t230,051\n\n\nCivilian labor force\n\n\t6,384\t5,923\t155,713\t149,907\n\n\nParticipation rate\n\n\t20.7\t19.8\t68.3\t65.2\n\n\nEmployed\n\n\t5,978\t4,805\t150,731\t128,520\n\n\nEmployment-population ratio\n\n\t19.4\t16.1\t66.1\t55.9\n\n\nUnemployed\n\n\t405\t1,117\t4,982\t21,387\n\n\nUnemployment rate\n\n\t6.3\t18.9\t3.2\t14.3\n\n\nNot in labor force\n\n\t24,386\t23,923\t72,210\t80,143\n\n\n\nMen, 16 to 64 years\n\n\t\n\n\nCivilian labor force\n\n\t2,732\t2,611\t77,629\t74,556\n\n\nParticipation rate\n\n\t36.6\t35.4\t82.5\t79.3\n\n\nEmployed\n\n\t2,522\t2,096\t74,947\t64,877\n\n\nEmployment-population ratio\n\n\t33.8\t28.4\t79.6\t69.0\n\n\nUnemployed\n\n\t210\t515\t2,682\t9,680\n\n\nUnemployment rate\n\n\t7.7\t19.7\t3.5\t13.0\n\n\nNot in labor force\n\n\t4,735\t4,764\t16,470\t19,431\n\n\n\nWomen, 16 to 64 years\n\n\t\n\n\nCivilian labor force\n\n\t2,402\t2,157\t68,967\t66,201\n\n\nParticipation rate\n\n\t30.2\t30.0\t71.3\t68.2\n\n\nEmployed\n\n\t2,249\t1,731\t66,927\t55,927\n\n\nEmployment-population ratio\n\n\t28.3\t24.1\t69.2\t57.6\n\n\nUnemployed\n\n\t152\t426\t2,039\t10,275\n\n\nUnemployment rate\n\n\t6.3\t19.7\t3.0\t15.5\n\n\nNot in labor force\n\n\t5,547\t5,035\t27,760\t30,938\n\n\n\nBoth sexes, 65 years and over\n\n\t\n\n\nCivilian labor force\n\n\t1,250\t1,154\t9,117\t9,150\n\n\nParticipation rate\n\n\t8.1\t7.6\t24.6\t23.5\n\n\nEmployed\n\n\t1,208\t978\t8,857\t7,717\n\n\nEmployment-population ratio\n\n\t7.9\t6.4\t23.9\t19.8\n\n\nUnemployed\n\n\t43\t177\t260\t1,432\n\n\nUnemployment rate\n\n\t3.4\t15.3\t2.9\t15.7\n\n\nNot in labor force\n\n\t14,104\t14,124\t27,979\t29,774",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-7",
+      "title": "Table A-7. Employment status of the civilian population by nativity and sex, not seasonally adjusted",
+      "start_line": 2576,
+      "end_line": 2676,
+      "raw_text": "Table A-7. Employment status of the civilian population by nativity and sex, not seasonally adjusted\n[Numbers in thousands]\nEmployment status and nativity\tTotal\tMen\tWomen\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nForeign born, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t43,527\t42,504\t21,187\t20,489\t22,340\t22,015\n\n\nCivilian labor force\n\n\t28,439\t26,285\t16,521\t15,238\t11,918\t11,047\n\n\nParticipation rate\n\n\t65.3\t61.8\t78.0\t74.4\t53.3\t50.2\n\n\nEmployed\n\n\t27,660\t21,961\t16,122\t12,908\t11,539\t9,053\n\n\nEmployment-population ratio\n\n\t63.5\t51.7\t76.1\t63.0\t51.7\t41.1\n\n\nUnemployed\n\n\t779\t4,324\t400\t2,330\t379\t1,994\n\n\nUnemployment rate\n\n\t2.7\t16.5\t2.4\t15.3\t3.2\t18.1\n\n\nNot in labor force\n\n\t15,088\t16,219\t4,665\t5,251\t10,422\t10,968\n\n\n\nNative born, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t215,166\t217,392\t103,927\t105,218\t111,239\t112,174\n\n\nCivilian labor force\n\n\t133,657\t129,545\t69,506\t67,582\t64,151\t61,963\n\n\nParticipation rate\n\n\t62.1\t59.6\t66.9\t64.2\t57.7\t55.2\n\n\nEmployed\n\n\t129,049\t111,365\t66,842\t58,902\t62,208\t52,463\n\n\nEmployment-population ratio\n\n\t60.0\t51.2\t64.3\t56.0\t55.9\t46.8\n\n\nUnemployed\n\n\t4,608\t18,180\t2,664\t8,680\t1,944\t9,500\n\n\nUnemployment rate\n\n\t3.4\t14.0\t3.8\t12.8\t3.0\t15.3\n\n\nNot in labor force\n\n\t81,509\t87,847\t34,421\t37,636\t47,087\t50,211",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-8",
+      "title": "Table A-8. Employed persons by class of worker and part-time status",
+      "start_line": 2686,
+      "end_line": 2822,
+      "raw_text": "Table A-8. Employed persons by class of worker and part-time status\n[In thousands]\nCategory\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nCLASS OF WORKER\n\n\t\n\n\nAgriculture and related industries\n\n\t2,281\t2,263\t2,303\t2,389\t2,533\t2,404\t2,467\t2,399\t2,424\n\n\nWage and salary workers(1)\n\n\t1,571\t1,580\t1,585\t1,661\t1,849\t1,741\t1,831\t1,715\t1,694\n\n\nSelf-employed workers, unincorporated\n\n\t687\t661\t693\t693\t684\t647\t645\t660\t701\n\n\nUnpaid family workers\n\n\t23\t22\t25\t-\t-\t-\t-\t-\t-\n\n\nNonagricultural industries\n\n\t154,429\t152,904\t131,023\t154,369\t156,241\t156,345\t156,281\t153,358\t131,053\n\n\nWage and salary workers(1)\n\n\t145,849\t144,163\t123,485\t145,694\t147,431\t147,483\t147,353\t144,507\t123,400\n\n\nGovernment\n\n\t21,189\t21,484\t19,543\t20,848\t21,323\t21,475\t21,039\t21,143\t19,208\n\n\nPrivate industries\n\n\t124,661\t122,679\t103,942\t124,876\t126,069\t125,960\t126,192\t123,360\t104,148\n\n\nPrivate households\n\n\t825\t712\t492\t-\t-\t-\t-\t-\t-\n\n\nOther industries\n\n\t123,835\t121,967\t103,450\t124,046\t125,250\t125,152\t125,397\t122,642\t103,663\n\n\nSelf-employed workers, unincorporated\n\n\t8,543\t8,704\t7,514\t8,559\t8,821\t8,801\t8,889\t8,806\t7,546\n\n\nUnpaid family workers\n\n\t37\t37\t23\t-\t-\t-\t-\t-\t-\n\n\n\nPERSONS AT WORK PART TIME(2)\n\n\t\n\n\nAll industries\n\n\t\n\n\nPart time for economic reasons(3)\n\n\t4,483\t5,879\t10,684\t4,706\t4,148\t4,182\t4,318\t5,765\t10,887\n\n\nSlack work or business conditions\n\n\t2,782\t4,159\t9,843\t2,868\t2,657\t2,655\t2,776\t4,043\t9,939\n\n\nCould only find part-time work\n\n\t1,473\t1,404\t728\t1,447\t1,215\t1,294\t1,317\t1,321\t697\n\n\nPart time for noneconomic reasons(4)\n\n\t22,160\t20,764\t13,149\t21,356\t21,586\t22,154\t22,175\t20,601\t12,355\n\n\nNonagricultural industries\n\n\t\n\n\nPart time for economic reasons(3)\n\n\t4,424\t5,788\t10,524\t4,645\t4,111\t4,091\t4,225\t5,681\t10,730\n\n\nSlack work or business conditions\n\n\t2,750\t4,090\t9,694\t2,834\t2,613\t2,580\t2,719\t3,965\t9,780\n\n\nCould only find part-time work\n\n\t1,461\t1,392\t723\t1,437\t1,209\t1,308\t1,313\t1,312\t695\n\n\nPart time for noneconomic reasons(4)\n\n\t21,830\t20,392\t12,779\t21,008\t21,180\t21,787\t21,770\t20,236\t11,970\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-9",
+      "title": "Table A-9. Selected employment indicators",
+      "start_line": 2839,
+      "end_line": 3112,
+      "raw_text": "Table A-9. Selected employment indicators\n[Numbers in thousands]\nCharacteristic\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nAGE AND SEX\n\n\t\n\n\nTotal, 16 years and over\n\n\t156,710\t155,167\t133,326\t156,696\t158,803\t158,714\t158,759\t155,772\t133,403\n\n\n16 to 19 years\n\n\t4,672\t4,811\t3,161\t4,951\t5,213\t5,273\t5,378\t5,054\t3,479\n\n\n16 to 17 years\n\n\t1,543\t1,636\t1,101\t1,728\t1,874\t1,949\t1,972\t1,800\t1,302\n\n\n18 to 19 years\n\n\t3,129\t3,175\t2,060\t3,201\t3,339\t3,311\t3,401\t3,269\t2,154\n\n\n20 years and over\n\n\t152,038\t150,356\t130,165\t151,744\t153,590\t153,441\t153,381\t150,719\t129,924\n\n\n20 to 24 years\n\n\t14,114\t13,248\t9,951\t14,207\t14,142\t14,214\t14,278\t13,428\t10,023\n\n\n25 years and over\n\n\t137,923\t137,107\t120,214\t137,525\t139,426\t139,215\t139,188\t137,392\t119,906\n\n\n25 to 54 years\n\n\t100,890\t100,141\t87,910\t100,691\t101,653\t101,487\t101,426\t100,313\t87,769\n\n\n25 to 34 years\n\n\t35,602\t35,429\t30,456\t35,586\t36,230\t36,129\t36,123\t35,501\t30,453\n\n\n35 to 44 years\n\n\t33,001\t33,050\t29,658\t32,943\t33,406\t33,412\t33,402\t33,168\t29,607\n\n\n45 to 54 years\n\n\t32,287\t31,662\t27,796\t32,162\t32,017\t31,945\t31,901\t31,644\t27,709\n\n\n55 years and over\n\n\t37,033\t36,966\t32,304\t36,834\t37,773\t37,728\t37,762\t37,079\t32,137\n\n\n\nMen, 16 years and over\n\n\t82,963\t81,794\t71,810\t82,999\t84,034\t83,940\t83,871\t82,357\t71,916\n\n\n16 to 19 years\n\n\t2,252\t2,346\t1,769\t2,390\t2,644\t2,596\t2,669\t2,525\t1,939\n\n\n16 to 17 years\n\n\t821\t724\t566\t894\t876\t860\t891\t817\t632\n\n\n18 to 19 years\n\n\t1,430\t1,622\t1,203\t1,492\t1,766\t1,733\t1,784\t1,715\t1,277\n\n\n20 years and over\n\n\t80,711\t79,448\t70,041\t80,609\t81,390\t81,345\t81,202\t79,832\t69,977\n\n\n20 to 24 years\n\n\t7,161\t6,688\t5,183\t7,212\t7,152\t7,307\t7,272\t6,818\t5,222\n\n\n25 years and over\n\n\t73,551\t72,760\t64,858\t73,389\t74,217\t74,057\t73,982\t73,159\t64,758\n\n\n25 to 54 years\n\n\t53,870\t53,170\t47,282\t53,789\t54,005\t53,840\t53,770\t53,374\t47,236\n\n\n25 to 34 years\n\n\t19,170\t18,957\t16,390\t19,170\t19,364\t19,145\t19,175\t19,002\t16,396\n\n\n35 to 44 years\n\n\t17,815\t17,687\t16,090\t17,770\t17,881\t17,884\t17,874\t17,790\t16,049\n\n\n45 to 54 years\n\n\t16,884\t16,527\t14,803\t16,849\t16,761\t16,810\t16,720\t16,582\t14,792\n\n\n55 years and over\n\n\t19,681\t19,590\t17,575\t19,600\t20,212\t20,217\t20,213\t19,785\t17,522\n\n\n\nWomen, 16 years and over\n\n\t73,747\t73,373\t61,516\t73,697\t74,769\t74,774\t74,888\t73,415\t61,487\n\n\n16 to 19 years\n\n\t2,420\t2,465\t1,392\t2,561\t2,568\t2,677\t2,709\t2,529\t1,541\n\n\n16 to 17 years\n\n\t721\t912\t536\t834\t999\t1,089\t1,081\t983\t670\n\n\n18 to 19 years\n\n\t1,699\t1,553\t856\t1,709\t1,573\t1,578\t1,616\t1,554\t877\n\n\n20 years and over\n\n\t71,327\t70,908\t60,124\t71,136\t72,200\t72,097\t72,179\t70,886\t59,947\n\n\n20 to 24 years\n\n\t6,954\t6,561\t4,768\t6,995\t6,990\t6,907\t7,006\t6,610\t4,801\n\n\n25 years and over\n\n\t64,373\t64,347\t55,356\t64,136\t65,208\t65,158\t65,206\t64,232\t55,147\n\n\n25 to 54 years\n\n\t47,020\t46,971\t40,627\t46,902\t47,648\t47,647\t47,657\t46,939\t40,533\n\n\n25 to 34 years\n\n\t16,432\t16,472\t14,066\t16,416\t16,866\t16,984\t16,949\t16,499\t14,058\n\n\n35 to 44 years\n\n\t15,186\t15,363\t13,568\t15,173\t15,525\t15,528\t15,528\t15,378\t13,558\n\n\n45 to 54 years\n\n\t15,402\t15,135\t12,993\t15,313\t15,256\t15,135\t15,180\t15,062\t12,917\n\n\n55 years and over\n\n\t17,352\t17,376\t14,729\t17,234\t17,561\t17,510\t17,549\t17,293\t14,615\n\n\n\nMARITAL STATUS\n\n\t\n\n\nMarried men, spouse present(1)\n\n\t45,927\t45,901\t41,843\t45,758\t46,177\t46,257\t46,067\t45,920\t41,683\n\n\nMarried women, spouse present(1)\n\n\t36,414\t36,700\t32,034\t36,205\t36,631\t36,869\t36,597\t36,353\t31,860\n\n\nWomen who maintain families(2)\n\n\t9,698\t9,402\t7,908\t-\t-\t-\t-\t-\t-\n\n\n\nFULL- OR PART-TIME STATUS\n\n\t\n\n\nFull-time workers(3)\n\n\t129,212\t127,981\t113,656\t129,816\t131,755\t131,099\t131,109\t129,298\t114,322\n\n\nPart-time workers(4)\n\n\t27,498\t27,187\t19,670\t26,943\t26,992\t27,529\t27,726\t26,553\t19,106\n\n\n\nMULTIPLE JOBHOLDERS\n\n\t\n\n\nTotal multiple jobholders\n\n\t7,765\t7,358\t5,360\t7,849\t7,946\t8,152\t8,070\t7,268\t5,451\n\n\nPercent of total employed\n\n\t5.0\t4.7\t4.0\t5.0\t5.0\t5.1\t5.1\t4.7\t4.1\n\n\n\nSELF-EMPLOYMENT\n\n\t\n\n\nSelf-employed workers, incorporated\n\n\t6,094\t6,287\t6,410\t-\t-\t-\t-\t-\t-\n\n\nSelf-employed workers, unincorporated\n\n\t9,230\t9,364\t8,207\t9,252\t9,506\t9,448\t9,534\t9,466\t8,247\n\n\nFootnotes\n(1) Beginning with data for January 2020, refers to persons in both opposite-sex and same-sex married couples. Prior to January 2020, referred to persons in opposite-sex married couples only.\n(2) Beginning with data for January 2020, refers to female householders residing with one or more family members, but not a spouse of either sex. Prior to January 2020, referred to female householders residing with one or more family members, but not an opposite-sex spouse.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-10",
+      "title": "Table A-10. Selected unemployment indicators, seasonally adjusted",
+      "start_line": 3127,
+      "end_line": 3369,
+      "raw_text": "Table A-10. Selected unemployment indicators, seasonally adjusted\nCharacteristic\tNumber of\nunemployed persons\n(in thousands)\tUnemployment rates\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nAGE AND SEX\n\n\t\n\n\nTotal, 16 years and over\n\n\t5,850\t7,140\t23,078\t3.6\t3.5\t3.6\t3.5\t4.4\t14.7\n\n\n16 to 19 years\n\n\t734\t843\t1,628\t12.9\t12.6\t12.2\t11.0\t14.3\t31.9\n\n\n16 to 17 years\n\n\t274\t354\t496\t13.7\t13.7\t11.8\t9.8\t16.4\t27.6\n\n\n18 to 19 years\n\n\t453\t479\t1,126\t12.4\t12.1\t12.5\t12.0\t12.8\t34.3\n\n\n20 years and over\n\n\t5,116\t6,297\t21,449\t3.3\t3.2\t3.3\t3.2\t4.0\t14.2\n\n\n20 to 24 years\n\n\t989\t1,281\t3,466\t6.5\t6.3\t6.6\t6.4\t8.7\t25.7\n\n\n25 years and over\n\n\t4,141\t5,007\t18,008\t2.9\t2.8\t2.9\t2.9\t3.5\t13.1\n\n\n25 to 54 years\n\n\t3,156\t3,725\t12,909\t3.0\t3.0\t3.0\t3.0\t3.6\t12.8\n\n\n25 to 34 years\n\n\t1,422\t1,534\t5,176\t3.8\t3.6\t3.7\t3.7\t4.1\t14.5\n\n\n35 to 44 years\n\n\t898\t1,157\t3,849\t2.7\t2.8\t2.8\t2.8\t3.4\t11.5\n\n\n45 to 54 years\n\n\t836\t1,034\t3,884\t2.5\t2.6\t2.5\t2.5\t3.2\t12.3\n\n\n55 years and over\n\n\t975\t1,276\t5,071\t2.6\t2.4\t2.6\t2.6\t3.3\t13.6\n\n\n\nMen, 16 years and over\n\n\t3,234\t3,765\t11,223\t3.8\t3.5\t3.6\t3.6\t4.4\t13.5\n\n\n16 to 19 years\n\n\t422\t421\t739\t15.0\t13.0\t13.5\t11.2\t14.3\t27.6\n\n\n16 to 17 years\n\n\t125\t142\t168\t12.3\t14.6\t14.4\t10.8\t14.8\t21.0\n\n\n18 to 19 years\n\n\t300\t265\t567\t16.7\t12.8\t12.9\t12.0\t13.4\t30.8\n\n\n20 years and over\n\n\t2,812\t3,344\t10,483\t3.4\t3.1\t3.3\t3.3\t4.0\t13.0\n\n\n20 to 24 years\n\n\t598\t681\t1,601\t7.7\t7.2\t6.8\t6.7\t9.1\t23.5\n\n\n25 years and over\n\n\t2,234\t2,651\t8,886\t3.0\t2.7\t2.9\t3.0\t3.5\t12.1\n\n\n25 to 54 years\n\n\t1,707\t1,951\t6,477\t3.1\t2.9\t3.0\t3.1\t3.5\t12.1\n\n\n25 to 34 years\n\n\t720\t842\t2,711\t3.6\t3.6\t3.9\t3.9\t4.2\t14.2\n\n\n35 to 44 years\n\n\t495\t584\t1,870\t2.7\t2.5\t2.6\t2.8\t3.2\t10.4\n\n\n45 to 54 years\n\n\t491\t525\t1,896\t2.8\t2.5\t2.5\t2.5\t3.1\t11.4\n\n\n55 years and over\n\n\t527\t700\t2,409\t2.6\t2.2\t2.6\t2.7\t3.4\t12.1\n\n\n\nWomen, 16 years and over\n\n\t2,616\t3,375\t11,855\t3.4\t3.5\t3.5\t3.4\t4.4\t16.2\n\n\n16 to 19 years\n\n\t312\t422\t889\t10.9\t12.1\t11.0\t10.8\t14.3\t36.6\n\n\n16 to 17 years\n\n\t148\t212\t328\t15.1\t12.9\t9.6\t8.9\t17.8\t32.9\n\n\n18 to 19 years\n\n\t153\t214\t558\t8.2\t11.3\t12.1\t12.0\t12.1\t38.9\n\n\n20 years and over\n\n\t2,304\t2,954\t10,966\t3.1\t3.2\t3.2\t3.1\t4.0\t15.5\n\n\n20 to 24 years\n\n\t391\t600\t1,865\t5.3\t5.5\t6.5\t6.1\t8.3\t28.0\n\n\n25 years and over\n\n\t1,907\t2,356\t9,122\t2.9\t2.9\t2.9\t2.8\t3.5\t14.2\n\n\n25 to 54 years\n\n\t1,449\t1,774\t6,432\t3.0\t3.1\t3.0\t2.9\t3.6\t13.7\n\n\n25 to 34 years\n\n\t702\t692\t2,464\t4.1\t3.5\t3.5\t3.4\t4.0\t14.9\n\n\n35 to 44 years\n\n\t403\t573\t1,979\t2.6\t3.0\t2.9\t2.8\t3.6\t12.7\n\n\n45 to 54 years\n\n\t344\t509\t1,988\t2.2\t2.7\t2.5\t2.6\t3.3\t13.3\n\n\n55 years and over\n\n\t476\t582\t2,671\t2.7\t2.6\t2.4\t2.4\t3.3\t15.5\n\n\n\nMARITAL STATUS\n\n\t\n\n\nMarried men, spouse present(1)\n\n\t830\t1,065\t4,457\t1.8\t1.6\t1.7\t2.0\t2.3\t9.7\n\n\nMarried women, spouse present(1)\n\n\t678\t1,114\t4,811\t1.8\t2.1\t2.1\t2.2\t3.0\t13.1\n\n\nWomen who maintain families(2)\n\n\t501\t526\t1,495\t4.9\t4.2\t5.4\t4.1\t5.3\t15.9\n\n\n\nFULL- OR PART-TIME STATUS\n\n\t\n\n\nFull-time workers(3)\n\n\t4,687\t5,477\t16,885\t3.5\t3.4\t3.5\t3.5\t4.1\t12.9\n\n\nPart-time workers(4)\n\n\t1,171\t1,712\t6,194\t4.2\t3.9\t4.1\t3.7\t6.1\t24.5\n\n\nFootnotes\n(1) Beginning with data for January 2020, refers to persons in both opposite-sex and same-sex married couples. Prior to January 2020, referred to persons in opposite-sex married couples only.\n(2) Data are not seasonally adjusted. Beginning with data for January 2020, refers to female householders residing with one or more family members, but not a spouse of either sex. Prior to January 2020, referred to female householders residing with one or more family members, but not an opposite-sex spouse.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-11",
+      "title": "Table A-11. Unemployed persons by reason for unemployment",
+      "start_line": 3383,
+      "end_line": 3503,
+      "raw_text": "Table A-11. Unemployed persons by reason for unemployment\n[Numbers in thousands]\nReason\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nNUMBER OF UNEMPLOYED\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t2,484\t4,441\t20,384\t2,660\t2,686\t2,665\t2,723\t3,946\t20,626\n\n\nOn temporary layoff\n\n\t574\t2,223\t17,878\t722\t807\t742\t801\t1,848\t18,063\n\n\nNot on temporary layoff\n\n\t1,910\t2,219\t2,506\t1,938\t1,880\t1,923\t1,922\t2,099\t2,563\n\n\nPermanent job losers\n\n\t1,287\t1,559\t1,951\t1,314\t1,295\t1,289\t1,279\t1,456\t2,000\n\n\nPersons who completed temporary jobs\n\n\t623\t660\t555\t625\t585\t634\t644\t643\t563\n\n\nJob leavers\n\n\t685\t695\t520\t728\t829\t836\t777\t727\t570\n\n\nReentrants\n\n\t1,761\t1,784\t1,329\t1,899\t1,655\t1,838\t1,803\t1,778\t1,477\n\n\nNew entrants\n\n\t457\t449\t271\t535\t551\t557\t505\t509\t389\n\n\n\nPERCENT DISTRIBUTION\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t46.1\t60.3\t90.6\t45.7\t46.9\t45.2\t46.9\t56.7\t89.4\n\n\nOn temporary layoff\n\n\t10.6\t30.2\t79.4\t12.4\t14.1\t12.6\t13.8\t26.5\t78.3\n\n\nNot on temporary layoff\n\n\t35.5\t30.1\t11.1\t33.3\t32.9\t32.6\t33.1\t30.2\t11.1\n\n\nJob leavers\n\n\t12.7\t9.4\t2.3\t12.5\t14.5\t14.2\t13.4\t10.5\t2.5\n\n\nReentrants\n\n\t32.7\t24.2\t5.9\t32.6\t28.9\t31.2\t31.0\t25.5\t6.4\n\n\nNew entrants\n\n\t8.5\t6.1\t1.2\t9.2\t9.6\t9.4\t8.7\t7.3\t1.7\n\n\n\nUNEMPLOYED AS A PERCENT OF THE\nCIVILIAN LABOR FORCE\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t1.5\t2.7\t13.1\t1.6\t1.6\t1.6\t1.7\t2.4\t13.2\n\n\nJob leavers\n\n\t0.4\t0.4\t0.3\t0.4\t0.5\t0.5\t0.5\t0.4\t0.4\n\n\nReentrants\n\n\t1.1\t1.1\t0.9\t1.2\t1.0\t1.1\t1.1\t1.1\t0.9\n\n\nNew entrants\n\n\t0.3\t0.3\t0.2\t0.3\t0.3\t0.3\t0.3\t0.3\t0.2",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-12",
+      "title": "Table A-12. Unemployed persons by duration of unemployment",
+      "start_line": 3512,
+      "end_line": 3596,
+      "raw_text": "Table A-12. Unemployed persons by duration of unemployment\n[Numbers in thousands]\nDuration\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nNUMBER OF UNEMPLOYED\n\n\t\n\n\nLess than 5 weeks\n\n\t1,585\t3,118\t13,880\t1,906\t2,065\t2,059\t2,013\t3,542\t14,283\n\n\n5 to 14 weeks\n\n\t1,572\t2,008\t6,728\t1,835\t1,730\t1,755\t1,803\t1,794\t7,004\n\n\n15 weeks and over\n\n\t2,231\t2,244\t1,897\t2,087\t1,998\t2,053\t1,927\t1,971\t1,772\n\n\n15 to 26 weeks\n\n\t997\t999\t968\t860\t812\t887\t825\t808\t833\n\n\n27 weeks and over\n\n\t1,234\t1,245\t929\t1,227\t1,186\t1,166\t1,102\t1,164\t939\n\n\n\nAverage (mean) duration, in weeks\n\n\t24.2\t17.5\t7.7\t22.8\t20.8\t21.9\t20.9\t17.1\t6.1\n\n\nMedian duration, in weeks\n\n\t11.2\t7.3\t4.0\t9.3\t9.0\t9.3\t9.1\t7.0\t2.0\n\n\n\nPERCENT DISTRIBUTION\n\n\t\n\n\nLess than 5 weeks\n\n\t29.4\t42.3\t61.7\t32.7\t35.6\t35.1\t35.1\t48.5\t61.9\n\n\n5 to 14 weeks\n\n\t29.2\t27.2\t29.9\t31.5\t29.9\t29.9\t31.4\t24.5\t30.4\n\n\n15 weeks and over\n\n\t41.4\t30.4\t8.4\t35.8\t34.5\t35.0\t33.6\t27.0\t7.7\n\n\n15 to 26 weeks\n\n\t18.5\t13.6\t4.3\t14.8\t14.0\t15.1\t14.4\t11.1\t3.6\n\n\n27 weeks and over\n\n\t22.9\t16.9\t4.1\t21.1\t20.5\t19.9\t19.2\t15.9\t4.1",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-13",
+      "title": "Table A-13. Employed and unemployed persons by occupation, not seasonally adjusted",
+      "start_line": 3605,
+      "end_line": 3694,
+      "raw_text": "Table A-13. Employed and unemployed persons by occupation, not seasonally adjusted\n[Numbers in thousands]\nOccupation\tEmployed\tUnemployed\tUnemployment\nrates\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nTotal, 16 years and over(1)\n\n\t156,710\t133,326\t5,387\t22,504\t3.3\t14.4\n\n\nManagement, professional, and related occupations\n\n\t63,560\t61,221\t1,040\t5,079\t1.6\t7.7\n\n\nManagement, business, and financial operations occupations\n\n\t26,645\t26,455\t375\t1,742\t1.4\t6.2\n\n\nProfessional and related occupations\n\n\t36,915\t34,766\t664\t3,337\t1.8\t8.8\n\n\nService occupations\n\n\t26,921\t18,034\t1,132\t6,723\t4.0\t27.2\n\n\nSales and office occupations\n\n\t33,295\t26,511\t1,254\t4,599\t3.6\t14.8\n\n\nSales and related occupations\n\n\t15,211\t12,223\t625\t2,519\t3.9\t17.1\n\n\nOffice and administrative support occupations\n\n\t18,084\t14,288\t629\t2,080\t3.4\t12.7\n\n\nNatural resources, construction, and maintenance occupations\n\n\t14,141\t11,828\t725\t2,301\t4.9\t16.3\n\n\nFarming, fishing, and forestry occupations\n\n\t1,198\t1,080\t140\t153\t10.5\t12.4\n\n\nConstruction and extraction occupations\n\n\t8,274\t6,549\t453\t1,529\t5.2\t18.9\n\n\nInstallation, maintenance, and repair occupations\n\n\t4,669\t4,199\t132\t619\t2.7\t12.8\n\n\nProduction, transportation, and material moving\noccupations\n\n\t18,792\t15,732\t768\t3,502\t3.9\t18.2\n\n\nProduction occupations\n\n\t8,534\t6,358\t340\t1,457\t3.8\t18.6\n\n\nTransportation and material moving occupations\n\n\t10,257\t9,375\t427\t2,045\t4.0\t17.9\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-14",
+      "title": "Table A-14. Unemployed persons by industry and class of worker, not seasonally adjusted",
+      "start_line": 3708,
+      "end_line": 3811,
+      "raw_text": "Table A-14. Unemployed persons by industry and class of worker, not seasonally adjusted\nIndustry and class of worker\tNumber of\nunemployed\npersons\n(in thousands)\tUnemployment\nrates\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nTotal, 16 years and over(1)\n\n\t5,387\t22,504\t3.3\t14.4\n\n\nNonagricultural private wage and salary workers\n\n\t4,254\t19,166\t3.3\t15.6\n\n\nMining, quarrying, and oil and gas extraction\n\n\t17\t77\t2.4\t10.2\n\n\nConstruction\n\n\t439\t1,531\t4.7\t16.6\n\n\nManufacturing\n\n\t483\t1,992\t3.0\t13.2\n\n\nDurable goods\n\n\t265\t1,416\t2.6\t15.1\n\n\nNondurable goods\n\n\t218\t576\t3.6\t10.2\n\n\nWholesale and retail trade\n\n\t829\t3,223\t4.3\t17.1\n\n\nTransportation and utilities\n\n\t255\t988\t3.4\t13.6\n\n\nInformation\n\n\t87\t279\t3.5\t11.0\n\n\nFinancial activities\n\n\t210\t545\t2.1\t5.4\n\n\nProfessional and business services\n\n\t611\t1,697\t3.5\t9.8\n\n\nEducation and health services\n\n\t512\t2,555\t2.1\t10.9\n\n\nLeisure and hospitality\n\n\t647\t4,857\t4.5\t39.3\n\n\nOther services\n\n\t164\t1,421\t2.5\t23.0\n\n\nAgriculture and related private wage and salary workers\n\n\t121\t163\t7.3\t9.6\n\n\nGovernment workers\n\n\t347\t2,018\t1.6\t9.3\n\n\nSelf-employed workers, unincorporated, and unpaid family workers\n\n\t208\t886\t2.2\t9.7\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-15",
+      "title": "Table A-15. Alternative measures of labor underutilization",
+      "start_line": 3824,
+      "end_line": 3866,
+      "raw_text": "Table A-15. Alternative measures of labor underutilization\n[Percent]\nMeasure\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tMar.\n2020\tApr.\n2020\tApr.\n2019\tDec.\n2019\tJan.\n2020\tFeb.\n2020\tMar.\n2020\tApr.\n2020\n\n\nU-1 Persons unemployed 15 weeks or longer, as a percent of the civilian labor force\n\n\t1.4\t1.4\t1.2\t1.3\t1.2\t1.2\t1.2\t1.2\t1.1\n\n\nU-2 Job losers and persons who completed temporary jobs, as a percent of the civilian labor force\n\n\t1.5\t2.7\t13.1\t1.6\t1.6\t1.6\t1.7\t2.4\t13.2\n\n\nU-3 Total unemployed, as a percent of the civilian labor force (official unemployment rate)\n\n\t3.3\t4.5\t14.4\t3.6\t3.5\t3.6\t3.5\t4.4\t14.7\n\n\nU-4 Total unemployed plus discouraged workers, as a percent of the civilian labor force plus discouraged workers\n\n\t3.6\t4.8\t14.8\t3.9\t3.7\t3.8\t3.8\t4.7\t15.1\n\n\nU-5 Total unemployed, plus discouraged workers, plus all other persons marginally attached to the labor force, as a percent of the civilian labor force plus all persons marginally attached to the labor force\n\n\t4.2\t5.3\t15.6\t4.5\t4.2\t4.4\t4.4\t5.2\t16.0\n\n\nU-6 Total unemployed, plus all persons marginally attached to the labor force, plus total employed part time for economic reasons, as a percent of the civilian labor force plus all persons marginally attached to the labor force\n\n\t6.9\t8.9\t22.4\t7.3\t6.7\t6.9\t7.0\t8.7\t22.8",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-16",
+      "title": "Table A-16. Persons not in the labor force and multiple jobholders by sex, not seasonally adjusted",
+      "start_line": 3876,
+      "end_line": 3954,
+      "raw_text": "Table A-16. Persons not in the labor force and multiple jobholders by sex, not seasonally adjusted\n[Numbers in thousands]\nCategory\tTotal\tMen\tWomen\nApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\tApr.\n2019\tApr.\n2020\n\n\nNOT IN THE LABOR FORCE\n\n\t\n\n\nTotal not in the labor force\n\n\t96,596\t104,066\t39,087\t42,887\t57,510\t61,179\n\n\nPersons who currently want a job\n\n\t4,951\t9,761\t2,420\t4,792\t2,531\t4,969\n\n\nMarginally attached to the labor force(1)\n\n\t1,417\t2,211\t742\t1,170\t674\t1,041\n\n\nDiscouraged workers(2)\n\n\t454\t585\t288\t309\t166\t275\n\n\nOther persons marginally attached to the labor force(3)\n\n\t963\t1,626\t455\t860\t508\t766\n\n\n\nMULTIPLE JOBHOLDERS\n\n\t\n\n\nTotal multiple jobholders(4)\n\n\t7,765\t5,360\t3,693\t2,641\t4,072\t2,719\n\n\nPercent of total employed\n\n\t5.0\t4.0\t4.5\t3.7\t5.5\t4.4\n\n\nPrimary job full time, secondary job part time\n\n\t4,317\t3,202\t2,227\t1,709\t2,090\t1,493\n\n\nPrimary and secondary jobs both part time\n\n\t2,098\t1,170\t738\t387\t1,360\t783\n\n\nPrimary and secondary jobs both full time\n\n\t252\t275\t168\t145\t84\t130\n\n\nHours vary on primary or secondary job\n\n\t1,045\t671\t535\t381\t510\t290\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-1",
+      "title": "Table B-1. Employees on nonfarm payrolls by industry sector and selected industry detail",
+      "start_line": 3970,
+      "end_line": 4881,
+      "raw_text": "Table B-1. Employees on nonfarm payrolls by industry sector and selected industry detail\n\n[In thousands]\nIndustry\tNot seasonally adjusted\tSeasonally adjusted\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tChange from:\nMar.2020 - Apr.2020(p)\n\n\nTotal nonfarm\n\n\t150,430\t151,076\t150,583\t131,071\t150,492\t152,463\t151,582\t131,045\t-20,537\n\n\nTotal private\n\n\t127,482\t128,040\t127,531\t108,956\t127,939\t129,718\t128,865\t109,308\t-19,557\n\n\nGoods-producing\n\n\t20,884\t20,771\t20,785\t18,622\t21,039\t21,205\t21,131\t18,776\t-2,355\n\n\n\nMining and logging\n\n\t732\t700\t697\t646\t741\t714\t707\t657\t-50\n\n\nLogging\n\n\t45.9\t53.6\t53.0\t46.6\t48.6\t54.5\t54.6\t49.6\t-5.0\n\n\nMining\n\n\t686.0\t646.7\t644.2\t599.6\t692.4\t659.7\t652.7\t606.9\t-45.8\n\n\nOil and gas extraction\n\n\t144.8\t155.0\t155.2\t149.3\t146.1\t156.6\t156.6\t151.8\t-4.8\n\n\nMining, except oil and gas\n\n\t191.4\t182.9\t185.0\t179.2\t192.6\t188.6\t188.5\t180.6\t-7.9\n\n\nCoal mining\n\n\t51.4\t50.0\t49.5\t43.7\t51.5\t50.4\t49.8\t43.8\t-6.0\n\n\nMetal ore mining\n\n\t42.4\t40.5\t40.9\t40.7\t42.6\t40.8\t41.0\t40.8\t-0.2\n\n\nNonmetallic mineral mining and quarrying\n\n\t97.6\t92.4\t94.6\t94.8\t98.4\t97.4\t97.7\t96.0\t-1.7\n\n\nSupport activities for mining\n\n\t349.8\t308.8\t304.0\t271.1\t353.7\t314.5\t307.6\t274.5\t-33.1\n\n\n\nConstruction\n\n\t7,377\t7,276\t7,328\t6,544\t7,469\t7,639\t7,606\t6,631\t-975\n\n\nConstruction of buildings\n\n\t1,629.2\t1,636.0\t1,640.7\t1,453.2\t1,649.4\t1,689.1\t1,681.2\t1,475.1\t-206.1\n\n\nResidential building\n\n\t801.3\t814.1\t818.1\t711.4\t811.6\t841.3\t839.7\t722.1\t-117.6\n\n\nNonresidential building\n\n\t827.9\t821.9\t822.6\t741.8\t837.8\t847.8\t841.5\t753.0\t-88.5\n\n\nHeavy and civil engineering construction\n\n\t1,064.7\t994.3\t1,019.7\t1,002.6\t1,078.8\t1,098.9\t1,094.8\t1,015.9\t-78.9\n\n\nSpecialty trade contractors\n\n\t4,682.9\t4,645.6\t4,667.9\t4,087.8\t4,741.0\t4,850.7\t4,830.2\t4,139.7\t-690.5\n\n\nResidential specialty trade contractors\n\n\t2,052.3\t2,036.0\t2,041.9\t1,791.0\t2,079.2\t2,124.7\t2,112.4\t1,815.0\t-297.4\n\n\nNonresidential specialty trade contractors\n\n\t2,630.6\t2,609.6\t2,626.0\t2,296.8\t2,661.8\t2,726.0\t2,717.8\t2,324.7\t-393.1\n\n\n\nManufacturing\n\n\t12,775\t12,795\t12,760\t11,432\t12,829\t12,852\t12,818\t11,488\t-1,330\n\n\n\nDurable goods\n\n\t8,038\t8,036\t8,020\t7,107\t8,056\t8,058\t8,038\t7,124\t-914\n\n\nWood products\n\n\t407.4\t407.8\t406.0\t380.8\t409.2\t410.6\t410.1\t382.2\t-27.9\n\n\nNonmetallic mineral products\n\n\t418.5\t413.4\t417.0\t363.1\t419.7\t425.6\t424.4\t362.8\t-61.6\n\n\nPrimary metals\n\n\t387.9\t373.5\t372.3\t336.1\t388.4\t372.7\t371.7\t337.4\t-34.3\n\n\nFabricated metal products\n\n\t1,490.6\t1,478.9\t1,474.8\t1,367.3\t1,492.9\t1,483.9\t1,477.8\t1,369.1\t-108.7\n\n\nMachinery\n\n\t1,126.1\t1,110.5\t1,104.5\t1,023.7\t1,128.3\t1,109.9\t1,105.9\t1,026.4\t-79.5\n\n\nComputer and electronic products\n\n\t1,069.1\t1,095.9\t1,096.0\t1,083.8\t1,073.2\t1,098.2\t1,097.6\t1,088.0\t-9.6\n\n\nComputer and peripheral equipment\n\n\t159.7\t169.0\t169.4\t169.5\t160.3\t169.3\t169.7\t170.5\t0.8\n\n\nCommunications equipment\n\n\t83.7\t84.3\t84.7\t83.5\t83.9\t84.6\t84.6\t83.7\t-0.9\n\n\nSemiconductors and electronic components\n\n\t374.2\t377.7\t377.1\t373.1\t375.3\t378.0\t377.0\t374.5\t-2.5\n\n\nElectronic instruments\n\n\t419.2\t432.0\t431.7\t425.0\t420.7\t433.1\t432.9\t426.2\t-6.7\n\n\nMiscellaneous computer and electronic products\n\n\t32.3\t32.9\t33.1\t32.7\t32.9\t33.2\t33.4\t33.1\t-0.3\n\n\nElectrical equipment and appliances\n\n\t403.5\t404.2\t401.9\t381.4\t404.9\t404.5\t403.9\t383.1\t-20.8\n\n\nTransportation equipment(1)\n\n\t1,732.5\t1,746.2\t1,743.8\t1,316.5\t1,733.9\t1,742.9\t1,739.8\t1,318.5\t-421.3\n\n\nMotor vehicles and parts(2)\n\n\t1,004.6\t1,004.1\t1,002.1\t615.7\t1,002.9\t998.7\t995.5\t614.0\t-381.5\n\n\nFurniture and related products\n\n\t387.8\t385.4\t385.6\t326.1\t388.4\t386.4\t386.0\t326.8\t-59.2\n\n\nMiscellaneous durable goods manufacturing\n\n\t614.6\t620.3\t618.0\t528.6\t616.6\t622.9\t620.6\t529.8\t-90.8\n\n\n\nNondurable goods\n\n\t4,737\t4,759\t4,740\t4,325\t4,773\t4,794\t4,780\t4,364\t-416\n\n\nFood manufacturing\n\n\t1,614.2\t1,636.3\t1,629.6\t1,539.3\t1,636.7\t1,655.4\t1,653.5\t1,567.2\t-86.3\n\n\nTextile mills\n\n\t110.4\t107.0\t105.0\t85.6\t110.4\t106.5\t105.3\t85.8\t-19.5\n\n\nTextile product mills\n\n\t113.9\t110.4\t108.7\t88.2\t114.3\t111.3\t109.7\t88.6\t-21.1\n\n\nApparel\n\n\t111.9\t104.7\t104.4\t62.4\t111.9\t105.0\t104.6\t62.4\t-42.2\n\n\nPaper and paper products\n\n\t365.0\t362.5\t362.9\t355.4\t365.4\t363.6\t363.4\t355.2\t-8.2\n\n\nPrinting and related support activities\n\n\t423.3\t415.2\t411.7\t332.6\t425.5\t417.2\t413.4\t334.4\t-79.0\n\n\nPetroleum and coal products\n\n\t113.8\t110.2\t110.2\t103.8\t115.2\t114.3\t113.7\t105.0\t-8.7\n\n\nChemicals\n\n\t846.7\t849.9\t849.5\t817.2\t848.5\t851.1\t850.3\t819.2\t-31.1\n\n\nPlastics and rubber products\n\n\t732.7\t746.0\t745.2\t680.4\t733.7\t746.2\t746.0\t680.5\t-65.5\n\n\nMiscellaneous nondurable goods manufacturing\n\n\t305.0\t316.4\t312.8\t260.2\t310.9\t323.5\t320.5\t265.6\t-54.9\n\n\n\nPrivate service-providing\n\n\t106,598\t107,269\t106,746\t90,334\t106,900\t108,513\t107,734\t90,532\t-17,202\n\n\n\nTrade, transportation, and utilities\n\n\t27,425\t27,481\t27,459\t24,508\t27,671\t27,830\t27,776\t24,719\t-3,057\n\n\n\nWholesale trade\n\n\t5,878.5\t5,902.7\t5,906.3\t5,552.6\t5,893.7\t5,934.2\t5,931.3\t5,568.5\t-362.8\n\n\nDurable goods\n\n\t3,188.4\t3,209.9\t3,215.7\t3,032.2\t3,195.2\t3,221.0\t3,224.4\t3,039.4\t-185.0\n\n\nNondurable goods\n\n\t2,161.5\t2,162.8\t2,158.2\t2,019.4\t2,167.0\t2,180.4\t2,174.1\t2,025.9\t-148.2\n\n\nElectronic markets and agents and brokers\n\n\t528.6\t530.0\t532.4\t501.0\t531.5\t532.8\t532.8\t503.2\t-29.6\n\n\n\nRetail trade\n\n\t15,474.7\t15,424.9\t15,408.8\t13,408.4\t15,631.1\t15,672.0\t15,627.2\t13,520.3\t-2,106.9\n\n\nMotor vehicle and parts dealers\n\n\t2,027.8\t2,050.3\t2,048.6\t1,711.3\t2,029.2\t2,063.7\t2,058.2\t1,713.5\t-344.7\n\n\nAutomobile dealers\n\n\t1,299.7\t1,308.0\t1,298.7\t1,034.5\t1,302.2\t1,309.4\t1,301.9\t1,037.3\t-264.6\n\n\nOther motor vehicle dealers\n\n\t165.7\t158.2\t161.1\t126.1\t164.6\t165.6\t165.4\t124.7\t-40.7\n\n\nAuto parts, accessories, and tire stores\n\n\t562.4\t584.1\t588.8\t550.7\t562.3\t588.7\t590.9\t551.5\t-39.4\n\n\nFurniture and home furnishings stores\n\n\t468.5\t468.2\t459.4\t247.3\t473.7\t470.7\t462.0\t253.0\t-209.0\n\n\nElectronics and appliance stores\n\n\t474.9\t473.1\t469.3\t441.8\t479.0\t475.3\t472.5\t445.2\t-27.3\n\n\nBuilding material and garden supply stores\n\n\t1,334.0\t1,261.5\t1,331.1\t1,320.0\t1,287.6\t1,309.3\t1,322.5\t1,269.8\t-52.7\n\n\nFood and beverage stores\n\n\t3,046.0\t3,069.2\t3,057.1\t3,022.8\t3,072.1\t3,090.2\t3,087.2\t3,045.2\t-42.0\n\n\nHealth and personal care stores\n\n\t1,043.8\t1,053.4\t1,050.9\t950.7\t1,051.7\t1,058.3\t1,057.0\t957.7\t-99.3\n\n\nGasoline stations\n\n\t928.9\t934.4\t932.0\t894.0\t937.4\t947.2\t944.0\t900.6\t-43.4\n\n\nClothing and clothing accessories stores\n\n\t1,273.0\t1,263.2\t1,229.5\t513.0\t1,316.8\t1,289.1\t1,269.6\t530.0\t-739.6\n\n\nSporting goods, hobby, book, and music stores\n\n\t534.5\t537.1\t518.8\t339.5\t551.4\t549.8\t535.9\t351.0\t-184.9\n\n\nGeneral merchandise stores\n\n\t2,958.0\t2,969.5\t2,978.5\t2,916.7\t3,026.7\t3,046.8\t3,055.3\t2,987.9\t-67.4\n\n\nDepartment stores\n\n\t1,038.8\t1,044.0\t1,041.2\t885.7\t1,078.3\t1,078.5\t1,081.6\t920.8\t-160.8\n\n\nGeneral merchandise stores, including warehouse clubs and supercenters\n\n\t1,919.2\t1,925.5\t1,937.3\t2,031.0\t1,948.3\t1,968.3\t1,973.7\t2,067.1\t93.4\n\n\nMiscellaneous store retailers\n\n\t825.1\t802.6\t790.0\t540.8\t837.8\t820.4\t812.9\t548.7\t-264.2\n\n\nNonstore retailers\n\n\t560.2\t542.4\t543.6\t510.5\t567.7\t551.2\t550.1\t517.7\t-32.4\n\n\n\nTransportation and warehousing\n\n\t5,525.7\t5,609.5\t5,598.1\t5,006.8\t5,598.6\t5,678.1\t5,670.9\t5,086.8\t-584.1\n\n\nAir transportation\n\n\t499.5\t508.0\t511.3\t371.8\t500.3\t511.2\t512.7\t372.0\t-140.7\n\n\nRail transportation\n\n\t179.5\t158.9\t159.2\t157.2\t179.6\t159.9\t159.6\t157.2\t-2.4\n\n\nWater transportation\n\n\t64.7\t62.8\t62.0\t57.3\t65.5\t64.9\t64.3\t58.5\t-5.8\n\n\nTruck transportation\n\n\t1,517.2\t1,503.4\t1,500.7\t1,419.8\t1,530.5\t1,527.3\t1,523.9\t1,435.6\t-88.3\n\n\nTransit and ground passenger transportation\n\n\t516.6\t520.5\t516.6\t332.4\t502.0\t508.2\t503.3\t318.0\t-185.3\n\n\nPipeline transportation\n\n\t50.8\t50.4\t51.3\t50.4\t51.0\t50.5\t51.4\t50.5\t-0.9\n\n\nScenic and sightseeing transportation\n\n\t31.5\t28.0\t27.8\t12.6\t36.0\t36.7\t35.4\t13.9\t-21.5\n\n\nSupport activities for transportation\n\n\t749.1\t762.2\t753.9\t687.8\t751.0\t763.8\t756.5\t689.6\t-66.9\n\n\nCouriers and messengers\n\n\t746.9\t816.8\t808.5\t786.7\t797.5\t847.8\t846.7\t848.5\t1.8\n\n\nWarehousing and storage\n\n\t1,169.9\t1,198.5\t1,206.8\t1,130.8\t1,185.2\t1,207.8\t1,217.1\t1,143.0\t-74.1\n\n\n\nUtilities\n\n\t546.5\t543.9\t545.7\t539.7\t548.0\t546.1\t546.4\t543.1\t-3.3\n\n\n\nInformation\n\n\t2,832\t2,881\t2,876\t2,629\t2,845\t2,894\t2,890\t2,636\t-254\n\n\nPublishing industries, except Internet\n\n\t750.7\t767.8\t768.4\t749.9\t755.9\t770.0\t771.7\t754.6\t-17.1\n\n\nMotion picture and sound recording industries\n\n\t437.4\t444.7\t442.6\t240.4\t437.8\t456.3\t452.3\t235.8\t-216.5\n\n\nBroadcasting, except Internet\n\n\t266.8\t263.9\t262.8\t250.3\t266.9\t263.3\t262.3\t250.3\t-12.0\n\n\nTelecommunications\n\n\t711.0\t701.2\t698.5\t689.4\t716.2\t700.5\t697.7\t694.6\t-3.1\n\n\nData processing, hosting and related services\n\n\t334.7\t349.4\t348.2\t344.0\t335.5\t349.6\t349.0\t342.5\t-6.5\n\n\nOther information services\n\n\t331.1\t353.9\t355.2\t355.4\t333.1\t354.4\t357.4\t357.9\t0.5\n\n\n\nFinancial activities\n\n\t8,678\t8,797\t8,794\t8,536\t8,721\t8,845\t8,842\t8,580\t-262\n\n\nFinance and insurance\n\n\t6,387.5\t6,474.4\t6,477.8\t6,425.8\t6,408.6\t6,486.4\t6,491.0\t6,451.1\t-39.9\n\n\nMonetary authorities - central bank\n\n\t19.8\t19.1\t19.6\t19.6\t19.9\t19.3\t19.6\t19.7\t0.1\n\n\nCredit intermediation and related\nactivities\n\n\t2,635.0\t2,673.6\t2,676.7\t2,642.8\t2,645.3\t2,680.5\t2,684.3\t2,653.1\t-31.2\n\n\nDepository credit intermediation(1)\n\n\t1,770.8\t1,786.3\t1,783.7\t1,772.5\t1,774.7\t1,788.1\t1,785.8\t1,776.4\t-9.4\n\n\nCommercial banking\n\n\t1,388.7\t1,394.7\t1,391.5\t1,385.0\t1,391.5\t1,393.8\t1,391.2\t1,386.7\t-4.5\n\n\nNondepository credit intermediation\n\n\t565.4\t582.6\t584.8\t572.0\t570.9\t587.2\t589.7\t577.7\t-12.0\n\n\nActivities related to credit intermediation\n\n\t298.8\t304.7\t308.2\t298.3\t299.6\t305.2\t308.8\t299.0\t-9.8\n\n\nSecurities, commodity contracts, investments, and funds and trusts\n\n\t957.7\t965.8\t965.7\t960.1\t961.5\t968.8\t969.6\t965.2\t-4.4\n\n\nInsurance carriers and related activities\n\n\t2,775.0\t2,815.9\t2,815.8\t2,803.3\t2,781.9\t2,817.8\t2,817.5\t2,813.1\t-4.4\n\n\nReal estate and rental and leasing\n\n\t2,290.4\t2,322.3\t2,316.6\t2,109.7\t2,312.0\t2,358.5\t2,350.7\t2,128.8\t-221.9\n\n\nReal estate\n\n\t1,696.0\t1,732.1\t1,728.2\t1,634.7\t1,707.5\t1,750.0\t1,747.8\t1,646.5\t-101.3\n\n\nRental and leasing services\n\n\t571.4\t566.9\t565.1\t452.3\t581.2\t584.8\t579.4\t459.2\t-120.2\n\n\nLessors of nonfinancial intangible assets\n\n\t23.0\t23.3\t23.3\t22.7\t23.3\t23.7\t23.5\t23.1\t-0.4\n\n\n\nProfessional and business services\n\n\t21,169\t21,246\t21,186\t19,264\t21,226\t21,550\t21,470\t19,305\t-2,165\n\n\nProfessional and technical services\n\n\t9,522.1\t9,760.4\t9,730.6\t9,209.9\t9,477.7\t9,707.6\t9,712.9\t9,166.7\t-546.2\n\n\nLegal services\n\n\t1,140.6\t1,156.0\t1,156.5\t1,092.1\t1,146.0\t1,162.7\t1,161.6\t1,097.6\t-64.0\n\n\nAccounting and bookkeeping services\n\n\t1,102.3\t1,144.8\t1,142.8\t1,058.6\t1,018.5\t1,038.0\t1,042.5\t974.9\t-67.6\n\n\nArchitectural and engineering services\n\n\t1,495.1\t1,522.9\t1,521.5\t1,443.4\t1,507.0\t1,539.8\t1,539.4\t1,454.2\t-85.2\n\n\nSpecialized design services\n\n\t144.1\t143.6\t142.9\t128.4\t143.8\t145.1\t144.4\t129.1\t-15.3\n\n\nComputer systems design and related services\n\n\t2,179.3\t2,250.5\t2,228.1\t2,155.5\t2,185.1\t2,252.7\t2,254.6\t2,161.4\t-93.2\n\n\nManagement and technical consulting services\n\n\t1,510.0\t1,549.6\t1,544.3\t1,474.7\t1,518.5\t1,561.1\t1,562.7\t1,484.2\t-78.5\n\n\nScientific research and development services\n\n\t716.9\t743.9\t746.8\t726.5\t720.8\t749.5\t750.9\t730.8\t-20.1\n\n\nAdvertising and related services\n\n\t488.7\t491.1\t487.5\t451.1\t489.4\t492.6\t490.0\t452.0\t-38.0\n\n\nOther professional and technical services\n\n\t745.1\t758.0\t760.2\t679.6\t748.6\t766.1\t766.8\t682.5\t-84.3\n\n\nManagement of companies and enterprises\n\n\t2,406.1\t2,433.4\t2,434.7\t2,351.5\t2,417.0\t2,447.3\t2,447.3\t2,365.4\t-81.9\n\n\nAdministrative and waste services\n\n\t9,241.2\t9,052.6\t9,021.1\t7,702.5\t9,331.4\t9,395.0\t9,309.6\t7,773.2\t-1,536.4\n\n\nAdministrative and support services\n\n\t8,794.2\t8,593.4\t8,560.9\t7,251.3\t8,881.1\t8,928.0\t8,842.5\t7,319.2\t-1,523.3\n\n\nOffice administrative services\n\n\t524.5\t526.4\t525.6\t488.1\t525.1\t530.3\t529.7\t489.3\t-40.4\n\n\nFacilities support services\n\n\t162.1\t163.3\t164.0\t153.2\t162.5\t164.3\t164.7\t153.8\t-10.9\n\n\nEmployment services(1)\n\n\t3,558.2\t3,499.4\t3,465.0\t2,581.1\t3,631.2\t3,650.2\t3,587.5\t2,641.7\t-945.8\n\n\nTemporary help services\n\n\t2,886.0\t2,804.6\t2,773.9\t1,985.1\t2,950.8\t2,939.8\t2,881.9\t2,040.0\t-841.9\n\n\nBusiness support services\n\n\t873.4\t869.9\t862.6\t769.0\t882.4\t869.4\t867.2\t773.7\t-93.5\n\n\nTravel arrangement and reservation services\n\n\t218.5\t218.5\t211.2\t172.5\t218.0\t222.5\t212.4\t172.4\t-40.0\n\n\nInvestigation and security services\n\n\t952.8\t965.7\t957.6\t883.1\t956.1\t970.2\t965.6\t888.3\t-77.3\n\n\nServices to buildings and dwellings\n\n\t2,167.8\t2,009.7\t2,036.9\t1,918.9\t2,169.5\t2,178.8\t2,175.4\t1,916.0\t-259.4\n\n\nOther support services\n\n\t336.9\t340.5\t338.0\t285.4\t336.2\t342.3\t340.0\t284.0\t-56.0\n\n\nWaste management and remediation services\n\n\t447.0\t459.2\t460.2\t451.2\t450.3\t467.0\t467.1\t454.0\t-13.1\n\n\n\nEducation and health services\n\n\t24,206\t24,711\t24,600\t22,111\t24,046\t24,586\t24,485\t21,941\t-2,544\n\n\nEducational services\n\n\t3,907.5\t3,995.5\t3,933.3\t3,506.1\t3,740.1\t3,828.5\t3,791.6\t3,334.5\t-457.1\n\n\nHealth care and social assistance\n\n\t20,298.7\t20,715.4\t20,666.3\t18,604.5\t20,306.0\t20,757.7\t20,693.6\t18,606.7\t-2,086.9\n\n\nHealth care(3)\n\n\t16,172.5\t16,463.3\t16,433.7\t15,005.8\t16,200.7\t16,507.2\t16,468.7\t15,032.4\t-1,436.3\n\n\nAmbulatory health care services\n\n\t7,640.7\t7,831.4\t7,799.3\t6,618.9\t7,648.7\t7,855.2\t7,815.0\t6,626.7\t-1,188.3\n\n\nOffices of physicians\n\n\t2,650.0\t2,716.9\t2,702.4\t2,458.9\t2,655.8\t2,722.9\t2,707.7\t2,464.4\t-243.3\n\n\nOffices of dentists\n\n\t966.4\t972.9\t957.5\t455.4\t968.0\t977.0\t959.3\t456.0\t-503.3\n\n\nOffices of other health practitioners\n\n\t961.0\t985.1\t975.8\t773.3\t961.2\t987.8\t980.2\t775.1\t-205.1\n\n\nOutpatient care centers\n\n\t957.5\t979.0\t984.0\t895.9\t957.6\t980.2\t982.7\t894.8\t-87.9\n\n\nMedical and diagnostic laboratories\n\n\t280.1\t289.2\t288.7\t257.1\t280.2\t289.6\t289.1\t257.9\t-31.2\n\n\nHome health care services\n\n\t1,513.6\t1,565.2\t1,570.8\t1,482.2\t1,514.1\t1,572.4\t1,575.3\t1,481.7\t-93.6\n\n\nOther ambulatory health care services\n\n\t312.1\t323.1\t320.1\t296.1\t311.8\t325.3\t320.7\t296.8\t-23.9\n\n\nHospitals\n\n\t5,168.9\t5,255.6\t5,261.5\t5,123.4\t5,178.3\t5,261.0\t5,264.9\t5,130.0\t-134.9\n\n\nNursing and residential care facilities\n\n\t3,362.9\t3,376.3\t3,372.9\t3,263.5\t3,373.7\t3,391.0\t3,388.8\t3,275.7\t-113.1\n\n\nNursing care facilities\n\n\t1,593.0\t1,586.0\t1,582.0\t1,536.4\t1,599.1\t1,592.2\t1,590.2\t1,543.0\t-47.2\n\n\nResidential mental health facilities\n\n\t644.8\t650.7\t651.5\t624.7\t645.9\t653.0\t653.4\t626.5\t-26.9\n\n\nCommunity care facilities for the elderly\n\n\t962.1\t973.0\t972.6\t940.8\t965.0\t977.9\t977.7\t944.3\t-33.4\n\n\nOther residential care facilities\n\n\t163.0\t166.6\t166.8\t161.6\t163.7\t167.9\t167.5\t161.9\t-5.6\n\n\nSocial assistance\n\n\t4,126.2\t4,252.1\t4,232.6\t3,598.7\t4,105.3\t4,250.5\t4,224.9\t3,574.3\t-650.6\n\n\nIndividual and family services\n\n\t2,594.2\t2,697.4\t2,693.9\t2,463.3\t2,590.6\t2,699.9\t2,698.0\t2,456.7\t-241.3\n\n\nEmergency and other relief services\n\n\t182.4\t185.3\t185.7\t175.5\t182.7\t186.0\t185.6\t176.4\t-9.2\n\n\nVocational rehabilitation services\n\n\t321.1\t323.4\t319.3\t256.6\t322.7\t326.0\t321.8\t257.9\t-63.9\n\n\nChild day care services\n\n\t1,028.5\t1,046.0\t1,033.7\t703.3\t1,009.4\t1,038.6\t1,019.5\t683.3\t-336.2\n\n\n\nLeisure and hospitality\n\n\t16,406\t16,264\t15,965\t8,655\t16,507\t16,867\t16,368\t8,715\t-7,653\n\n\nArts, entertainment, and recreation\n\n\t2,369.9\t2,260.6\t2,270.4\t1,100.0\t2,421.3\t2,472.4\t2,447.2\t1,124.4\t-1,322.8\n\n\nPerforming arts and spectator sports\n\n\t537.1\t474.8\t470.4\t284.8\t517.0\t511.7\t496.4\t279.4\t-217.0\n\n\nMuseums, historical sites, and similar institutions\n\n\t169.2\t160.3\t162.8\t127.5\t172.4\t175.2\t173.3\t129.5\t-43.8\n\n\nAmusements, gambling, and recreation\n\n\t1,663.6\t1,625.5\t1,637.2\t687.7\t1,731.9\t1,785.5\t1,777.5\t715.5\t-1,062.0\n\n\nAccommodation and food services\n\n\t14,036.0\t14,003.4\t13,694.5\t7,555.1\t14,085.6\t14,394.1\t13,920.6\t7,590.3\t-6,330.3\n\n\nAccommodation\n\n\t2,020.2\t2,002.0\t1,976.3\t1,157.4\t2,066.8\t2,091.0\t2,045.0\t1,206.0\t-839.0\n\n\nFood services and drinking places\n\n\t12,015.8\t12,001.4\t11,718.2\t6,397.7\t12,018.8\t12,303.1\t11,875.6\t6,384.3\t-5,491.3\n\n\n\nOther services\n\n\t5,882\t5,889\t5,866\t4,631\t5,884\t5,941\t5,903\t4,636\t-1,267\n\n\nRepair and maintenance\n\n\t1,351.8\t1,373.2\t1,368.7\t1,154.7\t1,347.0\t1,378.6\t1,370.9\t1,151.0\t-219.9\n\n\nPersonal and laundry services\n\n\t1,529.9\t1,515.9\t1,498.2\t717.0\t1,525.9\t1,537.2\t1,512.2\t715.3\t-796.9\n\n\nMembership associations and organizations\n\n\t3,000.7\t2,999.6\t2,999.1\t2,758.8\t3,011.3\t3,025.6\t3,019.5\t2,769.4\t-250.1\n\n\n\nGovernment\n\n\t22,948\t23,036\t23,052\t22,115\t22,553\t22,745\t22,717\t21,737\t-980\n\n\nFederal\n\n\t2,815.0\t2,848.0\t2,866.0\t2,874.0\t2,823.0\t2,867.0\t2,886.0\t2,887.0\t1.0\n\n\nFederal, except U.S. Postal Service\n\n\t2,210.0\t2,252.7\t2,270.6\t2,278.7\t2,217.2\t2,265.3\t2,285.8\t2,286.4\t0.6\n\n\nU.S. Postal Service\n\n\t604.6\t595.1\t595.0\t595.2\t605.8\t601.6\t599.8\t600.3\t0.5\n\n\nState government\n\n\t5,339.0\t5,344.0\t5,299.0\t5,119.0\t5,169.0\t5,199.0\t5,153.0\t4,973.0\t-180.0\n\n\nState government education\n\n\t2,657.7\t2,645.9\t2,599.4\t2,425.5\t2,487.4\t2,489.9\t2,447.8\t2,271.7\t-176.1\n\n\nState government, excluding education\n\n\t2,680.8\t2,698.3\t2,699.7\t2,693.2\t2,681.8\t2,709.3\t2,705.1\t2,700.8\t-4.3\n\n\nLocal government\n\n\t14,794.0\t14,844.0\t14,887.0\t14,122.0\t14,561.0\t14,679.0\t14,678.0\t13,877.0\t-801.0\n\n\nLocal government education\n\n\t8,311.0\t8,333.6\t8,353.0\t7,891.4\t7,994.9\t8,042.0\t8,037.0\t7,568.2\t-468.8\n\n\nLocal government, excluding education\n\n\t6,482.9\t6,510.7\t6,534.3\t6,230.3\t6,565.7\t6,636.8\t6,640.6\t6,308.3\t-332.3\n\n\nFootnotes\n(1) Includes other industries, not shown separately.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-2",
+      "title": "Table B-2. Average weekly hours and overtime of all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 4897,
+      "end_line": 5023,
+      "raw_text": "Table B-2. Average weekly hours and overtime of all employees on private nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nAVERAGE WEEKLY HOURS\n\n\t\n\n\nTotal private\n\n\t34.4\t34.4\t34.1\t34.2\n\n\nGoods-producing\n\n\t40.3\t40.4\t40.1\t38.3\n\n\nMining and logging\n\n\t46.8\t45.6\t45.2\t43.1\n\n\nConstruction\n\n\t39.2\t39.3\t39.1\t37.8\n\n\nManufacturing\n\n\t40.6\t40.7\t40.4\t38.3\n\n\nDurable goods\n\n\t40.9\t41.1\t40.8\t38.1\n\n\nNondurable goods\n\n\t39.9\t40.0\t39.8\t38.5\n\n\nPrivate service-providing\n\n\t33.3\t33.2\t32.9\t33.4\n\n\nTrade, transportation, and utilities\n\n\t34.3\t34.2\t34.1\t33.8\n\n\nWholesale trade\n\n\t39.0\t38.8\t38.8\t37.6\n\n\nRetail trade\n\n\t30.7\t30.7\t30.6\t30.6\n\n\nTransportation and warehousing\n\n\t38.7\t38.2\t38.0\t37.3\n\n\nUtilities\n\n\t41.8\t42.6\t42.3\t42.6\n\n\nInformation\n\n\t36.2\t36.3\t36.4\t36.5\n\n\nFinancial activities\n\n\t37.7\t37.6\t37.6\t37.6\n\n\nProfessional and business services\n\n\t36.2\t36.1\t36.1\t35.8\n\n\nEducation and health services\n\n\t33.0\t33.1\t32.9\t32.5\n\n\nLeisure and hospitality\n\n\t25.9\t25.8\t24.2\t24.2\n\n\nOther services\n\n\t31.9\t32.0\t31.4\t32.2\n\n\n\nAVERAGE OVERTIME HOURS\n\n\t\n\n\nManufacturing\n\n\t3.3\t3.2\t3.0\t2.1\n\n\nDurable goods\n\n\t3.3\t3.2\t2.9\t1.8\n\n\nNondurable goods\n\n\t3.4\t3.3\t3.3\t2.7",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-3",
+      "title": "Table B-3. Average hourly and weekly earnings of all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5040,
+      "end_line": 5145,
+      "raw_text": "Table B-3. Average hourly and weekly earnings of all employees on private nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tAverage hourly earnings\tAverage weekly earnings\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nTotal private\n\n\t$27.81\t$28.52\t$28.67\t$30.01\t$956.66\t$981.09\t$977.65\t$1,026.34\n\n\nGoods-producing\n\n\t28.81\t29.57\t29.62\t30.13\t1,161.04\t1,194.63\t1,187.76\t1,153.98\n\n\nMining and logging\n\n\t33.33\t34.72\t34.72\t34.99\t1,559.84\t1,583.23\t1,569.34\t1,508.07\n\n\nConstruction\n\n\t30.63\t31.31\t31.33\t31.38\t1,200.70\t1,230.48\t1,225.00\t1,186.16\n\n\nManufacturing\n\n\t27.48\t28.24\t28.33\t29.11\t1,115.69\t1,149.37\t1,144.53\t1,114.91\n\n\nDurable goods\n\n\t28.95\t29.66\t29.71\t30.69\t1,184.06\t1,219.03\t1,212.17\t1,169.29\n\n\nNondurable goods\n\n\t24.95\t25.79\t25.94\t26.56\t995.51\t1,031.60\t1,032.41\t1,022.56\n\n\nPrivate service-providing\n\n\t27.57\t28.27\t28.45\t29.98\t918.08\t938.56\t936.01\t1,001.33\n\n\nTrade, transportation, and utilities\n\n\t24.01\t24.68\t24.75\t25.70\t823.54\t844.06\t843.98\t868.66\n\n\nWholesale trade\n\n\t31.12\t31.81\t31.81\t32.38\t1,213.68\t1,234.23\t1,234.23\t1,217.49\n\n\nRetail trade\n\n\t19.48\t20.19\t20.30\t21.20\t598.04\t619.83\t621.18\t648.72\n\n\nTransportation and warehousing\n\n\t24.66\t25.17\t25.19\t26.01\t954.34\t961.49\t957.22\t970.17\n\n\nUtilities\n\n\t41.55\t42.52\t42.58\t43.28\t1,736.79\t1,811.35\t1,801.13\t1,843.73\n\n\nInformation\n\n\t41.97\t43.03\t43.28\t43.78\t1,519.31\t1,561.99\t1,575.39\t1,597.97\n\n\nFinancial activities\n\n\t35.73\t36.85\t36.81\t37.44\t1,347.02\t1,385.56\t1,384.06\t1,407.74\n\n\nProfessional and business services\n\n\t33.43\t34.41\t34.46\t35.71\t1,210.17\t1,242.20\t1,244.01\t1,278.42\n\n\nEducation and health services\n\n\t27.49\t27.90\t27.95\t28.30\t907.17\t923.49\t919.56\t919.75\n\n\nLeisure and hospitality\n\n\t16.45\t16.85\t16.86\t18.00\t426.06\t434.73\t408.01\t435.60\n\n\nOther services\n\n\t25.09\t25.63\t25.69\t27.40\t800.37\t820.16\t806.67\t882.28",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-4",
+      "title": "Table B-4. Indexes of aggregate weekly hours and payrolls for all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5162,
+      "end_line": 5277,
+      "raw_text": "Table B-4. Indexes of aggregate weekly hours and payrolls for all employees on private nonfarm payrolls by industry sector, seasonally adjusted\n[2007=100]\nIndustry\tIndex of aggregate weekly hours(1)\tIndex of aggregate weekly payrolls(2)\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tPercent change from:\nMar.\n2020 - Apr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tPercent change from:\nMar.\n2020 - Apr.\n2020(p)\n\n\nTotal private\n\n\t110.5\t112.0\t110.3\t93.8\t-15.0\t146.9\t152.7\t151.2\t134.6\t-11.0\n\n\nGoods-producing\n\n\t96.6\t97.6\t96.5\t81.9\t-15.1\t125.8\t130.4\t129.2\t111.6\t-13.6\n\n\nMining and logging\n\n\t109.0\t102.3\t100.4\t89.0\t-11.4\t145.8\t142.6\t140.0\t125.0\t-10.7\n\n\nConstruction\n\n\t100.9\t103.5\t102.5\t86.4\t-15.7\t134.3\t140.8\t139.6\t117.8\t-15.6\n\n\nManufacturing\n\n\t93.7\t94.1\t93.2\t79.2\t-15.0\t119.7\t123.6\t122.7\t107.2\t-12.6\n\n\nDurable goods\n\n\t92.8\t93.2\t92.3\t76.4\t-17.2\t119.3\t122.8\t121.8\t104.2\t-14.4\n\n\nNondurable goods\n\n\t95.1\t95.7\t95.0\t83.9\t-11.7\t120.3\t125.3\t125.0\t113.0\t-9.6\n\n\nPrivate service-providing\n\n\t114.6\t116.0\t114.1\t97.1\t-14.9\t153.6\t159.4\t157.8\t141.4\t-10.4\n\n\nTrade, transportation, and utilities\n\n\t103.6\t103.9\t103.3\t91.2\t-11.7\t134.1\t138.2\t137.9\t126.4\t-8.3\n\n\nWholesale trade\n\n\t101.4\t101.6\t101.5\t92.4\t-9.0\t132.0\t135.1\t135.1\t125.1\t-7.4\n\n\nRetail trade\n\n\t97.4\t97.7\t97.1\t84.0\t-13.5\t125.4\t130.4\t130.3\t117.7\t-9.7\n\n\nTransportation and warehousing\n\n\t124.5\t124.6\t123.8\t109.0\t-12.0\t156.2\t159.6\t158.7\t144.3\t-9.1\n\n\nUtilities\n\n\t99.1\t100.7\t100.0\t100.1\t0.1\t136.1\t141.4\t140.7\t143.1\t1.7\n\n\nInformation\n\n\t94.1\t95.9\t96.1\t87.9\t-8.5\t140.6\t147.0\t148.0\t137.0\t-7.4\n\n\nFinancial activities\n\n\t107.7\t109.0\t108.9\t105.7\t-2.9\t150.1\t156.6\t156.4\t154.4\t-1.3\n\n\nProfessional and business services\n\n\t120.5\t122.0\t121.5\t108.4\t-10.8\t163.1\t170.0\t169.6\t156.7\t-7.6\n\n\nEducation and health services\n\n\t129.6\t132.9\t131.5\t116.4\t-11.5\t171.4\t178.4\t176.9\t158.5\t-10.4\n\n\nLeisure and hospitality\n\n\t122.0\t124.2\t113.0\t60.2\t-46.7\t161.9\t168.8\t153.7\t87.4\t-43.1\n\n\nOther services\n\n\t108.2\t109.6\t106.9\t86.1\t-19.5\t148.8\t154.0\t150.5\t129.3\t-14.1\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-5",
+      "title": "Table B-5. Employment of women on nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5293,
+      "end_line": 5408,
+      "raw_text": "Table B-5. Employment of women on nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tWomen employees (in thousands)\tPercent of all employees\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nTotal nonfarm\n\n\t75,016\t76,291\t75,804\t64,546\t49.8\t50.0\t50.0\t49.3\n\n\nTotal private\n\n\t62,003\t63,148\t62,667\t52,023\t48.5\t48.7\t48.6\t47.6\n\n\nGoods-producing\n\n\t4,688\t4,769\t4,753\t4,207\t22.3\t22.5\t22.5\t22.4\n\n\nMining and logging\n\n\t95\t95\t95\t93\t12.8\t13.3\t13.4\t14.2\n\n\nConstruction\n\n\t962\t994\t990\t894\t12.9\t13.0\t13.0\t13.5\n\n\nManufacturing\n\n\t3,631\t3,680\t3,668\t3,220\t28.3\t28.6\t28.6\t28.0\n\n\nDurable goods\n\n\t1,927\t1,957\t1,951\t1,719\t23.9\t24.3\t24.3\t24.1\n\n\nNondurable goods\n\n\t1,704\t1,723\t1,717\t1,501\t35.7\t35.9\t35.9\t34.4\n\n\nPrivate service-providing\n\n\t57,315\t58,379\t57,914\t47,816\t53.6\t53.8\t53.8\t52.8\n\n\nTrade, transportation, and utilities\n\n\t11,078\t11,156\t11,117\t9,467\t40.0\t40.1\t40.0\t38.3\n\n\nWholesale trade\n\n\t1,773.2\t1,787.2\t1,787.0\t1,651.4\t30.1\t30.1\t30.1\t29.7\n\n\nRetail trade\n\n\t7,758.0\t7,767.0\t7,734.5\t6,450.8\t49.6\t49.6\t49.5\t47.7\n\n\nTransportation and warehousing\n\n\t1,414.9\t1,468.5\t1,462.6\t1,232.1\t25.3\t25.9\t25.8\t24.2\n\n\nUtilities\n\n\t131.5\t132.8\t132.8\t132.8\t24.0\t24.3\t24.3\t24.5\n\n\nInformation\n\n\t1,130\t1,149\t1,146\t1,046\t39.7\t39.7\t39.7\t39.7\n\n\nFinancial activities\n\n\t4,946\t5,000\t5,002\t4,864\t56.7\t56.5\t56.6\t56.7\n\n\nProfessional and business services\n\n\t9,651\t9,897\t9,858\t8,754\t45.5\t45.9\t45.9\t45.3\n\n\nEducation and health services\n\n\t18,584\t19,027\t18,935\t16,825\t77.3\t77.4\t77.3\t76.7\n\n\nLeisure and hospitality\n\n\t8,780\t8,995\t8,716\t4,565\t53.2\t53.3\t53.3\t52.4\n\n\nOther services\n\n\t3,146\t3,155\t3,140\t2,295\t53.5\t53.1\t53.2\t49.5\n\n\nGovernment\n\n\t13,013\t13,143\t13,137\t12,523\t57.7\t57.8\t57.8\t57.6",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-6",
+      "title": "Table B-6. Employment of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5425,
+      "end_line": 5529,
+      "raw_text": "Table B-6. Employment of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\n[In thousands]\nIndustry\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nTotal private\n\n\t105,335\t106,696\t105,740\t87,640\n\n\nGoods-producing\n\n\t15,086\t15,165\t15,101\t13,092\n\n\nMining and logging\n\n\t549\t514\t506\t460\n\n\nConstruction\n\n\t5,558\t5,688\t5,665\t4,808\n\n\nManufacturing\n\n\t8,979\t8,963\t8,930\t7,824\n\n\nDurable goods\n\n\t5,547\t5,529\t5,506\t4,686\n\n\nNondurable goods\n\n\t3,432\t3,434\t3,424\t3,138\n\n\nPrivate service-providing\n\n\t90,249\t91,531\t90,639\t74,548\n\n\nTrade, transportation, and utilities\n\n\t23,405\t23,527\t23,466\t20,707\n\n\nWholesale trade\n\n\t4,738.4\t4,753.1\t4,747.8\t4,418.1\n\n\nRetail trade\n\n\t13,341.3\t13,375.3\t13,330.0\t11,470.1\n\n\nTransportation and warehousing\n\n\t4,887.2\t4,961.5\t4,951.8\t4,385.7\n\n\nUtilities\n\n\t438.4\t437.0\t436.1\t433.3\n\n\nInformation\n\n\t2,288\t2,325\t2,318\t2,087\n\n\nFinancial activities\n\n\t6,754\t6,852\t6,830\t6,437\n\n\nProfessional and business services\n\n\t17,294\t17,497\t17,373\t15,328\n\n\nEducation and health services\n\n\t21,117\t21,611\t21,472\t19,145\n\n\nLeisure and hospitality\n\n\t14,516\t14,812\t14,327\t7,134\n\n\nOther services\n\n\t4,875\t4,907\t4,853\t3,710\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-7",
+      "title": "Table B-7. Average weekly hours and overtime of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5544,
+      "end_line": 5673,
+      "raw_text": "Table B-7. Average weekly hours and overtime of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\nIndustry\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nAVERAGE WEEKLY HOURS\n\n\t\n\n\nTotal private\n\n\t33.7\t33.7\t33.4\t33.5\n\n\nGoods-producing\n\n\t41.2\t41.0\t40.8\t38.7\n\n\nMining and logging\n\n\t47.3\t45.6\t45.5\t43.0\n\n\nConstruction\n\n\t39.8\t39.6\t39.6\t38.2\n\n\nManufacturing\n\n\t41.6\t41.6\t41.3\t38.7\n\n\nDurable goods\n\n\t42.0\t41.9\t41.5\t38.4\n\n\nNondurable goods\n\n\t41.1\t41.2\t41.1\t39.1\n\n\nPrivate service-providing\n\n\t32.4\t32.5\t32.1\t32.6\n\n\nTrade, transportation, and utilities\n\n\t33.9\t34.1\t33.9\t33.6\n\n\nWholesale trade\n\n\t38.7\t38.6\t38.4\t37.0\n\n\nRetail trade\n\n\t30.5\t30.6\t30.6\t30.6\n\n\nTransportation and warehousing\n\n\t38.0\t38.3\t37.9\t37.1\n\n\nUtilities\n\n\t42.2\t43.0\t42.7\t42.4\n\n\nInformation\n\n\t35.3\t35.2\t35.3\t35.8\n\n\nFinancial activities\n\n\t36.9\t36.8\t36.7\t36.7\n\n\nProfessional and business services\n\n\t35.4\t35.5\t35.4\t35.2\n\n\nEducation and health services\n\n\t32.2\t32.3\t32.2\t31.7\n\n\nLeisure and hospitality\n\n\t24.7\t24.7\t22.8\t22.4\n\n\nOther services\n\n\t30.8\t31.0\t30.5\t31.2\n\n\n\nAVERAGE OVERTIME HOURS\n\n\t\n\n\nManufacturing\n\n\t4.3\t4.0\t3.9\t2.7\n\n\nDurable goods\n\n\t4.3\t4.1\t3.9\t2.5\n\n\nNondurable goods\n\n\t4.3\t3.9\t3.9\t3.0\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-8",
+      "title": "Table B-8. Average hourly and weekly earnings of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5688,
+      "end_line": 5796,
+      "raw_text": "Table B-8. Average hourly and weekly earnings of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\nIndustry\tAverage hourly earnings\tAverage weekly earnings\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\n\n\nTotal private\n\n\t$23.33\t$23.96\t$24.08\t$25.12\t$786.22\t$807.45\t$804.27\t$841.52\n\n\nGoods-producing\n\n\t24.60\t25.17\t25.24\t25.25\t1,013.52\t1,031.97\t1,029.79\t977.18\n\n\nMining and logging\n\n\t29.88\t30.97\t30.88\t30.99\t1,413.32\t1,412.23\t1,405.04\t1,332.57\n\n\nConstruction\n\n\t28.45\t28.97\t29.06\t28.74\t1,132.31\t1,147.21\t1,150.78\t1,097.87\n\n\nManufacturing\n\n\t21.96\t22.52\t22.57\t22.76\t913.54\t936.83\t932.14\t880.81\n\n\nDurable goods\n\n\t22.88\t23.51\t23.56\t23.68\t960.96\t985.07\t977.74\t909.31\n\n\nNondurable goods\n\n\t20.44\t20.89\t20.97\t21.41\t840.08\t860.67\t861.87\t837.13\n\n\nPrivate service-providing\n\n\t23.07\t23.71\t23.83\t25.10\t747.47\t770.58\t764.94\t818.26\n\n\nTrade, transportation, and utilities\n\n\t20.53\t20.94\t20.94\t21.66\t695.97\t714.05\t709.87\t727.78\n\n\nWholesale trade\n\n\t25.98\t26.25\t26.34\t26.83\t1,005.43\t1,013.25\t1,011.46\t992.71\n\n\nRetail trade\n\n\t16.49\t16.94\t17.00\t17.61\t502.95\t518.36\t520.20\t538.87\n\n\nTransportation and warehousing\n\n\t22.38\t22.76\t22.60\t23.33\t850.44\t871.71\t856.54\t865.54\n\n\nUtilities\n\n\t36.78\t37.80\t37.85\t38.11\t1,552.12\t1,625.40\t1,616.20\t1,615.86\n\n\nInformation\n\n\t33.41\t34.55\t34.62\t35.58\t1,179.37\t1,216.16\t1,222.09\t1,273.76\n\n\nFinancial activities\n\n\t27.50\t28.25\t28.30\t28.72\t1,014.75\t1,039.60\t1,038.61\t1,054.02\n\n\nProfessional and business services\n\n\t27.52\t28.43\t28.49\t29.73\t974.21\t1,009.27\t1,008.55\t1,046.50\n\n\nEducation and health services\n\n\t24.14\t24.80\t24.87\t25.33\t777.31\t801.04\t800.81\t802.96\n\n\nLeisure and hospitality\n\n\t14.38\t14.90\t14.63\t14.71\t355.19\t368.03\t333.56\t329.50\n\n\nOther services\n\n\t21.27\t21.84\t21.91\t23.10\t655.12\t677.04\t668.26\t720.72\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-9",
+      "title": "Table B-9. Indexes of aggregate weekly hours and payrolls for production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5811,
+      "end_line": 5926,
+      "raw_text": "Table B-9. Indexes of aggregate weekly hours and payrolls for production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\n[2002=100]\nIndustry\tIndex of aggregate weekly hours(2)\tIndex of aggregate weekly payrolls(3)\nApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tPercent change from:\nMar.\n2020 - Apr.\n2020(p)\tApr.\n2019\tFeb.\n2020\tMar.\n2020(p)\tApr.\n2020(p)\tPercent change from:\nMar.\n2020 - Apr.\n2020(p)\n\n\nTotal private\n\n\t118.3\t119.8\t117.7\t97.8\t-16.9\t184.4\t191.9\t189.4\t164.3\t-13.3\n\n\nGoods-producing\n\n\t95.0\t95.0\t94.2\t77.4\t-17.8\t143.1\t146.4\t145.5\t119.7\t-17.7\n\n\nMining and logging\n\n\t138.0\t124.6\t122.3\t105.1\t-14.1\t239.8\t224.3\t219.7\t189.4\t-13.8\n\n\nConstruction\n\n\t110.8\t112.8\t112.3\t92.0\t-18.1\t170.2\t176.4\t176.3\t142.7\t-19.1\n\n\nManufacturing\n\n\t85.7\t85.6\t84.7\t69.5\t-17.9\t123.1\t126.1\t125.0\t103.5\t-17.2\n\n\nDurable goods\n\n\t87.5\t87.0\t85.9\t67.6\t-21.3\t125.0\t127.8\t126.3\t100.0\t-20.8\n\n\nNondurable goods\n\n\t83.1\t83.4\t82.9\t72.3\t-12.8\t120.0\t123.1\t122.9\t109.4\t-11.0\n\n\nPrivate service-providing\n\n\t124.6\t126.7\t124.0\t103.5\t-16.5\t197.1\t206.1\t202.6\t178.3\t-12.0\n\n\nTrade, transportation, and utilities\n\n\t111.0\t112.2\t111.2\t97.3\t-12.5\t162.8\t167.9\t166.5\t150.6\t-9.5\n\n\nWholesale trade\n\n\t108.8\t108.9\t108.2\t97.0\t-10.4\t166.9\t168.7\t168.2\t153.6\t-8.7\n\n\nRetail trade\n\n\t103.0\t103.6\t103.2\t88.8\t-14.0\t145.5\t150.3\t150.4\t134.0\t-10.9\n\n\nTransportation and warehousing\n\n\t140.6\t143.8\t142.0\t123.1\t-13.3\t200.2\t208.3\t204.3\t182.9\t-10.5\n\n\nUtilities\n\n\t94.6\t96.1\t95.2\t94.0\t-1.3\t145.2\t151.6\t150.4\t149.5\t-0.6\n\n\nInformation\n\n\t92.2\t93.4\t93.4\t85.3\t-8.7\t152.5\t159.8\t160.1\t150.2\t-6.2\n\n\nFinancial activities\n\n\t117.3\t118.7\t118.0\t111.2\t-5.8\t198.5\t206.3\t205.4\t196.5\t-4.3\n\n\nProfessional and business services\n\n\t136.9\t138.9\t137.5\t120.6\t-12.3\t224.0\t234.8\t233.0\t213.3\t-8.5\n\n\nEducation and health services\n\n\t145.0\t148.8\t147.4\t129.4\t-12.2\t231.0\t243.6\t242.0\t216.3\t-10.6\n\n\nLeisure and hospitality\n\n\t131.3\t134.0\t119.7\t58.5\t-51.1\t214.5\t226.8\t198.8\t97.8\t-50.8\n\n\nOther services\n\n\t105.3\t106.7\t103.8\t81.2\t-21.8\t163.2\t169.8\t165.7\t136.6\t-17.6\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    }
+  ],
+  "quality_checks": {
+    "table_a_row_count": 35,
+    "table_a_column_count": 5,
+    "table_a_values_parsed": 175,
+    "table_a_values_missing": 0,
+    "table_ids": [
+      "A",
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ],
+    "raw_block_table_ids": [
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ],
+    "chunk_count": 14,
+    "contains_last_modified_footer": false
+  }
+}

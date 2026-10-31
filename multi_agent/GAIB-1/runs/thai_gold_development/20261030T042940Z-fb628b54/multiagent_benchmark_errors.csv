@@ -1,0 +1,694 @@
+﻿query_id,query,stage,error_type,error,traceback
+thgold_001,ราคาทองคำแท่งและทองรูปพรรณปิดตลาดวันที่ 20 ต.ค. 2569 เท่าไร และราคาปรับขึ้นหรือลงกี่บาท?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_002,วันที่ 23 ต.ค. 2569 ทองคำแท่งและทองรูปพรรณขายออกเท่าไร ราคาทองเปลี่ยนแปลงกี่บาทและกี่ครั้ง?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_003,ข่าวปิดตลาดวันที่ 21 ต.ค. 2569 รายงานราคาทองคำแท่งและทองรูปพรรณอย่างไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_004,วันที่ 16 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_005,ข่าวปิดตลาดวันที่ 15 ต.ค. 2569 ระบุการเปลี่ยนแปลงและราคาขายออกของทองคำแท่งเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_006,เช้าวันที่ 15 ต.ค. 2569 ราคาทองเปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_007,เช้าวันที่ 14 ต.ค. 2569 ทองรูปพรรณขายออกเท่าไร และข่าวระบุการเปลี่ยนแปลงราคาเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_008,วันที่ 22 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_009,วันที่ 14 ต.ค. 2569 ราคาทองปิดตลาดเปลี่ยนแปลงเท่าไร และทองคำแท่งขายออกเท่าไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_010,ข่าววันที่ 20 ต.ค. 2569 กล่าวถึงปัจจัยตลาดใดบ้างพร้อมกับราคาทองที่ลดลง? แยกสิ่งที่รายงานจากข้อสรุปเชิงเหตุและผล,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_011,ข่าววันที่ 23 ต.ค. 2569 ระบุว่าราคาทองคำโลกปรับลงกี่ดอลลาร์?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_012,ข่าววันที่ 21 ต.ค. 2569 กล่าวถึงดอลลาร์ ยีลด์พันธบัตร 2 ปี และการเจรจาสหรัฐฯ–อิหร่านอย่างไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_013,ข่าววันที่ 16 ต.ค. 2569 กล่าวถึงการลงทุนของ World Bank ในแร่สำคัญและเหตุการณ์ภูมิรัฐศาสตร์ใด?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_014,ข่าววันที่ 15 ต.ค. 2569 รายงานความเสี่ยงด้านภูมิรัฐศาสตร์และพลังงานใดที่เกี่ยวข้องกับมุมมองต่อทอง?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_015,ข่าวเช้าวันที่ 15 ต.ค. 2569 ระบุข้อมูลเงินเฟ้อสหรัฐฯ และความกังวลเรื่องดอกเบี้ยอย่างไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_016,ข่าวเช้าวันที่ 14 ต.ค. 2569 ระบุระดับราคาทองโลกและปัจจัยเสี่ยงใดบ้าง?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_017,ข่าววันที่ 22 ต.ค. 2569 อธิบายบริบทที่เกิดพร้อมกับราคาทองที่ลดลงอย่างไร?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_018,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 ระบุความเสี่ยงมหภาคใดที่ตลาดกำลังติดตาม?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_019,เปรียบเทียบราคาขายออกทองคำแท่งปิดตลาดวันที่ 14 ต.ค. กับ 23 ต.ค. 2569: วันที่ 14 ต.ค. สูงกว่ากี่บาท?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_020,ข่าวปิดตลาดวันที่ 14 ต.ค. 2569 รายงานราคาขายออกทองคำแท่งเท่าไร และข้อมูล feature ล่าสุดของระบบให้ GaussianHMM latent state หมายเลขใด? แยกวันที่ของสองแหล่งและอย่าตีความ state เป็นขาขึ้นหรือขาลง,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"
+thgold_021,เมื่อมีข่าวทองคำถึงวันที่ 23 ต.ค. 2569 แต่ feature ล่าสุดของระบบคือวันที่ 13 ต.ค. 2569 เวลา 12:09 แล้ว ควรอ้าง HMM state ว่าเป็นภาวะตลาดวันที่ 23 ต.ค. หรือไม่ และข้อมูลล่าช้ากี่วัน?,assistant.run_or_metrics,RuntimeError,A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403,"Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 301, in rerank
+    response,attempts=JINA_GATE.call(request_rerank)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\4159663002.py"", line 175, in call
+    result = operation()
+             ^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 300, in request_rerank
+    response.raise_for_status(); return response
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""D:\Project_Github\gold assisstant\.venv\Lib\site-packages\requests\models.py"", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.jina.ai/v1/rerank
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\242032892.py"", line 105, in run_multiagent_benchmark
+    res=assistant.run(q,telemetry_callback=record_agent_telemetry)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3024334959.py"", line 150, in assistant_run_exit_v2
+    result = _GAIB_ORIGINAL_ASSISTANT_RUN(self, query, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\1729101830.py"", line 286, in run
+    retrieval=self.evidence.retrieve(query,FINAL_K)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 357, in retrieve
+    reranked,rstatus,rms,rerr=self.reranker.rerank(retrieval_query,raw,top_n)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\User\AppData\Local\Temp\ipykernel_21244\3324611564.py"", line 318, in rerank
+    raise RuntimeError(f""A2 requires successful Jina reranking; {slot} failed with {status_text}"") from error
+RuntimeError: A2 requires successful Jina reranking; JINA_API_KEY3 failed with HTTP 403
+"

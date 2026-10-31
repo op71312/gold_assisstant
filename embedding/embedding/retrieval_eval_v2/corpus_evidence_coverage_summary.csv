@@ -1,0 +1,6 @@
+﻿method,query_count,queries_all_evidence_docs_present,query_doc_coverage_rate,evidence_count,evidence_documents_present,quotes_preserved_in_collection,quotes_preserved_in_single_chunk,quote_collection_coverage_rate,single_chunk_quote_coverage_rate
+adaptive,114,114,1.0,121,121,121,118,1.0,0.9752066115702479
+existing_baseline,114,114,1.0,121,121,121,117,1.0,0.9669421487603306
+recursive_fixed,114,114,1.0,121,121,121,121,1.0,1.0
+semantic,114,114,1.0,121,121,121,119,1.0,0.9834710743801653
+structure_aware,114,114,1.0,121,121,121,120,1.0,0.9917355371900827

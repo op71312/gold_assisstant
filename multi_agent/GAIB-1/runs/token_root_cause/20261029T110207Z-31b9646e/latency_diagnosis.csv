@@ -1,0 +1,6 @@
+run_id,query_id,agent,execution_mode,latency_ms,gate_wait_ms,http_attempt_durations_ms,api_attempt_count,retry_count,finish_reason,measurement_status
+20261029T110207Z-31b9646e,gtv2_000070,AI2_Macro_Analyst,historical_unknown,4924.831799999993,,,1,0,stop,HISTORICAL_REQUEST_TIMING_NOT_INSTRUMENTED
+20261029T110207Z-31b9646e,gtv2_000070,AI4_Risk_Data_Auditor,historical_unknown,6933.944699999984,,,2,1,stop,HISTORICAL_REQUEST_TIMING_NOT_INSTRUMENTED
+20261029T110207Z-31b9646e,gtv2_000070,AI3_Quant_Regime_Analyst,historical_unknown,7580.853099999786,,,1,0,length,HISTORICAL_REQUEST_TIMING_NOT_INSTRUMENTED
+20261029T110207Z-31b9646e,gtv2_000070,AI1_News_Analyst,historical_unknown,9663.245099999813,,,2,1,stop,HISTORICAL_REQUEST_TIMING_NOT_INSTRUMENTED
+20261029T110207Z-31b9646e,gtv2_000070,AI5_Lead_Researcher,historical_unknown,7921.202099999846,,,2,1,stop,HISTORICAL_REQUEST_TIMING_NOT_INSTRUMENTED

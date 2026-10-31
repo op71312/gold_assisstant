@@ -1,0 +1,8 @@
+﻿scope,queries,mean,median,agent_success_rate,json_valid_rate,latency_p50_ms,latency_p95_ms,mean_tokens,valid_citation_run_rate,mean_citation_paragraph_coverage
+retrieval_hybrid_known_relevant_recall@10,6,0.3333333333333333,0.0,,,,,,,
+retrieval_hybrid_mrr@10,6,0.05416666666666667,0.0,,,,,,,
+retrieval_hybrid_ndcg@10,6,0.11705294733671173,0.0,,,,,,,
+retrieval_reranked_known_relevant_recall@10,6,0.3333333333333333,0.0,,,,,,,
+retrieval_reranked_mrr@10,6,0.1851851851851852,0.0,,,,,,,
+retrieval_reranked_ndcg@10,6,0.21683833261066354,0.0,,,,,,,
+multiagent_benchmark,5,,,1.0,0.72,19058.279699995182,67602.22634000091,21197.2,0.0,0.0

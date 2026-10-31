@@ -1,0 +1,104 @@
+{
+  "benchmark": {
+    "retrieval_enabled": true,
+    "multi_agent_enabled": true,
+    "limit": 5,
+    "output_dir": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\runs\\token_root_cause\\20261029T110207Z-31b9646e",
+    "live_acceptance_enabled": true
+  },
+  "created_at_utc": "2026-10-29T11:02:07.033792+00:00",
+  "ground_truth_source": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\ground_truth_fed_numeric_acceptance_v2.jsonl",
+  "selected_split": "held_out",
+  "source_gaps_file": "D:\\Project_Github\\gold assisstant\\multi_agent\\gt\\ground_truth_fed_source_gaps_v1.jsonl",
+  "test_split_opt_in": false,
+  "remote_api_opt_in": true,
+  "full_development_benchmark": false,
+  "ai_judge_enabled": true,
+  "judge_model_configured": true,
+  "second_judge_model_configured": true,
+  "full_held_out_acceptance": true,
+  "a2_retrieval": {
+    "embedding_model": "@cf/baai/bge-m3",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "rrf_k": 60,
+    "final_k": 10,
+    "context_max_chars": 16000,
+    "context_per_chunk_max_chars": 2500,
+    "jina_model": "jina-reranker-v3.5",
+    "jina_key_slots_configured": 3,
+    "remote_rag_required": true
+  },
+  "generation": {
+    "model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+    "temperature": 0.0,
+    "agent_max_tokens": 900,
+    "final_max_tokens": 1600,
+    "timeout_seconds": 90,
+    "max_attempts": 3,
+    "api_max_retries": 3
+  },
+  "api_gates": {
+    "qdrant": {
+      "max_concurrent": 2,
+      "min_interval_seconds": 0.1
+    },
+    "cloudflare": {
+      "max_concurrent": 2,
+      "min_interval_seconds": 0.1
+    },
+    "jina": {
+      "max_concurrent": 1,
+      "min_interval_seconds": 0.25
+    },
+    "thaillm": {
+      "max_concurrent": 7,
+      "min_interval_seconds": 0.05
+    }
+  },
+  "run_id": "20261029T110207Z-31b9646e",
+  "experiment": "GAIB-1 reliability phase 1-2",
+  "prompt_version": "claim-evidence-v1",
+  "schema_version": "agent-contract-v1",
+  "corpus_sha256": "5f7c2880f1bed234e1fa874ed98316ce44ae7e46a9250d6376b35fcd98a2d102",
+  "baseline_comparison_note": "Historical run comparison is diagnostic only; API timing/model service conditions may differ.",
+  "index_snapshot": {
+    "collection": "gold_news_structure_aware",
+    "collection_uuid": "",
+    "status": "green",
+    "points_count": 19784,
+    "indexed_vectors_count": 17856,
+    "corpus_source": "local_jsonl",
+    "chunk_corpus_sha256": "c02f768179863f0479fa3681b62aa47e10a17f9a99d592c69be47c6ae729cf9e"
+  },
+  "index_version": "dc4f3621f593526659d554e15e06bb451dff8dbef967ebab4c9eadd5b8e9abf7",
+  "ai_judge": {
+    "enabled": true,
+    "primary_model": "qwen3.5-9b",
+    "second_model": "qwen3.6-35b-a3b",
+    "rubric_version": "gaib1-claim-rubric-v1",
+    "prompt_hash": "fc6073f52c74579df42db6161811afa192b4c1b7bf5c72bef84c05533987212d",
+    "index_version": "dc4f3621f593526659d554e15e06bb451dff8dbef967ebab4c9eadd5b8e9abf7",
+    "claim_judgment_count": 103,
+    "judge_call_count": 103
+  },
+  "live_acceptance_status": "COMPLETED",
+  "split": "held_out",
+  "max_queries": 100,
+  "expected_ground_truth_queries": 100,
+  "retrieval_queries": 100,
+  "retrieval_errors": 0,
+  "multiagent_queries": 100,
+  "multiagent_errors": 0,
+  "per_agent_records": 500,
+  "backend": "qdrant_cloudflare_hybrid",
+  "thaillm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+  "jina_model": "jina-reranker-v3.5",
+  "ai_judge_decision": "NO-GO",
+  "ai_judge_model": "qwen3.5-9b",
+  "second_judge_model": "qwen3.6-35b-a3b",
+  "truncation_recovery_mode": "increased",
+  "truncation_recovery_max_tokens": 1200,
+  "truncation_recovery_escalation_max_tokens": 1500
+}

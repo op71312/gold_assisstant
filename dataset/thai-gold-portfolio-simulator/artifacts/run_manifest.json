@@ -1,0 +1,389 @@
+{
+  "run_id": "R_FEATURE_V1",
+  "generated_at": "2026-10-28T13:26:38.776484+00:00",
+  "input_file": "D:\\Project_Github\\gold assisstant\\dataset\\datset a gold price\\data\\processed\\thai_gold_features_v1.csv",
+  "input_sha256": "ea0aed919d99ff855721d7c0296bedc13cec5e3e70beecee7989cef06171a680",
+  "source_dataset": "D:\\Project_Github\\gold assisstant\\dataset\\datset a gold price\\data\\processed\\thai_gold_features_v1.csv",
+  "source_sha256": "ea0aed919d99ff855721d7c0296bedc13cec5e3e70beecee7989cef06171a680",
+  "adapted_input": "D:\\Project_Github\\gold assisstant\\dataset\\thai-gold-portfolio-simulator\\dataset\\thai_gold_features_v1_simulator_input.csv",
+  "adapted_input_sha256": "f1314f1f011ca52b1f04d2c3914bf2e6eaed0f1e1f565ef87415432d50cac744",
+  "source_rows": 6261,
+  "daily_quote_rows": 6261,
+  "counts": {
+    "portfolios": 1050,
+    "transaction_events": 40466,
+    "portfolio_year_records": 10827,
+    "monthly_valuations": 121639
+  },
+  "validation": {
+    "accounting_reconciliation_failures": 0,
+    "attribution_residual_failures": 0,
+    "failures": []
+  },
+  "quote_selection_policy": "last_valid_of_day",
+  "feature_valid_price_pair_semantics": "A price-change computability flag requiring a prior same-day row; not used to filter quotes.",
+  "comparison_with_pre_recalculation_prices": {
+    "status": "compared",
+    "comparison_source": "D:\\Project_Github\\gold assisstant\\dataset\\thai-gold-portfolio-simulator\\baseline_raw_R001\\outputs\\daily_market_prices.parquet",
+    "shared_price_columns": [
+      "bar_buy_thb",
+      "bar_sell_thb",
+      "ornament_sell_thb",
+      "gold_spot_usd",
+      "usd_thb"
+    ],
+    "added_price_columns": [
+      "ornament_buy_thb"
+    ],
+    "previous_dates": 5933,
+    "feature_dates": 6261,
+    "overlapping_dates": 5924,
+    "identical_price_rows_on_overlap": 5267,
+    "changed_price_rows_on_overlap": 657,
+    "only_in_previous": 9,
+    "only_in_feature_source": 337,
+    "max_absolute_difference_by_column": {
+      "bar_buy_thb": 100.0,
+      "bar_sell_thb": 100.0,
+      "ornament_sell_thb": 100.0,
+      "gold_spot_usd": 4992.57,
+      "usd_thb": 1.0
+    }
+  },
+  "ground_truth_query_audit": {
+    "status": "news_ground_truth_preserved",
+    "feature_price_coverage_end": "2026-10-13",
+    "files": [
+      {
+        "path": "D:\\Project_Github\\gold assisstant\\multi_agent\\gt\\ground_truth_fed_v1.jsonl",
+        "query_count": 43,
+        "news_gold_query_count": 0,
+        "simulator_output_query_count": 0
+      },
+      {
+        "path": "D:\\Project_Github\\gold assisstant\\multi_agent\\gt\\ground_truth_fed_ready_v1.jsonl",
+        "query_count": 37,
+        "news_gold_query_count": 0,
+        "simulator_output_query_count": 0
+      },
+      {
+        "path": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\ground_truth_all_v1.jsonl",
+        "query_count": 43,
+        "news_gold_query_count": 0,
+        "simulator_output_query_count": 0
+      },
+      {
+        "path": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_count": 114,
+        "news_gold_query_count": 29,
+        "simulator_output_query_count": 0
+      }
+    ],
+    "gold_price_fact_queries": [
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000080",
+        "question_dates": "2026-10-20",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,600",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000081",
+        "question_dates": "2026-10-20",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,400",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000083",
+        "question_dates": "2026-10-23",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=64,350",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000084",
+        "question_dates": "2026-10-23",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=65,150",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000086",
+        "question_dates": "2026-10-21",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,600",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000087",
+        "question_dates": "2026-10-21",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,400",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000089",
+        "question_dates": "2026-10-16",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=66,100",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000090",
+        "question_dates": "2026-10-16",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,900",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000092",
+        "question_dates": "2026-10-15",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,950",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000093",
+        "question_dates": "2026-10-15",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,750",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000095",
+        "question_dates": "2026-10-15",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,850",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000096",
+        "question_dates": "2026-10-15",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,650",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000098",
+        "question_dates": "2026-10-14",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=66,200",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000099",
+        "question_dates": "2026-10-14",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=67,000",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000101",
+        "question_dates": "2026-10-22",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,350",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000102",
+        "question_dates": "2026-10-22",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,150",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000104",
+        "question_dates": "2026-10-14",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,950",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000105",
+        "question_dates": "2026-10-14",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_ornament_sell_price=66,750",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000110",
+        "question_dates": "2026-10-20;2026-10-23",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,600; gold_bar_sell_price=64,350; gold_bar_sell_price_difference=-1250.0",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      },
+      {
+        "ground_truth_file": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+        "query_id": "gtv2_000113",
+        "question_dates": "2026-10-20",
+        "expected_answer_source": "news_ground_truth",
+        "expected_facts": "gold_bar_sell_price=65,600; gold_ornament_sell_price=66,400",
+        "feature_price_coverage_end": "2026-10-13",
+        "coverage_status": "OUT_OF_FEATURE_PRICE_COVERAGE",
+        "ground_truth_modified": false
+      }
+    ],
+    "source_evidence_inventory": {
+      "path": "D:\\Project_Github\\gold assisstant\\dataset\\ground_truth_source_data_4_datasets.jsonl",
+      "record_count": 264,
+      "datasets": [
+        "bls_cpi",
+        "bls_nfp",
+        "fed",
+        "thaipbs_direct"
+      ],
+      "modified": false
+    },
+    "ground_truth_files_modified": false
+  },
+  "unavailable_fields": {
+    "ornament_tax_base_thb": "Not present in the feature dataset; preserved as null and unused by the portfolio replay."
+  },
+  "ornament_buyback_price_policy": "Use observed ornament_buy_thb when present; A04 fallback applies only to inputs without an observed buy quote.",
+  "ground_truth_scope": "News/Fed query ground truth is unchanged: inspected benchmark query sets contain no gold-price or simulator-output questions. This avoids deriving evaluation labels from the system outputs being evaluated.",
+  "simulation": {
+    "simulation_run_id": "R_FEATURE_V1",
+    "label": "feature-dataset-recalculation",
+    "generated_at": "2026-10-28T13:26:05.810940+00:00",
+    "total_portfolios": 1050,
+    "total_cohorts": 21,
+    "cohorts": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "total_transaction_events": 40466,
+    "accepted_transactions": 18885,
+    "rejected_transactions": 21581,
+    "rejection_reasons": {
+      "BELOW_MIN_TRADE_UNIT": 21066,
+      "": 18885,
+      "NO_VALID_PRICE": 515
+    },
+    "portfolio_year_records": 10827,
+    "monthly_valuation_records": 121639,
+    "cashflow_records": 13200,
+    "attribution_records": 10827,
+    "missing_invalid_price_events": 515,
+    "accounting_reconciliation_failures": 0,
+    "accounting_reconciliation_max_error_thb": 2.277083694934845e-05,
+    "attribution_residual_failures": 0,
+    "attribution_max_residual_thb": 2.277083694934845e-05,
+    "reproducibility": {
+      "global_seed": 20261022,
+      "seed_mechanism": "numpy SeedSequence spawn: cohort <- global, portfolio <- cohort",
+      "parameter_set_id": "PS_R_FEATURE_V1"
+    },
+    "calibration_gaps": [
+      "transaction_frequency",
+      "transaction_size",
+      "initial_capital",
+      "holding_period",
+      "ornament_buyback_quote",
+      "behavior_weights"
+    ],
+    "warnings": [],
+    "validation_failures": []
+  },
+  "output_sha256": {
+    "assumptions_register.csv": "9225bc286b1388180c3311a4eec56047cb6e8bde8acdcb7b2d7d3859b7030498",
+    "cashflow_ledger.csv": "e245f0c344dbab3ba4544bcdaae661432918cb0b1a1a33d9793af165ee683f96",
+    "cashflow_ledger.parquet": "58ddaaa020cac4fb6666cf2a87d75a8370b59fb195b9c709c164ae57c1c89f42",
+    "daily_market_prices.csv": "538e09fabb921ba9f5e36c6614fe95afe462bbb83d9b403f6134f7859b6dbd14",
+    "daily_market_prices.parquet": "c6ebe0c867cb73982d696629468d9e23f9694666f15da2d87f62495b2dee3135",
+    "data_audit_report.json": "89e150f6868b7a4b84132ff94d5e078e3c6bea68ffe8a606d47bc91115107b71",
+    "data_quality_summary.csv": "4ace6c11f6388e57d495d8757d2fde0944c1e71a1c56c3a7bae07bc064f3f7b8",
+    "ground_truth_price_coverage_audit.csv": "beed100421b412b8aa43d17eda7dab204be4955790ded9868d4f3939b03f285d",
+    "market_coverage_by_year.csv": "b80f909cccf21e8d546f63d7862715bae405fa65c159f1808d283e73850bdebe",
+    "parameter_evidence.csv": "50dae25ebd234df244597c083202932939d0b5adf4b1da619f17412094b75e4b",
+    "pnl_attribution_yearly.csv": "46405af18ead4f6024ef94de79c8bb890487ed4943077d38dbf85276da3409cc",
+    "pnl_attribution_yearly.parquet": "448947ba98a1bacc7984b803cbc9e9af9b3fb01df50b243354f9bd1654921a09",
+    "portfolio_master.csv": "6d79bd10f08ff08bc1c30edcdae2f8294e4669b2416425d9d10fcc2ad5b96aa6",
+    "portfolio_master.parquet": "26e7b8a0118310eb5572987df9906f969d23a544735f1b2c8f417c44e5c777f9",
+    "portfolio_valuation_monthly.csv": "b613d79fb49eddbf78b9a450c084d8c47b1eee718d9ef98743f8055bb01397e8",
+    "portfolio_valuation_monthly.parquet": "c2477588ee1e899c1d9cf597b97103873d4d57f2ca39fa616d458b8e6de045dc",
+    "portfolio_yearly.csv": "71a4eea23f1babe5f6d288ea308d31e6765679cdce6c0d015a04ef1d90308f86",
+    "portfolio_yearly.parquet": "65f42e77750c1d6cb3c8de14bff080e6ab22ff1cc494605e6c61710a9714278b",
+    "sensitivity_analysis.csv": "4a6576c8775ac7e0e6a0ac0a1249e221d400e1de9f1276a307451e7592178799",
+    "simulation_diagnostics.json": "040aa7f6b9594947b37c35b16ad7750d4289890bf37925ad060996f0b2b43e64",
+    "source_registry.csv": "b527c482fa7670efefa1a2b652a30cd2926f538bf86d1d4fdb0d6bba5b1979fa",
+    "transaction_ledger.csv": "fe9e0a921a449ab1a312c1f8366a9e6465f0f8c79e192c84709c86156c6b6ece",
+    "transaction_ledger.parquet": "450e764f3c63ed8b84c8865c7afdb16778887fa71a7b4e84228360984aa980d8"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "run_timestamp_utc": "2026-10-28T08:38:04.080098+00:00",
+  "query_count": 114,
+  "measured_repeats": 3,
+  "warmup_queries": 1,
+  "variants": [
+    "baseline",
+    "A1_compact_prompt",
+    "A2_compact_prompt_with_citation_preservation",
+    "A3_citation_preservation_evidence_coverage"
+  ],
+  "experiment_c": "already_parallel",
+  "resume_signature": "d5d0a95e7f7d0cdb4b2bac9a22a01c944b32185af60936f1f3424ef677e66e5e",
+  "resume_configuration": {
+    "query_hash": "31aa2b0d59c110907a84682ac57a98a0957d1b97508247c7adee20d5ea210a8d",
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "thai_key_slots": [
+      "THAILLM_API_KEY1",
+      "THAILLM_API_KEY2",
+      "THAILLM_API_KEY3",
+      "THAILLM_API_KEY4",
+      "THAILLM_API_KEY5",
+      "THAILLM_API_KEY6",
+      "THAILLM_API_KEY7"
+    ],
+    "jina_key_slots": [
+      "JINA_API_KEY",
+      "JINA_API_KEY2"
+    ],
+    "concurrency_policy": {
+      "benchmark_workers": 7,
+      "thaillm_max_concurrent": 7,
+      "qdrant_max_concurrent": 2,
+      "cloudflare_max_concurrent": 2,
+      "jina_max_concurrent": 1,
+      "api_max_retries": 3
+    },
+    "variants": [
+      "baseline",
+      "A1_compact_prompt",
+      "A2_compact_prompt_with_citation_preservation",
+      "A3_citation_preservation_evidence_coverage"
+    ],
+    "variant_order_seed": "A3-evidence-coverage-v1",
+    "require_jina_success": true,
+    "pipeline": {
+      "embedding_model": "@cf/baai/bge-m3",
+      "reranker_model": "jina-reranker-v3.5",
+      "thai_llm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+      "dense_candidates": 40,
+      "bm25_candidates": 40,
+      "hybrid_candidates": 40,
+      "context_max_chars": 16000,
+      "context_per_chunk_max_chars": 2500,
+      "final_k": 10,
+      "rrf_k": 60,
+      "temperature": 0,
+      "max_tokens": 1200
+    },
+    "prompt_hash": "06eb4c8b728197a699bb15699dec44219b479b9be6b36f8fa215268bb1ba6cf6",
+    "implementation_hash": "b0692bda40540cf53537bda18a6f11778d79637cf19429b2d89b600320d70ecf",
+    "code_version": "not_recorded"
+  },
+  "status": "completed",
+  "completed_query_repeat_entries": 342,
+  "warmup_completed": true,
+  "concurrency_policy": {
+    "benchmark_workers": 7,
+    "thaillm_max_concurrent": 7,
+    "qdrant_max_concurrent": 2,
+    "cloudflare_max_concurrent": 2,
+    "jina_max_concurrent": 1,
+    "api_max_retries": 3
+  },
+  "pipeline": {
+    "embedding_model": "@cf/baai/bge-m3",
+    "reranker_model": "jina-reranker-v3.5",
+    "thai_llm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "jina_candidates_per_variant": {
+      "baseline": 40,
+      "A1_compact_prompt": 40,
+      "A2_compact_prompt_with_citation_preservation": 40,
+      "A3_citation_preservation_evidence_coverage": 40
+    },
+    "final_k": 10,
+    "rrf_k": 60,
+    "temperature": 0,
+    "max_tokens": 1200
+  },
+  "api_key_slots": [
+    "THAILLM_API_KEY1",
+    "THAILLM_API_KEY2",
+    "THAILLM_API_KEY3",
+    "THAILLM_API_KEY4",
+    "THAILLM_API_KEY5",
+    "THAILLM_API_KEY6",
+    "THAILLM_API_KEY7"
+  ],
+  "code_version": "not_recorded",
+  "warmup_retrieval_details": {
+    "retrieval_status": "success",
+    "retrieval_errors": null,
+    "dense_result_count": 40,
+    "bm25_result_count": 40,
+    "hybrid_candidate_count": 40
+  },
+  "warmup_jina_statuses": [
+    "jina_success"
+  ],
+  "warmup_jina_details": [
+    {
+      "rerank_status": "jina_success",
+      "rerank_http_status": 200,
+      "rerank_error_type": null,
+      "rerank_error_reason": null,
+      "rerank_attempts": 1,
+      "rerank_api_key_slot": "JINA_API_KEY",
+      "rerank_timeout": false
+    }
+  ],
+  "last_completed_repeat": 3,
+  "completed_measurements": 1368,
+  "completed_at_utc": "2026-10-28T09:23:33.775908+00:00"
+}

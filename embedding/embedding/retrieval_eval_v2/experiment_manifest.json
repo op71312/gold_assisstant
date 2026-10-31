@@ -1,0 +1,51 @@
+{
+  "created_at_utc": "2026-10-27T06:57:25.903459+00:00",
+  "ground_truth_path": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\ground_truth_queries_v2.jsonl",
+  "ground_truth_query_count_loaded": 114,
+  "query_count_common_corpus_across_all_methods": 114,
+  "structured_facts_total": 97,
+  "structured_facts_excluded_due_to_unresolved_source": 1,
+  "methods": [
+    "existing_baseline",
+    "recursive_fixed",
+    "structure_aware",
+    "semantic",
+    "adaptive"
+  ],
+  "chunk_dir": "D:\\Project_Github\\gold assisstant\\artifacts\\chunking_benchmark",
+  "chunk_counts": {
+    "existing_baseline": 750,
+    "recursive_fixed": 1205,
+    "structure_aware": 671,
+    "semantic": 1332,
+    "adaptive": 1481
+  },
+  "document_counts": {
+    "existing_baseline": 264,
+    "recursive_fixed": 264,
+    "structure_aware": 264,
+    "semantic": 264,
+    "adaptive": 264
+  },
+  "embedding_model": "@cf/baai/bge-m3",
+  "retrieval": "Exact cosine similarity over local chunk embeddings; stable tie-break by original chunk order",
+  "k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "apply_gold_source_filter": false,
+  "splits_to_evaluate": "all",
+  "ground_truth_review_statuses": {
+    "source_span_validated_needs_human_semantic_review": 114
+  },
+  "note": "Provisional results. Ground Truth requires human semantic review; relevance judgments are non-exhaustive. Do not interpret known-evidence precision as exhaustive precision.",
+  "chunk_vector_files": {
+    "existing_baseline": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\retrieval_eval_v2\\vectors_existing_baseline_cf_baai_bge_m3.npy",
+    "recursive_fixed": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\retrieval_eval_v2\\vectors_recursive_fixed_cf_baai_bge_m3.npy",
+    "structure_aware": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\retrieval_eval_v2\\vectors_structure_aware_cf_baai_bge_m3.npy",
+    "semantic": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\retrieval_eval_v2\\vectors_semantic_cf_baai_bge_m3.npy",
+    "adaptive": "D:\\Project_Github\\gold assisstant\\embedding\\embedding\\retrieval_eval_v2\\vectors_adaptive_cf_baai_bge_m3.npy"
+  }
+}

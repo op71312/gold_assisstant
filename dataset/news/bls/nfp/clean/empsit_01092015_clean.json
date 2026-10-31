@@ -1,0 +1,1101 @@
+{
+  "doc_id": "bls_nfp_2014_12",
+  "source": "U.S. Bureau of Labor Statistics",
+  "source_file": "empsit_01092015.txt",
+  "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+  "publication_date": "2015-01-09",
+  "report_period": "December 2014",
+  "title": "THE EMPLOYMENT SITUATION -- DECEMBER 2014",
+  "content_type": "Employment Situation news release",
+  "cleaning": {
+    "header_removed": true,
+    "footer_removed_from_last_modified_date": true,
+    "table_a_parsed": true,
+    "table_a_format": "nfp_summary_table_tab",
+    "tables_preserved_as_raw_blocks": [
+      "A_rev",
+      "B_rev",
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "bls_nfp_2014_12_001",
+      "heading": "Overview",
+      "content": "Total nonfarm payroll employment rose by 252,000 in December, and the unemployment rate declined to 5.6 percent, the U.S. Bureau of Labor Statistics reported today. Job gains occurred in professional and business services, construction, food services and drinking places, health care, and manufacturing.\n\n---------------------------------------------------------------------- | | | Revision of Seasonally Adjusted Household Survey Data | | | | Seasonally adjusted household survey data have been revised using | | updated seasonal adjustment factors, a procedure done at the end | | of each calendar year. Seasonally adjusted estimates back to | | January 2010 were subject to revision. The unemployment rates for | | January 2014 through November 2014 (as originally published and as | | revised) appear in table A, along with additional information about | | the revisions. | ----------------------------------------------------------------------",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_002",
+      "heading": "Household Survey Data",
+      "content": "The unemployment rate declined by 0.2 percentage point to 5.6 percent in December, and the number of unemployed persons declined by 383,000 to 8.7 million. Over the year, the unemployment rate and the number of unemployed persons were down by 1.1 percentage points and 1.7 million, respectively. (See table A-1.)\n\nAmong the major worker groups, the unemployment rate for adult women (5.0 percent) decreased by 0.2 percentage point in December, while the rates for adult men (5.3 percent), teenagers (16.8 percent), whites (4.8 percent), blacks (10.4 percent), and Hispanics (6.5 percent) showed little change. The jobless rate for Asians, at 4.2 percent (not seasonally adjusted), changed little from a year earlier. (See tables A-1, A-2, and A-3.)\n\nIn December, the number of long-term unemployed (those jobless for 27 weeks or longer) was essentially unchanged at 2.8 million and accounted for 31.9 percent of the unemployed. Over the year, the number of long-term unemployed has declined by 1.1 million. (See table A-12.)\n\nThe civilian labor force participation rate edged down by 0.2 percentage point to 62.7 percent in December. Since April, the participation rate has remained within a narrow range of 62.7 to 62.9 percent. In December, the employment- population ratio was 59.2 percent for the third consecutive month. However, the employment-population ratio is up by 0.6 percentage point over the year. (See table A-1.)\n\nThe number of persons employed part time for economic reasons (sometimes referred to as involuntary part-time workers) was little changed in December at 6.8 million. These individuals, who would have preferred full-time employment, were working part time because their hours had been cut back or because they were unable to find a full-time job. (See table A-8.)\n\nIn December, 2.3 million persons were marginally attached to the labor force, little changed from a year earlier. (The data are not seasonally adjusted.) These individuals were not in the labor force, wanted and were available for work, and had looked for a job sometime in the prior 12 months. They were not counted as unemployed because they had not searched for work in the 4 weeks preceding the survey. (See table A-16.)\n\nAmong the marginally attached, there were 740,000 discouraged workers in December, down by 177,000 from a year earlier. (The data are not seasonally adjusted.) Discouraged workers are persons not currently looking for work because they believe no jobs are available for them. The remaining 1.5 million persons marginally attached to the labor force in December had not searched for work for reasons such as school attendance or family responsibilities. (See table A-16.)",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_003",
+      "heading": "Establishment Survey Data",
+      "content": "Total nonfarm payroll employment increased by 252,000 in December. In 2014, job growth averaged 246,000 per month, compared with an average monthly gain of 194,000 in 2013. In December, employment increased in professional and business services, construction, food services and drinking places, health care, and manufacturing. (See table B-1.)\n\nEmployment in professional and business services rose by 52,000 in December. Monthly job gains in the industry averaged 61,000 in 2014. In December, employment increased in administrative and waste services (+35,000), computer systems design and related services (+9,000), and architectural and engineering services (+5,000). Employment in accounting and bookkeeping services declined (-14,000), offsetting an increase of the same amount in November.\n\nConstruction added 48,000 jobs in December, well above the employment gains in recent months. Specialty trade contractors added jobs in December (+26,000), with the gain about equally split between residential and nonresidential contractors. Employment also increased in heavy and civil engineering construction (+12,000) and in nonresidential building (+10,000).\n\nIn December, employment in food services and drinking places increased by 44,000. The industry added an average of 30,000 jobs per month in 2014.\n\nHealth care added 34,000 jobs in December. Job gains occurred in ambulatory health care services (+16,000), nursing and residential care facilities (+11,000), and hospitals (+7,000). Employment growth in health care averaged 26,000 per month in 2014 and 17,000 per month in 2013.\n\nIn December, manufacturing employment increased by 17,000, with durable goods (+13,000) accounting for most of the gain. Manufacturing added an average of 16,000 jobs per month in 2014, compared with an average gain of 7,000 jobs per month in 2013.\n\nEmployment in wholesale trade and in financial activities continued to trend up in December.\n\nEmployment in retail trade changed little in December, following a large gain in November. Employment in other major industries, including mining and logging, transportation and warehousing, information, and government, changed little in December.\n\nThe average workweek for all employees on private nonfarm payrolls was unchanged at 34.6 hours in December. The manufacturing workweek edged down by 0.1 hour to 41.0 hours, and factory overtime edged up by 0.1 hour to 3.6 hours. The average workweek for production and nonsupervisory employees on private nonfarm payrolls edged up by 0.1 hour to 33.9 hours. (See tables B-2 and B-7.)\n\nIn December, average hourly earnings for all employees on private nonfarm payrolls decreased by 5 cents to $24.57, following an increase of 6 cents in November. Over the year, average hourly earnings have risen by 1.7 percent. In December, average hourly earnings of private-sector production and nonsupervisory employees decreased by 6 cents to $20.68. (See tables B-3 and B-8.)\n\nThe change in total nonfarm payroll employment for October was revised from +243,000 to +261,000, and the change for November was revised from +321,000 to +353,000. With these revisions, employment gains in October and November were 50,000 higher than previously reported.\n\n_____________ The Employment Situation for January is scheduled to be released on Friday, February 6, 2015, at 8:30 a.m. (EST).\n\n---------------------------------------------------------------- | | | Revisions in the Establishment Survey Data | | | | Effective with the release of January 2015 data on February 6, | | 2015, the Current Employment Statistics (CES) survey will | | introduce revisions to nonfarm payroll employment, hours, | | and earnings data to reflect the annual benchmark adjustment | | for March 2014 and updated seasonal adjustment factors. Not | | seasonally adjusted data beginning with April 2013 and | | seasonally adjusted data beginning with January 2010 are | | subject to revision. | | | ----------------------------------------------------------------\n\n----------------------------------------------------------------- | | | Upcoming Changes to the Household Survey | | | | Effective with the release of January 2015 data on February 6, | | 2015, new population controls will be used in the Current | | Population Survey (CPS) estimation process. These new controls | | reflect the annual updating of intercensal population estimates | | by the U.S. Census Bureau. In accordance with usual practice, | | historical data will not be revised to incorporate the new | | controls; consequently, household survey data for January 2015 | | will not be directly comparable with data for December 2014 or | | earlier periods. A table showing the effects of the new controls| | on the major labor force series will be included in the January | | 2015 news release. | | | -----------------------------------------------------------------\n\n----------------------------------------------------------------- | | | Upcoming Changes to the Employment Situation News Release | | | | Effective with the release of January 2015 data on February 6, | | 2015, the U.S. Bureau of Labor Statistics will introduce several| | changes to The Employment Situation news release tables. | | | | Household survey table A-2 will introduce seasonally adjusted | | series on the labor force characteristics of Asians. These | | series will appear in addition to the not seasonally adjusted | | data for Asians currently displayed in the table. Also, in | | summary table A, the seasonally adjusted unemployment rate for | | Asians will replace the not seasonally adjusted series that is | | currently displayed for the group. | | | | Household survey table A-3 will introduce seasonally adjusted | | series on the labor force characteristics of Hispanic men age | | 20 and over, Hispanic women age 20 and over, and Hispanic | | teenagers age 16 to 19. The not seasonally adjusted series for | | these groups will continue to be displayed in the table. | | | | The establishment survey will introduce two data series: (1) | | total nonfarm employment, 3-month average change and (2) total | | private employment, 3-month average change. These new series | | will be added to establishment survey summary table B. | | Additionally, in the employment section of summary table B, the | | list of industries will be expanded to include utilities | | (currently published in table B-1). Also, hours and earnings of | | production and nonsupervisory employees will be removed from | | summary table B, although these series will continue to be | | published in establishment survey tables B-7 and B-8. A sample | | of the new summary table B is available on the BLS website at | | www.bls.gov/ces/cesnewsumb.pdf. | | | -----------------------------------------------------------------\n\nRevision of Seasonally Adjusted Household Survey Data\n\nAt the end of each calendar year, BLS routinely updates the seasonal adjustment factors for the labor force series derived from the Current Population Survey (CPS), or household survey. As a result of this process, seasonally adjusted data for January 2010 through November 2014 were subject to revision.\n\nTable A shows the unemployment rates for January 2014 through November 2014, as first published and as revised. The rates changed by one-tenth of a percentage point in 3 of the 11 months and were unchanged in the remaining 8 months. Revised seasonally adjusted data for other major labor force series beginning in December 2013 appear in table B.\n\nAn article describing the seasonal adjustment methodology for the household survey data and revised data for January 2014 through November 2014 is available at www.bls.gov/cps/cpsrs2015.pdf.\n\nHistorical data for the household series contained in the A tables of this release can be accessed at www.bls.gov/cps/cpsatabs.htm. Revised historical seasonally adjusted data are available at www.bls.gov/cps/data.htm and http://download.bls.gov/pub/time.series/ln/.\n\n(1) The population figures are not adjusted for seasonal variation.\n\nNOTE: Seasonally adjusted data have been revised to reflect updated seasonal adjustment factors.\n\nHOUSEHOLD DATA\n\n- Over-the-month changes are not displayed for not seasonally adjusted data. NOTE: Persons whose ethnicity is identified as Hispanic or Latino may be of any race. Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nESTABLISHMENT DATA (2) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. (3) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding annual average aggregate hours. (4) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding annual average aggregate weekly payrolls. (5) Figures are the percent of industries with employment increasing plus one-half of the industries with unchanged employment, where 50 percent indicates an equal balance between industries with increasing and decreasing employment. (p) Preliminary",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_004",
+      "heading": "1. Why are there two monthly measures of employment?",
+      "content": "The household survey and establishment survey both produce sample-based estimates of employment, and both have strengths and limitations. The establishment survey employment series has a smaller margin of error on the measurement of month-to- month change than the household survey because of its much larger sample size. An over-the-month employment change of about 100,000 is statistically significant in the establishment survey, while the threshold for a statistically significant change in the household survey is about 400,000. However, the household survey has a more expansive scope than the establishment survey because it includes self-employed workers whose businesses are unincorporated, unpaid family workers, agricultural workers, and private household workers, who are excluded by the establishment survey. The household survey also provides estimates of employment for demographic groups. For more information on the differences between the two surveys, please visit www.bls.gov/web/empsit/ces_cps_trends.pdf.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_005",
+      "heading": "2. Are undocumented immigrants counted in the surveys?",
+      "content": "It is likely that both surveys include at least some undocumented immigrants. However, neither the establishment nor the household survey is designed to identify the legal status of workers. Therefore, it is not possible to determine how many are counted in either survey. The establishment survey does not collect data on the legal status of workers. The household survey does include questions which identify the foreign and native born, but it does not include questions about the legal status of the foreign born. Data on the foreign and native born are published each month in table A-7 of The Employment Situation news release.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_006",
+      "heading": "3. Why does the establishment survey have revisions?",
+      "content": "The establishment survey revises published estimates to improve its data series by incorporating additional information that was not available at the time of the initial publication of the estimates. The establishment survey revises its initial monthly estimates twice, in the immediately succeeding 2 months, to incorporate additional sample receipts from respondents in the survey and recalculated seasonal adjustment factors. For more information on the monthly revisions, please visit www.bls.gov/ces/cesrevinfo.htm.\n\nOn an annual basis, the establishment survey incorporates a benchmark revision that re-anchors estimates to nearly complete employment counts available from unemployment insurance tax records. The benchmark helps to control for sampling and modeling errors in the estimates. For more information on the annual benchmark revision, please visit www.bls.gov/web/empsit/cesbmart.htm.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_007",
+      "heading": "4. Does the establishment survey sample include small firms?",
+      "content": "Yes; about 40 percent of the establishment survey sample is comprised of business establishments with fewer than 20 employees. The establishment survey sample is designed to maximize the reliability of the statewide total nonfarm employment estimate; firms from all states, size classes, and industries are appropriately sampled to achieve that goal.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_008",
+      "heading": "5. Does the establishment survey account for employment from new businesses?",
+      "content": "Yes; monthly establishment survey estimates include an adjustment to account for the net employment change generated by business births and deaths. The adjustment comes from an econometric model that forecasts the monthly net jobs impact of business births and deaths based on the actual past values of the net impact that can be observed with a lag from the Quarterly Census of Employment and Wages. The establishment survey uses modeling rather than sampling for this purpose because the survey is not immediately able to bring new businesses into the sample. There is an unavoidable lag between the birth of a new firm and its appearance on the sampling frame and availability for selection. BLS adds new businesses to the survey twice a year.\n\n6. Is the count of unemployed persons limited to just those people receiving unemployment insurance benefits?\n\nNo; the estimate of unemployment is based on a monthly sample survey of households. All persons who are without jobs and are actively seeking and available to work are included among the unemployed. (People on temporary layoff are included even if they do not actively seek work.) There is no requirement or question relating to unemployment insurance benefits in the monthly survey.\n\n7. Does the official unemployment rate exclude people who want a job but are not currently looking for work?\n\nYes; however, there are separate estimates of persons outside the labor force who want a job, including those who are not currently looking because they believe no jobs are available (discouraged workers). In addition, alternative measures of labor underutilization (some of which include discouraged workers and other groups not officially counted as unemployed) are published each month in table A-15 of The Employment Situation news release. For more information about these alternative measures, please visit www.bls.gov/cps/lfcharacteristics.htm#altmeasures.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_009",
+      "heading": "8. How can unusually severe weather affect employment and hours estimates?",
+      "content": "In the establishment survey, the reference period is the pay period that includes the 12th of the month. Unusually severe weather is more likely to have an impact on average weekly hours than on employment. Average weekly hours are estimated for paid time during the pay period, including pay for holidays, sick leave, or other time off. The impact of severe weather on hours estimates typically, but not always, results in a reduction in average weekly hours. For example, some employees may be off work for part of the pay period and not receive pay for the time missed, while some workers, such as those dealing with cleanup or repair, may work extra hours.\n\nTypically, it is not possible to precisely quantify the effect of extreme weather on payroll employment estimates. In order for severe weather conditions to reduce employment estimates, employees have to be off work without pay for the entire pay period. Employees who receive pay for any part of the pay period, even 1 hour, are counted in the payroll employment figures. For more information on how often employees are paid, please visit www.bls.gov/opub/btn/volume-3/how-frequently-do-private- businesses-pay-workers.htm.\n\nIn the household survey, the reference period is generally the calendar week that includes the 12th of the month. Persons who miss the entire week's work for weather- related events are counted as employed whether or not they are paid for the time off. The household survey collects data on the number of persons who had a job but were not at work due to bad weather. It also provides a measure of the number of persons who usually work full time but had reduced hours due to bad weather. Current and historical data are available on the household survey's most requested statistics page, please visit http://data.bls.gov/cgi-bin/surveymost?ln.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_010",
+      "heading": "Technical Note",
+      "content": "This news release presents statistics from two major surveys, the Current Population Survey (CPS; household survey) and the Current Employment Statistics survey (CES; establishment survey). The household survey provides information on the labor force, employment, and unemployment that appears in the \"A\" tables, marked HOUSEHOLD DATA. It is a sample survey of about 60,000 eligible households conducted by the U.S. Census Bureau for the U.S. Bureau of Labor Statistics (BLS).\n\nThe establishment survey provides information on employment, hours, and earnings of employees on nonfarm payrolls; the data appear in the \"B\" tables, marked ESTABLISHMENT DATA. BLS collects these data each month from the payroll records of a sample of nonagricultural business establishments. Each month the CES program surveys about 144,000 businesses and government agencies, representing approximately 554,000 individual worksites, in order to provide detailed industry data on employment, hours, and earnings of workers on nonfarm payrolls. The active sample includes approximately one-third of all nonfarm payroll employees.\n\nFor both surveys, the data for a given month relate to a particular week or pay period. In the household survey, the reference period is generally the calendar week that contains the 12th day of the month. In the establishment survey, the reference period is the pay period including the 12th, which may or may not correspond directly to the calendar week.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_011",
+      "heading": "Coverage, definitions, and differences between surveys",
+      "content": "Household survey. The sample is selected to reflect the entire civilian noninstitutional population. Based on responses to a series of questions on work and job search activities, each person 16 years and over in a sample household is classified as employed, unemployed, or not in the labor force.\n\nPeople are classified as employed if they did any work at all as paid employees during the reference week; worked in their own business, profession, or on their own farm; or worked without pay at least 15 hours in a family business or farm. People are also counted as employed if they were temporarily absent from their jobs because of illness, bad weather, vacation, labor-management disputes, or personal reasons.\n\nPeople are classified as unemployed if they meet all of the following criteria: they had no employment during the reference week; they were available for work at that time; and they made specific efforts to find employment sometime during the 4-week period ending with the reference week. Persons laid off from a job and expecting recall need not be looking for work to be counted as unemployed. The unemployment data derived from the household survey in no way depend upon the eligibility for or receipt of unemployment insurance benefits.\n\nThe civilian labor force is the sum of employed and unemployed persons. Those persons not classified as employed or unemployed are not in the labor force. The unemployment rate is the number unemployed as a percent of the labor force. The labor force participation rate is the labor force as a percent of the population, and the employment-population ratio is the employed as a percent of the population. Additional information about the household survey can be found at www.bls.gov/cps/documentation.htm.\n\nEstablishment survey. The sample establishments are drawn from private nonfarm businesses such as factories, offices, and stores, as well as from federal, state, and local government entities. Employees on nonfarm payrolls are those who received pay for any part of the reference pay period, including persons on paid leave. Persons are counted in each job they hold. Hours and earnings data are produced for the private sector for all employees and for production and nonsupervisory employees. Production and nonsupervisory employees are defined as production and related employees in manufacturing and mining and logging, construction workers in construction, and nonsupervisory employees in private service-providing industries.\n\nIndustries are classified on the basis of an establishmentís principal activity in accordance with the 2012 version of the North American Industry Classification System. Additional information about the establishment survey can be found at www.bls.gov/ces/.\n\nDifferences in employment estimates. The numerous conceptual and methodological differences between the household and establishment surveys result in important distinctions in the employment estimates derived from the surveys. Among these are:\n\n--The household survey includes agricultural workers, self-employed workers whose businesses are unincorporated, unpaid family workers, and private household workers among the employed. These groups are excluded from the establishment survey.\n\n--The household survey includes people on unpaid leave among the employed. The establishment survey does not.\n\n--The household survey is limited to workers 16 years of age and older. The establishment survey is not limited by age.\n\n--The household survey has no duplication of individuals, because individuals are counted only once, even if they hold more than one job. In the establishment survey, employees working at more than one job and thus appearing on more than one payroll are counted separately for each appearance.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_012",
+      "heading": "Seasonal adjustment",
+      "content": "Over the course of a year, the size of the nation's labor force and the levels of employment and unemployment undergo regularly occurring fluctuations. These events may result from seasonal changes in weather, major holidays, and the opening and closing of schools. The effect of such seasonal variation can be very large.\n\nBecause these seasonal events follow a more or less regular pattern each year, their influence on the level of a series can be tempered by adjusting for regular seasonal variation. These adjustments make nonseasonal developments, such as declines in employment or increases in the participation of women in the labor force, easier to spot. For example, in the household survey, the large number of youth entering the labor force each June is likely to obscure any other changes that have taken place relative to May, making it difficult to determine if the level of economic activity has risen or declined. Similarly, in the establishment survey, payroll employment in education declines by about 20 percent at the end of the spring term and later rises with the start of the fall term, obscuring the underlying employment trends in the industry. Because seasonal employment changes at the end and beginning of the school year can be estimated, the statistics can be adjusted to make underlying employment patterns more discernable. The seasonally adjusted figures provide a more useful tool with which to analyze changes in month-to-month economic activity.\n\nMany seasonally adjusted series are independently adjusted in both the household and establishment surveys. However, the adjusted series for many major estimates, such as total payroll employment, employment in most major sectors, total employment, and unemployment are computed by aggregating independently adjusted component series. For example, total unemployment is derived by summing the adjusted series for four major age-sex components; this differs from the unemployment estimate that would be obtained by directly adjusting the total or by combining the duration, reasons, or more detailed age categories.\n\nFor both the household and establishment surveys, a concurrent seasonal adjustment methodology is used in which new seasonal factors are calculated each month using all relevant data, up to and including the data for the current month. In the household survey, new seasonal factors are used to adjust only the current month's data. In the establishment survey, however, new seasonal factors are used each month to adjust the three most recent monthly estimates. The prior 2 months are routinely revised to incorporate additional sample reports and recalculated seasonal adjustment factors. In both surveys, 5-year revisions to historical data are made once a year.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_013",
+      "heading": "Reliability of the estimates",
+      "content": "Statistics based on the household and establishment surveys are subject to both sampling and nonsampling error. When a sample, rather than the entire population, is surveyed, there is a chance that the sample estimates may differ from the true population values they represent. The component of this difference that occurs because samples differ by chance is known as sampling error, and its variability is measured by the standard error of the estimate. There is about a 90-percent chance, or level of confidence, that an estimate based on a sample will differ by no more than 1.6 standard errors from the true population value because of sampling error. BLS analyses are generally conducted at the 90-percent level of confidence.\n\nFor example, the confidence interval for the monthly change in total nonfarm employment from the establishment survey is on the order of plus or minus 90,000. Suppose the estimate of nonfarm employment increases by 50,000 from one month to the next. The 90-percent confidence interval on the monthly change would range from -40,000 to +140,000 (50,000 +/- 90,000). These figures do not mean that the sample results are off by these magnitudes, but rather that there is about a 90-percent chance that the true over-the-month change lies within this interval. Since this range includes values of less than zero, we could not say with confidence that nonfarm employment had, in fact, increased that month. If, however, the reported nonfarm employment rise was 250,000, then all of the values within the 90- percent confidence interval would be greater than zero. In this case, it is likely (at least a 90-percent chance) that nonfarm employment had, in fact, risen that month. At an unemployment rate of around 6.0 percent, the 90-percent confidence interval for the monthly change in unemployment as measured by the household survey is about +/- 300,000, and for the monthly change in the unemployment rate it is about +/- 0.2 percentage point.\n\nIn general, estimates involving many individuals or establishments have lower standard errors (relative to the size of the estimate) than estimates which are based on a small number of observations. The precision of estimates also is improved when the data are cumulated over time, such as for quarterly and annual averages.\n\nThe household and establishment surveys are also affected by nonsampling error, which can occur for many reasons, including the failure to sample a segment of the population, inability to obtain information for all respondents in the sample, inability or unwillingness of respondents to provide correct information on a timely basis, mistakes made by respondents, and errors made in the collection or processing of the data.\n\nFor example, in the establishment survey, estimates for the most recent 2 months are based on incomplete returns; for this reason, these estimates are labeled preliminary in the tables. It is only after two successive revisions to a monthly estimate, when nearly all sample reports have been received, that the estimate is considered final.\n\nAnother major source of nonsampling error in the establishment survey is the inability to capture, on a timely basis, employment generated by new firms. To correct for this systematic underestimation of employment growth, an estimation procedure with two components is used to account for business births. The first component excludes employment losses from business deaths from sample-based estimation in order to offset the missing employment gains from business births. This is incorporated into the sample-based estimation procedure by simply not reflecting sample units going out of business, but imputing to them the same employment trend as the other firms in the sample. This procedure accounts for most of the net birth/death employment.\n\nThe second component is an ARIMA time series model designed to estimate the residual net birth/death employment not accounted for by the imputation. The historical time series used to create and test the ARIMA model was derived from the unemployment insurance universe micro- level database, and reflects the actual residual net of births and deaths over the past 5 years.\n\nThe sample-based estimates from the establishment survey are adjusted once a year (on a lagged basis) to universe counts of payroll employment obtained from administrative records of the unemployment insurance program. The difference between the March sample-based employment estimates and the March universe counts is known as a benchmark revision, and serves as a rough proxy for total survey error. The new benchmarks also incorporate changes in the classification of industries. Over the past decade, absolute benchmark revisions for total nonfarm employment have averaged 0.3 percent, with a range from -0.7 to 0.6 percent.",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    },
+    {
+      "chunk_id": "bls_nfp_2014_12_014",
+      "heading": "Other information",
+      "content": "Information in this release will be made available to sensory impaired individuals upon request. Voice phone: (202) 691-5200; Federal Relay Service: (800) 877-8339.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\n- Data not available. NOTE: Estimates for the above race groups will not sum to totals shown in table A-1 because data are not presented for all races. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) The population figures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\n\n- Data not available. NOTE: Persons whose ethnicity is identified as Hispanic or Latino may be of any race. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Includes persons with a high school diploma or equivalent. (2) Includes persons with bachelor's, master's, professional, and doctoral degrees.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Veterans served on active duty in the U.S. Armed Forces and were not on active duty at the time of the survey. Nonveterans never served on active duty in the U.S. Armed Forces. Veterans could have served anywhere in the world during these periods of service: Gulf War era II (September 2001-present), Gulf War era I (August 1990-August 2001), Vietnam era (August 1964-April 1975), Korean War (July 1950-January 1955), World War II (December 1941-December 1946), and other service periods (all other time periods). Veterans who served in more than one wartime period are classified only in the most recent one. Veterans who served during one of the selected wartime periods and another period are classified only in the wartime period. Beginning with data for January 2014, estimates for veterans incorporate updated weighting procedures.\n\nHOUSEHOLD DATA\n\nNOTE: A person with a disability has at least one of the following conditions: is deaf or has serious difficulty hearing; is blind or has serious difficulty seeing even when wearing glasses; has serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition; has serious difficulty walking or climbing stairs; has difficulty dressing or bathing; or has difficulty doing errands alone such as visiting a doctor's office or shopping because of a physical, mental, or emotional condition. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: The foreign born are those residing in the United States who were not U.S. citizens at birth. That is, they were born outside the United States or one of its outlying areas such as Puerto Rico or Guam, to parents neither of whom was a U.S. citizen. The native born are persons who were born in the United States or one of its outlying areas such as Puerto Rico or Guam or who were born abroad of at least one parent who was a U.S. citizen. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Includes self-employed workers whose businesses are incorporated. (2) Refers to those who worked 1 to 34 hours during the survey reference week and excludes employed persons who were absent from their jobs for the entire week. (3) Refers to those who worked 1 to 34 hours during the reference week for an economic reason such as slack work or unfavorable business conditions, inability to find full-time work, or seasonal declines in demand. (4) Refers to persons who usually work part time for noneconomic reasons such as childcare problems, family or personal obligations, school or training, retirement or Social Security limits on earnings, and other reasons. This excludes persons who usually work full time but worked only 1 to 34 hours during the reference week for reasons such as vacations, holidays, illness, and bad weather.\n\n- Data not available. NOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Employed full-time workers are persons who usually work 35 hours or more per week. (2) Employed part-time workers are persons who usually work less than 35 hours per week.\n\n- Data not available. NOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (2) Full-time workers are unemployed persons who have expressed a desire to work full time (35 hours or more per week) or are on layoff from full-time jobs. (3) Part-time workers are unemployed persons who have expressed a desire to work part time (less than 35 hours per week) or are on layoff from part-time jobs.\n\nNOTE: Detail for the seasonally adjusted data shown in this table will not necessarily add to totals because of the independent seasonal adjustment of the various series. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Persons with no previous work experience and persons whose last job was in the U.S. Armed Forces are included in the unemployed total.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Persons with no previous work experience and persons whose last job was in the U.S. Armed Forces are included in the unemployed total.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA\n\nNOTE: Persons marginally attached to the labor force are those who currently are neither working nor looking for work but indicate that they want and are available for a job and have looked for work sometime in the past 12 months. Discouraged workers, a subset of the marginally attached, have given a job-market related reason for not currently looking for work. Persons employed part time for economic reasons are those who want and are available for full-time work but have had to settle for a part-time schedule. Updated population controls are introduced annually with the release of January data.\n\nHOUSEHOLD DATA (1) Data refer to persons who want a job, have searched for work during the prior 12 months, and were available to take a job during the reference week, but had not looked for work in the past 4 weeks. (2) Includes those who did not actively look for work in the prior 4 weeks for reasons such as thinks no work available, could not find work, lacks schooling or training, employer thinks too young or old, and other types of discrimination. (3) Includes those who did not actively look for work in the prior 4 weeks for such reasons as school or family responsibilities, ill health, and transportation problems, as well as a number for whom reason for nonparticipation was not determined. (4) Includes a small number of persons who work part time on their primary job and full time on their secondary job(s), not shown separately.\n\nNOTE: Updated population controls are introduced annually with the release of January data.\n\nESTABLISHMENT DATA (2) Includes motor vehicles, motor vehicle bodies and trailers, and motor vehicle parts. (3) Includes ambulatory health care services, hospitals, and nursing and residential care facilities. (p) Preliminary\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nESTABLISHMENT DATA (1) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding 2007 annual average aggregate hours. Aggregate hours estimates are the product of estimates of average weekly hours and employment. (2) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding 2007 annual average aggregate weekly payrolls. Aggregate payrolls estimates are the product of estimates of average hourly earnings, average weekly hours, and employment. (p) Preliminary\n\nESTABLISHMENT DATA\n\nFootnotes (p) Preliminary\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (p) Preliminary\n\nESTABLISHMENT DATA (1) Data relate to production employees in mining and logging and manufacturing, construction employees in construction, and nonsupervisory employees in the service-providing industries. These groups account for approximately four-fifths of the total employment on private nonfarm payrolls. (2) The indexes of aggregate weekly hours are calculated by dividing the current month's estimates of aggregate hours by the corresponding 2002 annual average aggregate hours. Aggregate hours estimates are the product of estimates of average weekly hours and employment. (3) The indexes of aggregate weekly payrolls are calculated by dividing the current month's estimates of aggregate weekly payrolls by the corresponding 2002 annual average aggregate weekly payrolls. Aggregate payrolls estimates are the product of estimates of average hourly earnings, average weekly hours, and employment. (p) Preliminary",
+      "source_file": "empsit_01092015.txt",
+      "source_url": "https://www.bls.gov/news.release/archives/empsit_01092015.htm",
+      "publication_date": "2015-01-09",
+      "report_period": "December 2014"
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "A_rev",
+      "title": "Table A. Seasonally adjusted unemployment rates in 2014 and changes due to revision",
+      "start_line": 266,
+      "end_line": 289,
+      "raw_text": " Table A. Seasonally adjusted unemployment rates in 2014 and changes due to revision\n January - November 2014\n \n \n        Month                 As first published       As revised            Change\n \n January.............                 6.6                 6.6                 0.0\n February............                 6.7                 6.7                  .0\n March...............                 6.7                 6.6                 -.1\n April...............                 6.3                 6.2                 -.1\n May.................                 6.3                 6.3                  .0\n June................                 6.1                 6.1                  .0\n July................                 6.2                 6.2                  .0\n August..............                 6.1                 6.1                  .0\n September...........                 5.9                 5.9                  .0\n October.............                 5.8                 5.7                 -.1\n November............                 5.8                 5.8                  .0\n \n \n \n\n\n\nHOUSEHOLD DATA",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B_rev",
+      "title": "Table B.  Employment status of the civilian population by sex and age, seasonally adjusted",
+      "start_line": 290,
+      "end_line": 469,
+      "raw_text": " Table B.  Employment status of the civilian population by sex and age, seasonally adjusted\n\n[Numbers in thousands]\nEmployment status, sex, and age\t2013\t2014\nDec.\tJan.\tFeb.\tMar.\tApr.\tMay\tJune\tJuly\tAug.\tSept.\tOct.\tNov.\tDec.\n\n\nTOTAL\n\n\t\n\n\n\nCivilian noninstitutional population(1)\n\n\t246,745\t246,915\t247,085\t247,258\t247,439\t247,622\t247,814\t248,023\t248,229\t248,446\t248,657\t248,844\t249,027\n\n\nCivilian labor force\n\n\t155,047\t155,486\t155,688\t156,180\t155,420\t155,629\t155,700\t156,048\t156,018\t155,845\t156,243\t156,402\t156,129\n\n\nParticipation rate\n\n\t62.8\t63.0\t63.0\t63.2\t62.8\t62.8\t62.8\t62.9\t62.9\t62.7\t62.8\t62.9\t62.7\n\n\nEmployed\n\n\t144,671\t145,206\t145,301\t145,796\t145,724\t145,868\t146,247\t146,401\t146,451\t146,607\t147,260\t147,331\t147,442\n\n\nEmployment-population ratio\n\n\t58.6\t58.8\t58.8\t59.0\t58.9\t58.9\t59.0\t59.0\t59.0\t59.0\t59.2\t59.2\t59.2\n\n\nUnemployed\n\n\t10,376\t10,280\t10,387\t10,384\t9,696\t9,761\t9,453\t9,648\t9,568\t9,237\t8,983\t9,071\t8,688\n\n\nUnemployment rate\n\n\t6.7\t6.6\t6.7\t6.6\t6.2\t6.3\t6.1\t6.2\t6.1\t5.9\t5.7\t5.8\t5.6\n\n\n\n\nMen, 20 years and over\n\n\t\n\n\n\nCivilian noninstitutional population(1)\n\n\t110,613\t110,746\t110,838\t110,930\t111,027\t111,126\t111,230\t111,342\t111,451\t111,567\t111,679\t111,778\t111,875\n\n\nCivilian labor force\n\n\t79,523\t79,899\t79,884\t80,125\t79,837\t79,836\t80,056\t80,174\t80,210\t80,163\t80,023\t80,029\t80,271\n\n\nParticipation rate\n\n\t71.9\t72.1\t72.1\t72.2\t71.9\t71.8\t72.0\t72.0\t72.0\t71.9\t71.7\t71.6\t71.8\n\n\nEmployed\n\n\t74,505\t74,905\t74,820\t75,284\t75,163\t75,159\t75,504\t75,631\t75,668\t75,889\t75,928\t75,675\t76,026\n\n\nEmployment-population ratio\n\n\t67.4\t67.6\t67.5\t67.9\t67.7\t67.6\t67.9\t67.9\t67.9\t68.0\t68.0\t67.7\t68.0\n\n\nUnemployed\n\n\t5,018\t4,994\t5,064\t4,841\t4,674\t4,677\t4,552\t4,543\t4,543\t4,273\t4,094\t4,354\t4,245\n\n\nUnemployment rate\n\n\t6.3\t6.3\t6.3\t6.0\t5.9\t5.9\t5.7\t5.7\t5.7\t5.3\t5.1\t5.4\t5.3\n\n\n\n\nWomen, 20 years and over\n\n\t\n\n\n\nCivilian noninstitutional population(1)\n\n\t119,433\t119,497\t119,583\t119,669\t119,760\t119,852\t119,948\t120,052\t120,156\t120,265\t120,370\t120,465\t120,557\n\n\nCivilian labor force\n\n\t69,886\t70,045\t70,323\t70,363\t70,041\t70,170\t70,003\t70,222\t70,230\t70,037\t70,354\t70,599\t70,111\n\n\nParticipation rate\n\n\t58.5\t58.6\t58.8\t58.8\t58.5\t58.5\t58.4\t58.5\t58.4\t58.2\t58.4\t58.6\t58.2\n\n\nEmployed\n\n\t65,678\t65,913\t66,168\t66,009\t66,076\t66,164\t66,267\t66,250\t66,289\t66,192\t66,560\t66,894\t66,632\n\n\nEmployment-population ratio\n\n\t55.0\t55.2\t55.3\t55.2\t55.2\t55.2\t55.2\t55.2\t55.2\t55.0\t55.3\t55.5\t55.3\n\n\nUnemployed\n\n\t4,208\t4,131\t4,155\t4,354\t3,964\t4,006\t3,736\t3,972\t3,942\t3,845\t3,794\t3,705\t3,479\n\n\nUnemployment rate\n\n\t6.0\t5.9\t5.9\t6.2\t5.7\t5.7\t5.3\t5.7\t5.6\t5.5\t5.4\t5.2\t5.0\n\n\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\n\nCivilian noninstitutional population(1)\n\n\t16,700\t16,671\t16,664\t16,658\t16,652\t16,644\t16,636\t16,629\t16,622\t16,615\t16,608\t16,602\t16,595\n\n\nCivilian labor force\n\n\t5,638\t5,542\t5,480\t5,692\t5,542\t5,623\t5,641\t5,652\t5,578\t5,645\t5,866\t5,775\t5,747\n\n\nParticipation rate\n\n\t33.8\t33.2\t32.9\t34.2\t33.3\t33.8\t33.9\t34.0\t33.6\t34.0\t35.3\t34.8\t34.6\n\n\nEmployed\n\n\t4,488\t4,388\t4,312\t4,504\t4,485\t4,545\t4,476\t4,520\t4,495\t4,527\t4,772\t4,762\t4,784\n\n\nEmployment-population ratio\n\n\t26.9\t26.3\t25.9\t27.0\t26.9\t27.3\t26.9\t27.2\t27.0\t27.2\t28.7\t28.7\t28.8\n\n\nUnemployed\n\n\t1,150\t1,155\t1,168\t1,189\t1,057\t1,078\t1,165\t1,132\t1,083\t1,119\t1,094\t1,013\t963\n\n\nUnemployment rate\n\n\t20.4\t20.8\t21.3\t20.9\t19.1\t19.2\t20.7\t20.0\t19.4\t19.8\t18.7\t17.5\t16.8\n\n\t\n\n\n\t\tFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A",
+      "title": "Summary table A. Household data, seasonally adjusted",
+      "start_line": 492,
+      "end_line": 713,
+      "raw_text": "Summary table A. Household data, seasonally adjusted\n[Numbers in thousands]\nCategory\tDec.\n2013\tOct.\n2014\tNov.\n2014\tDec.\n2014\tChange from:\nNov.\n2014-\nDec.\n2014\n\n\nEmployment status\n\n\t\n\n\nCivilian noninstitutional population\n\n\t246,745\t248,657\t248,844\t249,027\t183\n\n\nCivilian labor force\n\n\t155,047\t156,243\t156,402\t156,129\t-273\n\n\nParticipation rate\n\n\t62.8\t62.8\t62.9\t62.7\t-0.2\n\n\nEmployed\n\n\t144,671\t147,260\t147,331\t147,442\t111\n\n\nEmployment-population ratio\n\n\t58.6\t59.2\t59.2\t59.2\t0.0\n\n\nUnemployed\n\n\t10,376\t8,983\t9,071\t8,688\t-383\n\n\nUnemployment rate\n\n\t6.7\t5.7\t5.8\t5.6\t-0.2\n\n\nNot in labor force\n\n\t91,698\t92,414\t92,442\t92,898\t456\n\n\n\nUnemployment rates\n\n\t\n\n\nTotal, 16 years and over\n\n\t6.7\t5.7\t5.8\t5.6\t-0.2\n\n\nAdult men (20 years and over)\n\n\t6.3\t5.1\t5.4\t5.3\t-0.1\n\n\nAdult women (20 years and over)\n\n\t6.0\t5.4\t5.2\t5.0\t-0.2\n\n\nTeenagers (16 to 19 years)\n\n\t20.4\t18.7\t17.5\t16.8\t-0.7\n\n\nWhite\n\n\t6.0\t4.9\t4.9\t4.8\t-0.1\n\n\nBlack or African American\n\n\t11.8\t10.9\t11.0\t10.4\t-0.6\n\n\nAsian (not seasonally adjusted)\n\n\t4.1\t5.0\t4.8\t4.2\t-\n\n\nHispanic or Latino ethnicity\n\n\t8.4\t6.8\t6.6\t6.5\t-0.1\n\n\n\nTotal, 25 years and over\n\n\t5.6\t4.7\t4.7\t4.5\t-0.2\n\n\nLess than a high school diploma\n\n\t9.9\t7.9\t8.5\t8.6\t0.1\n\n\nHigh school graduates, no college\n\n\t7.0\t5.7\t5.6\t5.3\t-0.3\n\n\nSome college or associate degree\n\n\t6.1\t4.9\t4.9\t4.9\t0.0\n\n\nBachelor's degree and higher\n\n\t3.4\t3.0\t3.2\t2.9\t-0.3\n\n\n\nReason for unemployment\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t5,421\t4,349\t4,480\t4,325\t-155\n\n\nJob leavers\n\n\t860\t782\t835\t798\t-37\n\n\nReentrants\n\n\t3,027\t2,856\t2,761\t2,701\t-60\n\n\nNew entrants\n\n\t1,198\t1,058\t1,045\t971\t-74\n\n\n\nDuration of unemployment\n\n\t\n\n\nLess than 5 weeks\n\n\t2,323\t2,455\t2,505\t2,375\t-130\n\n\n5 to 14 weeks\n\n\t2,525\t2,322\t2,378\t2,293\t-85\n\n\n15 to 26 weeks\n\n\t1,680\t1,416\t1,403\t1,274\t-129\n\n\n27 weeks and over\n\n\t3,877\t2,904\t2,822\t2,785\t-37\n\n\n\nEmployed persons at work part time\n\n\t\n\n\nPart time for economic reasons\n\n\t7,766\t7,012\t6,851\t6,790\t-61\n\n\nSlack work or business conditions\n\n\t4,881\t4,215\t4,068\t4,061\t-7\n\n\nCould only find part-time work\n\n\t2,623\t2,437\t2,447\t2,432\t-15\n\n\nPart time for noneconomic reasons\n\n\t18,816\t19,793\t19,971\t19,730\t-241\n\n\n\nPersons not in the labor force (not seasonally adjusted)\n\n\t\n\n\nMarginally attached to the labor force\n\n\t2,427\t2,192\t2,109\t2,260\t-\n\n\nDiscouraged workers\n\n\t917\t770\t698\t740\t-",
+      "parse_status": "parsed_table_a",
+      "format": "nfp_summary_table_tab",
+      "columns": [
+        "December 2013",
+        "October 2014",
+        "November 2014",
+        "December 2014",
+        "change_from_November_2014_December_2014"
+      ],
+      "rows": [
+        {
+          "category": "Civilian noninstitutional population",
+          "category_path": [
+            "Employment status",
+            "Civilian noninstitutional population"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 246745.0,
+            "October 2014": 248657.0,
+            "November 2014": 248844.0,
+            "December 2014": 249027.0,
+            "change_from_November_2014_December_2014": 183.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t246,745\t248,657\t248,844\t249,027\t183"
+        },
+        {
+          "category": "Civilian labor force",
+          "category_path": [
+            "Employment status",
+            "Civilian labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 155047.0,
+            "October 2014": 156243.0,
+            "November 2014": 156402.0,
+            "December 2014": 156129.0,
+            "change_from_November_2014_December_2014": -273.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t155,047\t156,243\t156,402\t156,129\t-273"
+        },
+        {
+          "category": "Participation rate",
+          "category_path": [
+            "Employment status",
+            "Participation rate"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 62.8,
+            "October 2014": 62.8,
+            "November 2014": 62.9,
+            "December 2014": 62.7,
+            "change_from_November_2014_December_2014": -0.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t62.8\t62.8\t62.9\t62.7\t-0.2"
+        },
+        {
+          "category": "Employed",
+          "category_path": [
+            "Employment status",
+            "Employed"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 144671.0,
+            "October 2014": 147260.0,
+            "November 2014": 147331.0,
+            "December 2014": 147442.0,
+            "change_from_November_2014_December_2014": 111.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t144,671\t147,260\t147,331\t147,442\t111"
+        },
+        {
+          "category": "Employment-population ratio",
+          "category_path": [
+            "Employment status",
+            "Employment-population ratio"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 58.6,
+            "October 2014": 59.2,
+            "November 2014": 59.2,
+            "December 2014": 59.2,
+            "change_from_November_2014_December_2014": 0.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t58.6\t59.2\t59.2\t59.2\t0.0"
+        },
+        {
+          "category": "Unemployed",
+          "category_path": [
+            "Employment status",
+            "Unemployed"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 10376.0,
+            "October 2014": 8983.0,
+            "November 2014": 9071.0,
+            "December 2014": 8688.0,
+            "change_from_November_2014_December_2014": -383.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t10,376\t8,983\t9,071\t8,688\t-383"
+        },
+        {
+          "category": "Unemployment rate",
+          "category_path": [
+            "Employment status",
+            "Unemployment rate"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.7,
+            "October 2014": 5.7,
+            "November 2014": 5.8,
+            "December 2014": 5.6,
+            "change_from_November_2014_December_2014": -0.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.7\t5.7\t5.8\t5.6\t-0.2"
+        },
+        {
+          "category": "Not in labor force",
+          "category_path": [
+            "Employment status",
+            "Not in labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 91698.0,
+            "October 2014": 92414.0,
+            "November 2014": 92442.0,
+            "December 2014": 92898.0,
+            "change_from_November_2014_December_2014": 456.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t91,698\t92,414\t92,442\t92,898\t456"
+        },
+        {
+          "category": "Total, 16 years and over",
+          "category_path": [
+            "Unemployment rates",
+            "Total, 16 years and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.7,
+            "October 2014": 5.7,
+            "November 2014": 5.8,
+            "December 2014": 5.6,
+            "change_from_November_2014_December_2014": -0.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.7\t5.7\t5.8\t5.6\t-0.2"
+        },
+        {
+          "category": "Adult men (20 years and over)",
+          "category_path": [
+            "Unemployment rates",
+            "Adult men (20 years and over)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.3,
+            "October 2014": 5.1,
+            "November 2014": 5.4,
+            "December 2014": 5.3,
+            "change_from_November_2014_December_2014": -0.1
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.3\t5.1\t5.4\t5.3\t-0.1"
+        },
+        {
+          "category": "Adult women (20 years and over)",
+          "category_path": [
+            "Unemployment rates",
+            "Adult women (20 years and over)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.0,
+            "October 2014": 5.4,
+            "November 2014": 5.2,
+            "December 2014": 5.0,
+            "change_from_November_2014_December_2014": -0.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.0\t5.4\t5.2\t5.0\t-0.2"
+        },
+        {
+          "category": "Teenagers (16 to 19 years)",
+          "category_path": [
+            "Unemployment rates",
+            "Teenagers (16 to 19 years)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 20.4,
+            "October 2014": 18.7,
+            "November 2014": 17.5,
+            "December 2014": 16.8,
+            "change_from_November_2014_December_2014": -0.7
+          },
+          "missing_values": 0,
+          "raw_row": "\t20.4\t18.7\t17.5\t16.8\t-0.7"
+        },
+        {
+          "category": "White",
+          "category_path": [
+            "Unemployment rates",
+            "White"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.0,
+            "October 2014": 4.9,
+            "November 2014": 4.9,
+            "December 2014": 4.8,
+            "change_from_November_2014_December_2014": -0.1
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.0\t4.9\t4.9\t4.8\t-0.1"
+        },
+        {
+          "category": "Black or African American",
+          "category_path": [
+            "Unemployment rates",
+            "Black or African American"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 11.8,
+            "October 2014": 10.9,
+            "November 2014": 11.0,
+            "December 2014": 10.4,
+            "change_from_November_2014_December_2014": -0.6
+          },
+          "missing_values": 0,
+          "raw_row": "\t11.8\t10.9\t11.0\t10.4\t-0.6"
+        },
+        {
+          "category": "Asian (not seasonally adjusted)",
+          "category_path": [
+            "Unemployment rates",
+            "Asian (not seasonally adjusted)"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 4.1,
+            "October 2014": 5.0,
+            "November 2014": 4.8,
+            "December 2014": 4.2
+          },
+          "missing_values": 1,
+          "raw_row": "\t4.1\t5.0\t4.8\t4.2\t-"
+        },
+        {
+          "category": "Hispanic or Latino ethnicity",
+          "category_path": [
+            "Unemployment rates",
+            "Hispanic or Latino ethnicity"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 8.4,
+            "October 2014": 6.8,
+            "November 2014": 6.6,
+            "December 2014": 6.5,
+            "change_from_November_2014_December_2014": -0.1
+          },
+          "missing_values": 0,
+          "raw_row": "\t8.4\t6.8\t6.6\t6.5\t-0.1"
+        },
+        {
+          "category": "Total, 25 years and over",
+          "category_path": [
+            "Unemployment rates",
+            "Total, 25 years and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 5.6,
+            "October 2014": 4.7,
+            "November 2014": 4.7,
+            "December 2014": 4.5,
+            "change_from_November_2014_December_2014": -0.2
+          },
+          "missing_values": 0,
+          "raw_row": "\t5.6\t4.7\t4.7\t4.5\t-0.2"
+        },
+        {
+          "category": "Less than a high school diploma",
+          "category_path": [
+            "Unemployment rates",
+            "Less than a high school diploma"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 9.9,
+            "October 2014": 7.9,
+            "November 2014": 8.5,
+            "December 2014": 8.6,
+            "change_from_November_2014_December_2014": 0.1
+          },
+          "missing_values": 0,
+          "raw_row": "\t9.9\t7.9\t8.5\t8.6\t0.1"
+        },
+        {
+          "category": "High school graduates, no college",
+          "category_path": [
+            "Unemployment rates",
+            "High school graduates, no college"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 7.0,
+            "October 2014": 5.7,
+            "November 2014": 5.6,
+            "December 2014": 5.3,
+            "change_from_November_2014_December_2014": -0.3
+          },
+          "missing_values": 0,
+          "raw_row": "\t7.0\t5.7\t5.6\t5.3\t-0.3"
+        },
+        {
+          "category": "Some college or associate degree",
+          "category_path": [
+            "Unemployment rates",
+            "Some college or associate degree"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 6.1,
+            "October 2014": 4.9,
+            "November 2014": 4.9,
+            "December 2014": 4.9,
+            "change_from_November_2014_December_2014": 0.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t6.1\t4.9\t4.9\t4.9\t0.0"
+        },
+        {
+          "category": "Bachelor's degree and higher",
+          "category_path": [
+            "Unemployment rates",
+            "Bachelor's degree and higher"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 3.4,
+            "October 2014": 3.0,
+            "November 2014": 3.2,
+            "December 2014": 2.9,
+            "change_from_November_2014_December_2014": -0.3
+          },
+          "missing_values": 0,
+          "raw_row": "\t3.4\t3.0\t3.2\t2.9\t-0.3"
+        },
+        {
+          "category": "Job losers and persons who completed temporary jobs",
+          "category_path": [
+            "Reason for unemployment",
+            "Job losers and persons who completed temporary jobs"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 5421.0,
+            "October 2014": 4349.0,
+            "November 2014": 4480.0,
+            "December 2014": 4325.0,
+            "change_from_November_2014_December_2014": -155.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t5,421\t4,349\t4,480\t4,325\t-155"
+        },
+        {
+          "category": "Job leavers",
+          "category_path": [
+            "Reason for unemployment",
+            "Job leavers"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 860.0,
+            "October 2014": 782.0,
+            "November 2014": 835.0,
+            "December 2014": 798.0,
+            "change_from_November_2014_December_2014": -37.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t860\t782\t835\t798\t-37"
+        },
+        {
+          "category": "Reentrants",
+          "category_path": [
+            "Reason for unemployment",
+            "Reentrants"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 3027.0,
+            "October 2014": 2856.0,
+            "November 2014": 2761.0,
+            "December 2014": 2701.0,
+            "change_from_November_2014_December_2014": -60.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t3,027\t2,856\t2,761\t2,701\t-60"
+        },
+        {
+          "category": "New entrants",
+          "category_path": [
+            "Reason for unemployment",
+            "New entrants"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 1198.0,
+            "October 2014": 1058.0,
+            "November 2014": 1045.0,
+            "December 2014": 971.0,
+            "change_from_November_2014_December_2014": -74.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,198\t1,058\t1,045\t971\t-74"
+        },
+        {
+          "category": "Less than 5 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "Less than 5 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 2323.0,
+            "October 2014": 2455.0,
+            "November 2014": 2505.0,
+            "December 2014": 2375.0,
+            "change_from_November_2014_December_2014": -130.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t2,323\t2,455\t2,505\t2,375\t-130"
+        },
+        {
+          "category": "5 to 14 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "5 to 14 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 2525.0,
+            "October 2014": 2322.0,
+            "November 2014": 2378.0,
+            "December 2014": 2293.0,
+            "change_from_November_2014_December_2014": -85.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t2,525\t2,322\t2,378\t2,293\t-85"
+        },
+        {
+          "category": "15 to 26 weeks",
+          "category_path": [
+            "Duration of unemployment",
+            "15 to 26 weeks"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 1680.0,
+            "October 2014": 1416.0,
+            "November 2014": 1403.0,
+            "December 2014": 1274.0,
+            "change_from_November_2014_December_2014": -129.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t1,680\t1,416\t1,403\t1,274\t-129"
+        },
+        {
+          "category": "27 weeks and over",
+          "category_path": [
+            "Duration of unemployment",
+            "27 weeks and over"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 3877.0,
+            "October 2014": 2904.0,
+            "November 2014": 2822.0,
+            "December 2014": 2785.0,
+            "change_from_November_2014_December_2014": -37.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t3,877\t2,904\t2,822\t2,785\t-37"
+        },
+        {
+          "category": "Part time for economic reasons",
+          "category_path": [
+            "Employed persons at work part time",
+            "Part time for economic reasons"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 7766.0,
+            "October 2014": 7012.0,
+            "November 2014": 6851.0,
+            "December 2014": 6790.0,
+            "change_from_November_2014_December_2014": -61.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t7,766\t7,012\t6,851\t6,790\t-61"
+        },
+        {
+          "category": "Slack work or business conditions",
+          "category_path": [
+            "Employed persons at work part time",
+            "Slack work or business conditions"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 4881.0,
+            "October 2014": 4215.0,
+            "November 2014": 4068.0,
+            "December 2014": 4061.0,
+            "change_from_November_2014_December_2014": -7.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t4,881\t4,215\t4,068\t4,061\t-7"
+        },
+        {
+          "category": "Could only find part-time work",
+          "category_path": [
+            "Employed persons at work part time",
+            "Could only find part-time work"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 2623.0,
+            "October 2014": 2437.0,
+            "November 2014": 2447.0,
+            "December 2014": 2432.0,
+            "change_from_November_2014_December_2014": -15.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t2,623\t2,437\t2,447\t2,432\t-15"
+        },
+        {
+          "category": "Part time for noneconomic reasons",
+          "category_path": [
+            "Employed persons at work part time",
+            "Part time for noneconomic reasons"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 18816.0,
+            "October 2014": 19793.0,
+            "November 2014": 19971.0,
+            "December 2014": 19730.0,
+            "change_from_November_2014_December_2014": -241.0
+          },
+          "missing_values": 0,
+          "raw_row": "\t18,816\t19,793\t19,971\t19,730\t-241"
+        },
+        {
+          "category": "Marginally attached to the labor force",
+          "category_path": [
+            "Persons not in the labor force (not seasonally adjusted)",
+            "Marginally attached to the labor force"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 2427.0,
+            "October 2014": 2192.0,
+            "November 2014": 2109.0,
+            "December 2014": 2260.0
+          },
+          "missing_values": 1,
+          "raw_row": "\t2,427\t2,192\t2,109\t2,260\t-"
+        },
+        {
+          "category": "Discouraged workers",
+          "category_path": [
+            "Persons not in the labor force (not seasonally adjusted)",
+            "Discouraged workers"
+          ],
+          "hierarchy_level": 1,
+          "values": {
+            "December 2013": 917.0,
+            "October 2014": 770.0,
+            "November 2014": 698.0,
+            "December 2014": 740.0
+          },
+          "missing_values": 1,
+          "raw_row": "\t917\t770\t698\t740\t-"
+        }
+      ],
+      "row_count": 35,
+      "notes": [
+        "2013\tOct.",
+        "2014\tNov.",
+        "2014\tDec.",
+        "2014\tChange from:",
+        "5 to 14 weeks",
+        "15 to 26 weeks",
+        "27 weeks and over"
+      ],
+      "validation": {
+        "period_labels_resolved": true,
+        "month_tokens_found": 4,
+        "year_tokens_found": 4,
+        "monthly_change_hint": false,
+        "columns": 5,
+        "rows": 35,
+        "values_parsed": 172,
+        "values_missing": 3,
+        "rows_skipped": 0,
+        "hierarchy_source": "tab_groups"
+      }
+    },
+    {
+      "table_id": "B",
+      "title": "Summary table B. Establishment data, seasonally adjusted",
+      "start_line": 723,
+      "end_line": 982,
+      "raw_text": "Summary table B. Establishment data, seasonally adjusted\n\nCategory\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nEMPLOYMENT BY SELECTED INDUSTRY\n(Over-the-month change, in thousands)\n\n\t\n\n\nTotal nonfarm\n\n\t84\t261\t353\t252\n\n\nTotal private\n\n\t86\t255\t345\t240\n\n\nGoods-producing\n\n\t-13\t42\t51\t67\n\n\nMining and logging\n\n\t0\t2\t2\t2\n\n\nConstruction\n\n\t-20\t16\t20\t48\n\n\nManufacturing\n\n\t7\t24\t29\t17\n\n\nDurable goods(1)\n\n\t0\t20\t20\t13\n\n\nMotor vehicles and parts\n\n\t0.1\t4.2\t7.2\t1.8\n\n\nNondurable goods\n\n\t7\t4\t9\t4\n\n\nPrivate service-providing(1)\n\n\t99\t213\t294\t173\n\n\nWholesale trade\n\n\t11.0\t8.2\t5.3\t10.0\n\n\nRetail trade\n\n\t52.0\t32.6\t55.7\t7.7\n\n\nTransportation and warehousing\n\n\t4.5\t13.3\t16.9\t3.1\n\n\nInformation\n\n\t-15\t-6\t1\t2\n\n\nFinancial activities\n\n\t2\t4\t21\t10\n\n\nProfessional and business services(1)\n\n\t16\t51\t87\t52\n\n\nTemporary help services\n\n\t32.2\t18.8\t23.9\t14.7\n\n\nEducation and health services(1)\n\n\t5\t44\t41\t48\n\n\nHealth care and social assistance\n\n\t2.6\t43.7\t45.0\t43.7\n\n\nLeisure and hospitality\n\n\t18\t60\t53\t36\n\n\nOther services\n\n\t7\t5\t12\t2\n\n\nGovernment\n\n\t-2\t6\t8\t12\n\n\n\nWOMEN AND PRODUCTION AND NONSUPERVISORY EMPLOYEES(2)\nAS A PERCENT OF ALL EMPLOYEES\n\n\t\n\n\nTotal nonfarm women employees\n\n\t49.5\t49.4\t49.3\t49.3\n\n\nTotal private women employees\n\n\t48.0\t47.9\t47.9\t47.9\n\n\nTotal private production and nonsupervisory employees\n\n\t82.6\t82.6\t82.6\t82.6\n\n\n\nHOURS AND EARNINGS\nALL EMPLOYEES\n\n\t\n\n\nTotal private\n\n\t\n\n\nAverage weekly hours\n\n\t34.3\t34.5\t34.6\t34.6\n\n\nAverage hourly earnings\n\n\t$24.17\t$24.56\t$24.62\t$24.57\n\n\nAverage weekly earnings\n\n\t$829.03\t$847.32\t$851.85\t$850.12\n\n\nIndex of aggregate weekly hours (2007=100)(3)\n\n\t99.1\t101.6\t102.2\t102.4\n\n\nOver-the-month percent change\n\n\t-0.5\t0.2\t0.6\t0.2\n\n\nIndex of aggregate weekly payrolls (2007=100)(4)\n\n\t114.3\t119.1\t120.1\t120.1\n\n\nOver-the-month percent change\n\n\t-0.4\t0.3\t0.8\t0.0\n\n\n\nHOURS AND EARNINGS\nPRODUCTION AND NONSUPERVISORY EMPLOYEES\n\n\t\n\n\nTotal private\n\n\t\n\n\nAverage weekly hours\n\n\t33.5\t33.8\t33.8\t33.9\n\n\nAverage hourly earnings\n\n\t$20.35\t$20.70\t$20.74\t$20.68\n\n\nAverage weekly earnings\n\n\t$681.73\t$699.66\t$701.01\t$701.05\n\n\nIndex of aggregate weekly hours (2002=100)(3)\n\n\t106.6\t109.6\t109.9\t110.4\n\n\nOver-the-month percent change\n\n\t-0.5\t0.5\t0.3\t0.5\n\n\nIndex of aggregate weekly payrolls (2002=100)(4)\n\n\t144.9\t151.6\t152.3\t152.6\n\n\nOver-the-month percent change\n\n\t-0.3\t0.7\t0.5\t0.2\n\n\n\nDIFFUSION INDEX(5)\n(Over 1-month span)\n\n\t\n\n\nTotal private (264 industries)\n\n\t57.2\t66.5\t69.7\t63.6\n\n\nManufacturing (81 industries)\n\n\t57.4\t71.6\t66.0\t58.0\n\n\nFootnotes\n(1) Includes other industries, not shown separately.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-1",
+      "title": "Table A-1. Employment status of the civilian population by sex and age",
+      "start_line": 1330,
+      "end_line": 1625,
+      "raw_text": "Table A-1. Employment status of the civilian population by sex and age\n[Numbers in thousands]\nEmployment status, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nTOTAL\n\n\t\n\n\nCivilian noninstitutional population\n\n\t246,745\t248,844\t249,027\t246,745\t248,229\t248,446\t248,657\t248,844\t249,027\n\n\nCivilian labor force\n\n\t154,408\t156,297\t155,521\t155,047\t156,018\t155,845\t156,243\t156,402\t156,129\n\n\nParticipation rate\n\n\t62.6\t62.8\t62.5\t62.8\t62.9\t62.7\t62.8\t62.9\t62.7\n\n\nEmployed\n\n\t144,423\t147,666\t147,190\t144,671\t146,451\t146,607\t147,260\t147,331\t147,442\n\n\nEmployment-population ratio\n\n\t58.5\t59.3\t59.1\t58.6\t59.0\t59.0\t59.2\t59.2\t59.2\n\n\nUnemployed\n\n\t9,984\t8,630\t8,331\t10,376\t9,568\t9,237\t8,983\t9,071\t8,688\n\n\nUnemployment rate\n\n\t6.5\t5.5\t5.4\t6.7\t6.1\t5.9\t5.7\t5.8\t5.6\n\n\nNot in labor force\n\n\t92,338\t92,547\t93,506\t91,698\t92,210\t92,601\t92,414\t92,442\t92,898\n\n\nPersons who currently want a job\n\n\t5,932\t6,227\t6,212\t6,148\t6,334\t6,385\t6,545\t6,556\t6,445\n\n\n\nMen, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t119,103\t120,208\t120,301\t119,103\t119,893\t120,004\t120,112\t120,208\t120,301\n\n\nCivilian labor force\n\n\t81,985\t82,835\t82,800\t82,383\t83,010\t82,983\t82,950\t82,961\t83,210\n\n\nParticipation rate\n\n\t68.8\t68.9\t68.8\t69.2\t69.2\t69.2\t69.1\t69.0\t69.2\n\n\nEmployed\n\n\t76,403\t78,208\t78,052\t76,757\t77,873\t78,094\t78,286\t78,084\t78,400\n\n\nEmployment-population ratio\n\n\t64.1\t65.1\t64.9\t64.4\t65.0\t65.1\t65.2\t65.0\t65.2\n\n\nUnemployed\n\n\t5,583\t4,627\t4,748\t5,626\t5,136\t4,890\t4,664\t4,877\t4,810\n\n\nUnemployment rate\n\n\t6.8\t5.6\t5.7\t6.8\t6.2\t5.9\t5.6\t5.9\t5.8\n\n\nNot in labor force\n\n\t37,118\t37,373\t37,501\t36,720\t36,883\t37,021\t37,161\t37,247\t37,091\n\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t110,613\t111,778\t111,875\t110,613\t111,451\t111,567\t111,679\t111,778\t111,875\n\n\nCivilian labor force\n\n\t79,335\t80,074\t80,068\t79,523\t80,210\t80,163\t80,023\t80,029\t80,271\n\n\nParticipation rate\n\n\t71.7\t71.6\t71.6\t71.9\t72.0\t71.9\t71.7\t71.6\t71.8\n\n\nEmployed\n\n\t74,275\t75,922\t75,801\t74,505\t75,668\t75,889\t75,928\t75,675\t76,026\n\n\nEmployment-population ratio\n\n\t67.1\t67.9\t67.8\t67.4\t67.9\t68.0\t68.0\t67.7\t68.0\n\n\nUnemployed\n\n\t5,060\t4,152\t4,267\t5,018\t4,543\t4,273\t4,094\t4,354\t4,245\n\n\nUnemployment rate\n\n\t6.4\t5.2\t5.3\t6.3\t5.7\t5.3\t5.1\t5.4\t5.3\n\n\nNot in labor force\n\n\t31,278\t31,704\t31,807\t31,090\t31,241\t31,404\t31,656\t31,749\t31,603\n\n\n\nWomen, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t127,642\t128,637\t128,726\t127,642\t128,336\t128,442\t128,545\t128,637\t128,726\n\n\nCivilian labor force\n\n\t72,423\t73,462\t72,721\t72,664\t73,008\t72,862\t73,293\t73,442\t72,919\n\n\nParticipation rate\n\n\t56.7\t57.1\t56.5\t56.9\t56.9\t56.7\t57.0\t57.1\t56.6\n\n\nEmployed\n\n\t68,021\t69,459\t69,138\t67,914\t68,577\t68,514\t68,974\t69,247\t69,042\n\n\nEmployment-population ratio\n\n\t53.3\t54.0\t53.7\t53.2\t53.4\t53.3\t53.7\t53.8\t53.6\n\n\nUnemployed\n\n\t4,402\t4,003\t3,584\t4,750\t4,431\t4,348\t4,318\t4,195\t3,878\n\n\nUnemployment rate\n\n\t6.1\t5.4\t4.9\t6.5\t6.1\t6.0\t5.9\t5.7\t5.3\n\n\nNot in labor force\n\n\t55,220\t55,175\t56,005\t54,978\t55,327\t55,581\t55,253\t55,195\t55,807\n\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t119,433\t120,465\t120,557\t119,433\t120,156\t120,265\t120,370\t120,465\t120,557\n\n\nCivilian labor force\n\n\t69,809\t70,743\t70,058\t69,886\t70,230\t70,037\t70,354\t70,599\t70,111\n\n\nParticipation rate\n\n\t58.5\t58.7\t58.1\t58.5\t58.4\t58.2\t58.4\t58.6\t58.2\n\n\nEmployed\n\n\t65,849\t67,176\t66,797\t65,678\t66,289\t66,192\t66,560\t66,894\t66,632\n\n\nEmployment-population ratio\n\n\t55.1\t55.8\t55.4\t55.0\t55.2\t55.0\t55.3\t55.5\t55.3\n\n\nUnemployed\n\n\t3,960\t3,567\t3,262\t4,208\t3,942\t3,845\t3,794\t3,705\t3,479\n\n\nUnemployment rate\n\n\t5.7\t5.0\t4.7\t6.0\t5.6\t5.5\t5.4\t5.2\t5.0\n\n\nNot in labor force\n\n\t49,624\t49,722\t50,499\t49,547\t49,925\t50,228\t50,016\t49,866\t50,446\n\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian noninstitutional population\n\n\t16,700\t16,602\t16,595\t16,700\t16,622\t16,615\t16,608\t16,602\t16,595\n\n\nCivilian labor force\n\n\t5,264\t5,480\t5,395\t5,638\t5,578\t5,645\t5,866\t5,775\t5,747\n\n\nParticipation rate\n\n\t31.5\t33.0\t32.5\t33.8\t33.6\t34.0\t35.3\t34.8\t34.6\n\n\nEmployed\n\n\t4,300\t4,569\t4,592\t4,488\t4,495\t4,527\t4,772\t4,762\t4,784\n\n\nEmployment-population ratio\n\n\t25.7\t27.5\t27.7\t26.9\t27.0\t27.2\t28.7\t28.7\t28.8\n\n\nUnemployed\n\n\t964\t911\t803\t1,150\t1,083\t1,119\t1,094\t1,013\t963\n\n\nUnemployment rate\n\n\t18.3\t16.6\t14.9\t20.4\t19.4\t19.8\t18.7\t17.5\t16.8\n\n\nNot in labor force\n\n\t11,436\t11,122\t11,201\t11,061\t11,044\t10,970\t10,742\t10,827\t10,849\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-2",
+      "title": "Table A-2. Employment status of the civilian population by race, sex, and age",
+      "start_line": 1638,
+      "end_line": 2000,
+      "raw_text": "Table A-2. Employment status of the civilian population by race, sex, and age\n[Numbers in thousands]\nEmployment status, race, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nWHITE\n\n\t\n\n\nCivilian noninstitutional population\n\n\t194,927\t195,995\t196,091\t194,927\t195,652\t195,777\t195,896\t195,995\t196,091\n\n\nCivilian labor force\n\n\t122,621\t123,438\t122,650\t123,067\t123,266\t122,996\t123,287\t123,391\t123,058\n\n\nParticipation rate\n\n\t62.9\t63.0\t62.5\t63.1\t63.0\t62.8\t62.9\t63.0\t62.8\n\n\nEmployed\n\n\t115,640\t117,724\t117,068\t115,742\t116,760\t116,760\t117,300\t117,307\t117,186\n\n\nEmployment-population ratio\n\n\t59.3\t60.1\t59.7\t59.4\t59.7\t59.6\t59.9\t59.9\t59.8\n\n\nUnemployed\n\n\t6,982\t5,713\t5,582\t7,324\t6,506\t6,236\t5,987\t6,084\t5,872\n\n\nUnemployment rate\n\n\t5.7\t4.6\t4.6\t6.0\t5.3\t5.1\t4.9\t4.9\t4.8\n\n\nNot in labor force\n\n\t72,306\t72,558\t73,441\t71,861\t72,386\t72,781\t72,609\t72,604\t73,033\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t64,190\t64,440\t64,262\t64,315\t64,519\t64,290\t64,234\t64,339\t64,392\n\n\nParticipation rate\n\n\t72.3\t72.0\t71.8\t72.4\t72.3\t72.0\t71.8\t71.9\t71.9\n\n\nEmployed\n\n\t60,538\t61,640\t61,410\t60,690\t61,360\t61,447\t61,507\t61,388\t61,551\n\n\nEmployment-population ratio\n\n\t68.2\t68.9\t68.6\t68.3\t68.7\t68.8\t68.8\t68.6\t68.8\n\n\nUnemployed\n\n\t3,652\t2,800\t2,852\t3,626\t3,159\t2,843\t2,727\t2,951\t2,842\n\n\nUnemployment rate\n\n\t5.7\t4.3\t4.4\t5.6\t4.9\t4.4\t4.2\t4.6\t4.4\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t54,249\t54,730\t54,207\t54,265\t54,315\t54,237\t54,452\t54,587\t54,223\n\n\nParticipation rate\n\n\t57.9\t58.1\t57.5\t57.9\t57.8\t57.7\t57.9\t58.0\t57.5\n\n\nEmployed\n\n\t51,589\t52,435\t51,992\t51,396\t51,739\t51,677\t51,945\t52,142\t51,824\n\n\nEmployment-population ratio\n\n\t55.1\t55.7\t55.2\t54.9\t55.0\t54.9\t55.2\t55.4\t55.0\n\n\nUnemployed\n\n\t2,660\t2,295\t2,216\t2,869\t2,576\t2,561\t2,507\t2,445\t2,399\n\n\nUnemployment rate\n\n\t4.9\t4.2\t4.1\t5.3\t4.7\t4.7\t4.6\t4.5\t4.4\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t4,182\t4,268\t4,181\t4,486\t4,432\t4,468\t4,601\t4,466\t4,443\n\n\nParticipation rate\n\n\t33.6\t34.6\t33.9\t36.1\t35.8\t36.1\t37.2\t36.2\t36.0\n\n\nEmployed\n\n\t3,513\t3,649\t3,666\t3,657\t3,661\t3,636\t3,848\t3,777\t3,811\n\n\nEmployment-population ratio\n\n\t28.2\t29.5\t29.7\t29.4\t29.6\t29.4\t31.1\t30.6\t30.9\n\n\nUnemployed\n\n\t669\t618\t515\t830\t772\t832\t753\t689\t632\n\n\nUnemployment rate\n\n\t16.0\t14.5\t12.3\t18.5\t17.4\t18.6\t16.4\t15.4\t14.2\n\n\n\nBLACK OR AFRICAN AMERICAN\n\n\t\n\n\nCivilian noninstitutional population\n\n\t30,569\t31,005\t31,040\t30,569\t30,893\t30,932\t30,969\t31,005\t31,040\n\n\nCivilian labor force\n\n\t18,315\t19,037\t18,933\t18,415\t18,867\t19,067\t19,024\t19,056\t19,037\n\n\nParticipation rate\n\n\t59.9\t61.4\t61.0\t60.2\t61.1\t61.6\t61.4\t61.5\t61.3\n\n\nEmployed\n\n\t16,194\t17,019\t17,009\t16,238\t16,685\t16,974\t16,953\t16,957\t17,050\n\n\nEmployment-population ratio\n\n\t53.0\t54.9\t54.8\t53.1\t54.0\t54.9\t54.7\t54.7\t54.9\n\n\nUnemployed\n\n\t2,121\t2,017\t1,924\t2,176\t2,182\t2,093\t2,071\t2,099\t1,986\n\n\nUnemployment rate\n\n\t11.6\t10.6\t10.2\t11.8\t11.6\t11.0\t10.9\t11.0\t10.4\n\n\nNot in labor force\n\n\t12,254\t11,968\t12,107\t12,154\t12,026\t11,865\t11,945\t11,949\t12,003\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t8,259\t8,597\t8,698\t8,272\t8,614\t8,756\t8,672\t8,594\t8,717\n\n\nParticipation rate\n\n\t65.6\t66.9\t67.6\t65.7\t67.4\t68.4\t67.6\t66.9\t67.8\n\n\nEmployed\n\n\t7,305\t7,700\t7,741\t7,318\t7,678\t7,791\t7,742\t7,630\t7,756\n\n\nEmployment-population ratio\n\n\t58.0\t60.0\t60.2\t58.1\t60.1\t60.9\t60.4\t59.4\t60.3\n\n\nUnemployed\n\n\t954\t897\t957\t953\t936\t965\t930\t964\t962\n\n\nUnemployment rate\n\n\t11.6\t10.4\t11.0\t11.5\t10.9\t11.0\t10.7\t11.2\t11.0\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t9,423\t9,723\t9,561\t9,463\t9,591\t9,591\t9,624\t9,709\t9,598\n\n\nParticipation rate\n\n\t61.0\t62.0\t60.9\t61.2\t61.4\t61.4\t61.5\t61.9\t61.2\n\n\nEmployed\n\n\t8,459\t8,801\t8,800\t8,476\t8,559\t8,682\t8,720\t8,786\t8,812\n\n\nEmployment-population ratio\n\n\t54.7\t56.2\t56.1\t54.9\t54.8\t55.5\t55.7\t56.1\t56.2\n\n\nUnemployed\n\n\t964\t922\t761\t987\t1,032\t909\t904\t922\t785\n\n\nUnemployment rate\n\n\t10.2\t9.5\t8.0\t10.4\t10.8\t9.5\t9.4\t9.5\t8.2\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t633\t717\t674\t680\t662\t720\t728\t754\t722\n\n\nParticipation rate\n\n\t25.0\t28.8\t27.1\t26.9\t26.4\t28.8\t29.2\t30.2\t29.0\n\n\nEmployed\n\n\t429\t519\t468\t444\t447\t501\t491\t541\t482\n\n\nEmployment-population ratio\n\n\t17.0\t20.8\t18.8\t17.5\t17.9\t20.1\t19.7\t21.7\t19.4\n\n\nUnemployed\n\n\t204\t198\t206\t236\t215\t219\t237\t213\t240\n\n\nUnemployment rate\n\n\t32.2\t27.6\t30.6\t34.7\t32.4\t30.4\t32.5\t28.2\t33.2\n\n\n\nASIAN\n\n\t\n\n\nCivilian noninstitutional population\n\n\t13,493\t13,927\t13,886\t-\t-\t-\t-\t-\t-\n\n\nCivilian labor force\n\n\t8,715\t8,749\t8,796\t-\t-\t-\t-\t-\t-\n\n\nParticipation rate\n\n\t64.6\t62.8\t63.3\t-\t-\t-\t-\t-\t-\n\n\nEmployed\n\n\t8,355\t8,333\t8,424\t-\t-\t-\t-\t-\t-\n\n\nEmployment-population ratio\n\n\t61.9\t59.8\t60.7\t-\t-\t-\t-\t-\t-\n\n\nUnemployed\n\n\t360\t416\t372\t-\t-\t-\t-\t-\t-\n\n\nUnemployment rate\n\n\t4.1\t4.8\t4.2\t-\t-\t-\t-\t-\t-\n\n\nNot in labor force\n\n\t4,778\t5,178\t5,090\t-\t-\t-\t-\t-\t-\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-3",
+      "title": "Table A-3. Employment status of the Hispanic or Latino population by sex and age",
+      "start_line": 2014,
+      "end_line": 2179,
+      "raw_text": "Table A-3. Employment status of the Hispanic or Latino population by sex and age\n[Numbers in thousands]\nEmployment status, sex, and age\tNot seasonally adjusted\tSeasonally adjusted(1)\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nHISPANIC OR LATINO ETHNICITY\n\n\t\n\n\nCivilian noninstitutional population\n\n\t37,955\t38,760\t38,839\t37,955\t38,512\t38,596\t38,679\t38,760\t38,839\n\n\nCivilian labor force\n\n\t24,807\t25,753\t25,630\t24,814\t25,410\t25,491\t25,665\t25,655\t25,644\n\n\nParticipation rate\n\n\t65.4\t66.4\t66.0\t65.4\t66.0\t66.0\t66.4\t66.2\t66.0\n\n\nEmployed\n\n\t22,741\t24,076\t23,995\t22,731\t23,536\t23,718\t23,931\t23,963\t23,988\n\n\nEmployment-population ratio\n\n\t59.9\t62.1\t61.8\t59.9\t61.1\t61.5\t61.9\t61.8\t61.8\n\n\nUnemployed\n\n\t2,066\t1,676\t1,635\t2,082\t1,873\t1,772\t1,734\t1,692\t1,656\n\n\nUnemployment rate\n\n\t8.3\t6.5\t6.4\t8.4\t7.4\t7.0\t6.8\t6.6\t6.5\n\n\nNot in labor force\n\n\t13,148\t13,007\t13,209\t13,142\t13,102\t13,106\t13,013\t13,105\t13,196\n\n\nMen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t13,799\t14,337\t14,299\t-\t-\t-\t-\t-\t-\n\n\nParticipation rate\n\n\t80.5\t81.7\t81.3\t-\t-\t-\t-\t-\t-\n\n\nEmployed\n\n\t12,766\t13,503\t13,490\t-\t-\t-\t-\t-\t-\n\n\nEmployment-population ratio\n\n\t74.4\t77.0\t76.7\t-\t-\t-\t-\t-\t-\n\n\nUnemployed\n\n\t1,032\t833\t810\t-\t-\t-\t-\t-\t-\n\n\nUnemployment rate\n\n\t7.5\t5.8\t5.7\t-\t-\t-\t-\t-\t-\n\n\nWomen, 20 years and over\n\n\t\n\n\nCivilian labor force\n\n\t9,978\t10,307\t10,167\t-\t-\t-\t-\t-\t-\n\n\nParticipation rate\n\n\t58.2\t58.8\t57.9\t-\t-\t-\t-\t-\t-\n\n\nEmployed\n\n\t9,174\t9,645\t9,535\t-\t-\t-\t-\t-\t-\n\n\nEmployment-population ratio\n\n\t53.5\t55.0\t54.3\t-\t-\t-\t-\t-\t-\n\n\nUnemployed\n\n\t804\t662\t631\t-\t-\t-\t-\t-\t-\n\n\nUnemployment rate\n\n\t8.1\t6.4\t6.2\t-\t-\t-\t-\t-\t-\n\n\nBoth sexes, 16 to 19 years\n\n\t\n\n\nCivilian labor force\n\n\t1,030\t1,109\t1,164\t-\t-\t-\t-\t-\t-\n\n\nParticipation rate\n\n\t28.2\t30.2\t31.6\t-\t-\t-\t-\t-\t-\n\n\nEmployed\n\n\t800\t928\t970\t-\t-\t-\t-\t-\t-\n\n\nEmployment-population ratio\n\n\t21.9\t25.2\t26.4\t-\t-\t-\t-\t-\t-\n\n\nUnemployed\n\n\t230\t181\t194\t-\t-\t-\t-\t-\t-\n\n\nUnemployment rate\n\n\t22.3\t16.3\t16.6\t-\t-\t-\t-\t-\t-\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-4",
+      "title": "Table A-4. Employment status of the civilian population 25 years and over by educational attainment",
+      "start_line": 2193,
+      "end_line": 2351,
+      "raw_text": "Table A-4. Employment status of the civilian population 25 years and over by educational attainment\n[Numbers in thousands]\nEducational attainment\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nLess than a high school diploma\n\n\t\n\n\nCivilian labor force\n\n\t10,754\t11,168\t11,003\t10,763\t10,709\t10,691\t10,831\t11,153\t11,031\n\n\nParticipation rate\n\n\t43.7\t45.8\t45.3\t43.7\t45.2\t44.5\t45.3\t45.7\t45.4\n\n\nEmployed\n\n\t9,641\t10,213\t10,007\t9,703\t9,738\t9,806\t9,975\t10,201\t10,079\n\n\nEmployment-population ratio\n\n\t39.2\t41.9\t41.2\t39.4\t41.1\t40.8\t41.7\t41.8\t41.5\n\n\nUnemployed\n\n\t1,113\t955\t996\t1,060\t971\t884\t856\t952\t952\n\n\nUnemployment rate\n\n\t10.4\t8.6\t9.1\t9.9\t9.1\t8.3\t7.9\t8.5\t8.6\n\n\n\nHigh school graduates, no college(1)\n\n\t\n\n\nCivilian labor force\n\n\t36,473\t35,432\t35,281\t36,292\t36,286\t35,937\t36,183\t35,478\t35,164\n\n\nParticipation rate\n\n\t58.4\t57.7\t57.7\t58.1\t58.1\t57.9\t58.0\t57.8\t57.5\n\n\nEmployed\n\n\t33,894\t33,499\t33,406\t33,743\t34,046\t34,016\t34,127\t33,476\t33,310\n\n\nEmployment-population ratio\n\n\t54.3\t54.5\t54.6\t54.0\t54.5\t54.8\t54.7\t54.5\t54.5\n\n\nUnemployed\n\n\t2,580\t1,932\t1,875\t2,549\t2,240\t1,920\t2,056\t2,002\t1,854\n\n\nUnemployment rate\n\n\t7.1\t5.5\t5.3\t7.0\t6.2\t5.3\t5.7\t5.6\t5.3\n\n\n\nSome college or associate degree\n\n\t\n\n\nCivilian labor force\n\n\t36,926\t37,320\t36,845\t37,157\t37,503\t37,421\t37,304\t37,246\t37,140\n\n\nParticipation rate\n\n\t67.4\t66.9\t66.3\t67.8\t66.8\t66.6\t66.5\t66.7\t66.9\n\n\nEmployed\n\n\t34,730\t35,579\t35,079\t34,885\t35,490\t35,389\t35,460\t35,422\t35,310\n\n\nEmployment-population ratio\n\n\t63.4\t63.7\t63.2\t63.7\t63.2\t63.0\t63.2\t63.5\t63.6\n\n\nUnemployed\n\n\t2,197\t1,742\t1,766\t2,272\t2,013\t2,032\t1,843\t1,824\t1,831\n\n\nUnemployment rate\n\n\t5.9\t4.7\t4.8\t6.1\t5.4\t5.4\t4.9\t4.9\t4.9\n\n\n\nBachelor's degree and higher(2)\n\n\t\n\n\nCivilian labor force\n\n\t49,612\t51,342\t51,727\t49,704\t50,162\t50,449\t50,471\t51,222\t51,772\n\n\nParticipation rate\n\n\t75.0\t74.9\t74.5\t75.2\t74.7\t74.7\t74.6\t74.7\t74.6\n\n\nEmployed\n\n\t48,053\t49,799\t50,350\t48,039\t48,561\t48,983\t48,937\t49,608\t50,290\n\n\nEmployment-population ratio\n\n\t72.7\t72.6\t72.5\t72.7\t72.3\t72.6\t72.4\t72.3\t72.5\n\n\nUnemployed\n\n\t1,559\t1,543\t1,377\t1,665\t1,600\t1,465\t1,534\t1,614\t1,482\n\n\nUnemployment rate\n\n\t3.1\t3.0\t2.7\t3.4\t3.2\t2.9\t3.0\t3.2\t2.9\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-5",
+      "title": "Table A-5. Employment status of the civilian population 18 years and over by veteran status, period of service, and sex, not seasonally adjusted",
+      "start_line": 2365,
+      "end_line": 2649,
+      "raw_text": "Table A-5. Employment status of the civilian population 18 years and over by veteran status, period of service, and sex, not seasonally adjusted\n[Numbers in thousands]\nEmployment status, veteran status, and period of service\tTotal\tMen\tWomen\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nVETERANS, 18 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t21,250\t21,379\t19,015\t19,390\t2,235\t1,989\n\n\nCivilian labor force\n\n\t10,785\t10,787\t9,341\t9,511\t1,443\t1,276\n\n\nParticipation rate\n\n\t50.8\t50.5\t49.1\t49.0\t64.6\t64.2\n\n\nEmployed\n\n\t10,196\t10,280\t8,793\t9,090\t1,403\t1,189\n\n\nEmployment-population ratio\n\n\t48.0\t48.1\t46.2\t46.9\t62.8\t59.8\n\n\nUnemployed\n\n\t588\t507\t548\t420\t41\t87\n\n\nUnemployment rate\n\n\t5.5\t4.7\t5.9\t4.4\t2.8\t6.8\n\n\nNot in labor force\n\n\t10,465\t10,592\t9,674\t9,879\t792\t713\n\n\n\nGulf War-era II veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t2,938\t3,515\t2,303\t2,867\t635\t647\n\n\nCivilian labor force\n\n\t2,428\t2,760\t1,945\t2,303\t483\t457\n\n\nParticipation rate\n\n\t82.6\t78.5\t84.4\t80.3\t76.0\t70.5\n\n\nEmployed\n\n\t2,250\t2,569\t1,778\t2,142\t472\t426\n\n\nEmployment-population ratio\n\n\t76.6\t73.1\t77.2\t74.7\t74.3\t65.9\n\n\nUnemployed\n\n\t178\t191\t166\t161\t11\t30\n\n\nUnemployment rate\n\n\t7.3\t6.9\t8.6\t7.0\t2.3\t6.6\n\n\nNot in labor force\n\n\t511\t755\t358\t564\t152\t191\n\n\n\nGulf War-era I veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t3,130\t3,404\t2,562\t2,906\t568\t499\n\n\nCivilian labor force\n\n\t2,654\t2,764\t2,245\t2,404\t409\t360\n\n\nParticipation rate\n\n\t84.8\t81.2\t87.6\t82.8\t72.0\t72.2\n\n\nEmployed\n\n\t2,528\t2,677\t2,131\t2,338\t396\t339\n\n\nEmployment-population ratio\n\n\t80.7\t78.6\t83.2\t80.5\t69.8\t68.1\n\n\nUnemployed\n\n\t127\t87\t114\t67\t13\t21\n\n\nUnemployment rate\n\n\t4.8\t3.2\t5.1\t2.8\t3.1\t5.7\n\n\nNot in labor force\n\n\t476\t640\t317\t501\t159\t139\n\n\n\nWorld War II, Korean War, and Vietnam-era veterans\n\n\t\n\n\nCivilian noninstitutional population\n\n\t9,656\t9,125\t9,298\t8,801\t358\t324\n\n\nCivilian labor force\n\n\t2,691\t2,457\t2,599\t2,355\t92\t102\n\n\nParticipation rate\n\n\t27.9\t26.9\t28.0\t26.8\t25.7\t31.4\n\n\nEmployed\n\n\t2,542\t2,350\t2,455\t2,259\t87\t91\n\n\nEmployment-population ratio\n\n\t26.3\t25.8\t26.4\t25.7\t24.2\t28.0\n\n\nUnemployed\n\n\t149\t107\t144\t96\t5\t11\n\n\nUnemployment rate\n\n\t5.6\t4.3\t5.5\t4.1\t5.9\t10.9\n\n\nNot in labor force\n\n\t6,965\t6,668\t6,699\t6,446\t266\t222\n\n\n\nVeterans of other service periods\n\n\t\n\n\nCivilian noninstitutional population\n\n\t5,526\t5,335\t4,852\t4,816\t674\t519\n\n\nCivilian labor force\n\n\t3,011\t2,806\t2,552\t2,448\t460\t358\n\n\nParticipation rate\n\n\t54.5\t52.6\t52.6\t50.8\t68.2\t69.0\n\n\nEmployed\n\n\t2,877\t2,684\t2,428\t2,351\t448\t333\n\n\nEmployment-population ratio\n\n\t52.1\t50.3\t50.1\t48.8\t66.5\t64.1\n\n\nUnemployed\n\n\t135\t123\t123\t97\t11\t25\n\n\nUnemployment rate\n\n\t4.5\t4.4\t4.8\t4.0\t2.5\t7.0\n\n\nNot in labor force\n\n\t2,514\t2,529\t2,300\t2,368\t214\t161\n\n\n\nNONVETERANS, 18 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t216,600\t218,754\t95,615\t96,447\t120,985\t122,307\n\n\nCivilian labor force\n\n\t141,800\t142,814\t71,750\t72,318\t70,050\t70,496\n\n\nParticipation rate\n\n\t65.5\t65.3\t75.0\t75.0\t57.9\t57.6\n\n\nEmployed\n\n\t132,788\t135,302\t66,919\t68,161\t65,869\t67,141\n\n\nEmployment-population ratio\n\n\t61.3\t61.9\t70.0\t70.7\t54.4\t54.9\n\n\nUnemployed\n\n\t9,012\t7,512\t4,831\t4,157\t4,181\t3,355\n\n\nUnemployment rate\n\n\t6.4\t5.3\t6.7\t5.7\t6.0\t4.8\n\n\nNot in labor force\n\n\t74,800\t75,940\t23,865\t24,129\t50,935\t51,811",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-6",
+      "title": "Table A-6. Employment status of the civilian population by sex, age, and disability status, not seasonally adjusted",
+      "start_line": 2659,
+      "end_line": 2834,
+      "raw_text": "Table A-6. Employment status of the civilian population by sex, age, and disability status, not seasonally adjusted\n[Numbers in thousands]\nEmployment status, sex, and age\tPersons with a disability\tPersons with no disability\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nTOTAL, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t28,519\t29,546\t218,226\t219,481\n\n\nCivilian labor force\n\n\t5,345\t5,983\t149,062\t149,538\n\n\nParticipation rate\n\n\t18.7\t20.3\t68.3\t68.1\n\n\nEmployed\n\n\t4,711\t5,312\t139,712\t141,878\n\n\nEmployment-population ratio\n\n\t16.5\t18.0\t64.0\t64.6\n\n\nUnemployed\n\n\t634\t671\t9,350\t7,660\n\n\nUnemployment rate\n\n\t11.9\t11.2\t6.3\t5.1\n\n\nNot in labor force\n\n\t23,173\t23,563\t69,164\t69,943\n\n\n\nMen, 16 to 64 years\n\n\t\n\n\nCivilian labor force\n\n\t2,276\t2,681\t75,198\t75,476\n\n\nParticipation rate\n\n\t30.6\t34.6\t81.7\t81.8\n\n\nEmployed\n\n\t1,960\t2,356\t70,170\t71,263\n\n\nEmployment-population ratio\n\n\t26.3\t30.4\t76.2\t77.3\n\n\nUnemployed\n\n\t316\t326\t5,028\t4,213\n\n\nUnemployment rate\n\n\t13.9\t12.1\t6.7\t5.6\n\n\nNot in labor force\n\n\t5,166\t5,076\t16,898\t16,740\n\n\n\nWomen, 16 to 64 years\n\n\t\n\n\nCivilian labor force\n\n\t2,141\t2,282\t66,638\t66,604\n\n\nParticipation rate\n\n\t27.7\t28.8\t69.9\t69.8\n\n\nEmployed\n\n\t1,866\t1,996\t62,680\t63,435\n\n\nEmployment-population ratio\n\n\t24.1\t25.2\t65.8\t66.5\n\n\nUnemployed\n\n\t275\t287\t3,958\t3,169\n\n\nUnemployment rate\n\n\t12.9\t12.6\t5.9\t4.8\n\n\nNot in labor force\n\n\t5,598\t5,639\t28,676\t28,844\n\n\n\nBoth sexes, 65 years and over\n\n\t\n\n\nCivilian labor force\n\n\t928\t1,019\t7,226\t7,458\n\n\nParticipation rate\n\n\t7.0\t7.4\t23.4\t23.4\n\n\nEmployed\n\n\t885\t960\t6,862\t7,180\n\n\nEmployment-population ratio\n\n\t6.6\t6.9\t22.3\t22.6\n\n\nUnemployed\n\n\t43\t59\t364\t279\n\n\nUnemployment rate\n\n\t4.7\t5.8\t5.0\t3.7\n\n\nNot in labor force\n\n\t12,410\t12,848\t23,590\t24,359",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-7",
+      "title": "Table A-7. Employment status of the civilian population by nativity and sex, not seasonally adjusted",
+      "start_line": 2843,
+      "end_line": 2943,
+      "raw_text": "Table A-7. Employment status of the civilian population by nativity and sex, not seasonally adjusted\n[Numbers in thousands]\nEmployment status and nativity\tTotal\tMen\tWomen\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nForeign born, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t38,481\t39,896\t18,559\t19,543\t19,922\t20,353\n\n\nCivilian labor force\n\n\t25,429\t26,286\t14,669\t15,390\t10,761\t10,897\n\n\nParticipation rate\n\n\t66.1\t65.9\t79.0\t78.7\t54.0\t53.5\n\n\nEmployed\n\n\t23,787\t24,890\t13,790\t14,605\t9,997\t10,286\n\n\nEmployment-population ratio\n\n\t61.8\t62.4\t74.3\t74.7\t50.2\t50.5\n\n\nUnemployed\n\n\t1,642\t1,396\t879\t785\t763\t611\n\n\nUnemployment rate\n\n\t6.5\t5.3\t6.0\t5.1\t7.1\t5.6\n\n\nNot in labor force\n\n\t13,052\t13,610\t3,891\t4,154\t9,161\t9,456\n\n\n\nNative born, 16 years and over\n\n\t\n\n\nCivilian noninstitutional population\n\n\t208,264\t209,131\t100,544\t100,758\t107,720\t108,373\n\n\nCivilian labor force\n\n\t128,979\t129,235\t67,317\t67,410\t61,662\t61,825\n\n\nParticipation rate\n\n\t61.9\t61.8\t67.0\t66.9\t57.2\t57.0\n\n\nEmployed\n\n\t120,636\t122,300\t62,613\t63,447\t58,023\t58,852\n\n\nEmployment-population ratio\n\n\t57.9\t58.5\t62.3\t63.0\t53.9\t54.3\n\n\nUnemployed\n\n\t8,342\t6,936\t4,704\t3,963\t3,639\t2,973\n\n\nUnemployment rate\n\n\t6.5\t5.4\t7.0\t5.9\t5.9\t4.8\n\n\nNot in labor force\n\n\t79,286\t79,896\t33,227\t33,348\t46,058\t46,549",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-8",
+      "title": "Table A-8. Employed persons by class of worker and part-time status",
+      "start_line": 2953,
+      "end_line": 3089,
+      "raw_text": "Table A-8. Employed persons by class of worker and part-time status\n[In thousands]\nCategory\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nCLASS OF WORKER\n\n\t\n\n\nAgriculture and related industries\n\n\t2,075\t2,332\t2,220\t2,211\t2,265\t2,377\t2,402\t2,392\t2,358\n\n\nWage and salary workers(1)\n\n\t1,301\t1,587\t1,426\t1,377\t1,518\t1,549\t1,581\t1,621\t1,506\n\n\nSelf-employed workers, unincorporated\n\n\t742\t729\t764\t792\t732\t783\t784\t749\t815\n\n\nUnpaid family workers\n\n\t32\t16\t30\t-\t-\t-\t-\t-\t-\n\n\nNonagricultural industries\n\n\t142,348\t145,335\t144,970\t142,460\t144,111\t144,254\t144,982\t144,939\t145,101\n\n\nWage and salary workers(1)\n\n\t133,911\t136,379\t136,371\t133,943\t135,641\t135,452\t136,016\t136,093\t136,415\n\n\nGovernment\n\n\t20,280\t20,034\t20,098\t20,129\t20,027\t19,751\t19,885\t19,956\t19,956\n\n\nPrivate industries\n\n\t113,631\t116,345\t116,272\t113,822\t115,553\t115,738\t116,059\t116,144\t116,469\n\n\nPrivate households\n\n\t837\t791\t771\t-\t-\t-\t-\t-\t-\n\n\nOther industries\n\n\t112,794\t115,554\t115,501\t112,946\t114,787\t114,968\t115,281\t115,361\t115,676\n\n\nSelf-employed workers, unincorporated\n\n\t8,380\t8,911\t8,540\t8,504\t8,483\t8,669\t8,908\t8,794\t8,660\n\n\nUnpaid family workers\n\n\t57\t44\t59\t-\t-\t-\t-\t-\t-\n\n\n\nPERSONS AT WORK PART TIME(2)\n\n\t\n\n\nAll industries\n\n\t\n\n\nPart time for economic reasons(3)\n\n\t7,990\t6,713\t6,970\t7,766\t7,223\t7,058\t7,012\t6,851\t6,790\n\n\nSlack work or business conditions\n\n\t5,022\t3,999\t4,176\t4,881\t4,217\t4,165\t4,215\t4,068\t4,061\n\n\nCould only find part-time work\n\n\t2,579\t2,399\t2,377\t2,623\t2,546\t2,528\t2,437\t2,447\t2,432\n\n\nPart time for noneconomic reasons(4)\n\n\t19,194\t20,868\t20,089\t18,816\t19,538\t19,579\t19,793\t19,971\t19,730\n\n\nNonagricultural industries\n\n\t\n\n\nPart time for economic reasons(3)\n\n\t7,848\t6,597\t6,855\t7,652\t7,152\t6,941\t6,911\t6,731\t6,699\n\n\nSlack work or business conditions\n\n\t4,927\t3,931\t4,100\t4,785\t4,178\t4,088\t4,149\t3,997\t3,983\n\n\nCould only find part-time work\n\n\t2,570\t2,380\t2,372\t2,606\t2,557\t2,518\t2,407\t2,412\t2,411\n\n\nPart time for noneconomic reasons(4)\n\n\t18,836\t20,519\t19,732\t18,502\t19,171\t19,235\t19,443\t19,594\t19,416\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-9",
+      "title": "Table A-9. Selected employment indicators",
+      "start_line": 3106,
+      "end_line": 3377,
+      "raw_text": "Table A-9. Selected employment indicators\n[Numbers in thousands]\nCharacteristic\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nAGE AND SEX\n\n\t\n\n\nTotal, 16 years and over\n\n\t144,423\t147,666\t147,190\t144,671\t146,451\t146,607\t147,260\t147,331\t147,442\n\n\n16 to 19 years\n\n\t4,300\t4,569\t4,592\t4,488\t4,495\t4,527\t4,772\t4,762\t4,784\n\n\n16 to 17 years\n\n\t1,439\t1,629\t1,609\t1,509\t1,500\t1,522\t1,626\t1,663\t1,678\n\n\n18 to 19 years\n\n\t2,860\t2,939\t2,983\t2,965\t2,998\t2,992\t3,141\t3,065\t3,090\n\n\n20 years and over\n\n\t140,124\t143,098\t142,598\t140,183\t141,956\t142,081\t142,488\t142,569\t142,658\n\n\n20 to 24 years\n\n\t13,806\t14,007\t13,755\t13,911\t13,884\t13,817\t14,088\t13,939\t13,847\n\n\n25 years and over\n\n\t126,318\t129,090\t128,843\t126,341\t128,022\t128,278\t128,522\t128,673\t128,860\n\n\n25 to 54 years\n\n\t94,708\t96,191\t95,985\t94,709\t95,627\t95,653\t95,772\t95,856\t95,975\n\n\n25 to 34 years\n\n\t31,651\t32,490\t32,452\t31,571\t32,013\t32,089\t32,228\t32,271\t32,354\n\n\n35 to 44 years\n\n\t30,736\t31,131\t30,987\t30,768\t30,953\t31,025\t30,994\t31,018\t31,021\n\n\n45 to 54 years\n\n\t32,321\t32,569\t32,546\t32,370\t32,661\t32,539\t32,550\t32,567\t32,600\n\n\n55 years and over\n\n\t31,609\t32,900\t32,858\t31,632\t32,395\t32,625\t32,750\t32,817\t32,885\n\n\n\nMen, 16 years and over\n\n\t76,403\t78,208\t78,052\t76,757\t77,873\t78,094\t78,286\t78,084\t78,400\n\n\n16 to 19 years\n\n\t2,128\t2,286\t2,251\t2,252\t2,206\t2,204\t2,358\t2,409\t2,374\n\n\n16 to 17 years\n\n\t690\t811\t801\t719\t717\t744\t785\t847\t828\n\n\n18 to 19 years\n\n\t1,438\t1,474\t1,450\t1,518\t1,498\t1,451\t1,584\t1,552\t1,531\n\n\n20 years and over\n\n\t74,275\t75,922\t75,801\t74,505\t75,668\t75,889\t75,928\t75,675\t76,026\n\n\n20 to 24 years\n\n\t7,020\t7,156\t7,083\t7,112\t7,225\t7,195\t7,337\t7,114\t7,167\n\n\n25 years and over\n\n\t67,255\t68,766\t68,718\t67,433\t68,462\t68,685\t68,673\t68,593\t68,890\n\n\n25 to 54 years\n\n\t50,540\t51,419\t51,326\t50,666\t51,252\t51,384\t51,327\t51,282\t51,448\n\n\n25 to 34 years\n\n\t17,021\t17,449\t17,532\t17,032\t17,330\t17,366\t17,367\t17,336\t17,534\n\n\n35 to 44 years\n\n\t16,583\t16,850\t16,702\t16,629\t16,734\t16,805\t16,802\t16,784\t16,748\n\n\n45 to 54 years\n\n\t16,936\t17,120\t17,092\t17,005\t17,188\t17,214\t17,159\t17,162\t17,166\n\n\n55 years and over\n\n\t16,714\t17,346\t17,392\t16,767\t17,210\t17,300\t17,346\t17,311\t17,441\n\n\n\nWomen, 16 years and over\n\n\t68,021\t69,459\t69,138\t67,914\t68,577\t68,514\t68,974\t69,247\t69,042\n\n\n16 to 19 years\n\n\t2,172\t2,283\t2,341\t2,236\t2,289\t2,322\t2,414\t2,353\t2,410\n\n\n16 to 17 years\n\n\t749\t818\t808\t790\t783\t778\t841\t816\t850\n\n\n18 to 19 years\n\n\t1,422\t1,465\t1,533\t1,447\t1,500\t1,541\t1,557\t1,513\t1,559\n\n\n20 years and over\n\n\t65,849\t67,176\t66,797\t65,678\t66,289\t66,192\t66,560\t66,894\t66,632\n\n\n20 to 24 years\n\n\t6,786\t6,852\t6,672\t6,800\t6,659\t6,622\t6,751\t6,825\t6,680\n\n\n25 years and over\n\n\t59,063\t60,324\t60,125\t58,907\t59,560\t59,594\t59,849\t60,080\t59,970\n\n\n25 to 54 years\n\n\t44,168\t44,771\t44,658\t44,043\t44,375\t44,268\t44,445\t44,574\t44,527\n\n\n25 to 34 years\n\n\t14,630\t15,041\t14,919\t14,539\t14,684\t14,723\t14,861\t14,935\t14,820\n\n\n35 to 44 years\n\n\t14,153\t14,282\t14,285\t14,139\t14,219\t14,220\t14,192\t14,234\t14,273\n\n\n45 to 54 years\n\n\t15,385\t15,448\t15,454\t15,366\t15,473\t15,325\t15,391\t15,406\t15,434\n\n\n55 years and over\n\n\t14,895\t15,553\t15,467\t14,865\t15,185\t15,325\t15,404\t15,506\t15,443\n\n\n\nMARITAL STATUS\n\n\t\n\n\nMarried men, spouse present\n\n\t44,030\t44,482\t44,610\t44,002\t44,293\t44,322\t44,380\t44,267\t44,588\n\n\nMarried women, spouse present\n\n\t34,807\t35,108\t34,921\t34,516\t34,722\t34,799\t34,833\t34,799\t34,645\n\n\nWomen who maintain families\n\n\t9,230\t9,385\t9,330\t-\t-\t-\t-\t-\t-\n\n\n\nFULL- OR PART-TIME STATUS\n\n\t\n\n\nFull-time workers(1)\n\n\t116,661\t119,441\t119,394\t117,240\t118,758\t119,310\t119,681\t119,507\t119,934\n\n\nPart-time workers(2)\n\n\t27,762\t28,225\t27,796\t27,434\t27,681\t27,347\t27,690\t27,775\t27,506\n\n\n\nMULTIPLE JOBHOLDERS\n\n\t\n\n\nTotal multiple jobholders\n\n\t6,934\t7,549\t7,308\t6,907\t7,114\t7,171\t7,674\t7,403\t7,285\n\n\nPercent of total employed\n\n\t4.8\t5.1\t5.0\t4.8\t4.9\t4.9\t5.2\t5.0\t4.9\n\n\n\nSELF-EMPLOYMENT\n\n\t\n\n\nSelf-employed workers, incorporated\n\n\t5,433\t5,585\t5,666\t-\t-\t-\t-\t-\t-\n\n\nSelf-employed workers, unincorporated\n\n\t9,122\t9,640\t9,304\t9,297\t9,214\t9,452\t9,692\t9,543\t9,475\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-10",
+      "title": "Table A-10. Selected unemployment indicators, seasonally adjusted",
+      "start_line": 3392,
+      "end_line": 3633,
+      "raw_text": "Table A-10. Selected unemployment indicators, seasonally adjusted\nCharacteristic\tNumber of\nunemployed persons\n(in thousands)\tUnemployment rates\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nAGE AND SEX\n\n\t\n\n\nTotal, 16 years and over\n\n\t10,376\t9,071\t8,688\t6.7\t6.1\t5.9\t5.7\t5.8\t5.6\n\n\n16 to 19 years\n\n\t1,150\t1,013\t963\t20.4\t19.4\t19.8\t18.7\t17.5\t16.8\n\n\n16 to 17 years\n\n\t477\t359\t389\t24.0\t23.1\t20.5\t22.3\t17.8\t18.8\n\n\n18 to 19 years\n\n\t667\t656\t561\t18.4\t17.6\t19.9\t16.8\t17.6\t15.4\n\n\n20 years and over\n\n\t9,226\t8,059\t7,725\t6.2\t5.6\t5.4\t5.2\t5.4\t5.1\n\n\n20 to 24 years\n\n\t1,731\t1,706\t1,673\t11.1\t10.7\t11.5\t10.5\t10.9\t10.8\n\n\n25 years and over\n\n\t7,503\t6,390\t6,068\t5.6\t5.1\t4.7\t4.7\t4.7\t4.5\n\n\n25 to 54 years\n\n\t5,845\t4,871\t4,761\t5.8\t5.3\t4.9\t4.9\t4.8\t4.7\n\n\n25 to 34 years\n\n\t2,362\t2,082\t2,015\t7.0\t6.8\t6.2\t6.2\t6.1\t5.9\n\n\n35 to 44 years\n\n\t1,752\t1,410\t1,389\t5.4\t4.8\t4.4\t4.4\t4.3\t4.3\n\n\n45 to 54 years\n\n\t1,730\t1,378\t1,356\t5.1\t4.3\t4.1\t4.0\t4.1\t4.0\n\n\n55 years and over\n\n\t1,700\t1,532\t1,352\t5.1\t4.5\t3.9\t4.1\t4.5\t3.9\n\n\n\nMen, 16 years and over\n\n\t5,626\t4,877\t4,810\t6.8\t6.2\t5.9\t5.6\t5.9\t5.8\n\n\n16 to 19 years\n\n\t608\t523\t565\t21.3\t21.2\t21.8\t19.5\t17.8\t19.2\n\n\n16 to 17 years\n\n\t244\t213\t207\t25.3\t24.7\t21.3\t25.5\t20.1\t20.0\n\n\n18 to 19 years\n\n\t350\t310\t341\t18.7\t19.8\t22.6\t16.7\t16.6\t18.2\n\n\n20 years and over\n\n\t5,018\t4,354\t4,245\t6.3\t5.7\t5.3\t5.1\t5.4\t5.3\n\n\n20 to 24 years\n\n\t942\t949\t940\t11.7\t11.5\t12.6\t10.4\t11.8\t11.6\n\n\n25 years and over\n\n\t4,069\t3,436\t3,312\t5.7\t5.1\t4.5\t4.6\t4.8\t4.6\n\n\n25 to 54 years\n\n\t3,138\t2,584\t2,545\t5.8\t5.3\t4.6\t4.7\t4.8\t4.7\n\n\n25 to 34 years\n\n\t1,309\t1,113\t1,067\t7.1\t6.6\t5.8\t6.0\t6.0\t5.7\n\n\n35 to 44 years\n\n\t937\t731\t753\t5.3\t4.9\t4.0\t4.1\t4.2\t4.3\n\n\n45 to 54 years\n\n\t892\t740\t725\t5.0\t4.3\t4.0\t3.8\t4.1\t4.1\n\n\n55 years and over\n\n\t931\t851\t768\t5.3\t4.4\t4.0\t4.3\t4.7\t4.2\n\n\n\nWomen, 16 years and over\n\n\t4,750\t4,195\t3,878\t6.5\t6.1\t6.0\t5.9\t5.7\t5.3\n\n\n16 to 19 years\n\n\t542\t490\t398\t19.5\t17.6\t17.8\t17.8\t17.2\t14.2\n\n\n16 to 17 years\n\n\t233\t146\t182\t22.8\t21.5\t19.8\t19.0\t15.2\t17.6\n\n\n18 to 19 years\n\n\t317\t347\t221\t18.0\t15.4\t17.2\t17.0\t18.6\t12.4\n\n\n20 years and over\n\n\t4,208\t3,705\t3,479\t6.0\t5.6\t5.5\t5.4\t5.2\t5.0\n\n\n20 to 24 years\n\n\t789\t757\t732\t10.4\t9.7\t10.2\t10.7\t10.0\t9.9\n\n\n25 years and over\n\n\t3,434\t2,954\t2,756\t5.5\t5.2\t4.9\t4.8\t4.7\t4.4\n\n\n25 to 54 years\n\n\t2,707\t2,287\t2,216\t5.8\t5.4\t5.2\t5.2\t4.9\t4.7\n\n\n25 to 34 years\n\n\t1,053\t970\t949\t6.8\t7.1\t6.6\t6.4\t6.1\t6.0\n\n\n35 to 44 years\n\n\t816\t679\t636\t5.5\t4.6\t4.8\t4.8\t4.6\t4.3\n\n\n45 to 54 years\n\n\t839\t638\t631\t5.2\t4.3\t4.3\t4.3\t4.0\t3.9\n\n\n55 years and over\n\n\t768\t680\t598\t4.9\t4.7\t3.9\t3.7\t4.2\t3.7\n\n\n\nMARITAL STATUS\n\n\t\n\n\nMarried men, spouse present\n\n\t1,790\t1,468\t1,388\t3.9\t3.2\t2.9\t3.0\t3.2\t3.0\n\n\nMarried women, spouse present\n\n\t1,594\t1,243\t1,129\t4.4\t3.7\t3.6\t3.5\t3.4\t3.2\n\n\nWomen who maintain families(1)\n\n\t884\t843\t791\t8.7\t9.3\t8.3\t8.7\t8.2\t7.8\n\n\n\nFULL- OR PART-TIME STATUS\n\n\t\n\n\nFull-time workers(2)\n\n\t8,655\t7,592\t7,249\t6.9\t6.2\t6.0\t6.0\t6.0\t5.7\n\n\nPart-time workers(3)\n\n\t1,738\t1,500\t1,438\t6.0\t5.5\t5.7\t5.0\t5.1\t5.0\n\n\nFootnotes\n(1) Not seasonally adjusted.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-11",
+      "title": "Table A-11. Unemployed persons by reason for unemployment",
+      "start_line": 3647,
+      "end_line": 3767,
+      "raw_text": "Table A-11. Unemployed persons by reason for unemployment\n[Numbers in thousands]\nReason\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nNUMBER OF UNEMPLOYED\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t5,460\t4,182\t4,355\t5,421\t4,813\t4,521\t4,349\t4,480\t4,325\n\n\nOn temporary layoff\n\n\t1,109\t876\t1,034\t1,014\t1,106\t924\t847\t1,070\t959\n\n\nNot on temporary layoff\n\n\t4,351\t3,306\t3,320\t4,408\t3,708\t3,597\t3,501\t3,410\t3,366\n\n\nPermanent job losers\n\n\t3,192\t2,365\t2,340\t3,256\t2,622\t2,653\t2,505\t2,446\t2,388\n\n\nPersons who completed temporary jobs\n\n\t1,159\t941\t980\t1,151\t1,086\t944\t997\t964\t977\n\n\nJob leavers\n\n\t802\t830\t741\t860\t851\t816\t782\t835\t798\n\n\nReentrants\n\n\t2,715\t2,656\t2,422\t3,027\t2,845\t2,805\t2,856\t2,761\t2,701\n\n\nNew entrants\n\n\t1,007\t962\t814\t1,198\t1,064\t1,094\t1,058\t1,045\t971\n\n\n\nPERCENT DISTRIBUTION\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t54.7\t48.5\t52.3\t51.6\t50.3\t49.0\t48.1\t49.1\t49.2\n\n\nOn temporary layoff\n\n\t11.1\t10.2\t12.4\t9.6\t11.5\t10.0\t9.4\t11.7\t10.9\n\n\nNot on temporary layoff\n\n\t43.6\t38.3\t39.9\t42.0\t38.7\t39.0\t38.7\t37.4\t38.3\n\n\nJob leavers\n\n\t8.0\t9.6\t8.9\t8.2\t8.9\t8.8\t8.6\t9.2\t9.1\n\n\nReentrants\n\n\t27.2\t30.8\t29.1\t28.8\t29.7\t30.4\t31.6\t30.3\t30.7\n\n\nNew entrants\n\n\t10.1\t11.2\t9.8\t11.4\t11.1\t11.8\t11.7\t11.5\t11.0\n\n\n\nUNEMPLOYED AS A PERCENT OF THE\nCIVILIAN LABOR FORCE\n\n\t\n\n\nJob losers and persons who completed temporary jobs\n\n\t3.5\t2.7\t2.8\t3.5\t3.1\t2.9\t2.8\t2.9\t2.8\n\n\nJob leavers\n\n\t0.5\t0.5\t0.5\t0.6\t0.5\t0.5\t0.5\t0.5\t0.5\n\n\nReentrants\n\n\t1.8\t1.7\t1.6\t2.0\t1.8\t1.8\t1.8\t1.8\t1.7\n\n\nNew entrants\n\n\t0.7\t0.6\t0.5\t0.8\t0.7\t0.7\t0.7\t0.7\t0.6",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-12",
+      "title": "Table A-12. Unemployed persons by duration of unemployment",
+      "start_line": 3776,
+      "end_line": 3860,
+      "raw_text": "Table A-12. Unemployed persons by duration of unemployment\n[Numbers in thousands]\nDuration\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nNUMBER OF UNEMPLOYED\n\n\t\n\n\nLess than 5 weeks\n\n\t2,236\t2,231\t2,261\t2,323\t2,609\t2,372\t2,455\t2,505\t2,375\n\n\n5 to 14 weeks\n\n\t2,376\t2,256\t2,149\t2,525\t2,444\t2,495\t2,322\t2,378\t2,293\n\n\n15 weeks and over\n\n\t5,372\t4,144\t3,922\t5,557\t4,465\t4,373\t4,321\t4,225\t4,059\n\n\n15 to 26 weeks\n\n\t1,619\t1,374\t1,229\t1,680\t1,500\t1,423\t1,416\t1,403\t1,274\n\n\n27 weeks and over\n\n\t3,753\t2,770\t2,693\t3,877\t2,966\t2,951\t2,904\t2,822\t2,785\n\n\n\nAverage (mean) duration, in weeks\n\n\t36.2\t34.1\t32.4\t36.8\t31.9\t31.8\t32.9\t33.0\t32.8\n\n\nMedian duration, in weeks\n\n\t17.5\t13.6\t13.0\t17.0\t13.3\t13.3\t13.5\t12.8\t12.6\n\n\n\nPERCENT DISTRIBUTION\n\n\t\n\n\nLess than 5 weeks\n\n\t22.4\t25.8\t27.1\t22.3\t27.4\t25.7\t27.0\t27.5\t27.2\n\n\n5 to 14 weeks\n\n\t23.8\t26.1\t25.8\t24.3\t25.7\t27.0\t25.5\t26.1\t26.3\n\n\n15 weeks and over\n\n\t53.8\t48.0\t47.1\t53.4\t46.9\t47.3\t47.5\t46.4\t46.5\n\n\n15 to 26 weeks\n\n\t16.2\t15.9\t14.8\t16.1\t15.8\t15.4\t15.6\t15.4\t14.6\n\n\n27 weeks and over\n\n\t37.6\t32.1\t32.3\t37.3\t31.2\t31.9\t31.9\t31.0\t31.9",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-13",
+      "title": "Table A-13. Employed and unemployed persons by occupation, not seasonally adjusted",
+      "start_line": 3869,
+      "end_line": 3958,
+      "raw_text": "Table A-13. Employed and unemployed persons by occupation, not seasonally adjusted\n[Numbers in thousands]\nOccupation\tEmployed\tUnemployed\tUnemployment\nrates\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nTotal, 16 years and over(1)\n\n\t144,423\t147,190\t9,984\t8,331\t6.5\t5.4\n\n\nManagement, professional, and related occupations\n\n\t54,880\t56,888\t1,637\t1,568\t2.9\t2.7\n\n\nManagement, business, and financial operations occupations\n\n\t22,754\t23,191\t729\t596\t3.1\t2.5\n\n\nProfessional and related occupations\n\n\t32,126\t33,697\t908\t972\t2.7\t2.8\n\n\nService occupations\n\n\t25,704\t25,745\t2,127\t1,859\t7.6\t6.7\n\n\nSales and office occupations\n\n\t33,631\t33,455\t2,279\t1,716\t6.3\t4.9\n\n\nSales and related occupations\n\n\t15,450\t15,848\t1,043\t831\t6.3\t5.0\n\n\nOffice and administrative support occupations\n\n\t18,181\t17,607\t1,237\t885\t6.4\t4.8\n\n\nNatural resources, construction, and maintenance occupations\n\n\t12,988\t13,248\t1,369\t1,171\t9.5\t8.1\n\n\nFarming, fishing, and forestry occupations\n\n\t868\t871\t135\t177\t13.4\t16.9\n\n\nConstruction and extraction occupations\n\n\t7,094\t7,466\t973\t763\t12.1\t9.3\n\n\nInstallation, maintenance, and repair occupations\n\n\t5,026\t4,911\t262\t230\t5.0\t4.5\n\n\nProduction, transportation, and material moving\noccupations\n\n\t17,220\t17,854\t1,512\t1,168\t8.1\t6.1\n\n\nProduction occupations\n\n\t8,471\t8,669\t707\t573\t7.7\t6.2\n\n\nTransportation and material moving occupations\n\n\t8,749\t9,185\t804\t595\t8.4\t6.1\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-14",
+      "title": "Table A-14. Unemployed persons by industry and class of worker, not seasonally adjusted",
+      "start_line": 3972,
+      "end_line": 4075,
+      "raw_text": "Table A-14. Unemployed persons by industry and class of worker, not seasonally adjusted\nIndustry and class of worker\tNumber of\nunemployed\npersons\n(in thousands)\tUnemployment\nrates\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nTotal, 16 years and over(1)\n\n\t9,984\t8,331\t6.5\t5.4\n\n\nNonagricultural private wage and salary workers\n\n\t7,662\t6,341\t6.3\t5.2\n\n\nMining, quarrying, and oil and gas extraction\n\n\t38\t45\t3.6\t4.1\n\n\nConstruction\n\n\t958\t680\t11.4\t8.3\n\n\nManufacturing\n\n\t854\t596\t5.5\t3.9\n\n\nDurable goods\n\n\t571\t368\t5.8\t3.8\n\n\nNondurable goods\n\n\t283\t228\t5.0\t4.2\n\n\nWholesale and retail trade\n\n\t1,253\t1,125\t6.2\t5.3\n\n\nTransportation and utilities\n\n\t379\t261\t6.2\t4.2\n\n\nInformation\n\n\t133\t167\t4.8\t5.7\n\n\nFinancial activities\n\n\t394\t328\t4.2\t3.4\n\n\nProfessional and business services\n\n\t1,139\t903\t7.3\t5.8\n\n\nEducation and health services\n\n\t897\t868\t4.0\t3.8\n\n\nLeisure and hospitality\n\n\t1,194\t1,022\t9.0\t7.5\n\n\nOther services\n\n\t423\t346\t6.6\t5.4\n\n\nAgriculture and related private wage and salary workers\n\n\t170\t189\t12.0\t12.1\n\n\nGovernment workers\n\n\t627\t574\t3.0\t2.8\n\n\nSelf-employed workers, unincorporated, and unpaid family workers\n\n\t518\t412\t5.3\t4.2\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-15",
+      "title": "Table A-15. Alternative measures of labor underutilization",
+      "start_line": 4088,
+      "end_line": 4130,
+      "raw_text": "Table A-15. Alternative measures of labor underutilization\n[Percent]\nMeasure\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tNov.\n2014\tDec.\n2014\tDec.\n2013\tAug.\n2014\tSept.\n2014\tOct.\n2014\tNov.\n2014\tDec.\n2014\n\n\nU-1 Persons unemployed 15 weeks or longer, as a percent of the civilian labor force\n\n\t3.5\t2.7\t2.5\t3.6\t2.9\t2.8\t2.8\t2.7\t2.6\n\n\nU-2 Job losers and persons who completed temporary jobs, as a percent of the civilian labor force\n\n\t3.5\t2.7\t2.8\t3.5\t3.1\t2.9\t2.8\t2.9\t2.8\n\n\nU-3 Total unemployed, as a percent of the civilian labor force (official unemployment rate)\n\n\t6.5\t5.5\t5.4\t6.7\t6.1\t5.9\t5.7\t5.8\t5.6\n\n\nU-4 Total unemployed plus discouraged workers, as a percent of the civilian labor force plus discouraged workers\n\n\t7.0\t5.9\t5.8\t7.2\t6.6\t6.3\t6.2\t6.2\t6.0\n\n\nU-5 Total unemployed, plus discouraged workers, plus all other persons marginally attached to the labor force, as a percent of the civilian labor force plus all persons marginally attached to the labor force\n\n\t7.9\t6.8\t6.7\t8.1\t7.4\t7.3\t7.1\t7.1\t6.9\n\n\nU-6 Total unemployed, plus all persons marginally attached to the labor force, plus total employed part time for economic reasons, as a percent of the civilian labor force plus all persons marginally attached to the labor force\n\n\t13.0\t11.0\t11.1\t13.1\t12.0\t11.7\t11.5\t11.4\t11.2",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "A-16",
+      "title": "Table A-16. Persons not in the labor force and multiple jobholders by sex, not seasonally adjusted",
+      "start_line": 4140,
+      "end_line": 4218,
+      "raw_text": "Table A-16. Persons not in the labor force and multiple jobholders by sex, not seasonally adjusted\n[Numbers in thousands]\nCategory\tTotal\tMen\tWomen\nDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\tDec.\n2013\tDec.\n2014\n\n\nNOT IN THE LABOR FORCE\n\n\t\n\n\nTotal not in the labor force\n\n\t92,338\t93,506\t37,118\t37,501\t55,220\t56,005\n\n\nPersons who currently want a job\n\n\t5,932\t6,212\t2,781\t2,984\t3,151\t3,227\n\n\nMarginally attached to the labor force(1)\n\n\t2,427\t2,260\t1,236\t1,169\t1,191\t1,091\n\n\nDiscouraged workers(2)\n\n\t917\t740\t524\t441\t394\t299\n\n\nOther persons marginally attached to the labor force(3)\n\n\t1,510\t1,520\t712\t727\t798\t792\n\n\n\nMULTIPLE JOBHOLDERS\n\n\t\n\n\nTotal multiple jobholders(4)\n\n\t6,934\t7,308\t3,254\t3,538\t3,679\t3,771\n\n\nPercent of total employed\n\n\t4.8\t5.0\t4.3\t4.5\t5.4\t5.5\n\n\nPrimary job full time, secondary job part time\n\n\t3,550\t3,924\t1,824\t2,142\t1,726\t1,782\n\n\nPrimary and secondary jobs both part time\n\n\t1,969\t1,986\t662\t681\t1,308\t1,306\n\n\nPrimary and secondary jobs both full time\n\n\t273\t232\t183\t144\t90\t87\n\n\nHours vary on primary or secondary job\n\n\t1,091\t1,109\t567\t544\t524\t565\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-1",
+      "title": "Table B-1. Employees on nonfarm payrolls by industry sector and selected industry detail",
+      "start_line": 4234,
+      "end_line": 5010,
+      "raw_text": "Table B-1. Employees on nonfarm payrolls by industry sector and selected industry detail\n\n[In thousands]\nIndustry\tNot seasonally adjusted\tSeasonally adjusted\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tChange from:\nNov.2014 - Dec.2014(p)\n\n\nTotal nonfarm\n\n\t138,269\t140,811\t141,321\t141,256\t137,395\t139,742\t140,095\t140,347\t252\n\n\nTotal private\n\n\t116,061\t118,501\t118,896\t118,951\t115,541\t117,817\t118,162\t118,402\t240\n\n\nGoods-producing\n\n\t18,703\t19,487\t19,396\t19,240\t18,811\t19,218\t19,269\t19,336\t67\n\n\n\nMining and logging\n\n\t879\t935\t931\t928\t882\t927\t929\t931\t2\n\n\nLogging\n\n\t54.8\t58.4\t57.8\t56.8\t54.3\t55.6\t56.6\t56.1\t-0.5\n\n\nMining\n\n\t824.0\t876.9\t873.3\t871.3\t828.0\t871.5\t872.2\t875.3\t3.1\n\n\nOil and gas extraction\n\n\t204.3\t215.2\t215.3\t216.2\t204.3\t215.1\t215.7\t216.1\t0.4\n\n\nMining, except oil and gas(1)\n\n\t206.4\t215.0\t212.4\t208.3\t210.1\t211.9\t211.4\t211.9\t0.5\n\n\nCoal mining\n\n\t79.9\t77.2\t76.7\t76.0\t79.9\t77.3\t76.8\t76.1\t-0.7\n\n\nSupport activities for mining\n\n\t413.3\t446.7\t445.6\t446.8\t413.6\t444.5\t445.1\t447.3\t2.2\n\n\n\nConstruction\n\n\t5,774\t6,322\t6,226\t6,069\t5,876\t6,098\t6,118\t6,166\t48\n\n\nConstruction of buildings\n\n\t1,312.7\t1,408.0\t1,392.7\t1,379.5\t1,314.7\t1,369.6\t1,371.8\t1,382.6\t10.8\n\n\nResidential building\n\n\t632.9\t693.7\t687.4\t676.2\t632.8\t673.4\t676.5\t677.3\t0.8\n\n\nNonresidential building\n\n\t679.8\t714.3\t705.3\t703.3\t681.9\t696.2\t695.3\t705.3\t10.0\n\n\nHeavy and civil engineering construction\n\n\t840.2\t990.3\t956.2\t899.1\t880.0\t927.9\t926.3\t937.9\t11.6\n\n\nSpecialty trade contractors\n\n\t3,620.6\t3,923.8\t3,877.4\t3,790.2\t3,681.1\t3,800.8\t3,820.1\t3,845.6\t25.5\n\n\nResidential specialty trade contractors\n\n\t1,544.3\t1,701.8\t1,676.3\t1,632.4\t1,578.3\t1,641.9\t1,653.2\t1,665.9\t12.7\n\n\nNonresidential specialty trade contractors\n\n\t2,076.3\t2,222.0\t2,201.1\t2,157.8\t2,102.8\t2,158.9\t2,166.9\t2,179.7\t12.8\n\n\n\nManufacturing\n\n\t12,050\t12,230\t12,239\t12,243\t12,053\t12,193\t12,222\t12,239\t17\n\n\n\nDurable goods\n\n\t7,585\t7,733\t7,754\t7,764\t7,581\t7,724\t7,744\t7,757\t13\n\n\nWood products\n\n\t356.9\t373.8\t374.1\t370.4\t357.9\t371.7\t372.4\t371.5\t-0.9\n\n\nNonmetallic mineral products\n\n\t374.3\t398.6\t398.6\t393.9\t378.3\t393.0\t395.3\t397.9\t2.6\n\n\nPrimary metals\n\n\t396.3\t404.4\t405.5\t408.0\t397.8\t404.4\t406.2\t408.8\t2.6\n\n\nFabricated metal products\n\n\t1,444.7\t1,468.4\t1,469.7\t1,474.7\t1,445.2\t1,465.6\t1,468.6\t1,473.2\t4.6\n\n\nMachinery\n\n\t1,106.9\t1,136.7\t1,137.4\t1,141.9\t1,105.0\t1,136.9\t1,138.7\t1,139.4\t0.7\n\n\nComputer and electronic products(1)\n\n\t1,060.9\t1,058.1\t1,060.4\t1,061.8\t1,059.8\t1,059.3\t1,060.0\t1,060.4\t0.4\n\n\nComputer and peripheral equipment\n\n\t160.9\t169.7\t170.9\t171.5\t161.0\t169.8\t170.6\t171.5\t0.9\n\n\nCommunications equipment\n\n\t100.1\t96.2\t96.7\t96.3\t99.6\t96.3\t96.7\t96.0\t-0.7\n\n\nSemiconductors and electronic components\n\n\t372.7\t367.9\t368.1\t369.3\t372.3\t368.4\t368.0\t368.7\t0.7\n\n\nElectronic instruments\n\n\t388.9\t385.6\t385.5\t385.6\t388.8\t386.1\t385.7\t385.4\t-0.3\n\n\nElectrical equipment and appliances\n\n\t377.8\t372.1\t373.0\t372.2\t376.5\t371.9\t372.2\t371.0\t-1.2\n\n\nTransportation equipment(1)\n\n\t1,523.4\t1,561.8\t1,573.2\t1,578.2\t1,517.1\t1,563.8\t1,571.3\t1,573.4\t2.1\n\n\nMotor vehicles and parts(2)\n\n\t844.1\t875.4\t885.3\t888.2\t838.5\t875.0\t882.2\t884.0\t1.8\n\n\nFurniture and related products\n\n\t362.3\t374.7\t376.7\t378.6\t363.8\t376.3\t377.7\t379.4\t1.7\n\n\nMiscellaneous durable goods manufacturing\n\n\t581.4\t584.4\t585.8\t584.7\t579.2\t581.5\t582.0\t582.0\t0.0\n\n\n\nNondurable goods\n\n\t4,465\t4,497\t4,485\t4,479\t4,472\t4,469\t4,478\t4,482\t4\n\n\nFood manufacturing\n\n\t1,483.5\t1,489.2\t1,479.5\t1,477.4\t1,484.8\t1,471.0\t1,474.6\t1,476.8\t2.2\n\n\nTextile mills\n\n\t117.7\t116.9\t116.9\t116.6\t118.0\t116.8\t116.8\t116.7\t-0.1\n\n\nTextile product mills\n\n\t112.5\t113.2\t113.6\t113.2\t111.8\t112.7\t112.4\t112.4\t0.0\n\n\nApparel\n\n\t138.9\t132.3\t131.0\t130.4\t138.7\t131.2\t130.6\t129.8\t-0.8\n\n\nPaper and paper products\n\n\t378.1\t370.7\t370.8\t371.5\t377.7\t371.4\t371.3\t371.2\t-0.1\n\n\nPrinting and related support activities\n\n\t445.0\t438.8\t439.4\t438.9\t443.5\t438.0\t438.0\t437.3\t-0.7\n\n\nPetroleum and coal products\n\n\t109.0\t115.3\t113.4\t112.9\t111.2\t113.8\t113.2\t114.9\t1.7\n\n\nChemicals\n\n\t794.2\t807.8\t807.1\t810.2\t794.9\t808.7\t808.3\t810.2\t1.9\n\n\nPlastics and rubber products\n\n\t658.1\t668.2\t673.0\t672.2\t660.2\t667.5\t673.7\t673.9\t0.2\n\n\nMiscellaneous nondurable goods manufacturing\n\n\t228.0\t244.1\t240.0\t235.2\t231.2\t237.6\t238.7\t238.4\t-0.3\n\n\n\nPrivate service-providing\n\n\t97,358\t99,014\t99,500\t99,711\t96,730\t98,599\t98,893\t99,066\t173\n\n\n\nTrade, transportation, and utilities\n\n\t26,884\t26,647\t27,139\t27,405\t26,156\t26,561\t26,640\t26,663\t23\n\n\n\nWholesale trade\n\n\t5,805.0\t5,903.6\t5,907.4\t5,913.0\t5,796.8\t5,892.2\t5,897.5\t5,907.5\t10.0\n\n\nDurable goods\n\n\t2,898.1\t2,956.9\t2,954.7\t2,964.3\t2,897.2\t2,953.3\t2,956.9\t2,964.3\t7.4\n\n\nNondurable goods\n\n\t1,996.4\t2,026.1\t2,031.1\t2,024.4\t1,993.8\t2,020.2\t2,022.0\t2,023.1\t1.1\n\n\nElectronic markets and agents and brokers\n\n\t910.5\t920.6\t921.6\t924.3\t905.8\t918.7\t918.6\t920.1\t1.5\n\n\n\nRetail trade\n\n\t15,828.8\t15,480.9\t15,915.1\t16,084.1\t15,261.7\t15,447.9\t15,503.6\t15,511.3\t7.7\n\n\nMotor vehicle and parts dealers(1)\n\n\t1,812.4\t1,879.1\t1,882.1\t1,878.3\t1,823.2\t1,871.9\t1,883.1\t1,889.1\t6.0\n\n\nAutomobile dealers\n\n\t1,152.2\t1,194.1\t1,198.1\t1,197.1\t1,157.0\t1,190.3\t1,198.2\t1,202.0\t3.8\n\n\nFurniture and home furnishings stores\n\n\t474.1\t463.6\t474.4\t477.5\t448.4\t456.1\t454.9\t451.3\t-3.6\n\n\nElectronics and appliance stores\n\n\t545.4\t514.9\t537.6\t537.6\t514.0\t506.5\t506.0\t505.3\t-0.7\n\n\nBuilding material and garden supply stores\n\n\t1,186.8\t1,216.3\t1,212.2\t1,202.3\t1,223.3\t1,233.9\t1,236.4\t1,238.8\t2.4\n\n\nFood and beverage stores\n\n\t3,006.5\t3,032.8\t3,056.0\t3,069.9\t2,977.3\t3,028.7\t3,034.1\t3,039.8\t5.7\n\n\nHealth and personal care stores\n\n\t1,042.3\t1,026.6\t1,039.7\t1,039.1\t1,023.3\t1,020.8\t1,025.5\t1,020.6\t-4.9\n\n\nGasoline stations\n\n\t869.6\t884.0\t887.3\t883.2\t871.7\t882.4\t885.1\t885.0\t-0.1\n\n\nClothing and clothing accessories stores\n\n\t1,578.5\t1,384.7\t1,514.3\t1,571.7\t1,404.5\t1,389.8\t1,405.7\t1,396.8\t-8.9\n\n\nSporting goods, hobby, book, and music stores\n\n\t671.4\t602.7\t652.5\t674.0\t616.9\t599.9\t610.0\t614.3\t4.3\n\n\nGeneral merchandise stores(1)\n\n\t3,328.8\t3,130.8\t3,297.8\t3,381.6\t3,099.2\t3,145.7\t3,145.2\t3,152.8\t7.6\n\n\nDepartment stores\n\n\t1,505.4\t1,324.0\t1,431.2\t1,489.1\t1,344.4\t1,336.1\t1,330.0\t1,330.6\t0.6\n\n\nMiscellaneous store retailers\n\n\t804.6\t835.2\t823.1\t825.5\t790.3\t812.8\t811.1\t813.0\t1.9\n\n\nNonstore retailers\n\n\t508.4\t510.2\t538.1\t543.4\t469.6\t499.4\t506.5\t504.5\t-2.0\n\n\n\nTransportation and warehousing\n\n\t4,699.9\t4,708.5\t4,761.1\t4,850.7\t4,546.6\t4,665.9\t4,682.8\t4,685.9\t3.1\n\n\nAir transportation\n\n\t452.5\t459.1\t459.1\t457.3\t453.4\t460.3\t460.6\t457.8\t-2.8\n\n\nRail transportation\n\n\t232.5\t241.6\t242.5\t242.0\t233.1\t240.7\t241.9\t242.3\t0.4\n\n\nWater transportation\n\n\t65.5\t67.7\t66.8\t67.3\t66.4\t66.8\t67.6\t68.1\t0.5\n\n\nTruck transportation\n\n\t1,384.6\t1,437.9\t1,431.9\t1,427.2\t1,386.9\t1,419.5\t1,421.7\t1,429.0\t7.3\n\n\nTransit and ground passenger transportation\n\n\t471.1\t479.7\t480.7\t481.5\t453.5\t461.2\t463.1\t463.3\t0.2\n\n\nPipeline transportation\n\n\t44.8\t45.6\t45.7\t45.6\t44.7\t45.7\t45.7\t45.6\t-0.1\n\n\nScenic and sightseeing transportation\n\n\t24.8\t30.4\t25.2\t24.4\t29.2\t29.5\t29.4\t28.9\t-0.5\n\n\nSupport activities for transportation\n\n\t600.9\t621.4\t620.2\t621.2\t596.6\t616.6\t618.4\t617.0\t-1.4\n\n\nCouriers and messengers\n\n\t680.3\t572.4\t622.6\t720.4\t557.8\t581.5\t586.6\t587.3\t0.7\n\n\nWarehousing and storage\n\n\t742.9\t752.7\t766.4\t763.8\t725.0\t744.1\t747.8\t746.6\t-1.2\n\n\n\nUtilities\n\n\t550.3\t554.3\t555.1\t557.4\t551.3\t554.5\t556.3\t558.2\t1.9\n\n\n\nInformation\n\n\t2,682\t2,688\t2,703\t2,698\t2,674\t2,686\t2,687\t2,689\t2\n\n\nPublishing industries, except Internet\n\n\t735.2\t725.6\t727.7\t727.8\t731.0\t724.0\t725.0\t724.1\t-0.9\n\n\nMotion picture and sound recording industries\n\n\t326.1\t304.2\t307.5\t302.0\t329.9\t307.0\t301.0\t304.3\t3.3\n\n\nBroadcasting, except Internet\n\n\t287.0\t293.2\t293.7\t294.4\t286.1\t292.2\t292.3\t293.4\t1.1\n\n\nTelecommunications\n\n\t862.2\t868.6\t874.1\t873.2\t858.1\t868.7\t870.4\t870.1\t-0.3\n\n\nData processing, hosting and related services\n\n\t271.0\t277.2\t278.6\t276.3\t269.3\t276.0\t277.6\t274.6\t-3.0\n\n\nOther information services\n\n\t200.6\t218.8\t221.0\t224.1\t199.3\t217.9\t220.3\t222.5\t2.2\n\n\n\nFinancial activities\n\n\t7,911\t7,998\t8,012\t8,035\t7,901\t7,991\t8,012\t8,022\t10\n\n\nFinance and insurance\n\n\t5,897.8\t5,932.6\t5,957.7\t5,971.5\t5,883.1\t5,931.8\t5,946.8\t5,952.0\t5.2\n\n\nMonetary authorities - central bank\n\n\t18.0\t18.2\t18.2\t18.3\t18.1\t18.2\t18.1\t18.3\t0.2\n\n\nCredit intermediation and related\nactivities(1)\n\n\t2,601.7\t2,569.1\t2,576.6\t2,586.2\t2,595.5\t2,571.1\t2,574.3\t2,578.4\t4.1\n\n\nDepository credit intermediation(1)\n\n\t1,716.2\t1,691.1\t1,693.2\t1,694.4\t1,714.4\t1,692.9\t1,693.9\t1,692.5\t-1.4\n\n\nCommercial banking\n\n\t1,290.8\t1,263.8\t1,265.9\t1,265.4\t1,289.7\t1,265.6\t1,266.1\t1,264.3\t-1.8\n\n\nSecurities, commodity contracts, investments, and funds and trusts\n\n\t869.8\t886.3\t888.1\t886.1\t868.5\t886.7\t887.6\t884.3\t-3.3\n\n\nInsurance carriers and related activities\n\n\t2,408.3\t2,459.0\t2,474.8\t2,480.9\t2,401.0\t2,455.8\t2,466.8\t2,471.0\t4.2\n\n\nReal estate and rental and leasing\n\n\t2,013.3\t2,065.3\t2,054.3\t2,063.3\t2,018.3\t2,059.5\t2,065.5\t2,069.7\t4.2\n\n\nReal estate\n\n\t1,472.1\t1,490.3\t1,486.6\t1,495.9\t1,469.0\t1,486.5\t1,491.6\t1,493.2\t1.6\n\n\nRental and leasing services\n\n\t518.3\t552.9\t545.4\t545.0\t526.7\t550.9\t551.7\t554.5\t2.8\n\n\nLessors of nonfinancial intangible assets\n\n\t22.9\t22.1\t22.3\t22.4\t22.6\t22.1\t22.2\t22.0\t-0.2\n\n\n\nProfessional and business services\n\n\t18,906\t19,600\t19,664\t19,636\t18,842\t19,435\t19,522\t19,574\t52\n\n\nProfessional and technical services(1)\n\n\t8,235.7\t8,415.3\t8,470.7\t8,521.4\t8,200.8\t8,439.0\t8,477.2\t8,489.8\t12.6\n\n\nLegal services\n\n\t1,138.8\t1,134.4\t1,134.8\t1,138.1\t1,135.1\t1,133.7\t1,133.7\t1,134.2\t0.5\n\n\nAccounting and bookkeeping services\n\n\t918.8\t909.9\t936.3\t965.7\t915.2\t969.0\t983.1\t969.0\t-14.1\n\n\nArchitectural and engineering services\n\n\t1,374.3\t1,428.0\t1,429.1\t1,429.8\t1,374.1\t1,420.2\t1,424.9\t1,430.0\t5.1\n\n\nComputer systems design and related services\n\n\t1,728.4\t1,786.7\t1,796.9\t1,800.6\t1,724.5\t1,780.1\t1,787.8\t1,796.8\t9.0\n\n\nManagement and technical consulting services\n\n\t1,213.4\t1,263.8\t1,273.9\t1,278.4\t1,201.1\t1,254.0\t1,262.1\t1,265.3\t3.2\n\n\nManagement of companies and enterprises\n\n\t2,113.7\t2,140.6\t2,146.0\t2,153.4\t2,109.3\t2,141.2\t2,146.5\t2,150.3\t3.8\n\n\nAdministrative and waste services\n\n\t8,556.6\t9,043.9\t9,047.4\t8,961.6\t8,531.5\t8,854.9\t8,898.5\t8,933.7\t35.2\n\n\nAdministrative and support services(1)\n\n\t8,184.6\t8,660.8\t8,665.2\t8,582.1\t8,156.3\t8,474.1\t8,516.0\t8,550.4\t34.4\n\n\nEmployment services(1)\n\n\t3,550.1\t3,797.6\t3,826.6\t3,817.4\t3,458.8\t3,682.7\t3,710.4\t3,726.6\t16.2\n\n\nTemporary help services\n\n\t2,855.1\t3,049.3\t3,079.6\t3,072.7\t2,773.8\t2,951.8\t2,975.7\t2,990.4\t14.7\n\n\nBusiness support services\n\n\t881.1\t882.0\t893.5\t902.1\t859.5\t871.4\t874.9\t879.2\t4.3\n\n\nServices to buildings and dwellings\n\n\t1,828.8\t1,991.3\t1,951.8\t1,866.3\t1,907.4\t1,944.8\t1,942.8\t1,944.7\t1.9\n\n\nWaste management and remediation services\n\n\t372.0\t383.1\t382.2\t379.5\t375.2\t380.8\t382.5\t383.3\t0.8\n\n\n\nEducation and health services\n\n\t21,419\t21,829\t21,916\t21,906\t21,242\t21,635\t21,676\t21,724\t48\n\n\nEducational services\n\n\t3,472.2\t3,573.4\t3,592.6\t3,526.9\t3,365.0\t3,420.7\t3,416.5\t3,421.4\t4.9\n\n\nHealth care and social assistance\n\n\t17,947.2\t18,255.5\t18,323.4\t18,378.8\t17,876.7\t18,214.0\t18,259.0\t18,302.7\t43.7\n\n\nHealth care(3)\n\n\t14,649.8\t14,873.0\t14,923.7\t14,970.8\t14,604.5\t14,845.7\t14,881.4\t14,915.5\t34.1\n\n\nAmbulatory health care services(1)\n\n\t6,592.8\t6,772.3\t6,808.9\t6,826.8\t6,567.3\t6,753.9\t6,781.4\t6,797.6\t16.2\n\n\nOffices of physicians\n\n\t2,477.2\t2,516.4\t2,529.0\t2,536.2\t2,461.2\t2,510.9\t2,519.5\t2,520.3\t0.8\n\n\nOutpatient care centers\n\n\t702.6\t727.3\t731.4\t735.8\t700.8\t726.2\t730.0\t733.8\t3.8\n\n\nHome health care services\n\n\t1,268.1\t1,311.4\t1,321.9\t1,324.3\t1,263.0\t1,305.8\t1,313.2\t1,317.4\t4.2\n\n\nHospitals\n\n\t4,804.6\t4,832.9\t4,843.8\t4,854.4\t4,792.7\t4,826.1\t4,833.0\t4,840.0\t7.0\n\n\nNursing and residential care facilities(1)\n\n\t3,252.4\t3,267.8\t3,271.0\t3,289.6\t3,244.5\t3,265.7\t3,267.0\t3,277.9\t10.9\n\n\nNursing care facilities\n\n\t1,652.0\t1,653.6\t1,653.6\t1,655.0\t1,647.8\t1,651.2\t1,650.3\t1,651.5\t1.2\n\n\nSocial assistance(1)\n\n\t3,297.4\t3,382.5\t3,399.7\t3,408.0\t3,272.2\t3,368.3\t3,377.6\t3,387.2\t9.6\n\n\nChild day care services\n\n\t864.1\t883.9\t889.4\t886.1\t850.3\t868.2\t870.9\t871.9\t1.0\n\n\n\nLeisure and hospitality\n\n\t14,095\t14,727\t14,541\t14,512\t14,435\t14,767\t14,820\t14,856\t36\n\n\nArts, entertainment, and recreation\n\n\t1,916.0\t2,084.2\t1,979.6\t1,964.5\t2,082.1\t2,123.0\t2,137.4\t2,130.0\t-7.4\n\n\nPerforming arts and spectator sports\n\n\t412.5\t459.7\t441.8\t436.7\t430.6\t455.7\t457.2\t455.5\t-1.7\n\n\nMuseums, historical sites, and similar institutions\n\n\t134.3\t141.8\t138.0\t132.9\t141.2\t141.5\t142.2\t140.3\t-1.9\n\n\nAmusements, gambling, and recreation\n\n\t1,369.2\t1,482.7\t1,399.8\t1,394.9\t1,510.3\t1,525.8\t1,538.0\t1,534.2\t-3.8\n\n\nAccommodation and food services\n\n\t12,178.8\t12,642.3\t12,561.8\t12,547.2\t12,353.3\t12,643.6\t12,682.1\t12,726.1\t44.0\n\n\nAccommodation\n\n\t1,800.4\t1,862.8\t1,818.6\t1,812.7\t1,866.2\t1,871.0\t1,878.0\t1,878.4\t0.4\n\n\nFood services and drinking places\n\n\t10,378.4\t10,779.5\t10,743.2\t10,734.5\t10,487.1\t10,772.6\t10,804.1\t10,847.7\t43.6\n\n\n\nOther services\n\n\t5,461\t5,525\t5,525\t5,519\t5,480\t5,524\t5,536\t5,538\t2\n\n\nRepair and maintenance\n\n\t1,203.8\t1,220.7\t1,218.3\t1,213.7\t1,211.1\t1,216.2\t1,221.1\t1,221.1\t0.0\n\n\nPersonal and laundry services\n\n\t1,349.8\t1,372.1\t1,374.7\t1,375.9\t1,349.3\t1,373.0\t1,377.2\t1,376.6\t-0.6\n\n\nMembership associations and organizations\n\n\t2,907.4\t2,931.9\t2,932.0\t2,929.7\t2,919.3\t2,935.2\t2,938.1\t2,940.4\t2.3\n\n\n\nGovernment\n\n\t22,208\t22,310\t22,425\t22,305\t21,854\t21,925\t21,933\t21,945\t12\n\n\nFederal\n\n\t2,741.0\t2,715.0\t2,714.0\t2,731.0\t2,736.0\t2,713.0\t2,718.0\t2,719.0\t1.0\n\n\nFederal, except U.S. Postal Service\n\n\t2,137.5\t2,124.0\t2,120.3\t2,120.6\t2,141.3\t2,123.0\t2,123.1\t2,122.2\t-0.9\n\n\nU.S. Postal Service\n\n\t603.3\t590.6\t593.7\t610.2\t594.3\t590.3\t595.2\t597.0\t1.8\n\n\nState government\n\n\t5,169.0\t5,244.0\t5,260.0\t5,200.0\t5,064.0\t5,077.0\t5,078.0\t5,085.0\t7.0\n\n\nState government education\n\n\t2,527.3\t2,593.5\t2,614.1\t2,549.3\t2,410.3\t2,417.9\t2,421.2\t2,424.0\t2.8\n\n\nState government, excluding education\n\n\t2,641.6\t2,650.4\t2,645.6\t2,650.5\t2,653.3\t2,659.1\t2,657.0\t2,661.3\t4.3\n\n\nLocal government\n\n\t14,298.0\t14,351.0\t14,451.0\t14,374.0\t14,054.0\t14,135.0\t14,137.0\t14,141.0\t4.0\n\n\nLocal government education\n\n\t8,093.3\t8,072.1\t8,167.6\t8,131.7\t7,773.3\t7,815.7\t7,815.2\t7,817.2\t2.0\n\n\nLocal government, excluding education\n\n\t6,204.2\t6,279.0\t6,283.3\t6,242.6\t6,280.5\t6,318.9\t6,321.4\t6,323.5\t2.1\n\n\nFootnotes\n(1) Includes other industries, not shown separately.",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-2",
+      "title": "Table B-2. Average weekly hours and overtime of all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5019,
+      "end_line": 5145,
+      "raw_text": "Table B-2. Average weekly hours and overtime of all employees on private nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nAVERAGE WEEKLY HOURS\n\n\t\n\n\nTotal private\n\n\t34.3\t34.5\t34.6\t34.6\n\n\nGoods-producing\n\n\t40.4\t40.6\t40.7\t40.7\n\n\nMining and logging\n\n\t44.8\t44.9\t44.9\t44.9\n\n\nConstruction\n\n\t38.7\t39.2\t39.2\t39.4\n\n\nManufacturing\n\n\t40.9\t40.9\t41.1\t41.0\n\n\nDurable goods\n\n\t41.4\t41.4\t41.6\t41.4\n\n\nNondurable goods\n\n\t40.2\t40.1\t40.4\t40.2\n\n\nPrivate service-providing\n\n\t33.1\t33.4\t33.4\t33.4\n\n\nTrade, transportation, and utilities\n\n\t34.4\t34.6\t34.7\t34.7\n\n\nWholesale trade\n\n\t38.6\t38.8\t38.9\t38.9\n\n\nRetail trade\n\n\t31.3\t31.4\t31.5\t31.5\n\n\nTransportation and warehousing\n\n\t38.7\t38.7\t38.8\t39.1\n\n\nUtilities\n\n\t42.0\t42.6\t42.6\t42.1\n\n\nInformation\n\n\t36.9\t36.8\t36.7\t36.5\n\n\nFinancial activities\n\n\t37.0\t37.4\t37.3\t37.4\n\n\nProfessional and business services\n\n\t36.0\t36.2\t36.2\t36.2\n\n\nEducation and health services\n\n\t32.6\t32.8\t32.8\t32.7\n\n\nLeisure and hospitality\n\n\t25.7\t26.2\t26.3\t26.3\n\n\nOther services\n\n\t31.6\t31.7\t31.8\t31.8\n\n\n\nAVERAGE OVERTIME HOURS\n\n\t\n\n\nManufacturing\n\n\t3.5\t3.4\t3.5\t3.6\n\n\nDurable goods\n\n\t3.5\t3.5\t3.6\t3.6\n\n\nNondurable goods\n\n\t3.4\t3.3\t3.4\t3.5",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-3",
+      "title": "Table B-3. Average hourly and weekly earnings of all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5155,
+      "end_line": 5260,
+      "raw_text": "Table B-3. Average hourly and weekly earnings of all employees on private nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tAverage hourly earnings\tAverage weekly earnings\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nTotal private\n\n\t$24.17\t$24.56\t$24.62\t$24.57\t$829.03\t$847.32\t$851.85\t$850.12\n\n\nGoods-producing\n\n\t25.44\t25.84\t25.87\t25.81\t1,027.78\t1,049.10\t1,052.91\t1,050.47\n\n\nMining and logging\n\n\t30.59\t30.93\t30.93\t30.61\t1,370.43\t1,388.76\t1,388.76\t1,374.39\n\n\nConstruction\n\n\t26.35\t26.85\t26.90\t26.83\t1,019.75\t1,052.52\t1,054.48\t1,057.10\n\n\nManufacturing\n\n\t24.60\t24.93\t24.96\t24.91\t1,006.14\t1,019.64\t1,025.86\t1,021.31\n\n\nDurable goods\n\n\t26.01\t26.24\t26.23\t26.19\t1,076.81\t1,086.34\t1,091.17\t1,084.27\n\n\nNondurable goods\n\n\t22.15\t22.59\t22.70\t22.63\t890.43\t905.86\t917.08\t909.73\n\n\nPrivate service-providing\n\n\t23.87\t24.26\t24.33\t24.28\t790.10\t810.28\t812.62\t810.95\n\n\nTrade, transportation, and utilities\n\n\t21.11\t21.45\t21.49\t21.45\t726.18\t742.17\t745.70\t744.32\n\n\nWholesale trade\n\n\t27.87\t28.11\t28.22\t28.17\t1,075.78\t1,090.67\t1,097.76\t1,095.81\n\n\nRetail trade\n\n\t16.66\t17.09\t17.11\t17.04\t521.46\t536.63\t538.97\t536.76\n\n\nTransportation and warehousing\n\n\t22.71\t22.88\t22.90\t22.92\t878.88\t885.46\t888.52\t896.17\n\n\nUtilities\n\n\t35.51\t35.75\t35.97\t35.86\t1,491.42\t1,522.95\t1,532.32\t1,509.71\n\n\nInformation\n\n\t33.43\t34.10\t34.39\t34.34\t1,233.57\t1,254.88\t1,262.11\t1,253.41\n\n\nFinancial activities\n\n\t30.37\t30.91\t31.08\t31.02\t1,123.69\t1,156.03\t1,159.28\t1,160.15\n\n\nProfessional and business services\n\n\t28.78\t29.29\t29.33\t29.27\t1,036.08\t1,060.30\t1,061.75\t1,059.57\n\n\nEducation and health services\n\n\t24.55\t24.82\t24.97\t24.89\t800.33\t814.10\t819.02\t813.90\n\n\nLeisure and hospitality\n\n\t13.65\t14.07\t14.08\t14.08\t350.81\t368.63\t370.30\t370.30\n\n\nOther services\n\n\t21.72\t22.02\t22.07\t22.09\t686.35\t698.03\t701.83\t702.46",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-4",
+      "title": "Table B-4. Indexes of aggregate weekly hours and payrolls for all employees on private nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5270,
+      "end_line": 5385,
+      "raw_text": "Table B-4. Indexes of aggregate weekly hours and payrolls for all employees on private nonfarm payrolls by industry sector, seasonally adjusted\n[2007=100]\nIndustry\tIndex of aggregate weekly hours(1)\tIndex of aggregate weekly payrolls(2)\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tPercent change from:\nNov.\n2014 - Dec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tPercent change from:\nNov.\n2014 - Dec.\n2014(p)\n\n\nTotal private\n\n\t99.1\t101.6\t102.2\t102.4\t0.2\t114.3\t119.1\t120.1\t120.1\t0.0\n\n\nGoods-producing\n\n\t86.6\t88.9\t89.3\t89.7\t0.4\t99.6\t103.8\t104.5\t104.6\t0.1\n\n\nMining and logging\n\n\t124.2\t130.8\t131.1\t131.4\t0.2\t152.5\t162.4\t162.8\t161.4\t-0.9\n\n\nConstruction\n\n\t78.4\t82.4\t82.7\t83.7\t1.2\t89.7\t96.1\t96.6\t97.6\t1.0\n\n\nManufacturing\n\n\t88.7\t89.7\t90.4\t90.3\t-0.1\t101.5\t104.0\t104.9\t104.6\t-0.3\n\n\nDurable goods\n\n\t88.4\t90.0\t90.7\t90.4\t-0.3\t102.1\t104.9\t105.7\t105.2\t-0.5\n\n\nNondurable goods\n\n\t89.7\t89.4\t90.3\t89.9\t-0.4\t100.8\t102.5\t104.0\t103.2\t-0.8\n\n\nPrivate service-providing\n\n\t102.5\t105.4\t105.7\t105.9\t0.2\t118.6\t124.0\t124.7\t124.7\t0.0\n\n\nTrade, transportation, and utilities\n\n\t97.9\t100.0\t100.5\t100.6\t0.1\t111.2\t115.4\t116.3\t116.2\t-0.1\n\n\nWholesale trade\n\n\t97.6\t99.7\t100.1\t100.3\t0.2\t113.5\t117.0\t117.9\t117.9\t0.0\n\n\nRetail trade\n\n\t97.0\t98.5\t99.2\t99.3\t0.1\t106.9\t111.3\t112.2\t111.8\t-0.4\n\n\nTransportation and warehousing\n\n\t100.7\t103.3\t104.0\t104.9\t0.9\t116.1\t120.0\t120.8\t122.0\t1.0\n\n\nUtilities\n\n\t100.2\t102.2\t102.5\t101.7\t-0.8\t117.5\t120.7\t121.9\t120.5\t-1.1\n\n\nInformation\n\n\t90.1\t90.3\t90.1\t89.6\t-0.6\t107.3\t109.6\t110.3\t109.6\t-0.6\n\n\nFinancial activities\n\n\t95.7\t97.9\t97.9\t98.3\t0.4\t113.4\t118.0\t118.7\t118.9\t0.2\n\n\nProfessional and business services\n\n\t106.7\t110.7\t111.1\t111.4\t0.3\t124.4\t131.3\t132.1\t132.2\t0.1\n\n\nEducation and health services\n\n\t111.1\t113.9\t114.1\t114.0\t-0.1\t128.5\t133.2\t134.2\t133.7\t-0.4\n\n\nLeisure and hospitality\n\n\t105.9\t110.4\t111.2\t111.5\t0.3\t116.6\t125.3\t126.3\t126.6\t0.2\n\n\nOther services\n\n\t95.9\t97.0\t97.5\t97.6\t0.1\t118.3\t121.2\t122.2\t122.3\t0.1\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-5",
+      "title": "Table B-5. Employment of women on nonfarm payrolls by industry sector, seasonally adjusted",
+      "start_line": 5394,
+      "end_line": 5509,
+      "raw_text": "Table B-5. Employment of women on nonfarm payrolls by industry sector, seasonally adjusted\nIndustry\tWomen employees (in thousands)\tPercent of all employees\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nTotal nonfarm\n\n\t67,961\t68,993\t69,118\t69,245\t49.5\t49.4\t49.3\t49.3\n\n\nTotal private\n\n\t55,479\t56,471\t56,591\t56,708\t48.0\t47.9\t47.9\t47.9\n\n\nGoods-producing\n\n\t4,133\t4,216\t4,220\t4,232\t22.0\t21.9\t21.9\t21.9\n\n\nMining and logging\n\n\t117\t125\t126\t127\t13.3\t13.5\t13.6\t13.6\n\n\nConstruction\n\n\t746\t778\t780\t784\t12.7\t12.8\t12.7\t12.7\n\n\nManufacturing\n\n\t3,270\t3,313\t3,314\t3,321\t27.1\t27.2\t27.1\t27.1\n\n\nDurable goods\n\n\t1,749\t1,785\t1,788\t1,794\t23.1\t23.1\t23.1\t23.1\n\n\nNondurable goods\n\n\t1,521\t1,528\t1,526\t1,527\t34.0\t34.2\t34.1\t34.1\n\n\nPrivate service-providing\n\n\t51,346\t52,255\t52,371\t52,476\t53.1\t53.0\t53.0\t53.0\n\n\nTrade, transportation, and utilities\n\n\t10,629\t10,747\t10,768\t10,775\t40.6\t40.5\t40.4\t40.4\n\n\nWholesale trade\n\n\t1,721.3\t1,729.4\t1,725.7\t1,718.3\t29.7\t29.4\t29.3\t29.1\n\n\nRetail trade\n\n\t7,698.7\t7,780.9\t7,804.8\t7,821.6\t50.4\t50.4\t50.3\t50.4\n\n\nTransportation and warehousing\n\n\t1,074.2\t1,103.5\t1,103.5\t1,100.7\t23.6\t23.7\t23.6\t23.5\n\n\nUtilities\n\n\t134.9\t133.4\t133.7\t133.9\t24.5\t24.1\t24.0\t24.0\n\n\nInformation\n\n\t1,073\t1,080\t1,082\t1,085\t40.1\t40.2\t40.3\t40.3\n\n\nFinancial activities\n\n\t4,537\t4,574\t4,582\t4,591\t57.4\t57.2\t57.2\t57.2\n\n\nProfessional and business services\n\n\t8,406\t8,666\t8,704\t8,725\t44.6\t44.6\t44.6\t44.6\n\n\nEducation and health services\n\n\t16,311\t16,623\t16,651\t16,701\t76.8\t76.8\t76.8\t76.9\n\n\nLeisure and hospitality\n\n\t7,517\t7,665\t7,677\t7,687\t52.1\t51.9\t51.8\t51.7\n\n\nOther services\n\n\t2,873\t2,900\t2,907\t2,912\t52.4\t52.5\t52.5\t52.6\n\n\nGovernment\n\n\t12,482\t12,522\t12,527\t12,537\t57.1\t57.1\t57.1\t57.1",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-6",
+      "title": "Table B-6. Employment of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5519,
+      "end_line": 5623,
+      "raw_text": "Table B-6. Employment of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\n[In thousands]\nIndustry\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nTotal private\n\n\t95,471\t97,290\t97,550\t97,743\n\n\nGoods-producing\n\n\t13,537\t13,835\t13,870\t13,923\n\n\nMining and logging\n\n\t649\t676\t677\t679\n\n\nConstruction\n\n\t4,444\t4,589\t4,599\t4,637\n\n\nManufacturing\n\n\t8,444\t8,570\t8,594\t8,607\n\n\nDurable goods\n\n\t5,203\t5,319\t5,328\t5,336\n\n\nNondurable goods\n\n\t3,241\t3,251\t3,266\t3,271\n\n\nPrivate service-providing\n\n\t81,934\t83,455\t83,680\t83,820\n\n\nTrade, transportation, and utilities\n\n\t22,109\t22,394\t22,454\t22,460\n\n\nWholesale trade\n\n\t4,676.1\t4,758.5\t4,755.2\t4,763.5\n\n\nRetail trade\n\n\t13,056.4\t13,155.2\t13,197.6\t13,193.9\n\n\nTransportation and warehousing\n\n\t3,930.8\t4,033.1\t4,054.2\t4,052.6\n\n\nUtilities\n\n\t445.9\t446.9\t446.9\t449.9\n\n\nInformation\n\n\t2,165\t2,182\t2,182\t2,186\n\n\nFinancial activities\n\n\t6,087\t6,169\t6,180\t6,195\n\n\nProfessional and business services\n\n\t15,611\t16,091\t16,151\t16,183\n\n\nEducation and health services\n\n\t18,649\t19,001\t19,037\t19,080\n\n\nLeisure and hospitality\n\n\t12,746\t13,031\t13,067\t13,105\n\n\nOther services\n\n\t4,567\t4,587\t4,609\t4,611\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-7",
+      "title": "Table B-7. Average weekly hours and overtime of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5631,
+      "end_line": 5760,
+      "raw_text": "Table B-7. Average weekly hours and overtime of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\nIndustry\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nAVERAGE WEEKLY HOURS\n\n\t\n\n\nTotal private\n\n\t33.5\t33.8\t33.8\t33.9\n\n\nGoods-producing\n\n\t41.2\t41.6\t41.7\t41.7\n\n\nMining and logging\n\n\t46.9\t47.5\t47.7\t47.7\n\n\nConstruction\n\n\t39.0\t39.9\t39.8\t40.1\n\n\nManufacturing\n\n\t41.9\t42.1\t42.2\t42.2\n\n\nDurable goods\n\n\t42.3\t42.5\t42.6\t42.5\n\n\nNondurable goods\n\n\t41.2\t41.4\t41.7\t41.6\n\n\nPrivate service-providing\n\n\t32.3\t32.5\t32.5\t32.6\n\n\nTrade, transportation, and utilities\n\n\t33.5\t33.6\t33.7\t33.8\n\n\nWholesale trade\n\n\t38.6\t38.5\t38.6\t38.6\n\n\nRetail trade\n\n\t30.0\t30.0\t30.1\t30.3\n\n\nTransportation and warehousing\n\n\t38.4\t38.4\t38.5\t38.9\n\n\nUtilities\n\n\t41.7\t42.5\t42.6\t42.1\n\n\nInformation\n\n\t36.1\t36.2\t36.2\t36.0\n\n\nFinancial activities\n\n\t36.6\t36.8\t36.8\t36.8\n\n\nProfessional and business services\n\n\t35.2\t35.6\t35.7\t35.7\n\n\nEducation and health services\n\n\t31.9\t32.1\t32.1\t32.1\n\n\nLeisure and hospitality\n\n\t24.8\t25.1\t25.2\t25.2\n\n\nOther services\n\n\t30.6\t30.8\t30.7\t30.8\n\n\n\nAVERAGE OVERTIME HOURS\n\n\t\n\n\nManufacturing\n\n\t4.5\t4.4\t4.6\t4.6\n\n\nDurable goods\n\n\t4.6\t4.6\t4.6\t4.7\n\n\nNondurable goods\n\n\t4.3\t4.2\t4.5\t4.5\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-8",
+      "title": "Table B-8. Average hourly and weekly earnings of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5768,
+      "end_line": 5876,
+      "raw_text": "Table B-8. Average hourly and weekly earnings of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\nIndustry\tAverage hourly earnings\tAverage weekly earnings\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\n\n\nTotal private\n\n\t$20.35\t$20.70\t$20.74\t$20.68\t$681.73\t$699.66\t$701.01\t$701.05\n\n\nGoods-producing\n\n\t21.38\t21.71\t21.72\t21.71\t880.86\t903.14\t905.72\t905.31\n\n\nMining and logging\n\n\t26.87\t27.09\t27.13\t26.72\t1,260.20\t1,286.78\t1,294.10\t1,274.54\n\n\nConstruction\n\n\t24.35\t24.80\t24.82\t24.75\t949.65\t989.52\t987.84\t992.48\n\n\nManufacturing\n\n\t19.45\t19.66\t19.68\t19.70\t814.96\t827.69\t830.50\t831.34\n\n\nDurable goods\n\n\t20.50\t20.72\t20.73\t20.75\t867.15\t880.60\t883.10\t881.88\n\n\nNondurable goods\n\n\t17.72\t17.88\t17.93\t17.96\t730.06\t740.23\t747.68\t747.14\n\n\nPrivate service-providing\n\n\t20.13\t20.48\t20.53\t20.47\t650.20\t665.60\t667.23\t667.32\n\n\nTrade, transportation, and utilities\n\n\t17.94\t18.36\t18.41\t18.29\t600.99\t616.90\t620.42\t618.20\n\n\nWholesale trade\n\n\t22.84\t23.33\t23.51\t23.39\t881.62\t898.21\t907.49\t902.85\n\n\nRetail trade\n\n\t14.14\t14.47\t14.46\t14.28\t424.20\t434.10\t435.25\t432.68\n\n\nTransportation and warehousing\n\n\t20.13\t20.60\t20.68\t20.72\t772.99\t791.04\t796.18\t806.01\n\n\nUtilities\n\n\t32.78\t32.94\t33.04\t33.10\t1,366.93\t1,399.95\t1,407.50\t1,393.51\n\n\nInformation\n\n\t28.35\t28.54\t28.61\t28.40\t1,023.44\t1,033.15\t1,035.68\t1,022.40\n\n\nFinancial activities\n\n\t24.24\t24.91\t25.05\t25.07\t887.18\t916.69\t921.84\t922.58\n\n\nProfessional and business services\n\n\t23.93\t24.24\t24.24\t24.16\t842.34\t862.94\t865.37\t862.51\n\n\nEducation and health services\n\n\t21.52\t21.75\t21.82\t21.81\t686.49\t698.18\t700.42\t700.10\n\n\nLeisure and hospitality\n\n\t11.92\t12.24\t12.26\t12.26\t295.62\t307.22\t308.95\t308.95\n\n\nOther services\n\n\t18.27\t18.52\t18.59\t18.58\t559.06\t570.42\t570.71\t572.26\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    },
+    {
+      "table_id": "B-9",
+      "title": "Table B-9. Indexes of aggregate weekly hours and payrolls for production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)",
+      "start_line": 5884,
+      "end_line": 5999,
+      "raw_text": "Table B-9. Indexes of aggregate weekly hours and payrolls for production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)\n[2002=100]\nIndustry\tIndex of aggregate weekly hours(2)\tIndex of aggregate weekly payrolls(3)\nDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tPercent change from:\nNov.\n2014 - Dec.\n2014(p)\tDec.\n2013\tOct.\n2014\tNov.\n2014(p)\tDec.\n2014(p)\tPercent change from:\nNov.\n2014 - Dec.\n2014(p)\n\n\nTotal private\n\n\t106.6\t109.6\t109.9\t110.4\t0.5\t144.9\t151.6\t152.3\t152.6\t0.2\n\n\nGoods-producing\n\n\t85.2\t87.9\t88.4\t88.7\t0.3\t111.6\t116.9\t117.6\t117.9\t0.3\n\n\nMining and logging\n\n\t161.7\t170.6\t171.6\t172.1\t0.3\t252.8\t268.8\t270.8\t267.5\t-1.2\n\n\nConstruction\n\n\t86.8\t91.7\t91.6\t93.1\t1.6\t114.1\t122.8\t122.8\t124.4\t1.3\n\n\nManufacturing\n\n\t81.2\t82.8\t83.3\t83.4\t0.1\t103.3\t106.5\t107.1\t107.4\t0.3\n\n\nDurable goods\n\n\t82.7\t84.9\t85.3\t85.2\t-0.1\t105.8\t109.9\t110.4\t110.4\t0.0\n\n\nNondurable goods\n\n\t78.7\t79.3\t80.2\t80.2\t0.0\t98.5\t100.2\t101.7\t101.8\t0.1\n\n\nPrivate service-providing\n\n\t112.7\t115.5\t115.9\t116.4\t0.4\t155.6\t162.3\t163.1\t163.4\t0.2\n\n\nTrade, transportation, and utilities\n\n\t103.3\t104.9\t105.5\t105.8\t0.3\t132.1\t137.4\t138.5\t138.1\t-0.3\n\n\nWholesale trade\n\n\t106.3\t107.9\t108.1\t108.3\t0.2\t143.0\t148.3\t149.7\t149.2\t-0.3\n\n\nRetail trade\n\n\t99.1\t99.9\t100.6\t101.2\t0.6\t120.2\t123.9\t124.6\t123.9\t-0.6\n\n\nTransportation and warehousing\n\n\t113.6\t116.6\t117.5\t118.7\t1.0\t145.1\t152.3\t154.1\t156.0\t1.2\n\n\nUtilities\n\n\t95.1\t97.1\t97.4\t96.9\t-0.5\t130.1\t133.5\t134.3\t133.8\t-0.4\n\n\nInformation\n\n\t89.2\t90.2\t90.2\t89.8\t-0.4\t125.2\t127.4\t127.7\t126.3\t-1.1\n\n\nFinancial activities\n\n\t104.9\t106.9\t107.1\t107.3\t0.2\t156.4\t163.8\t165.0\t165.5\t0.3\n\n\nProfessional and business services\n\n\t123.2\t128.4\t129.2\t129.5\t0.2\t175.4\t185.2\t186.4\t186.2\t-0.1\n\n\nEducation and health services\n\n\t127.0\t130.2\t130.4\t130.7\t0.2\t180.3\t186.8\t187.8\t188.1\t0.2\n\n\nLeisure and hospitality\n\n\t115.8\t119.8\t120.6\t121.0\t0.3\t156.7\t166.5\t167.9\t168.4\t0.3\n\n\nOther services\n\n\t98.0\t99.1\t99.2\t99.6\t0.4\t130.5\t133.7\t134.4\t134.8\t0.3\n\n\nFootnotes",
+      "parse_status": "raw_text_only"
+    }
+  ],
+  "quality_checks": {
+    "table_a_row_count": 35,
+    "table_a_column_count": 5,
+    "table_a_values_parsed": 172,
+    "table_a_values_missing": 3,
+    "table_ids": [
+      "A_rev",
+      "B_rev",
+      "A",
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ],
+    "raw_block_table_ids": [
+      "A_rev",
+      "B_rev",
+      "B",
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "A-10",
+      "A-11",
+      "A-12",
+      "A-13",
+      "A-14",
+      "A-15",
+      "A-16",
+      "B-1",
+      "B-2",
+      "B-3",
+      "B-4",
+      "B-5",
+      "B-6",
+      "B-7",
+      "B-8",
+      "B-9"
+    ],
+    "chunk_count": 14,
+    "contains_last_modified_footer": false
+  }
+}

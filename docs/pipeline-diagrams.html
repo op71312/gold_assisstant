@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="แผนภาพ pipeline ของ Gold Assistant ตั้งแต่แหล่งข้อมูลจริงถึง retrieval, RAG และเว็บที่ deploy บน Render">
+  <title>Gold Assistant — Pipeline Atlas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #fbf8f1;
+      --paper-2: #f3ebd7;
+      --ink: #2a251b;
+      --muted: #6e6552;
+      --soft: #847a65;
+      --rule: #e8e0cc;
+      --gold: #96690c;
+      --gold-tint: #f7e3b0;
+      --navy: #1c2942;
+      --font-sans: "Noto Sans Thai", "Geist", system-ui, sans-serif;
+      --font-serif: "Instrument Serif", "Noto Serif Thai", serif;
+      --font-mono: "Geist Mono", ui-monospace, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 16px/1.65 var(--font-sans);
+    }
+    .page { width: min(100% - 48px, 1184px); margin: 0 auto; padding: 48px 0 72px; }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font: 600 11px/1.4 var(--font-mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font: 400 clamp(38px, 5vw, 58px)/1.08 var(--font-serif);
+      letter-spacing: -.025em;
+    }
+    .intro { max-width: 820px; margin: 16px 0 0; color: var(--muted); }
+    .assumption {
+      max-width: 980px;
+      margin: 22px 0 42px;
+      padding: 12px 16px;
+      border-left: 3px solid var(--gold);
+      background: #fff;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .index {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 42px;
+    }
+    .index a {
+      padding: 5px 10px;
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      color: var(--navy);
+      font-size: 13px;
+      text-decoration: none;
+    }
+    .index a:hover { border-color: var(--gold); color: var(--gold); }
+    section { margin: 0 0 54px; scroll-margin-top: 20px; }
+    section h2 { margin: 0; font-size: 23px; font-weight: 600; letter-spacing: -.02em; }
+    section > p { max-width: 900px; margin: 7px 0 18px; color: var(--muted); font-size: 14px; }
+    .diagram-container { width: 100%; overflow-x: auto; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    svg { display: block; width: 100%; min-width: 1280px; height: auto; background: var(--paper); }
+    .techniques {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, .7fr);
+      gap: 22px;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid var(--rule);
+    }
+    .techniques h3 { margin: 0 0 5px; font-size: 13px; font-weight: 600; }
+    .techniques p { margin: 0; color: var(--muted); font-size: 13px; }
+    .technique-list { display: flex; flex-wrap: wrap; align-content: start; gap: 6px; }
+    code {
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      background: #fff;
+      padding: 2px 6px;
+      color: var(--navy);
+      font: 11px/1.6 var(--font-mono);
+    }
+    footer { padding-top: 14px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 12px; }
+    @media (max-width: 680px) {
+      .page { width: min(100% - 32px, 1184px); padding-top: 30px; }
+      .techniques { grid-template-columns: 1fr; gap: 10px; }
+    }
+    @media print {
+      .page { width: 100%; padding: 0; }
+      .index { display: none; }
+      section { break-inside: avoid; margin-bottom: 28px; }
+      .diagram-container { overflow: visible; }
+      svg { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Gold Assistant · Research &amp; Data Engineering</p>
+      <h1>Pipeline atlas</h1>
+      <p class="intro">แผนภาพหกสายงานตั้งแต่การเก็บข้อมูล การจำลองพอร์ต การประเมินการค้นคืนและ RAG ไปจนถึงเว็บแบบ read-only สำหรับ Render</p>
+      <p class="assumption"><strong>ขอบเขต:</strong> ใช้โทน cream/navy/gold จากหน้าเว็บเป็น style profile เฉพาะเอกสารนี้ (สมมติฐาน เพราะยังไม่ได้รับการเลือก style guide จากผู้ใช้) ตัวเลขเป็น snapshot ที่ตรวจจากไฟล์และผลทดลองในโปรเจกต์; พอร์ตและธุรกรรมเป็น synthetic. Qdrant ใน notebook เป็นงานวิจัยแยกจากเว็บ</p>
+    </header>
+
+    <nav class="index" aria-label="สารบัญ pipeline">
+      <a href="#sources">01 · Data sources</a>
+      <a href="#simulator">02 · Simulator</a>
+      <a href="#retrieval">03 · Chunk &amp; embed</a>
+      <a href="#vector-store">04 · Qdrant</a>
+      <a href="#rag">05 · RAG</a>
+      <a href="#web">06 · Web &amp; Render</a>
+    </nav>
+
+    <section id="sources">
+      <h2>01 · เก็บและเตรียมข้อมูล</h2>
+      <p>แยกสายข้อมูลตลาดออกจากเอกสารข่าวและรายงาน แต่ละสายรักษา provenance และ null ตามต้นทางก่อนส่งต่อไปการวิเคราะห์</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sources-title sources-desc">
+          <title id="sources-title">การเก็บและเตรียมข้อมูล Gold Assistant</title>
+          <desc id="sources-desc">สามสายข้อมูลจากราคาทอง ข่าว Thai PBS และเอกสาร Fed กับ BLS ผ่านการทำความสะอาดและตรวจหลักฐานไปเป็นชุดข้อมูลที่ติดตามแหล่งที่มาได้</desc>
+          <defs>
+            <marker id="sources-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker>
+            <marker id="sources-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#1c2942"/></marker>
+          </defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">OBSERVED SOURCES → TRACEABLE DATASETS</text>
+          <text x="64" y="83" class="svg-subtitle">ขอบเขตเดียวกันไม่ได้แปลว่าข้อมูลมีชนิดหรือความน่าเชื่อถือแบบเดียวกัน</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+          <text x="84" y="184" class="lane-label">MARKET</text>
+          <text x="84" y="346" class="lane-label">THAI NEWS</text>
+          <text x="84" y="508" class="lane-label">MACRO REPORTS</text>
+          <line x1="64" y1="132" x2="1216" y2="132" class="lane-rule"/>
+          <line x1="64" y1="294" x2="1216" y2="294" class="lane-rule"/>
+          <line x1="64" y1="456" x2="1216" y2="456" class="lane-rule"/>
+          <line x1="64" y1="618" x2="1216" y2="618" class="lane-rule"/>
+
+          <path d="M398 213 H488" class="arrow" marker-end="url(#sources-arrow)"/>
+          <path d="M748 213 H838" class="arrow" marker-end="url(#sources-arrow)"/>
+          <path d="M398 375 H488" class="arrow" marker-end="url(#sources-link)"/>
+          <path d="M748 375 H838" class="arrow" marker-end="url(#sources-arrow)"/>
+          <path d="M398 537 H488" class="arrow" marker-end="url(#sources-arrow)"/>
+          <path d="M748 537 H838" class="arrow" marker-end="url(#sources-arrow)"/>
+
+          <g class="node external">
+            <rect x="176" y="163" width="222" height="100" rx="6"/>
+            <text x="192" y="188" class="tag">GTA · OBSERVED</text>
+            <text x="192" y="219" class="node-title">ตารางราคา HTML</text>
+            <text x="192" y="242" class="node-sub">ทองแท่ง · รูปพรรณ · Spot · FX</text>
+          </g>
+          <g class="node backend focal">
+            <rect x="488" y="163" width="260" height="100" rx="6"/>
+            <text x="504" y="188" class="tag">PARSE · FEATURE ENGINEERING</text>
+            <text x="504" y="219" class="node-title">ตรวจและสร้าง features</text>
+            <text x="504" y="242" class="node-sub">รักษา null · ไม่ interpolate</text>
+          </g>
+          <g class="node store">
+            <rect x="838" y="163" width="294" height="100" rx="6"/>
+            <text x="854" y="188" class="tag">CSV + PARQUET · DAILY</text>
+            <text x="854" y="219" class="node-title">6,261 แถว · 2006–2026</text>
+            <text x="854" y="242" class="node-sub">features ใช้กับ simulator / เว็บ</text>
+          </g>
+
+          <g class="node external">
+            <rect x="176" y="325" width="222" height="100" rx="6"/>
+            <text x="192" y="350" class="tag">THAI PBS API</text>
+            <text x="192" y="381" class="node-title">ข่าวภาษาไทย</text>
+            <text x="192" y="404" class="node-sub">articles · source URL · dates</text>
+          </g>
+          <g class="node backend">
+            <rect x="488" y="325" width="260" height="100" rx="6"/>
+            <text x="504" y="350" class="tag">LLM CLASSIFY + AUDIT</text>
+            <text x="504" y="381" class="node-title">direct / indirect / uncertain</text>
+            <text x="504" y="404" class="node-sub">แยก relevance ไม่ใช่ causal label</text>
+          </g>
+          <g class="node store">
+            <rect x="838" y="325" width="294" height="100" rx="6"/>
+            <text x="854" y="350" class="tag">JSONL · AUDIT V2</text>
+            <text x="854" y="381" class="node-title">885 audit · direct 9 เรื่อง</text>
+            <text x="854" y="404" class="node-sub">เก็บหลักฐาน / metadata ของโมเดล</text>
+          </g>
+
+          <g class="node external">
+            <rect x="176" y="487" width="222" height="100" rx="6"/>
+            <text x="192" y="512" class="tag">FEDERAL RESERVE + BLS</text>
+            <text x="192" y="543" class="node-title">Fed · CPI · Employment</text>
+            <text x="192" y="566" class="node-sub">archives · ข่าวนโยบาย · รายงาน</text>
+          </g>
+          <g class="node backend">
+            <rect x="488" y="487" width="260" height="100" rx="6"/>
+            <text x="504" y="512" class="tag">CLEAN · DEDUP · CLASSIFY</text>
+            <text x="504" y="543" class="node-title">รักษาหัวข้อและตาราง</text>
+            <text x="504" y="566" class="node-sub">encoding repair · provenance</text>
+          </g>
+          <g class="node store">
+            <rect x="838" y="487" width="294" height="100" rx="6"/>
+            <text x="854" y="512" class="tag">5,049 DOCUMENTS</text>
+            <text x="854" y="543" class="node-title">Fed 4,553 · CPI 248 · NFP 248</text>
+            <text x="854" y="566" class="node-sub">JSONL / sectioned report JSON</text>
+          </g>
+
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/>
+          <text x="96" y="679" class="legend-text">แหล่งต้นทาง</text>
+          <circle cx="284" cy="674" r="6" class="legend-process"/>
+          <text x="298" y="679" class="legend-text">เทคนิคเตรียมข้อมูล</text>
+          <circle cx="548" cy="674" r="6" class="legend-store"/>
+          <text x="562" y="679" class="legend-text">ไฟล์ที่ตรวจสอบย้อนกลับได้</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">source label ≠ proof of causality</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>เก็บ source URL / publication date, ซ่อม encoding และ deduplicate เอกสาร, เก็บตาราง BLS เป็น raw blocks และใช้ LLM classify ข่าวพร้อม evidence/audit metadata</p></div>
+        <div class="technique-list"><code>provenance</code><code>dedup</code><code>section-aware</code><code>null-preserving</code><code>human-auditable labels</code></div>
+      </div>
+    </section>
+
+    <section id="simulator">
+      <h2>02 · Historical replay และ Monte Carlo simulator</h2>
+      <p>แยก observed quotes ออกจากกฎพฤติกรรมที่เป็นสมมติฐาน ก่อน replay ให้เกิด ledger สังเคราะห์ที่ทำซ้ำและกระทบยอดได้</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sim-title sim-desc">
+          <title id="sim-title">Historical replay และ Monte Carlo simulator</title>
+          <desc id="sim-desc">ราคาทองที่สังเกตจริงและสมมติฐานพอร์ตป้อนเข้า event-driven Monte Carlo แบบ seeded ซึ่งใช้ no-look-ahead สร้าง ledger และตรวจบัญชี</desc>
+          <defs><marker id="sim-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">OBSERVED QUOTES + EXPLICIT ASSUMPTIONS</text>
+          <text x="64" y="83" class="svg-subtitle">ราคาตลาดและสมมติฐานเป็น inputs แยกกัน ผลคือ scenario population ไม่ใช่ข้อมูลลูกค้าจริง</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+
+          <path d="M284 310 H330 Q338 310 338 318 V350 Q338 358 346 358 H370" class="arrow" marker-end="url(#sim-arrow)"/>
+          <path d="M284 470 H338 Q346 470 346 462 V422 Q346 414 354 414 H370" class="arrow" marker-end="url(#sim-arrow)"/>
+          <path d="M580 390 H650" class="arrow" marker-end="url(#sim-arrow)"/>
+          <path d="M870 390 H940" class="arrow" marker-end="url(#sim-arrow)"/>
+
+          <g class="node external">
+            <rect x="64" y="250" width="220" height="120" rx="6"/>
+            <text x="80" y="276" class="tag">OBSERVED · GTA</text>
+            <text x="80" y="309" class="node-title">ราคา 6,261 วัน</text>
+            <text x="80" y="334" class="node-sub">2006-05 → 2026-10</text>
+            <text x="80" y="354" class="node-sub">last valid quote of day</text>
+          </g>
+          <g class="node backend">
+            <rect x="64" y="410" width="220" height="120" rx="6"/>
+            <text x="80" y="436" class="tag">ASSUMPTIONS</text>
+            <text x="80" y="469" class="node-title">8 archetypes</text>
+            <text x="80" y="494" class="node-sub">เงิน / ความถี่ / กฎ</text>
+            <text x="80" y="514" class="node-sub">explicit simulation parameters</text>
+          </g>
+          <g class="node backend focal">
+            <rect x="370" y="330" width="210" height="120" rx="6"/>
+            <text x="386" y="356" class="tag">EVENT-DRIVEN MC</text>
+            <text x="386" y="389" class="node-title">Seeded replay</text>
+            <text x="386" y="414" class="node-sub">21 cohorts × 50</text>
+            <text x="386" y="434" class="node-sub">as-of · no look-ahead</text>
+          </g>
+          <g class="node store">
+            <rect x="650" y="330" width="220" height="120" rx="6"/>
+            <text x="666" y="356" class="tag">LEDGERS</text>
+            <text x="666" y="389" class="node-title">1,050 portfolios</text>
+            <text x="666" y="414" class="node-sub">40,466 transactions</text>
+            <text x="666" y="434" class="node-sub">flows separated from P&amp;L</text>
+          </g>
+          <g class="node store">
+            <rect x="940" y="330" width="240" height="120" rx="6"/>
+            <text x="956" y="356" class="tag">REPLAY OUTPUTS</text>
+            <text x="956" y="389" class="node-title">121,639 valuations</text>
+            <text x="956" y="414" class="node-sub">accounting failures: 0</text>
+            <text x="956" y="434" class="node-sub">attribution failures: 0</text>
+          </g>
+
+          <rect x="64" y="556" width="1152" height="64" rx="6" class="note-box"/>
+          <text x="88" y="582" class="note-title">การตีความผล</text>
+          <text x="88" y="606" class="note-copy">บัญชีกระทบยอดได้ ≠ พฤติกรรมผู้ลงทุนถูก calibrate; เงินตั้งต้น ความถี่ซื้อขาย และสัดส่วนพฤติกรรมยังเป็นสมมติฐาน</text>
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">ข้อมูลตลาดที่สังเกตได้</text>
+          <circle cx="334" cy="674" r="6" class="legend-process"/><text x="348" y="679" class="legend-text">โมเดล / สมมติฐาน</text>
+          <circle cx="552" cy="674" r="6" class="legend-store"/><text x="566" y="679" class="legend-text">synthetic outputs</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">seed 20261022 · R_FEATURE_V1</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>Event-driven historical replay, per-cohort/per-portfolio seeded RNG, monthly decision grid, as-of PriceBook จำกัด look-ahead, cashflow ledger แยกจาก P&amp;L และ weighted-average-cost accounting</p></div>
+        <div class="technique-list"><code>Monte Carlo</code><code>no look-ahead</code><code>SeedSequence</code><code>8 behavior archetypes</code><code>reconcilable P&amp;L</code></div>
+      </div>
+    </section>
+
+    <section id="retrieval">
+      <h2>03 · Chunking, Embedding และ Retrieval Evaluation</h2>
+      <p>เปรียบเทียบโครงสร้าง chunk บนคำถามเดียวกันด้วยโมเดลเดียวกัน และใช้ exact cosine เพื่อวัดผล chunking โดยไม่ปะปน ANN index</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="retrieval-title retrieval-desc">
+          <title id="retrieval-title">Chunking และ embedding evaluation pipeline</title>
+          <desc id="retrieval-desc">เอกสารห้าพันห้าสิบแปดฉบับถูกแบ่งเป็น chunks ห้าวิธี แล้วฝังเวกเตอร์ด้วย BGE-M3 เพื่อค้นเทียบกับคำถามและ evidence ground truth 114 ข้อ</desc>
+          <defs><marker id="ret-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">CONTROLLED RETRIEVAL EXPERIMENT</text>
+          <text x="64" y="83" class="svg-subtitle">เปลี่ยนวิธี chunk — คง embedding model, query set และ similarity method</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+
+          <path d="M254 338 H302" class="arrow" marker-end="url(#ret-arrow)"/>
+          <path d="M468 338 H516" class="arrow" marker-end="url(#ret-arrow)"/>
+          <path d="M682 338 H730" class="arrow" marker-end="url(#ret-arrow)"/>
+          <path d="M896 338 H944" class="arrow" marker-end="url(#ret-arrow)"/>
+
+          <g class="node external">
+            <rect x="64" y="276" width="190" height="124" rx="6"/>
+            <text x="80" y="302" class="tag">STRUCTURED CORPUS</text>
+            <text x="80" y="337" class="node-title">5,058 เอกสาร</text>
+            <text x="80" y="362" class="node-sub">19,784 chunks</text>
+            <text x="80" y="384" class="node-sub">0 blank / duplicate chunk IDs</text>
+          </g>
+          <g class="node backend">
+            <rect x="302" y="276" width="166" height="124" rx="6"/>
+            <text x="318" y="302" class="tag">CHUNK METHODS</text>
+            <text x="318" y="337" class="node-title">5 strategies</text>
+            <text x="318" y="362" class="node-sub">20k chunks, max 1,800</text>
+            <text x="318" y="384" class="node-sub">structure-aware included</text>
+          </g>
+          <g class="node backend focal">
+            <rect x="516" y="276" width="166" height="124" rx="6"/>
+            <text x="532" y="302" class="tag">CLOUDFLARE AI</text>
+            <text x="532" y="337" class="node-title">BGE-M3</text>
+            <text x="532" y="362" class="node-sub">1,024 dimensions</text>
+            <text x="532" y="384" class="node-sub">one model · all methods</text>
+          </g>
+          <g class="node backend">
+            <rect x="730" y="276" width="166" height="124" rx="6"/>
+            <text x="746" y="302" class="tag">LOCAL EVALUATION</text>
+            <text x="746" y="337" class="node-title">Exact cosine</text>
+            <text x="746" y="362" class="node-sub">114 queries + spans</text>
+            <text x="746" y="384" class="node-sub">Top-K evidence ranking</text>
+          </g>
+          <g class="node store">
+            <rect x="944" y="276" width="272" height="124" rx="6"/>
+            <text x="960" y="302" class="tag">METRICS · TOP 10</text>
+            <text x="960" y="337" class="node-title">Evidence recall up to 83.3%</text>
+            <text x="960" y="362" class="node-sub">Adaptive 83.3% · structure 81.6%</text>
+            <text x="960" y="384" class="node-sub">MRR best: structure-aware 0.640</text>
+          </g>
+
+          <rect x="64" y="468" width="1152" height="76" rx="6" class="note-box"/>
+          <text x="88" y="498" class="note-title">ระวังการอ้างผล</text>
+          <text x="88" y="524" class="note-copy">ทั้ง 114 queries ยังรอ human semantic review; คะแนนเป็น provisional และ Ground Truth ที่ดีมีผลต่อข้อสรุป</text>
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">ชุดคำถาม / หลักฐาน</text>
+          <circle cx="328" cy="674" r="6" class="legend-process"/><text x="342" y="679" class="legend-text">ขั้นทดลองควบคุม</text>
+          <circle cx="552" cy="674" r="6" class="legend-store"/><text x="566" y="679" class="legend-text">ผล retrieval</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">development 21 · validation 25 · test 68</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>Structure-aware chunking รักษาหัวข้อรายงาน; Adaptive ได้ evidence recall@10 สูงสุด 83.3%; structure-aware ให้ Evidence MRR สูงสุด 0.640 — ไม่มีวิธีชนะทุก metric</p></div>
+        <div class="technique-list"><code>5 chunking strategies</code><code>BGE-M3 · 1,024D</code><code>exact cosine</code><code>Recall@K</code><code>MRR@10</code></div>
+      </div>
+    </section>
+
+    <section id="vector-store">
+      <h2>04 · สร้าง Vector Store บน Qdrant</h2>
+      <p>Notebook ตรวจ hash และ checkpoint ก่อน batch upsert; จำนวนจุดใน cloud และไฟล์ checkpoint ที่เหลือต้องตรวจให้ตรงกันก่อนเชื่อว่า index ปัจจุบันครบ</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vector-title vector-desc">
+          <title id="vector-title">Vector store ingestion ไปยัง Qdrant</title>
+          <desc id="vector-desc">Structure-aware chunks ถูกตรวจ hash จับคู่ embedding ที่ cache ไว้ แล้ว batch upsert ไปยัง Qdrant พร้อมตรวจ exact point count และ checkpoint consistency</desc>
+          <defs><marker id="vec-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">HASHED EMBEDDINGS → PERSISTENT VECTOR INDEX</text>
+          <text x="64" y="83" class="svg-subtitle">RAG research stack; ไม่ใช่ data store ของเว็บ Render</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+
+          <path d="M270 338 H328" class="arrow" marker-end="url(#vec-arrow)"/>
+          <path d="M492 338 H550" class="arrow" marker-end="url(#vec-arrow)"/>
+          <path d="M714 338 H772" class="arrow" marker-end="url(#vec-arrow)"/>
+          <path d="M936 338 H994" class="arrow" marker-end="url(#vec-arrow)"/>
+
+          <g class="node external">
+            <rect x="64" y="278" width="206" height="120" rx="6"/>
+            <text x="80" y="304" class="tag">INPUT · JSONL</text>
+            <text x="80" y="337" class="node-title">19,784 chunks</text>
+            <text x="80" y="362" class="node-sub">unique IDs · 0 empty</text>
+            <text x="80" y="382" class="node-sub">structure-aware corpus</text>
+          </g>
+          <g class="node backend">
+            <rect x="328" y="278" width="164" height="120" rx="6"/>
+            <text x="344" y="304" class="tag">CACHE / RESUME</text>
+            <text x="344" y="337" class="node-title">Text SHA-256</text>
+            <text x="344" y="362" class="node-sub">BGE-M3 · 1,024D</text>
+            <text x="344" y="382" class="node-sub">cached vectors 19,784</text>
+          </g>
+          <g class="node backend">
+            <rect x="550" y="278" width="164" height="120" rx="6"/>
+            <text x="566" y="304" class="tag">BATCH INGESTION</text>
+            <text x="566" y="337" class="node-title">Batch upsert</text>
+            <text x="566" y="362" class="node-sub">64 points / batch</text>
+            <text x="566" y="382" class="node-sub">wait=true · resumable</text>
+          </g>
+          <g class="node store focal">
+            <rect x="772" y="278" width="164" height="120" rx="6"/>
+            <text x="788" y="304" class="tag">QDRANT CLOUD</text>
+            <text x="788" y="337" class="node-title">gold_news_…</text>
+            <text x="788" y="362" class="node-sub">Cosine · 19,784 points</text>
+            <text x="788" y="382" class="node-sub">notebook count</text>
+          </g>
+          <g class="node store">
+            <rect x="994" y="278" width="222" height="120" rx="6"/>
+            <text x="1010" y="304" class="tag">VERIFY BEFORE USE</text>
+            <text x="1010" y="337" class="node-title">Cloud vs checkpoint</text>
+            <text x="1010" y="362" class="node-sub">workspace files differ</text>
+            <text x="1010" y="382" class="node-sub">reconcile exact count</text>
+          </g>
+
+          <rect x="64" y="468" width="1152" height="76" rx="6" class="note-box"/>
+          <text x="88" y="498" class="note-title">ความไม่สอดคล้องที่ต้องจัดการ</text>
+          <text x="88" y="524" class="note-copy">Notebook ระบุ 19,784 points; workspace checkpoint มี 6,080 IDs และ journal 13,640 IDs — ตรวจ ID set กับ Cloud ก่อนอ้างว่า sync ครบ</text>
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">chunk input</text>
+          <circle cx="248" cy="674" r="6" class="legend-process"/><text x="262" y="679" class="legend-text">hash / batch logic</text>
+          <circle cx="466" cy="674" r="6" class="legend-store"/><text x="480" y="679" class="legend-text">Qdrant collection</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">collection: gold_news_structure_aware</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>ตรวจ text hash และ vector dimension, cache เพื่อ resume embeddings, chunk-level checkpoint สำหรับ upsert และ exact count verification; อย่าฝัง API key ใน notebook/output ที่แชร์</p></div>
+        <div class="technique-list"><code>SHA-256</code><code>checkpoint / resume</code><code>batch upsert</code><code>cosine distance</code><code>exact count</code></div>
+      </div>
+    </section>
+
+    <section id="rag">
+      <h2>05 · Retrieval-Augmented Generation และการประเมิน</h2>
+      <p>ผสาน lexical และ semantic retrieval, rerank evidence แล้วสร้างคำตอบที่เก็บ citation; วัด retrieval, citation, schema และ latency แยกกัน</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rag-title rag-desc">
+          <title id="rag-title">Retrieval augmented generation pipeline</title>
+          <desc id="rag-desc">คำถามเข้าสู่ dense และ BM25 search รวมอันดับด้วย reciprocal-rank fusion แล้ว rerank ด้วย Jina ก่อนสร้างคำตอบแบบรักษา citation และประเมินผล</desc>
+          <defs><marker id="rag-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">RETRIEVE → RERANK → GENERATE → AUDIT</text>
+          <text x="64" y="83" class="svg-subtitle">แยก coverage, citation integrity, output validity และเวลาตอบ</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+
+          <path d="M254 338 H302" class="arrow" marker-end="url(#rag-arrow)"/>
+          <path d="M468 338 H516" class="arrow" marker-end="url(#rag-arrow)"/>
+          <path d="M682 338 H730" class="arrow" marker-end="url(#rag-arrow)"/>
+          <path d="M896 338 H944" class="arrow" marker-end="url(#rag-arrow)"/>
+
+          <g class="node external">
+            <rect x="64" y="276" width="190" height="124" rx="6"/>
+            <text x="80" y="302" class="tag">QUESTION</text>
+            <text x="80" y="337" class="node-title">114 Ground Truth</text>
+            <text x="80" y="362" class="node-sub">ภาษาไทย / อังกฤษ</text>
+            <text x="80" y="384" class="node-sub">query + evidence span</text>
+          </g>
+          <g class="node backend">
+            <rect x="302" y="276" width="166" height="124" rx="6"/>
+            <text x="318" y="302" class="tag">HYBRID SEARCH</text>
+            <text x="318" y="337" class="node-title">Dense + BM25</text>
+            <text x="318" y="362" class="node-sub">RRF · k = 60</text>
+            <text x="318" y="384" class="node-sub">merge ranked candidates</text>
+          </g>
+          <g class="node backend focal">
+            <rect x="516" y="276" width="166" height="124" rx="6"/>
+            <text x="532" y="302" class="tag">RERANK</text>
+            <text x="532" y="337" class="node-title">Jina Reranker</text>
+            <text x="532" y="362" class="node-sub">hybrid + Jina</text>
+            <text x="532" y="384" class="node-sub">Recall@10 52.6%</text>
+          </g>
+          <g class="node backend">
+            <rect x="730" y="276" width="166" height="124" rx="6"/>
+            <text x="746" y="302" class="tag">GROUNDED ANSWER</text>
+            <text x="746" y="337" class="node-title">Prompt A2 / A3</text>
+            <text x="746" y="362" class="node-sub">รักษา citation ID</text>
+            <text x="746" y="384" class="node-sub">structured response</text>
+          </g>
+          <g class="node store">
+            <rect x="944" y="276" width="272" height="124" rx="6"/>
+            <text x="960" y="302" class="tag">EVALUATION</text>
+            <text x="960" y="337" class="node-title">Evidence · citation · schema</text>
+            <text x="960" y="362" class="node-sub">342 runs / variant</text>
+            <text x="960" y="384" class="node-sub">A2 citation 93–96%*</text>
+          </g>
+
+          <rect x="64" y="468" width="1152" height="76" rx="6" class="note-box"/>
+          <text x="88" y="498" class="note-title">ต้นทุนด้านเวลา</text>
+          <text x="88" y="524" class="note-copy">Hybrid + Jina: evidence recall +17.1 จุดเทียบ hybrid RRF; mean retrieval/rerank เพิ่มเป็น 6.40 s (ยังไม่รวม generation)</text>
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">คำถามมี evidence อ้างอิง</text>
+          <circle cx="350" cy="674" r="6" class="legend-process"/><text x="364" y="679" class="legend-text">retrieval / generation</text>
+          <circle cx="584" cy="674" r="6" class="legend-store"/><text x="598" y="679" class="legend-text">metrics &amp; audit</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">* ต่าง run / 114 queries / 3 repeats</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>Dense + BM25, RRF fusion, Jina reranking, citation-preserving prompt (A2) และ evidence-coverage/schema controls (A3). Citation ID ถูกต้องไม่ได้ยืนยันว่า claim ได้รับการสนับสนุนจริง</p></div>
+        <div class="technique-list"><code>BM25 + dense</code><code>RRF</code><code>Jina rerank</code><code>citation integrity</code><code>p95 latency</code></div>
+      </div>
+    </section>
+
+    <section id="web">
+      <h2>06 · Static data bundle ไปยังเว็บบน Render</h2>
+      <p>Build package รวม snapshot ที่ export ล่วงหน้า; API route อ่านและ cache ไฟล์ JSON — ไม่มี database, persistent disk หรือ agent integration ในรอบนี้</p>
+      <div class="diagram-container">
+        <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="web-title web-desc">
+          <title id="web-title">Pipeline ข้อมูลเว็บและ Render deployment</title>
+          <desc id="web-desc">Parquet ต้นทางถูก export เป็น gzip JSON พร้อม manifest แล้วรวมใน Next.js standalone และให้หน้าเว็บกับ read-only API บน Render โดยไม่ใช้ฐานข้อมูล</desc>
+          <defs><marker id="web-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
+          <rect width="1280" height="720" fill="#fbf8f1"/>
+          <text x="64" y="52" class="svg-kicker">VERSIONED SNAPSHOT · READ-ONLY RUNTIME</text>
+          <text x="64" y="83" class="svg-subtitle">อัปเดตข้อมูลด้วยการ export + deploy รุ่นใหม่ ไม่เขียนลง filesystem ของ service</text>
+          <line x1="64" y1="111" x2="1216" y2="111" class="rule"/>
+
+          <path d="M270 338 H328" class="arrow" marker-end="url(#web-arrow)"/>
+          <path d="M492 338 H550" class="arrow" marker-end="url(#web-arrow)"/>
+          <path d="M714 338 H772" class="arrow" marker-end="url(#web-arrow)"/>
+          <path d="M936 338 H994" class="arrow" marker-end="url(#web-arrow)"/>
+
+          <g class="node external">
+            <rect x="64" y="278" width="206" height="120" rx="6"/>
+            <text x="80" y="304" class="tag">VERSIONED INPUT</text>
+            <text x="80" y="337" class="node-title">Source Parquet</text>
+            <text x="80" y="362" class="node-sub">market + simulator tables</text>
+            <text x="80" y="382" class="node-sub">audit synthetic flag</text>
+          </g>
+          <g class="node backend">
+            <rect x="328" y="278" width="164" height="120" rx="6"/>
+            <text x="344" y="304" class="tag">EXPORT SCRIPT</text>
+            <text x="344" y="337" class="node-title">Validate + hash</text>
+            <text x="344" y="362" class="node-sub">counts · run ID · SHA-256</text>
+            <text x="344" y="382" class="node-sub">gzip level 9</text>
+          </g>
+          <g class="node store focal">
+            <rect x="550" y="278" width="164" height="120" rx="6"/>
+            <text x="566" y="304" class="tag">IMMUTABLE BUNDLE</text>
+            <text x="566" y="337" class="node-title">7.1 MB · gzip</text>
+            <text x="566" y="362" class="node-sub">manifest + JSON.gz</text>
+            <text x="566" y="382" class="node-sub">read-only snapshot</text>
+          </g>
+          <g class="node backend">
+            <rect x="772" y="278" width="164" height="120" rx="6"/>
+            <text x="788" y="304" class="tag">NEXT STANDALONE</text>
+            <text x="788" y="337" class="node-title">API + UI</text>
+            <text x="788" y="362" class="node-sub">manifest · tables</text>
+            <text x="788" y="382" class="node-sub">cache per process</text>
+          </g>
+          <g class="node external">
+            <rect x="994" y="278" width="222" height="120" rx="6"/>
+            <text x="1010" y="304" class="tag">RENDER · WEB SERVICE</text>
+            <text x="1010" y="337" class="node-title">Deploy from Blueprint</text>
+            <text x="1010" y="362" class="node-sub">health: /api · PORT provided</text>
+            <text x="1010" y="382" class="node-sub">no database / no disk</text>
+          </g>
+
+          <rect x="64" y="468" width="1152" height="76" rx="6" class="note-box"/>
+          <text x="88" y="498" class="note-title">Boundary ของ release นี้</text>
+          <text x="88" y="524" class="note-copy">หน้าเว็บอ่านตารางได้; ยังไม่ส่ง selected portfolio ไปยัง workflow ของ agent 5 ตัว และไม่มี live price feed</text>
+          <line x1="64" y1="640" x2="1216" y2="640" class="rule"/>
+          <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">source / hosting</text>
+          <circle cx="268" cy="674" r="6" class="legend-process"/><text x="282" y="679" class="legend-text">build-time transform</text>
+          <circle cx="510" cy="674" r="6" class="legend-store"/><text x="524" y="679" class="legend-text">versioned artifact</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">Bun build · Node standalone runtime</text>
+        </svg>
+      </div>
+      <div class="techniques">
+        <div><h3>เทคนิคเด่น</h3><p>Build-time Parquet validation, deterministic gzip JSON, SHA-256 provenance, Node filesystem cache และ read-only paginated API; Render ไม่ต้องติดตั้ง Python หรือเชื่อมฐานข้อมูล</p></div>
+        <div class="technique-list"><code>no database</code><code>gzip snapshot</code><code>SHA-256 manifest</code><code>standalone output</code><code>read-only API</code></div>
+      </div>
+    </section>
+
+    <footer>Gold Assistant · แผนภาพสรุปจากไฟล์ artifacts และ manifests ภายในโปรเจกต์ · Palette: cream / navy / deep gold · สถิติ RAG และ retrieval เป็นผลทดลองคนละ run; Ground Truth ยังรอ semantic review</footer>
+  </main>
+
+  <style>
+    .svg-kicker { fill:#6e6552; font:600 11px "Geist Mono",monospace; letter-spacing:.14em; }
+    .svg-subtitle { fill:#6e6552; font:400 15px "Noto Sans Thai",sans-serif; }
+    .lane-label { fill:#6e6552; font:600 11px "Geist Mono",monospace; letter-spacing:.10em; }
+    .rule { stroke:#e8e0cc; stroke-width:1; }
+    .lane-rule { stroke:rgba(42,37,27,.12); stroke-width:1; }
+    .arrow { fill:none; stroke:#6e6552; stroke-width:1.5; }
+    .arrow-link { fill:none; stroke:#1c2942; stroke-width:1.5; }
+    .node rect { stroke-width:1.2; }
+    .external rect { fill:#f3ebd7; stroke:#847a65; }
+    .backend rect { fill:#fff; stroke:#2a251b; }
+    .store rect { fill:rgba(28,41,66,.045); stroke:#6e6552; }
+    .focal rect { fill:#f7e3b0; stroke:#96690c; stroke-width:1.6; }
+    .tag { fill:#6e6552; font:600 10px "Geist Mono",monospace; letter-spacing:.08em; }
+    .node-title { fill:#2a251b; font:600 16px "Noto Sans Thai",sans-serif; }
+    .node-sub { fill:#6e6552; font:400 12px "Noto Sans Thai",sans-serif; }
+    .note-box { fill:#fff; stroke:#e8e0cc; stroke-width:1; }
+    .note-title { fill:#2a251b; font:600 14px "Noto Sans Thai",sans-serif; }
+    .note-copy { fill:#6e6552; font:400 13px "Noto Sans Thai",sans-serif; }
+    .legend-external { fill:#f3ebd7; stroke:#847a65; }
+    .legend-process { fill:#fff; stroke:#2a251b; }
+    .legend-store { fill:rgba(28,41,66,.045); stroke:#6e6552; }
+    .legend-text { fill:#6e6552; font:400 12px "Noto Sans Thai",sans-serif; }
+    .svg-foot { fill:#6e6552; font:400 10px "Geist Mono",monospace; }
+  </style>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "schema_version": "structure_aware_real_v1",
+  "created_at_utc": "2026-10-27T07:26:22.254636+00:00",
+  "total_documents": 5058,
+  "total_chunks": 19784,
+  "unique_chunk_ids": 19784,
+  "duplicate_chunk_ids": 0,
+  "empty_chunks": 0,
+  "chunk_char_stats": {
+    "min": 1,
+    "median": 1199.0,
+    "mean": 1108.16,
+    "p95": 1781,
+    "max": 1800,
+    "over_max_chars": 0
+  },
+  "source_stats": {
+    "thai_pbs_gold": {
+      "documents": 9,
+      "chunks": 128
+    },
+    "fed_press_releases": {
+      "documents": 4553,
+      "chunks": 6963
+    },
+    "bls_cpi": {
+      "documents": 248,
+      "chunks": 4770
+    },
+    "bls_nfp": {
+      "documents": 248,
+      "chunks": 7923
+    }
+  },
+  "config": {
+    "target_chars": 1200,
+    "max_chars": 1800,
+    "min_chars": 250,
+    "overlap_chars": 120,
+    "approx_token_count_note": "char_count / 4 approximation, not tokenizer-exact"
+  },
+  "warnings": [
+    "Confirm all expected source files were ingested.",
+    "Inspect over_max_chars and duplicate IDs before embedding.",
+    "Approximate token counts are not exact tokenizer counts.",
+    "Source relevance and factual accuracy are not validated by chunking."
+  ],
+  "project_root": "D:\\Project_Github\\gold assisstant",
+  "output_file": "D:\\Project_Github\\gold assisstant\\embedding\\artifacts\\chunking_real\\structure_aware\\chunks_structure_aware_real.jsonl",
+  "input_paths": {
+    "thai_pbs_gold": [
+      "D:\\Project_Github\\gold assisstant\\dataset\\news\\pbs\\gold_audit_direct.jsonl"
+    ],
+    "fed_press_releases": [
+      "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases_cleaned_audit\\fed_press_releases_classified.jsonl"
+    ],
+    "bls_cpi": [
+      "D:\\Project_Github\\gold assisstant\\dataset\\news\\bls\\cpi\\clean"
+    ],
+    "bls_nfp": [
+      "D:\\Project_Github\\gold assisstant\\dataset\\news\\bls\\nfp\\clean"
+    ]
+  },
+  "records_read": {
+    "thai_pbs_gold": 9,
+    "fed_press_releases": 4553,
+    "bls_cpi": 248,
+    "bls_nfp": 248
+  },
+  "documents_after_dedup_by_source": {
+    "thai_pbs_gold": 9,
+    "fed_press_releases": 4553,
+    "bls_cpi": 248,
+    "bls_nfp": 248
+  },
+  "ingestion_errors": 0
+}

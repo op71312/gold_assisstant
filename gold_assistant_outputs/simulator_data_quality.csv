@@ -1,0 +1,15 @@
+﻿check,value,status
+simulator_table_names,"daily_market_prices, portfolio_master, transaction_ledger, portfolio_valuation_monthly, pnl_attribution_yearly, portfolio_yearly, cashflow_ledger, data_quality_summary",INFO
+transactions_rows,40089,INFO
+portfolios_rows,1050,INFO
+monthly_valuations_rows,117356,INFO
+annual_attribution_rows,10845,INFO
+daily_market_prices_rows,5933,INFO
+portfolio_synthetic_rate,1.0,WARN
+transaction_rejected_rate,0.5425927311731398,INFO
+duplicate_transaction_id_rows,21640,WARN
+duplicate_transaction_id_rate,0.5397989473421637,WARN
+attribution_reconciliation_max_abs_error_thb,0.0,PASS
+attribution_reconciliation_failure_rate_gt_0_01_thb,0.0,PASS
+attribution_quality_flags,{'RECONCILED': 10845},INFO
+valuation_non_ok_rate,0.0008095027097038073,WARN

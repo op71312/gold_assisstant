@@ -1,0 +1,22 @@
+{
+  "generator": "embedding/build_retrieval_chunk_collections.py",
+  "source_file": "dataset\\ground_truth_source_data_4_datasets.jsonl",
+  "ground_truth_file": "embedding\\embedding\\ground_truth_queries_v2.jsonl",
+  "document_count": 264,
+  "ground_truth_evidence_document_count": 49,
+  "methods": {
+    "existing_baseline": "Preserve provided BLS source chunks; split Fed and Thai PBS text into contiguous 1200-character chunks without overlap.",
+    "recursive_fixed": "Deterministic 1200-character splitting with 180-character overlap and whitespace boundaries.",
+    "structure_aware": "Preserve BLS heading sections; paragraph-group Fed and Thai PBS text to 1800 characters.",
+    "semantic": "Deterministic sentence/paragraph grouping; this is a text-boundary heuristic, not model-based semantic chunking.",
+    "adaptive": "Paragraph-aware grouping with a per-document target of 1600, 1200, or 900 characters."
+  },
+  "chunk_counts": {
+    "existing_baseline": 750,
+    "recursive_fixed": 1205,
+    "structure_aware": 671,
+    "semantic": 1332,
+    "adaptive": 1481
+  },
+  "evidence_quotes_preserved": true
+}

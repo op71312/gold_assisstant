@@ -1,0 +1,21 @@
+ground_truth_file,query_id,question_dates,expected_answer_source,expected_facts,feature_price_coverage_end,coverage_status,ground_truth_modified
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000080,2026-10-20,news_ground_truth,"gold_bar_sell_price=65,600",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000081,2026-10-20,news_ground_truth,"gold_ornament_sell_price=66,400",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000083,2026-10-23,news_ground_truth,"gold_bar_sell_price=64,350",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000084,2026-10-23,news_ground_truth,"gold_ornament_sell_price=65,150",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000086,2026-10-21,news_ground_truth,"gold_bar_sell_price=65,600",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000087,2026-10-21,news_ground_truth,"gold_ornament_sell_price=66,400",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000089,2026-10-16,news_ground_truth,"gold_bar_sell_price=66,100",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000090,2026-10-16,news_ground_truth,"gold_ornament_sell_price=66,900",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000092,2026-10-15,news_ground_truth,"gold_bar_sell_price=65,950",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000093,2026-10-15,news_ground_truth,"gold_ornament_sell_price=66,750",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000095,2026-10-15,news_ground_truth,"gold_bar_sell_price=65,850",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000096,2026-10-15,news_ground_truth,"gold_ornament_sell_price=66,650",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000098,2026-10-14,news_ground_truth,"gold_bar_sell_price=66,200",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000099,2026-10-14,news_ground_truth,"gold_ornament_sell_price=67,000",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000101,2026-10-22,news_ground_truth,"gold_bar_sell_price=65,350",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000102,2026-10-22,news_ground_truth,"gold_ornament_sell_price=66,150",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000104,2026-10-14,news_ground_truth,"gold_bar_sell_price=65,950",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000105,2026-10-14,news_ground_truth,"gold_ornament_sell_price=66,750",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000110,2026-10-20;2026-10-23,news_ground_truth,"gold_bar_sell_price=65,600; gold_bar_sell_price=64,350; gold_bar_sell_price_difference=-1250.0",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False
+D:\Project_Github\gold assisstant\embedding\embedding\ground_truth_queries_v2.jsonl,gtv2_000113,2026-10-20,news_ground_truth,"gold_bar_sell_price=65,600; gold_ornament_sell_price=66,400",2026-10-13,OUT_OF_FEATURE_PRICE_COVERAGE,False

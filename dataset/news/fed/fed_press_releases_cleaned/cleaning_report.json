@@ -1,0 +1,24 @@
+{
+  "input_file": "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases.jsonl",
+  "input_records": 4658,
+  "archive_index_records_separated": 29,
+  "article_records_raw": 4629,
+  "duplicate_article_urls_removed": 0,
+  "clean_article_records": 4629,
+  "rag_chunks": 7200,
+  "missing_publication_date": 0,
+  "publication_date_source_counts": {
+    "content": 4629
+  },
+  "empty_or_short_clean_content": 0,
+  "records_with_encoding_repairs": 511,
+  "encoding_sequences_repaired": 1124,
+  "records_with_cleaning_flags": 2309,
+  "needs_review_records": 0,
+  "outputs": {
+    "clean_dataset": "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases_cleaned\\fed_press_releases_clean.jsonl",
+    "archive_pages": "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases_cleaned\\fed_press_release_archive_pages_raw.jsonl",
+    "rag_chunks": "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases_cleaned\\fed_press_releases_rag_chunks.jsonl",
+    "needs_review": "D:\\Project_Github\\gold assisstant\\dataset\\news\\fed\\fed_press_releases_cleaned\\fed_press_releases_needs_review.jsonl"
+  }
+}

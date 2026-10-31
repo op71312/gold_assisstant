@@ -1,0 +1,2 @@
+﻿query_id,coverage_status,dense_known_relevant_recall@10,bm25_known_relevant_recall@10,hybrid_known_relevant_recall@10,hybrid_known_relevant_recall@40,reranked_known_relevant_recall@10,dense_matched_document_ids,bm25_matched_document_ids,hybrid_matched_document_ids,reranked_matched_document_ids
+thgold_006,COVERED,1.0,0.0,0.0,1.0,0.0,"[""1ec6014a322f4692""]","[""1ec6014a322f4692""]","[""1ec6014a322f4692""]",[]

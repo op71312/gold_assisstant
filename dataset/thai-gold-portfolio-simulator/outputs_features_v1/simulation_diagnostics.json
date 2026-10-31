@@ -1,0 +1,62 @@
+{
+  "simulation_run_id": "R_FEATURE_V1",
+  "label": "feature-dataset-recalculation",
+  "generated_at": "2026-10-28T13:13:07.865149+00:00",
+  "total_portfolios": 1050,
+  "total_cohorts": 21,
+  "cohorts": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "total_transaction_events": 40573,
+  "accepted_transactions": 19205,
+  "rejected_transactions": 21368,
+  "rejection_reasons": {
+    "BELOW_MIN_TRADE_UNIT": 20853,
+    "": 19205,
+    "NO_VALID_PRICE": 515
+  },
+  "portfolio_year_records": 10827,
+  "monthly_valuation_records": 121639,
+  "cashflow_records": 13200,
+  "attribution_records": 10827,
+  "missing_invalid_price_events": 515,
+  "accounting_reconciliation_failures": 0,
+  "accounting_reconciliation_max_error_thb": 2.277083694934845e-05,
+  "attribution_residual_failures": 0,
+  "attribution_max_residual_thb": 2.277083694934845e-05,
+  "reproducibility": {
+    "global_seed": 20261022,
+    "seed_mechanism": "numpy SeedSequence spawn: cohort <- global, portfolio <- cohort",
+    "parameter_set_id": "PS_R_FEATURE_V1"
+  },
+  "calibration_gaps": [
+    "transaction_frequency",
+    "transaction_size",
+    "initial_capital",
+    "holding_period",
+    "ornament_buyback_quote",
+    "behavior_weights"
+  ],
+  "warnings": [],
+  "validation_failures": []
+}

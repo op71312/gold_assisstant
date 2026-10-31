@@ -1,0 +1,48 @@
+{
+  "run_id": "20261029T110207Z-31b9646e",
+  "experiment": "GAIB-1 targeted token root-cause v1",
+  "created_at_utc": "2026-10-29T11:02:34.960065+00:00",
+  "baseline_run_id": "20261028T150635Z-99522ade",
+  "baseline_run_dir": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\runs\\reliability_phase1_2\\20261028T150635Z-99522ade",
+  "baseline_telemetry_sha256": "0279d7ece1f31e6289e88ed5f77b53386cc9b8d5c8d1a588fd1e846ca6e0d853",
+  "notebook_path": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb",
+  "notebook_sha256": "b4d19a7cebc030206c19b684e5ea63b0af367dc9021d03b12f4363201323af6f",
+  "builder_sha256": "4d78db29d33c171e3d2d0cbdf55e18ef167c4c9c588613d456bcc4f20b1f9eb4",
+  "raw_diagnostics_path": "C:\\Users\\User\\.copilot\\session-state\\gaib-1-token-root-cause\\20261029T110207Z-31b9646e\\protected_raw_diagnostics.jsonl",
+  "model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+  "prompt_version": "claim-evidence-v1",
+  "schema_version": "agent-contract-v1",
+  "phase0": {
+    "status": "PASS",
+    "selected_query_count": 5,
+    "expected_historical_agent_records": 25,
+    "observed_historical_agent_records": 25,
+    "unique_query_agent_pairs": 25,
+    "missing_pairs": [],
+    "duplicate_pairs": [],
+    "contradictory_success_rows": 0,
+    "historical_notebook_hash_available": false,
+    "historical_raw_response_available": false,
+    "historical_max_tokens_requested_available": false
+  },
+  "configuration": {
+    "temperature": 0.0,
+    "baseline_agent_max_tokens": 900,
+    "increase_token_variants": [
+      1200,
+      1500
+    ],
+    "ai3_compact_output_default": true,
+    "agent5_max_tokens": 1600,
+    "agents_concurrent_default": true,
+    "retrieval_model": "@cf/baai/bge-m3",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "rrf_k": 60,
+    "final_k": 10,
+    "jina_model": "jina-reranker-v3.5"
+  },
+  "remote_experiment_opt_in": false,
+  "planned_repair_ablation_max_pairs": 3
+}

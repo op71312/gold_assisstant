@@ -1,0 +1,27 @@
+{
+  "run_timestamp_utc": "2026-10-28T03:33:24.582355+00:00",
+  "query_count": 114,
+  "measured_repeats": 3,
+  "warmup_queries": 1,
+  "variants": [
+    "baseline",
+    "A_compact_prompt",
+    "B_jina_20"
+  ],
+  "experiment_c": "already_parallel",
+  "pipeline": {
+    "embedding_model": "@cf/baai/bge-m3",
+    "reranker_model": "jina-reranker-v3.5",
+    "thai_llm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "baseline_jina_candidates": 40,
+    "experiment_b_jina_candidates": 20,
+    "final_k": 10,
+    "rrf_k": 60,
+    "temperature": 0,
+    "max_tokens": 1200
+  },
+  "code_version": "not_recorded"
+}

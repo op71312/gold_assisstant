@@ -1,0 +1,17 @@
+{
+  "warmup_jina_statuses": [
+    "hybrid_fallback"
+  ],
+  "warmup_jina_details": [
+    {
+      "rerank_status": "hybrid_fallback",
+      "rerank_http_status": 401,
+      "rerank_error_type": "HTTPError",
+      "rerank_error_reason": "HTTP 401",
+      "rerank_attempts": 1,
+      "rerank_timeout": false
+    }
+  ],
+  "status": "blocked_preflight",
+  "preflight_error": "Jina warm-up failed ({'rerank_status': 'hybrid_fallback', 'rerank_http_status': 401, 'rerank_error_type': 'HTTPError', 'rerank_error_reason': 'HTTP 401', 'rerank_attempts': 1, 'rerank_timeout': False}); verify that JINA_API_KEY is valid and enabled. No LLM warm-up or measured benchmark queries were run."
+}

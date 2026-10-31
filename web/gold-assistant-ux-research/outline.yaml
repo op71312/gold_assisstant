@@ -1,0 +1,83 @@
+topic: "UX needs of real users for Gold Assistant (Thai retail gold investor AI dashboard)"
+created: 2026-10-28
+time_range: "prefer 2024-2026, unlimited acceptable"
+purpose: >
+  Deep research to support a full UX redesign of the Gold Assistant single-page app
+  (Thai-language gold portfolio dashboard + 5-agent AI analysis team).
+  Goal: understand what real users of such a product actually need, which UX patterns
+  work in Thai retail gold investing and in AI-assistant fintech products, and convert
+  findings into concrete design decisions.
+
+items:
+  - name: "Segment: First-time gold savers"
+    slug: segment_first_time_savers
+    category: User Segments
+    description: >
+      Thai retail users new to gold investing who buy small gold bars or gold savings apps
+      as a form of saving. Limited financial vocabulary (may not know realized/unrealized,
+      volatility, drawdown). Often decide based on shop price boards and word of mouth.
+
+  - name: "Segment: DCA long-term accumulators"
+    slug: segment_dca_accumulators
+    category: User Segments
+    description: >
+      Thai gold investors who accumulate regularly (monthly baht-cost averaging into
+      96.5% gold bars or gold savings), hold for years, care about average cost,
+      total return vs cash, and whether to keep buying when price corrects.
+
+  - name: "Segment: Active short-term gold traders"
+    slug: segment_active_traders
+    category: User Segments
+    description: >
+      Thai users who trade gold frequently (online gold trading apps, spot/futures,
+      96.5% bars), follow DXY / US10Y / Fed news closely, want fast charts, alerts,
+      and clear buy/sell timing context.
+
+  - name: "Segment: Traditional older shop customers"
+    slug: segment_traditional_seniors
+    category: User Segments
+    description: >
+      Older Thai users used to walk-in gold shops (Yiwarat price boards), buy jewelry
+      or bars over the counter, lower digital literacy, larger font and simple flows needed,
+      strong distrust of anything that looks like a scam.
+
+  - name: "Benchmark: Thai gold apps"
+    slug: benchmark_thai_gold_apps
+    category: Product Benchmarks
+    description: >
+      Popular Thai gold buying/tracking apps and their UX: YLindo, Kaiy (Gahtong),
+      GT Goldtrend (goldpricethai), V-GO Online / MTS gold trading, bank gold savings
+      (e.g. baht-denominated gold accounts). What users praise and complain about
+      (App Store / Google Play reviews, user discussions).
+
+  - name: "Benchmark: Global fintech dashboards with AI"
+    slug: benchmark_global_fintech
+    category: Product Benchmarks
+    description: >
+      Global consumer investing products with strong UX and/or AI assistant:
+      Revolut (gold/commodities), Robinhood, Wealthsimple, Cleo (AI money chat),
+      Copilot Money, Empower/Personal Capital dashboards. What makes their
+      dashboards feel easy, how they explain numbers, how AI insights are presented.
+
+  - name: "Pattern: AI assistant transparency and trust UX"
+    slug: pattern_ai_trust_ux
+    category: Design Patterns
+    description: >
+      Research on UX patterns for multi-agent / AI analysis transparency:
+      showing agents thinking step by step, tool calls, evidence citations,
+      progressive disclosure of detail, trust calibration (avoiding over-trust and
+      under-trust), explainable AI in consumer finance, avoiding black-box feel.
+
+  - name: "Pattern: Portfolio dashboard UX best practices"
+    slug: pattern_dashboard_ux
+    category: Design Patterns
+    description: >
+      Best practices for consumer investment dashboards: information hierarchy,
+      first-screen question answering (portfolio value, P/L, what changed, what to do),
+      progressive disclosure, jargon handling for retail users, mobile-first layouts,
+      empty/loading/error states, visual language for gains/losses (color-blind safe).
+
+execution:
+  batch_size: 8
+  items_per_agent: 1
+  output_dir: ./results

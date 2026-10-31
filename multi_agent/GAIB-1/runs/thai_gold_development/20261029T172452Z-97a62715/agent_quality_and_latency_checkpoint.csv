@@ -1,0 +1,5 @@
+﻿query_id,agent,status,api_success,json_parse,schema_valid,task_success,task_validation_status,schema_errors,repair_attempts,attempt_count,finish_reason,latency_ms,prompt_tokens,completion_tokens,total_tokens,initial_tokens,repair_tokens,error_type,error,traceback
+thgold_001,AI2_Macro_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],0,1,stop,11771.082100000058,4254,1301,5555,,,,,
+thgold_001,AI1_News_Analyst,success,True,True,True,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],1,2,stop,17155.58769999916,7636,1961,9597,,,,,
+thgold_001,AI4_Risk_Data_Auditor,invalid_json,True,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],2,3,stop,29949.762299998838,9041,3796,12837,,,invalid_json,"invalid_json:Expecting ',' delimiter",
+thgold_001,AI3_Quant_Regime_Analyst,truncated_output,True,False,False,,NOT_EVALUATED_WITHOUT_DOMAIN_ORACLE,[],2,3,length,34258.28029999866,7961,4500,12461,,,truncated_output,finish_reason_indicates_output_truncation,

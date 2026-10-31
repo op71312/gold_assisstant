@@ -1,0 +1,149 @@
+{
+  "run_id": "20261029T155553Z-afdae4cf",
+  "experiment": "GAIB-1 targeted token root-cause v1",
+  "created_at_utc": "2026-10-29T15:55:53.718827+00:00",
+  "baseline_run_id": "20261029T110207Z-31b9646e",
+  "baseline_run_dir": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\runs\\token_root_cause\\20261029T110207Z-31b9646e",
+  "baseline_telemetry_sha256": "3146fc5920cb3862e5e55351652d05e6505f80855d07b0105fef20d985a4238b",
+  "notebook_path": "D:\\Project_Github\\gold assisstant\\multi_agent\\GAIB-1\\Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb",
+  "notebook_sha256": "9a0ef8ed256c091a5514b28577c57a613eb4795cc8e9349bdd22c8620427cc9e",
+  "builder_sha256": "612311477d97b8861a894734e5a00a9b0625897473c61d135b79b1fb3655cf65",
+  "raw_diagnostics_path": "C:\\Users\\User\\.copilot\\session-state\\gaib-1-token-root-cause\\20261029T155553Z-afdae4cf\\protected_raw_diagnostics.jsonl",
+  "model": "openthaigpt-thaillm-8b-instruct-v7.2",
+  "prompt_version": "claim-evidence-v1",
+  "schema_version": "agent-contract-v1",
+  "phase0": {
+    "status": "PASS",
+    "selected_query_count": 5,
+    "expected_historical_agent_records": 25,
+    "observed_historical_agent_records": 0,
+    "unique_query_agent_pairs": 0,
+    "missing_pairs": [
+      {
+        "query_id": "gtv2_000054",
+        "agent": "AI1_News_Analyst"
+      },
+      {
+        "query_id": "gtv2_000054",
+        "agent": "AI2_Macro_Analyst"
+      },
+      {
+        "query_id": "gtv2_000054",
+        "agent": "AI3_Quant_Regime_Analyst"
+      },
+      {
+        "query_id": "gtv2_000054",
+        "agent": "AI4_Risk_Data_Auditor"
+      },
+      {
+        "query_id": "gtv2_000054",
+        "agent": "AI5_Lead_Researcher"
+      },
+      {
+        "query_id": "gtv2_000055",
+        "agent": "AI1_News_Analyst"
+      },
+      {
+        "query_id": "gtv2_000055",
+        "agent": "AI2_Macro_Analyst"
+      },
+      {
+        "query_id": "gtv2_000055",
+        "agent": "AI3_Quant_Regime_Analyst"
+      },
+      {
+        "query_id": "gtv2_000055",
+        "agent": "AI4_Risk_Data_Auditor"
+      },
+      {
+        "query_id": "gtv2_000055",
+        "agent": "AI5_Lead_Researcher"
+      },
+      {
+        "query_id": "gtv2_000071",
+        "agent": "AI1_News_Analyst"
+      },
+      {
+        "query_id": "gtv2_000071",
+        "agent": "AI2_Macro_Analyst"
+      },
+      {
+        "query_id": "gtv2_000071",
+        "agent": "AI3_Quant_Regime_Analyst"
+      },
+      {
+        "query_id": "gtv2_000071",
+        "agent": "AI4_Risk_Data_Auditor"
+      },
+      {
+        "query_id": "gtv2_000071",
+        "agent": "AI5_Lead_Researcher"
+      },
+      {
+        "query_id": "gtv2_000078",
+        "agent": "AI1_News_Analyst"
+      },
+      {
+        "query_id": "gtv2_000078",
+        "agent": "AI2_Macro_Analyst"
+      },
+      {
+        "query_id": "gtv2_000078",
+        "agent": "AI3_Quant_Regime_Analyst"
+      },
+      {
+        "query_id": "gtv2_000078",
+        "agent": "AI4_Risk_Data_Auditor"
+      },
+      {
+        "query_id": "gtv2_000078",
+        "agent": "AI5_Lead_Researcher"
+      },
+      {
+        "query_id": "gtv2_000070",
+        "agent": "AI1_News_Analyst"
+      },
+      {
+        "query_id": "gtv2_000070",
+        "agent": "AI2_Macro_Analyst"
+      },
+      {
+        "query_id": "gtv2_000070",
+        "agent": "AI3_Quant_Regime_Analyst"
+      },
+      {
+        "query_id": "gtv2_000070",
+        "agent": "AI4_Risk_Data_Auditor"
+      },
+      {
+        "query_id": "gtv2_000070",
+        "agent": "AI5_Lead_Researcher"
+      }
+    ],
+    "duplicate_pairs": [],
+    "contradictory_success_rows": 0,
+    "historical_notebook_hash_available": false,
+    "historical_raw_response_available": false,
+    "historical_max_tokens_requested_available": false
+  },
+  "configuration": {
+    "temperature": 0.0,
+    "baseline_agent_max_tokens": 900,
+    "increase_token_variants": [
+      1200,
+      1500
+    ],
+    "ai3_compact_output_default": true,
+    "agent5_max_tokens": 1600,
+    "agents_concurrent_default": true,
+    "retrieval_model": "@cf/baai/bge-m3",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "rrf_k": 60,
+    "final_k": 10,
+    "jina_model": "jina-reranker-v3.5"
+  },
+  "remote_experiment_opt_in": false,
+  "planned_repair_ablation_max_pairs": 3
+}

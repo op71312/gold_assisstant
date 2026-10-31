@@ -1,0 +1,138 @@
+{
+  "run_timestamp_utc": "2026-10-28T08:15:02.570712+00:00",
+  "query_count": 114,
+  "measured_repeats": 3,
+  "warmup_queries": 1,
+  "variants": [
+    "baseline",
+    "A1_compact_prompt",
+    "A2_compact_prompt_with_citation_preservation",
+    "A3_citation_preservation_evidence_coverage"
+  ],
+  "experiment_c": "already_parallel",
+  "resume_signature": "c2f780389622f472554045bede77e964daef3df3dd60d507e93887c3e3477607",
+  "resume_configuration": {
+    "query_hash": "31aa2b0d59c110907a84682ac57a98a0957d1b97508247c7adee20d5ea210a8d",
+    "repeat_count": 3,
+    "warmup_count": 1,
+    "thai_key_slots": [
+      "THAILLM_API_KEY1",
+      "THAILLM_API_KEY2",
+      "THAILLM_API_KEY3",
+      "THAILLM_API_KEY4",
+      "THAILLM_API_KEY5",
+      "THAILLM_API_KEY6",
+      "THAILLM_API_KEY7"
+    ],
+    "concurrency_policy": {
+      "benchmark_workers": 7,
+      "thaillm_max_concurrent": 7,
+      "qdrant_max_concurrent": 2,
+      "cloudflare_max_concurrent": 2,
+      "jina_max_concurrent": 1,
+      "api_max_retries": 3
+    },
+    "variants": [
+      "baseline",
+      "A1_compact_prompt",
+      "A2_compact_prompt_with_citation_preservation",
+      "A3_citation_preservation_evidence_coverage"
+    ],
+    "variant_order_seed": "A3-evidence-coverage-v1",
+    "require_jina_success": true,
+    "pipeline": {
+      "embedding_model": "@cf/baai/bge-m3",
+      "reranker_model": "jina-reranker-v3.5",
+      "thai_llm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+      "dense_candidates": 40,
+      "bm25_candidates": 40,
+      "hybrid_candidates": 40,
+      "context_max_chars": 16000,
+      "context_per_chunk_max_chars": 2500,
+      "final_k": 10,
+      "rrf_k": 60,
+      "temperature": 0,
+      "max_tokens": 1200
+    },
+    "prompt_hash": "06eb4c8b728197a699bb15699dec44219b479b9be6b36f8fa215268bb1ba6cf6",
+    "implementation_hash": "9608509f64266a9858258da420a7606e66ae69020ca65df102349f161a3ba5a6",
+    "code_version": "not_recorded"
+  },
+  "status": "blocked_preflight",
+  "completed_query_repeat_entries": 0,
+  "warmup_completed": false,
+  "concurrency_policy": {
+    "benchmark_workers": 7,
+    "thaillm_max_concurrent": 7,
+    "qdrant_max_concurrent": 2,
+    "cloudflare_max_concurrent": 2,
+    "jina_max_concurrent": 1,
+    "api_max_retries": 3
+  },
+  "pipeline": {
+    "embedding_model": "@cf/baai/bge-m3",
+    "reranker_model": "jina-reranker-v3.5",
+    "thai_llm_model": "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2",
+    "dense_candidates": 40,
+    "bm25_candidates": 40,
+    "hybrid_candidates": 40,
+    "jina_candidates_per_variant": {
+      "baseline": 40,
+      "A1_compact_prompt": 40,
+      "A2_compact_prompt_with_citation_preservation": 40,
+      "A3_citation_preservation_evidence_coverage": 40
+    },
+    "final_k": 10,
+    "rrf_k": 60,
+    "temperature": 0,
+    "max_tokens": 1200
+  },
+  "api_key_slots": [
+    "THAILLM_API_KEY1",
+    "THAILLM_API_KEY2",
+    "THAILLM_API_KEY3",
+    "THAILLM_API_KEY4",
+    "THAILLM_API_KEY5",
+    "THAILLM_API_KEY6",
+    "THAILLM_API_KEY7"
+  ],
+  "code_version": "not_recorded",
+  "warmup_jina_statuses": [
+    "hybrid_fallback"
+  ],
+  "warmup_jina_details": [
+    {
+      "rerank_status": "hybrid_fallback",
+      "rerank_http_status": 401,
+      "rerank_error_type": "HTTPError",
+      "rerank_error_reason": "HTTP 401",
+      "rerank_attempts": 1,
+      "rerank_timeout": false
+    },
+    {
+      "rerank_status": "hybrid_fallback",
+      "rerank_http_status": 401,
+      "rerank_error_type": "HTTPError",
+      "rerank_error_reason": "HTTP 401",
+      "rerank_attempts": 1,
+      "rerank_timeout": false
+    },
+    {
+      "rerank_status": "hybrid_fallback",
+      "rerank_http_status": 401,
+      "rerank_error_type": "HTTPError",
+      "rerank_error_reason": "HTTP 401",
+      "rerank_attempts": 1,
+      "rerank_timeout": false
+    },
+    {
+      "rerank_status": "hybrid_fallback",
+      "rerank_http_status": 401,
+      "rerank_error_type": "HTTPError",
+      "rerank_error_reason": "HTTP 401",
+      "rerank_attempts": 1,
+      "rerank_timeout": false
+    }
+  ],
+  "preflight_error": "Jina warm-up did not succeed: [{'rerank_status': 'hybrid_fallback', 'rerank_http_status': 401, 'rerank_error_type': 'HTTPError', 'rerank_error_reason': 'HTTP 401', 'rerank_attempts': 1, 'rerank_timeout': False}, {'rerank_status': 'hybrid_fallback', 'rerank_http_status': 401, 'rerank_error_type': 'HTTPError', 'rerank_error_reason': 'HTTP 401', 'rerank_attempts': 1, 'rerank_timeout': False}, {'rerank_status': 'hybrid_fallback', 'rerank_http_status': 401, 'rerank_error_type': 'HTTPError', 'rerank_error_reason': 'HTTP 401', 'rerank_attempts': 1, 'rerank_timeout': False}, {'rerank_status': 'hybrid_fallback', 'rerank_http_status': 401, 'rerank_error_type': 'HTTPError', 'rerank_error_reason': 'HTTP 401', 'rerank_attempts': 1, 'rerank_timeout': False}]; inspect JINA_API_KEY and the reranker response."
+}

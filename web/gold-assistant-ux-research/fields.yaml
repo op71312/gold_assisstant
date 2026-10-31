@@ -1,0 +1,65 @@
+# Converted to validator-expected shape: fields: {category: [{name, description, detail_level}]}
+# Content (field names, categories, descriptions, detail levels) preserved verbatim
+# from the original field_categories layout (backup: /tmp/fields.yaml.bak).
+
+topic: UX needs of real users for Gold Assistant (Thai retail gold investor AI dashboard)
+fields:
+  basic_info:
+  - name: item_name
+    description: Name of the segment / product / pattern researched
+    detail_level: brief
+  - name: one_liner
+    description: One sentence summary of who they are / what it is
+    detail_level: brief
+  needs:
+  - name: jobs_to_be_done
+    description: What users in this segment (or product users / pattern consumers) fundamentally try to
+      achieve with a gold portfolio + AI assistant product
+    detail_level: moderate
+  - name: top_questions
+    description: The concrete questions they ask when looking at a gold portfolio or AI analysis (in user
+      language)
+    detail_level: moderate
+  - name: decision_drivers
+    description: What actually drives their buy/hold/sell or continue-using decisions
+    detail_level: moderate
+  pains:
+  - name: top_pains
+    description: Biggest frustrations and frictions observed (support complaints, reviews, studies)
+    detail_level: moderate
+  - name: confusion_points
+    description: 'Things they do not understand: jargon, charts, numbers, flows'
+    detail_level: moderate
+  - name: trust_barriers
+    description: What makes them distrust an app / AI advice (scam fear, black box, wrong predictions,
+      data provenance)
+    detail_level: moderate
+  ux:
+  - name: must_have_first_screen
+    description: What must be visible on the first screen / first 5 seconds
+    detail_level: moderate
+  - name: workflow_preferences
+    description: How they prefer to move through tasks (flows, tabs vs single page, search, notifications,
+      mobile vs desktop)
+    detail_level: moderate
+  - name: language_and_tone
+    description: 'Language style that works: plain Thai vs technical, tone, amount of text, numbers formatting'
+    detail_level: moderate
+  - name: accessibility_notes
+    description: Font sizes, color-blind-safe gain/loss colors, older-user needs, one-hand use
+    detail_level: brief
+  design:
+  - name: implications_for_gold_assistant
+    description: Concrete, actionable design implications for the Gold Assistant app (which screens, which
+      flows, what to add/remove/simplify). Must be specific enough to implement.
+    detail_level: detailed
+  - name: antipatterns_to_avoid
+    description: Specific UX antipatterns this research says to avoid
+    detail_level: moderate
+  evidence:
+  - name: sources
+    description: List of sources actually consulted (title + URL)
+    detail_level: moderate
+  - name: confidence
+    description: low | medium | high, with one sentence why
+    detail_level: brief

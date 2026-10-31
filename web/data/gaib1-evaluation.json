@@ -1,0 +1,42 @@
+{
+  "runId": "20261031T071053Z-be7f52bb",
+  "runAt": "2026-10-31T07:10:53Z",
+  "split": "development",
+  "decision": "DEVELOPMENT_PASS",
+  "datasetReadiness": "development_only",
+  "expectedQueries": 21,
+  "retrievalResults": 21,
+  "retrievalErrors": 0,
+  "agentResults": 21,
+  "agentErrors": 0,
+  "perAgentRecords": 105,
+  "backend": "qdrant_cloudflare_hybrid",
+  "generatorModel": "openthaigpt-thaillm-8b-instruct-v7.2",
+  "judgeModel": "pathumma-thaillm-qwen3-8b-think-3.0.0",
+  "wallSeconds": 1222.103,
+  "queriesPerSecond": 0.0172,
+  "metrics": {
+    "rerankedKnownRelevantRecallAt10": 1.0,
+    "rerankedMrrAt10": 0.9301587301587301,
+    "agentJsonParseRate": 0.9619047619047619,
+    "aiJudgeCorrectnessRate": 0.9402985074626866,
+    "citationEntailmentRate": 0.9402985074626866,
+    "unsupportedCriticalNumericClaims": 0
+  },
+  "thresholds": {
+    "agentJsonParseRate": 0.95,
+    "rerankedKnownRelevantRecallAt10": 0.85,
+    "rerankedMrrAt10": 0.6,
+    "aiJudgeCorrectnessRate": 0.85,
+    "citationEntailmentRate": 0.85,
+    "citationIdValidityRate": 1.0,
+    "unsupportedCriticalNumericClaims": 0
+  },
+  "failedGates": [],
+  "developmentExemptGates": [
+    "human_spot_check_10_to_20_claims",
+    "ground_truth_human_review_complete"
+  ],
+  "source": "multi_agent/GAIB-1/Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb",
+  "note": "Recorded notebook result for the development split. A development pass is not release approval; human review gates remain incomplete."
+}

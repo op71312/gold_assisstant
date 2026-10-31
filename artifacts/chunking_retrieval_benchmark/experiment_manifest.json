@@ -1,0 +1,3200 @@
+{
+  "run_timestamp_utc": "2026-10-27T05:19:08.600190+00:00",
+  "status": "completed_preliminary_candidate_queries",
+  "project_root": "D:\\Project_Github\\gold assisstant",
+  "ground_truth": {
+    "path": "D:\\Project_Github\\gold assisstant\\vector_database\\embedding\\chunking_benchmark\\ground_truth_queries.jsonl",
+    "sha256": "0fa833cd376da21f29aab0c815808fadba7eb9ce32037c45849aaf98bfcc1651",
+    "validation_report": {
+      "status": "PARTIAL",
+      "pipeline_version": "1.0.0",
+      "query_count": 149,
+      "target_query_count": "100-150 if source coverage supports it",
+      "target_met": true,
+      "validation_errors": [],
+      "validation_passed": true,
+      "all_queries_need_human_review": true,
+      "human_reviewed_query_count": 0,
+      "llm_generated_query_count": 0,
+      "judgment_sets_exhaustive": false,
+      "query_counts_by_split": {
+        "test": 39,
+        "train": 82,
+        "validation": 28
+      },
+      "query_counts_by_source": {
+        "bls_cpi": 74,
+        "bls_nfp": 72,
+        "fed": 14,
+        "thaipbs": 8
+      },
+      "query_counts_by_type": {
+        "cross_period": 6,
+        "economic_explanation": 34,
+        "numeric_fact": 90,
+        "multi_passage": 19
+      },
+      "query_counts_by_language": {
+        "en": 134,
+        "th": 15
+      },
+      "query_pattern_counts": {
+        "cpi_adjacent_period_comparison": 6,
+        "cpi_component_change": 8,
+        "cpi_monthly_2": 6,
+        "cpi_monthly_3": 11,
+        "cpi_monthly_4": 3,
+        "cpi_twelve_month": 18,
+        "fed_explanation_1": 8,
+        "fed_explanation_2": 2,
+        "fed_explanation_3": 4,
+        "nfp_industry_3": 10,
+        "nfp_payroll_1": 2,
+        "nfp_payroll_2": 5,
+        "nfp_payroll_3": 9,
+        "nfp_payroll_4": 3,
+        "nfp_unemployment_1": 6,
+        "nfp_unemployment_2": 7,
+        "nfp_unemployment_3": 7,
+        "pbs_gold_1": 2,
+        "pbs_gold_2": 2,
+        "pbs_gold_3": 4,
+        "same_period_cpi_nfp": 19,
+        "thai_cpi_component": 1,
+        "thai_cpi_monthly": 2,
+        "thai_nfp_industry": 1,
+        "thai_nfp_payroll": 3
+      },
+      "potential_near_duplicate_groups_by_exact_evidence": [
+        {
+          "evidence_signature": [
+            [
+              "bls_cpi_2026_09",
+              "The index for gasoline rose 9.1 percent in September, accounting for over half of the monthly all items increase."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000003",
+              "query": "How did the index for gasoline change in the September 2026 CPI report?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000004",
+              "query": "รายงาน CPI ของ BLS สำหรับ September 2026 ระบุว่าดัชนี gasoline เปลี่ยนแปลงอย่างไร?",
+              "query_language": "th",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_cpi_2026_09",
+              "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.6 percent on a seasonally adjusted basis in September after rising 0.4 percent in August, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000012",
+              "query": "What percentage change did the September 2026 CPI report state for the CPI-U?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000013",
+              "query": "รายงาน CPI ของ BLS สำหรับ September 2026 ระบุการเปลี่ยนแปลงของ CPI-U ไว้อย่างไร?",
+              "query_language": "th",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2026_09",
+              "Employment in construction changed little in September (+11,000)."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000018",
+              "query": "What employment trend did BLS report for construction in September 2026?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000020",
+              "query": "รายงานการจ้างงานของ BLS สำหรับ September 2026 ระบุแนวโน้มการจ้างงานใน construction อย่างไร?",
+              "query_language": "th",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2024_06",
+              "Total nonfarm payroll employment increased by 206,000 in June, and the unemployment rate changed little at 4.1 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000021",
+              "query": "For June 2024, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000028",
+              "query": "What unemployment-rate result was reported for June 2024?",
+              "query_language": "en",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2026_09",
+              "Both nonfarm payroll employment (+29,000) and the unemployment rate (4.2 percent) changed little in September, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000022",
+              "query": "For September 2026, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000024",
+              "query": "How did the unemployment rate move in the September 2026 Employment Situation report?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000029",
+              "query": "รายงาน BLS เดือน September 2026 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงอย่างไร?",
+              "query_language": "th",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2023_05",
+              "Total nonfarm payroll employment increased by 339,000 in May, and the unemployment rate rose by 0.3 percentage point to 3.7 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000026",
+              "query": "How did total nonfarm payroll employment change in the May 2023 Employment Situation report?",
+              "query_language": "en",
+              "split": "test"
+            },
+            {
+              "query_id": "gt_000027",
+              "query": "What did BLS report about the unemployment rate in May 2023?",
+              "query_language": "en",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_cpi_2017_12",
+              "The Consumer Price Index for All Urban Consumers (CPI-U) increased 0.1 percent in December on a seasonally adjusted basis, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000049",
+              "query": "For December 2017, what CPI-U movement did BLS publish and was it seasonally adjusted?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000071",
+              "query": "รายงาน CPI ของ BLS สำหรับ December 2017 ระบุการเปลี่ยนแปลงของ CPI-U ไว้อย่างไร?",
+              "query_language": "th",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2017_12",
+              "Total nonfarm payroll employment increased by 148,000 in December, and the unemployment rate was unchanged at 4.1 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000089",
+              "query": "For December 2017, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000093",
+              "query": "How did the unemployment rate move in the December 2017 Employment Situation report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000112",
+              "query": "รายงาน BLS เดือน December 2017 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงอย่างไร?",
+              "query_language": "th",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2007_01",
+              "Nonfarm payroll employment rose by 111,000 in January, and the unemployment rate was essentially unchanged at 4.6 percent, the Bureau of Labor Statistics of the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000090",
+              "query": "For January 2007, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000094",
+              "query": "How did the unemployment rate move in the January 2007 Employment Situation report?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2012_07",
+              "Total nonfarm payroll employment rose by 163,000 in July, and the unemployment rate was essentially unchanged at 8.3 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000091",
+              "query": "For July 2012, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000103",
+              "query": "What did BLS report about the unemployment rate in July 2012?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2016_11",
+              "The unemployment rate declined to 4.6 percent in November, and total nonfarm payroll employment increased by 178,000, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000092",
+              "query": "For November 2016, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000104",
+              "query": "What did BLS report about the unemployment rate in November 2016?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2009_04",
+              "Nonfarm payroll employment continued to decline in April (-539,000), and the unemployment rate rose from 8.5 to 8.9 percent, the Bureau of Labor Sta- tistics of the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000096",
+              "query": "How did total nonfarm payroll employment change in the April 2009 Employment Situation report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000101",
+              "query": "What did BLS report about the unemployment rate in April 2009?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2015_10",
+              "Total nonfarm payroll employment increased by 271,000 in October, and the unemployment rate was essentially unchanged at 5.0 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000097",
+              "query": "How did total nonfarm payroll employment change in the October 2015 Employment Situation report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000109",
+              "query": "What unemployment-rate result was reported for October 2015?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2014_09",
+              "Total nonfarm payroll employment increased by 248,000 in September, and the unemployment rate declined to 5.9 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000098",
+              "query": "How did total nonfarm payroll employment change in the September 2014 Employment Situation report?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000105",
+              "query": "What did BLS report about the unemployment rate in September 2014?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2013_08",
+              "Total nonfarm payroll employment increased by 169,000 in August, and the unemployment rate was little changed at 7.3 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000099",
+              "query": "What change in total nonfarm payroll employment did BLS report for August 2013?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000102",
+              "query": "What did BLS report about the unemployment rate in August 2013?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2011_06",
+              "Nonfarm payroll employment was essentially unchanged in June (+18,000), and the unemployment rate was little changed at 9.2 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000100",
+              "query": "What change in total nonfarm payroll employment did BLS report for June 2011?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000107",
+              "query": "What unemployment-rate result was reported for June 2011?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2005_12",
+              "Total nonfarm payroll employment increased by 108,000 in December, and the unemployment rate was little changed at 4.9 percent, the Bureau of Labor Statistics of the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000106",
+              "query": "What unemployment-rate result was reported for December 2005?",
+              "query_language": "en",
+              "split": "train"
+            },
+            {
+              "query_id": "gt_000110",
+              "query": "What was the reported monthly change in nonfarm payroll employment for December 2005?",
+              "query_language": "en",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2022_04",
+              "Total nonfarm payroll employment increased by 428,000 in April, and the unemployment rate was unchanged at 3.6 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000138",
+              "query": "For April 2022, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "validation"
+            },
+            {
+              "query_id": "gt_000141",
+              "query": "How did the unemployment rate move in the April 2022 Employment Situation report?",
+              "query_language": "en",
+              "split": "validation"
+            },
+            {
+              "query_id": "gt_000146",
+              "query": "รายงาน BLS เดือน April 2022 ระบุว่าการจ้างงานนอกภาคเกษตรเปลี่ยนแปลงอย่างไร?",
+              "query_language": "th",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2020_02",
+              "Total nonfarm payroll employment rose by 273,000 in February, and the unemployment rate was little changed at 3.5 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000139",
+              "query": "For February 2020, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "validation"
+            },
+            {
+              "query_id": "gt_000142",
+              "query": "How did the unemployment rate move in the February 2020 Employment Situation report?",
+              "query_language": "en",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2019_01",
+              "Total nonfarm payroll employment increased by 304,000 in January, and the unemployment rate edged up to 4.0 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000140",
+              "query": "For January 2019, what payroll-employment change did BLS report?",
+              "query_language": "en",
+              "split": "validation"
+            },
+            {
+              "query_id": "gt_000143",
+              "query": "What unemployment-rate result was reported for January 2019?",
+              "query_language": "en",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "evidence_signature": [
+            [
+              "bls_nfp_2021_03",
+              "Total nonfarm payroll employment rose by 916,000 in March, and the unemployment rate edged down to 6.0 percent, the U.S."
+            ]
+          ],
+          "queries": [
+            {
+              "query_id": "gt_000144",
+              "query": "What unemployment-rate result was reported for March 2021?",
+              "query_language": "en",
+              "split": "validation"
+            },
+            {
+              "query_id": "gt_000145",
+              "query": "What was the reported monthly change in nonfarm payroll employment for March 2021?",
+              "query_language": "en",
+              "split": "validation"
+            }
+          ]
+        }
+      ],
+      "exclusions_without_candidate": [
+        {
+          "source": "fed",
+          "document_id": "725569c3b0909cb1d6cbe2dfbf36b32d90db1357",
+          "title": "Federal Reserve will offer $75 billion in 28-day credit through its Term Auction Facility today",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        },
+        {
+          "source": "fed",
+          "document_id": "ed1932668ee79f9bd9da13332c5f63126ab67613",
+          "title": "Federal Reserve announces results of auction of $50 billion in 70-day credit held on October 5, 2009",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        },
+        {
+          "source": "fed",
+          "document_id": "30f3a4ed81b42bf294591f8e2a1bc1d6ed8e3e76",
+          "title": "Federal Reserve Board announces approval of application by Mercantile Bank Corporation",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        },
+        {
+          "source": "fed",
+          "document_id": "254e81a7b341366e765d2aed6a85ee4974249881",
+          "title": "Federal Reserve Board announces Reserve Bank income and expense data and transfers to the Treasury for 2017",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        },
+        {
+          "source": "fed",
+          "document_id": "cc5fa1e490edff719af112f162ce0f171ce827ed",
+          "title": "Agencies request comment on proposed rules to strengthen capital requirements for large banks",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        },
+        {
+          "source": "fed",
+          "document_id": "cadde35138dce92c97864c9226f119fb70f625b6",
+          "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+          "reason": "No candidate met the deterministic source-span extraction rules."
+        }
+      ],
+      "grouped_split_strategy": {
+        "description": "Chronological 60/20/20 split over source-period groups; all same-period and cross-source evidence is kept in one split.",
+        "seed": 42,
+        "group_splits": {
+          "macro:2005-12": "train",
+          "macro:2006-01": "train",
+          "macro:2007-01": "train",
+          "macro:2008-03": "train",
+          "macro:2008-04": "train",
+          "macro:2008-09": "train",
+          "macro:2009-03": "train",
+          "macro:2009-04": "train",
+          "macro:2009-10": "train",
+          "macro:2010-05": "train",
+          "macro:2010-10": "train",
+          "macro:2011-06": "train",
+          "macro:2012-03": "train",
+          "macro:2012-07": "train",
+          "macro:2012-12": "train",
+          "macro:2013-08": "train",
+          "macro:2014-05": "train",
+          "macro:2014-09": "train",
+          "macro:2015-07": "train",
+          "macro:2015-10": "train",
+          "macro:2016-11": "train",
+          "macro:2016-12": "train",
+          "macro:2017-12": "train",
+          "macro:2018-01": "validation",
+          "macro:2018-11": "validation",
+          "macro:2019-01": "validation",
+          "macro:2020-02": "validation",
+          "macro:2020-03": "validation",
+          "macro:2020-09": "validation",
+          "macro:2021-03": "validation",
+          "macro:2022-04": "validation",
+          "macro:2022-10": "test",
+          "macro:2023-05": "test",
+          "macro:2023-07": "test",
+          "macro:2024-06": "test",
+          "macro:2025-07": "test",
+          "macro:2026-09": "test",
+          "macro:2026-10": "test",
+          "thaipbs:2026-10": "test"
+        },
+        "no_group_cross_split_leakage": true
+      },
+      "source_inventory": {
+        "created_at": "2026-10-27T11:14:27+07:00",
+        "environment_date": "2026-10-27",
+        "source_counts_loaded": {
+          "thaipbs": 9,
+          "fed": 1253,
+          "bls_nfp": 248,
+          "bls_cpi": 248
+        },
+        "date_coverage_by_loaded_source": {
+          "bls_cpi": {
+            "document_count": 248,
+            "missing_publication_date_count": 0,
+            "invalid_publication_date_count": 0,
+            "earliest_publication_date": "2006-01-18",
+            "latest_publication_date": "2026-10-14",
+            "earliest_report_period": "December 2005",
+            "latest_report_period": "September 2026"
+          },
+          "bls_nfp": {
+            "document_count": 248,
+            "missing_publication_date_count": 0,
+            "invalid_publication_date_count": 0,
+            "earliest_publication_date": "2006-01-06",
+            "latest_publication_date": "2026-10-02",
+            "earliest_report_period": "December 2005",
+            "latest_report_period": "September 2026"
+          },
+          "fed": {
+            "document_count": 1253,
+            "missing_publication_date_count": 0,
+            "invalid_publication_date_count": 0,
+            "earliest_publication_date": "2006-01-09",
+            "latest_publication_date": "2026-10-02",
+            "earliest_report_period": null,
+            "latest_report_period": null
+          },
+          "thaipbs": {
+            "document_count": 9,
+            "missing_publication_date_count": 0,
+            "invalid_publication_date_count": 0,
+            "earliest_publication_date": "2026-10-14",
+            "latest_publication_date": "2026-10-23",
+            "earliest_report_period": null,
+            "latest_report_period": null
+          }
+        },
+        "raw_input_counts": {
+          "thaipbs_direct_jsonl": 9,
+          "fed_classified_jsonl": 4553,
+          "fed_existing_labels": {
+            "not_relevant": 3300,
+            "relevant": 536,
+            "uncertain": 717
+          },
+          "bls_nfp_json_files": 248,
+          "bls_cpi_json_files": 248
+        },
+        "source_schemas": {
+          "thaipbs_direct_jsonl": {
+            "top_level_keys_union": [
+              "abstract",
+              "article_id",
+              "audit",
+              "audit_metadata",
+              "categories",
+              "classification",
+              "classification_metadata",
+              "content",
+              "content_hash",
+              "content_status",
+              "published_at",
+              "retrieved_at",
+              "source",
+              "tags",
+              "title"
+            ],
+            "source_keys_union": [
+              "name",
+              "site",
+              "url"
+            ],
+            "classification_keys_union": [
+              "confidence",
+              "evidence",
+              "market_topics",
+              "reason",
+              "relevance"
+            ],
+            "audit_keys_union": [
+              "confidence",
+              "evidence",
+              "market_link",
+              "reason",
+              "relevance",
+              "review_required",
+              "status"
+            ]
+          },
+          "fed_classified_jsonl": {
+            "top_level_keys_union": [
+              "classification",
+              "classification_metadata",
+              "cleaning_flags",
+              "collected_at",
+              "content",
+              "document_id",
+              "document_type",
+              "encoding_repairs",
+              "publication_date",
+              "publication_date_source",
+              "release_time_text",
+              "source",
+              "source_archive_year",
+              "title",
+              "url"
+            ],
+            "classification_keys_union": [
+              "confidence",
+              "evidence",
+              "label",
+              "reason",
+              "topics"
+            ]
+          },
+          "bls_nfp": {
+            "file_count": 248,
+            "document_id_count": 248,
+            "missing_document_id_count": 0,
+            "duplicate_document_ids": [],
+            "top_level_keys_union": [
+              "chunks",
+              "cleaning",
+              "content_type",
+              "doc_id",
+              "publication_date",
+              "quality_checks",
+              "report_period",
+              "source",
+              "source_file",
+              "source_url",
+              "tables",
+              "title"
+            ],
+            "chunk_keys_union": [
+              "chunk_id",
+              "content",
+              "heading",
+              "publication_date",
+              "report_period",
+              "source_file",
+              "source_url"
+            ],
+            "table_keys_union": [
+              "columns",
+              "end_line",
+              "format",
+              "notes",
+              "parse_status",
+              "raw_text",
+              "row_count",
+              "rows",
+              "start_line",
+              "table_id",
+              "title",
+              "validation"
+            ],
+            "chunk_count": 3535,
+            "documents_with_table_records": 248,
+            "selected_documents_with_table_records": 20,
+            "table_record_count_in_selected_documents": 527,
+            "table_like_chunk_count_by_heading": 0,
+            "invalid_files": []
+          },
+          "bls_cpi": {
+            "file_count": 248,
+            "document_id_count": 248,
+            "missing_document_id_count": 0,
+            "duplicate_document_ids": [],
+            "top_level_keys_union": [
+              "chunks",
+              "cleaning",
+              "content_type",
+              "doc_id",
+              "publication_date",
+              "quality_checks",
+              "report_period",
+              "source",
+              "source_file",
+              "source_url",
+              "tables",
+              "title"
+            ],
+            "chunk_keys_union": [
+              "chunk_id",
+              "content",
+              "heading",
+              "publication_date",
+              "report_period",
+              "source_file",
+              "source_url"
+            ],
+            "table_keys_union": [
+              "columns",
+              "end_line",
+              "format",
+              "notes",
+              "parse_status",
+              "raw_text",
+              "row_count",
+              "rows",
+              "start_line",
+              "table_id",
+              "title",
+              "validation"
+            ],
+            "chunk_count": 3054,
+            "documents_with_table_records": 248,
+            "selected_documents_with_table_records": 20,
+            "table_record_count_in_selected_documents": 166,
+            "table_like_chunk_count_by_heading": 40,
+            "invalid_files": []
+          }
+        },
+        "source_id_quality": {
+          "thaipbs_direct_jsonl": {
+            "record_count": 9,
+            "missing_id_count": 0,
+            "duplicate_ids": []
+          },
+          "fed_classified_jsonl": {
+            "record_count": 4553,
+            "missing_id_count": 0,
+            "duplicate_ids": []
+          },
+          "bls_nfp": {
+            "file_count": 248,
+            "missing_id_count": 0,
+            "duplicate_ids": []
+          },
+          "bls_cpi": {
+            "file_count": 248,
+            "missing_id_count": 0,
+            "duplicate_ids": []
+          }
+        },
+        "selected_document_count": 69,
+        "selected_documents": [
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2005_12",
+            "publication_date": "2006-01-18",
+            "report_period": "December 2005",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2007_01",
+            "publication_date": "2007-02-21",
+            "report_period": "January 2007",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2008_03",
+            "publication_date": "2008-04-16",
+            "report_period": "March 2008",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2009_04",
+            "publication_date": "2009-05-15",
+            "report_period": "April 2009",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2010_05",
+            "publication_date": "2010-06-17",
+            "report_period": "May 2010",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2011_06",
+            "publication_date": "2011-07-15",
+            "report_period": "June 2011",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2012_07",
+            "publication_date": "2012-08-15",
+            "report_period": "July 2012",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2013_08",
+            "publication_date": "2013-09-17",
+            "report_period": "August 2013",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2014_09",
+            "publication_date": "2014-10-22",
+            "report_period": "September 2014",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2015_10",
+            "publication_date": "2015-11-17",
+            "report_period": "October 2015",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2016_11",
+            "publication_date": "2016-12-15",
+            "report_period": "November 2016",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2017_12",
+            "publication_date": "2018-01-12",
+            "report_period": "December 2017",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2019_01",
+            "publication_date": "2019-02-13",
+            "report_period": "January 2019",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2020_02",
+            "publication_date": "2020-03-11",
+            "report_period": "February 2020",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2021_03",
+            "publication_date": "2021-04-13",
+            "report_period": "March 2021",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2022_04",
+            "publication_date": "2022-05-11",
+            "report_period": "April 2022",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2023_05",
+            "publication_date": "2023-06-13",
+            "report_period": "May 2023",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2024_06",
+            "publication_date": "2024-07-11",
+            "report_period": "June 2024",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2025_07",
+            "publication_date": "2025-08-12",
+            "report_period": "July 2025",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2026_09",
+            "publication_date": "2026-10-14",
+            "report_period": "September 2026",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2005_12",
+            "publication_date": "2006-01-06",
+            "report_period": "December 2005",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2007_01",
+            "publication_date": "2007-02-02",
+            "report_period": "January 2007",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2008_03",
+            "publication_date": "2008-04-04",
+            "report_period": "March 2008",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2009_04",
+            "publication_date": "2009-05-08",
+            "report_period": "April 2009",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2010_05",
+            "publication_date": "2010-06-04",
+            "report_period": "May 2010",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2011_06",
+            "publication_date": "2011-07-08",
+            "report_period": "June 2011",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2012_07",
+            "publication_date": "2012-08-03",
+            "report_period": "July 2012",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2013_08",
+            "publication_date": "2013-09-06",
+            "report_period": "August 2013",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2014_09",
+            "publication_date": "2014-10-03",
+            "report_period": "September 2014",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2015_10",
+            "publication_date": "2015-11-06",
+            "report_period": "October 2015",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2016_11",
+            "publication_date": "2016-12-02",
+            "report_period": "November 2016",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2017_12",
+            "publication_date": "2018-01-05",
+            "report_period": "December 2017",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2019_01",
+            "publication_date": "2019-02-01",
+            "report_period": "January 2019",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2020_02",
+            "publication_date": "2020-03-06",
+            "report_period": "February 2020",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2021_03",
+            "publication_date": "2021-04-02",
+            "report_period": "March 2021",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2022_04",
+            "publication_date": "2022-05-06",
+            "report_period": "April 2022",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2023_05",
+            "publication_date": "2023-06-02",
+            "report_period": "May 2023",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2024_06",
+            "publication_date": "2024-07-05",
+            "report_period": "June 2024",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2025_07",
+            "publication_date": "2025-08-01",
+            "report_period": "July 2025",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2026_09",
+            "publication_date": "2026-10-02",
+            "report_period": "September 2026",
+            "source_classification": null
+          },
+          {
+            "source": "fed",
+            "document_id": "55cb268b967b49cd6c67b2c6fed0c5a7bcf7eb63",
+            "publication_date": "2006-01-09",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "b19c164d25993bf2e7ad55318eac78f6956deeb8",
+            "publication_date": "2006-01-31",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "bbd07d77601eaaac432b867560e03af2305acb2e",
+            "publication_date": "2008-04-30",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "725569c3b0909cb1d6cbe2dfbf36b32d90db1357",
+            "publication_date": "2008-09-22",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "7b052e98973399f5664817978bf0896efa85104e",
+            "publication_date": "2009-03-03",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "ed1932668ee79f9bd9da13332c5f63126ab67613",
+            "publication_date": "2009-10-06",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "352922d6f155b76f11e10d6a24b066a1de46fdd7",
+            "publication_date": "2010-10-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "612b283088714359a349861ee45b824e8f00849c",
+            "publication_date": "2012-03-13",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "f225e4dbeab9f9b24889ab6977db98ebf42e6296",
+            "publication_date": "2012-12-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "30f3a4ed81b42bf294591f8e2a1bc1d6ed8e3e76",
+            "publication_date": "2014-05-08",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "b8068c21d5da79e52eb13801024a0745772ca844",
+            "publication_date": "2015-07-08",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "9c151b4312acfd74447918881efd3949580e6f65",
+            "publication_date": "2016-12-12",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "254e81a7b341366e765d2aed6a85ee4974249881",
+            "publication_date": "2018-01-10",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "0e85b311d7929361368b5fab43e14936c8c45cde",
+            "publication_date": "2018-11-20",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "fae74924f647a897a203ffea2b9cf523b2cfafd6",
+            "publication_date": "2020-03-17",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "a394a3f608955222917844f33a3c32670a26f32c",
+            "publication_date": "2020-09-29",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "1f9afc42981e55eb5c73005a25aabbf4a05061c3",
+            "publication_date": "2022-10-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "cc5fa1e490edff719af112f162ce0f171ce827ed",
+            "publication_date": "2023-07-27",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "fe283a4d738a52f3965cc6e253035b54d9521d20",
+            "publication_date": "2026-09-16",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "cadde35138dce92c97864c9226f119fb70f625b6",
+            "publication_date": "2026-10-02",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:570971",
+            "publication_date": "2026-10-14",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571012",
+            "publication_date": "2026-10-14",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571033",
+            "publication_date": "2026-10-15",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571076",
+            "publication_date": "2026-10-15",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571164",
+            "publication_date": "2026-10-16",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571381",
+            "publication_date": "2026-10-20",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571437",
+            "publication_date": "2026-10-21",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571503",
+            "publication_date": "2026-10-22",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571550",
+            "publication_date": "2026-10-23",
+            "report_period": null,
+            "source_classification": "direct"
+          }
+        ],
+        "future_dated_publication_dates_relative_to_environment_date": [],
+        "gold_price_csv": {
+          "path": "dataset\\datset a gold price\\gold_price_2006_2026.csv",
+          "exists": true,
+          "rows": 24519,
+          "columns": [
+            "date",
+            "time",
+            "session",
+            "ornament_buy",
+            "ornament_sell",
+            "bar_buy",
+            "bar_sell",
+            "gold_spot",
+            "thb_usd",
+            "change"
+          ],
+          "first_date": "2006-05-01",
+          "last_date": "2026-10-13",
+          "used_for_query_generation": false,
+          "reason_not_used": "It is not part of the indexed document corpus; using prices to imply causation would exceed the source evidence."
+        }
+      },
+      "limitations": [
+        "Every record is an automatically extracted candidate, not final human-reviewed ground truth.",
+        "Existing Fed/Thai PBS classifications are preserved as metadata and were not used as query-specific answer labels.",
+        "Fed not_relevant documents are excluded from the selected corpus because the notebook config excludes them; source classification coverage is reported separately.",
+        "Relevance judgments identify only cited direct-evidence documents and are not exhaustive over the full corpus.",
+        "No selected source publication date is later than the environment date.",
+        "The query extractor uses prose chunks; structured BLS table records are inventoried but not parsed into candidate answers."
+      ]
+    },
+    "generation_manifest": {
+      "pipeline": "gold_assistant_ground_truth_builder",
+      "pipeline_version": "1.0.0",
+      "prompt_version": "deterministic-source-extraction-1",
+      "created_at": "2026-10-27T11:14:27+07:00",
+      "generation_method": "Deterministic regular-expression extraction from loaded source passages; no LLM calls.",
+      "model_provider": null,
+      "model_name": null,
+      "sampling": {
+        "max_docs_per_source": 20,
+        "include_fed_not_relevant": false,
+        "random_seed": 42,
+        "selected_document_count": 69,
+        "selected_document_ids": [
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2005_12",
+            "publication_date": "2006-01-18",
+            "report_period": "December 2005",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2007_01",
+            "publication_date": "2007-02-21",
+            "report_period": "January 2007",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2008_03",
+            "publication_date": "2008-04-16",
+            "report_period": "March 2008",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2009_04",
+            "publication_date": "2009-05-15",
+            "report_period": "April 2009",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2010_05",
+            "publication_date": "2010-06-17",
+            "report_period": "May 2010",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2011_06",
+            "publication_date": "2011-07-15",
+            "report_period": "June 2011",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2012_07",
+            "publication_date": "2012-08-15",
+            "report_period": "July 2012",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2013_08",
+            "publication_date": "2013-09-17",
+            "report_period": "August 2013",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2014_09",
+            "publication_date": "2014-10-22",
+            "report_period": "September 2014",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2015_10",
+            "publication_date": "2015-11-17",
+            "report_period": "October 2015",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2016_11",
+            "publication_date": "2016-12-15",
+            "report_period": "November 2016",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2017_12",
+            "publication_date": "2018-01-12",
+            "report_period": "December 2017",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2019_01",
+            "publication_date": "2019-02-13",
+            "report_period": "January 2019",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2020_02",
+            "publication_date": "2020-03-11",
+            "report_period": "February 2020",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2021_03",
+            "publication_date": "2021-04-13",
+            "report_period": "March 2021",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2022_04",
+            "publication_date": "2022-05-11",
+            "report_period": "April 2022",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2023_05",
+            "publication_date": "2023-06-13",
+            "report_period": "May 2023",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2024_06",
+            "publication_date": "2024-07-11",
+            "report_period": "June 2024",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2025_07",
+            "publication_date": "2025-08-12",
+            "report_period": "July 2025",
+            "source_classification": null
+          },
+          {
+            "source": "bls_cpi",
+            "document_id": "bls_cpi_2026_09",
+            "publication_date": "2026-10-14",
+            "report_period": "September 2026",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2005_12",
+            "publication_date": "2006-01-06",
+            "report_period": "December 2005",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2007_01",
+            "publication_date": "2007-02-02",
+            "report_period": "January 2007",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2008_03",
+            "publication_date": "2008-04-04",
+            "report_period": "March 2008",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2009_04",
+            "publication_date": "2009-05-08",
+            "report_period": "April 2009",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2010_05",
+            "publication_date": "2010-06-04",
+            "report_period": "May 2010",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2011_06",
+            "publication_date": "2011-07-08",
+            "report_period": "June 2011",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2012_07",
+            "publication_date": "2012-08-03",
+            "report_period": "July 2012",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2013_08",
+            "publication_date": "2013-09-06",
+            "report_period": "August 2013",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2014_09",
+            "publication_date": "2014-10-03",
+            "report_period": "September 2014",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2015_10",
+            "publication_date": "2015-11-06",
+            "report_period": "October 2015",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2016_11",
+            "publication_date": "2016-12-02",
+            "report_period": "November 2016",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2017_12",
+            "publication_date": "2018-01-05",
+            "report_period": "December 2017",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2019_01",
+            "publication_date": "2019-02-01",
+            "report_period": "January 2019",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2020_02",
+            "publication_date": "2020-03-06",
+            "report_period": "February 2020",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2021_03",
+            "publication_date": "2021-04-02",
+            "report_period": "March 2021",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2022_04",
+            "publication_date": "2022-05-06",
+            "report_period": "April 2022",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2023_05",
+            "publication_date": "2023-06-02",
+            "report_period": "May 2023",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2024_06",
+            "publication_date": "2024-07-05",
+            "report_period": "June 2024",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2025_07",
+            "publication_date": "2025-08-01",
+            "report_period": "July 2025",
+            "source_classification": null
+          },
+          {
+            "source": "bls_nfp",
+            "document_id": "bls_nfp_2026_09",
+            "publication_date": "2026-10-02",
+            "report_period": "September 2026",
+            "source_classification": null
+          },
+          {
+            "source": "fed",
+            "document_id": "55cb268b967b49cd6c67b2c6fed0c5a7bcf7eb63",
+            "publication_date": "2006-01-09",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "b19c164d25993bf2e7ad55318eac78f6956deeb8",
+            "publication_date": "2006-01-31",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "bbd07d77601eaaac432b867560e03af2305acb2e",
+            "publication_date": "2008-04-30",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "725569c3b0909cb1d6cbe2dfbf36b32d90db1357",
+            "publication_date": "2008-09-22",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "7b052e98973399f5664817978bf0896efa85104e",
+            "publication_date": "2009-03-03",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "ed1932668ee79f9bd9da13332c5f63126ab67613",
+            "publication_date": "2009-10-06",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "352922d6f155b76f11e10d6a24b066a1de46fdd7",
+            "publication_date": "2010-10-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "612b283088714359a349861ee45b824e8f00849c",
+            "publication_date": "2012-03-13",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "f225e4dbeab9f9b24889ab6977db98ebf42e6296",
+            "publication_date": "2012-12-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "30f3a4ed81b42bf294591f8e2a1bc1d6ed8e3e76",
+            "publication_date": "2014-05-08",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "b8068c21d5da79e52eb13801024a0745772ca844",
+            "publication_date": "2015-07-08",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "9c151b4312acfd74447918881efd3949580e6f65",
+            "publication_date": "2016-12-12",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "254e81a7b341366e765d2aed6a85ee4974249881",
+            "publication_date": "2018-01-10",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "0e85b311d7929361368b5fab43e14936c8c45cde",
+            "publication_date": "2018-11-20",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "fae74924f647a897a203ffea2b9cf523b2cfafd6",
+            "publication_date": "2020-03-17",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "a394a3f608955222917844f33a3c32670a26f32c",
+            "publication_date": "2020-09-29",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "1f9afc42981e55eb5c73005a25aabbf4a05061c3",
+            "publication_date": "2022-10-12",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "cc5fa1e490edff719af112f162ce0f171ce827ed",
+            "publication_date": "2023-07-27",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "fed",
+            "document_id": "fe283a4d738a52f3965cc6e253035b54d9521d20",
+            "publication_date": "2026-09-16",
+            "report_period": null,
+            "source_classification": "relevant"
+          },
+          {
+            "source": "fed",
+            "document_id": "cadde35138dce92c97864c9226f119fb70f625b6",
+            "publication_date": "2026-10-02",
+            "report_period": null,
+            "source_classification": "uncertain"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:570971",
+            "publication_date": "2026-10-14",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571012",
+            "publication_date": "2026-10-14",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571033",
+            "publication_date": "2026-10-15",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571076",
+            "publication_date": "2026-10-15",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571164",
+            "publication_date": "2026-10-16",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571381",
+            "publication_date": "2026-10-20",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571437",
+            "publication_date": "2026-10-21",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571503",
+            "publication_date": "2026-10-22",
+            "report_period": null,
+            "source_classification": "direct"
+          },
+          {
+            "source": "thaipbs",
+            "document_id": "thaipbs:news:571550",
+            "publication_date": "2026-10-23",
+            "report_period": null,
+            "source_classification": "direct"
+          }
+        ]
+      },
+      "split_strategy": {
+        "description": "Chronological 60/20/20 split over source-period groups; all same-period and cross-source evidence is kept in one split.",
+        "seed": 42,
+        "group_splits": {
+          "macro:2005-12": "train",
+          "macro:2006-01": "train",
+          "macro:2007-01": "train",
+          "macro:2008-03": "train",
+          "macro:2008-04": "train",
+          "macro:2008-09": "train",
+          "macro:2009-03": "train",
+          "macro:2009-04": "train",
+          "macro:2009-10": "train",
+          "macro:2010-05": "train",
+          "macro:2010-10": "train",
+          "macro:2011-06": "train",
+          "macro:2012-03": "train",
+          "macro:2012-07": "train",
+          "macro:2012-12": "train",
+          "macro:2013-08": "train",
+          "macro:2014-05": "train",
+          "macro:2014-09": "train",
+          "macro:2015-07": "train",
+          "macro:2015-10": "train",
+          "macro:2016-11": "train",
+          "macro:2016-12": "train",
+          "macro:2017-12": "train",
+          "macro:2018-01": "validation",
+          "macro:2018-11": "validation",
+          "macro:2019-01": "validation",
+          "macro:2020-02": "validation",
+          "macro:2020-03": "validation",
+          "macro:2020-09": "validation",
+          "macro:2021-03": "validation",
+          "macro:2022-04": "validation",
+          "macro:2022-10": "test",
+          "macro:2023-05": "test",
+          "macro:2023-07": "test",
+          "macro:2024-06": "test",
+          "macro:2025-07": "test",
+          "macro:2026-09": "test",
+          "macro:2026-10": "test",
+          "thaipbs:2026-10": "test"
+        },
+        "no_group_cross_split_leakage": true
+      },
+      "source_files_sha256": {
+        "dataset\\news\\pbs\\gold_audit_direct.jsonl": "086d0305e73802359854104b055a33fb22da195907e7a9c508aa5df616364c25",
+        "dataset\\news\\fed\\fed_press_releases_cleaned_audit\\fed_press_releases_classified.jsonl": "06c2c8f7c23b3230b654057e357efc5dfb0b60be1772643aaa215918ee989035",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01042013_clean.json": "2b5b50907ad43644770e8d1be053412439ea5e4daef9bd8a5cf70df22267ec43",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01042019_clean.json": "1969df4c8792f39e8f9c096752869338addc6b11c4984e604542d19112eb9699",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01052007_clean.json": "d7fa8060f25001a836447418a4a50d4a21f97d82aae8143f6a86c94c5640c8b6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01052018_clean.json": "8a3f099c8aa155806e28138419241e54c0fa878b00cbe09af7284717ae000354",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01052024_clean.json": "76adb0d5b0a9f1480498c458c145ddc4dd9c90a93cc99d7f6499accbc9d429c6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01062006_clean.json": "02cfed20fddf404b2f65a9f0c7a143bf34fb95de57f77252131bab9c41268dae",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01062012_clean.json": "59be609954b75d5da1b024d9e19be8f4405acd5fda7ca7abb6619f04545c6e73",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01062017_clean.json": "8ccf46d71397428054054ce1e9277c39442378c5642f37fab57ceef0e93295ff",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01062023_clean.json": "71bfee8255424625d915bd46460a62628ebfdf57fc586d9f3449ecf4620b0680",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01072011_clean.json": "76291af5753c107372e0f6d46b7dc674b26ec4cde18d8ad2dc95a98bde214978",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01072022_clean.json": "b55e997c07424a8ce5a655e0c4ed7d73352c17bf9b751c5b428051153bf1c857",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01082010_clean.json": "eb6bcc7b8bf196880095688b8f1ac32d9fec19a9b75e8d327c06357ee6569c8c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01082016_clean.json": "5edcee282ea6a336781377416d639e5553fc5f7ecfebe686bfbe7a783f16b21c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01082021_clean.json": "3b22a20b3a335e261cf4824cf0305e8a8b5457190f31304128b7f0cda238114b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01092009_clean.json": "a9366e1f3706fae00d3f3fd5b1531dec686631aa173b910b9ec92c18f7a46da9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01092015_clean.json": "18564f4d6e8b7531ded0855d02246b220898456127644da3dcdf476d1b3cefde",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01092026_clean.json": "96855ccae11f5d1e1d1112fa787992e8b7fa1a99e7fc264501ffd62f5e1e59ee",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01102014_clean.json": "7aabf44a13b3c47cd627866d9d384cd695f770729f3a698aa1bc7bcb592a2033",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01102020_clean.json": "90d677cecfd551d71b044350a89f54a7d4a6bf5fa0429e186a4c5d03c0829608",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_01102025_clean.json": "d05da99cb818b76f1175126fce8bd9459749628299d7784eec029f43db8f77dd",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02012008_clean.json": "b5c404944232d548454a1c1cd0f6c7fde23bf4d210acd3b332103720e05ea201",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02012013_clean.json": "6051517e021b17f2fd487b3831c5d7bcd796884463c21012c513fe74baf839d4",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02012019_clean.json": "7e7318fd8ee4efebe470f261d716cf70faeb979e32cb4f019b63274b5a8b5b96",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02022007_clean.json": "babd41cc2db3c37402f70c8974261f2c65d095b1a6a5b4adf86abdd7ea158129",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02022018_clean.json": "c47f4bd6f48be983b0ea3025fe7302264f5726cc2d63337f56324f9b8e18c253",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02022024_clean.json": "74d3513000e943a498e20dc2a9170b8284b1f603bc6a54b7ccd98add9a2cbeac",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02032006_clean.json": "56676faad692465c24af7a077cdafa38169b190123e5f826875a7e6d7154b926",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02032012_clean.json": "a9fd428a283568ac9d0d9e59696cc42b8e9d2c26d07ed409482ef0c0b8f88657",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02032017_clean.json": "c49c5ee9c867aea6fcbea3c9dff13543b0a73bc0ae9be26f6e31aee03e1c80b0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02032023_clean.json": "823335cba5e47cdee876fa429685b138cfbd40c09911cc5cdebe92a7aa99ba98",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02042011_clean.json": "dad0871ce8e07223b89a4384e8d902fbdb789a1cfb2ab8fe96dd80c86201eb33",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02042022_clean.json": "05e376a27df8c8d527abbbf82af7b19998d409967e7c6b2c92fc5f0d1ac13993",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02052010_clean.json": "23c43e0c5573590a18f6dd7eba5d803eeac56e25ea6bfc389fbeab98c9d33f26",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02052016_clean.json": "68fbc50715623622f56f4fff4821de0d624bb197532235d305d0b8f8063a8a68",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02052021_clean.json": "61e25b821d739aecca7a2d6b9dfd6c24529cc6b58981e101c594d08a942f6e42",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02062009_clean.json": "c1156ac9a652cd9f5a6efd086cf790b53df2cab2a3e7a1f9e06c581182fe6031",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02062015_clean.json": "c5fb17e57a600d7c16c81199be0eb4aaa1ba576d76d3a2d5fd8b178baa18cd93",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02072014_clean.json": "173492b6579e6071d1289408ccb255447544063f5b3594f0c19cfa3d7087fb12",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02072020_clean.json": "205adf558c94f8eb8fb6bdbc619baa89e0f2dfc41239bcf2f7eb691b46d3e3e5",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02072025_clean.json": "d8a3d945588bda9f285d66e91140c8fbf16c340a9ea7a4b14428feb7a357fcdf",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_02112026_clean.json": "3733f53d2591c726c00dff53915f0d40ba1e8fe5597bc2a44d42fb37e427f352",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03042011_clean.json": "46f14c2e88a62b4817229691161c74bc81866e58bf4f12b1c80c8916ec96edaa",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03042016_clean.json": "3b81d0c5e81b048e2dc2358f74038b3ae808b98bfcd5df542235e6cc096bc0a7",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03042022_clean.json": "4a35e6fe9f55bf84440efaf977f4891e1bdaf936aebaad9a2ac55f42f1c4367d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03052010_clean.json": "f372be316a52c2180fd0039548869a27548bfb323abb3afd827902bf155fdac4",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03052021_clean.json": "59dbaac8485de90ff2f620ccd39d1985356e77fcf7dbd14dfbd8628c497cffd9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03062009_clean.json": "edce8de478894463039322fa7263b78f4e628570539b7f8e1962f7b1f75ae767",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03062015_clean.json": "8e9160237e93d8b78ad165ffcf939a2059380c0c3c5fae1910739bd69c602c76",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03062020_clean.json": "6a27d170968f4c5c2d4486911a70619d9b40f826f07288a1eb14ee974f86ae60",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03062026_clean.json": "da1935b15c100a0b723e7d996cf1f26f49b77b5c82a59e96e965996b7c451ba2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03072008_clean.json": "7b99c1b0025853a17c715b0c657d8848a7c404b66ff0c94c57b89f077463b336",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03072014_clean.json": "bdfc4ececf92a9bfad141bc4682d73cf2d427caaf2bd5b019af0548c02e6403b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03072025_clean.json": "dc6aa126d55f664595c01e9ae12bba3ad8ef2a58dcc8ce37a1aedb8f17026d1c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03082013_clean.json": "9e79532dd3a6d69cd1b07bba5cbb41f2773f1823fab231d66b3542f65e5f2f77",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03082019_clean.json": "b67336ed19e411fd849834d9eee2cfc9c605d4228d6fd495e0f053e4cc7c5f43",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03082024_clean.json": "06411cbbff4e05948bd2072a2090d2287da85639fbfed56e1c468bed38092204",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03092007_clean.json": "a7409aeae1a1b3794e8e14fbde45e770d6f6d98fc9228d2497ce50fc10107cb2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03092012_clean.json": "2f4e117e164413f7894676bb017c641dce6d3bbac61dd2e2852d04a9c120301f",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03092018_clean.json": "1e4e2e25fd70c89e8b9393a7dfc509c6e5e7de219537cf46924adbfe390d1411",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03102006_clean.json": "dfcdeb56699d3f824d5d6aa3fc691d3218a11821fecabaf63e3047328137ad1f",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03102017_clean.json": "cfbf88ee4b3e54dd01900fa0f5d13cdbbb612aa9bebb8ba9c26e4eaa17d329eb",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_03102023_clean.json": "2f4695bb75299a208236092c34604dfecb926e197152b7841ab7279d98664782",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04012011_clean.json": "90b026a724ea1cafc42e9abfa2b2bc63e26c86101552940abd82dc04de05ac48",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04012016_clean.json": "5bed64363063f6795a084e3fea00d4366835635e5d4ef72f43a6372fd0f8ed6c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04012022_clean.json": "dde241f42f3def908d4d2207ae5c4840293bffde0ef561c31e6b9dfd1c6ba7ff",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04022010_clean.json": "40d80f158b01bfedae8cfadd8f5ab152bee277467ce559ed042e8fc0a4bfc23b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04022021_clean.json": "8e5dfe66629c29e661e03f96b14ff8028d079e274534c1e536653f770b6d8815",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04032009_clean.json": "c14bec3186e42ab043d70f3da1dd793b0e9c63addd7f9cd424f4f7dd095fe9e2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04032015_clean.json": "bfc753ce52e0863ccb9831908755c1eb2903bb246d19f0f2673ebf6da6c60d31",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04032020_clean.json": "31777dddeab7bbf4a259f7c0548691585233664ff48c67031e48db0517257a09",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04032026_clean.json": "d95d596e4fc1c95bac68ff2861367a93456acd3fb4761e255589cfe5c7c74cdb",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04042008_clean.json": "c576ce7a4dbabf6c49692245ea1048357cea1d6f9d711240014d1400ce60f491",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04042014_clean.json": "6156e23d9b4a6ee5d8384c5592b5f7c58b9d63add57078205cc93e6bf0c7dc32",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04042025_clean.json": "901d6581901c34f62d600cc8ef667eada3e0314398e8c795c107931421748f38",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04052013_clean.json": "68dd64e8cd556471454c0fe5af96ac619071db5f76479fbf7f99c078db896379",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04052019_clean.json": "c6f1e702be623819812aeb9633f18c981b470da09279fc48d8377f3f822f8983",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04052024_clean.json": "d65210284a5bd0e3d07d13ad176037a1f78d7c587f7690848203d538d992d29e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04062007_clean.json": "f5c612220430f6a311cd2654374c292031cb260f66fceebf26ba7adf6fcdbf15",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04062012_clean.json": "bc576c8e1bf6ce48cb6950206cb57212bfb457e5539ac2af34b44e98a0298e59",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04062018_clean.json": "49c4d03799164d3f94b9559d93958a89d0bc9be954a6b5c51371424c1c094d95",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04072006_clean.json": "c1f87e587b86f4bb7c74a679af46351a8db34f3c15b78b0d5c4564a3d9b03d28",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04072017_clean.json": "008285bf84708b14cdc5a3d583d1826776f0c0d47dcda83d3eaf93d16a5ebf7d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_04072023_clean.json": "24c7ea5848b02a1d451e2f53be541b925a3e9e3f96b32a8e6c2c561bb2df6f92",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05022008_clean.json": "ff48d469253db5e7e9ce543a2a201f75a64df3600fcb292c05064005d1bc1208",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05022014_clean.json": "2f83f2572ba397a60898ec6a41366dda1e908ad24ab7b0884f99fa463e205539",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05022025_clean.json": "7b188efc359634de63dd48a98a29267720a87d56281bfa76f1063459e720c0a5",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05032013_clean.json": "c4072039f5b4846e11366c9637663d300061da10441de93208dd44536b707c50",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05032019_clean.json": "bf01f0b1ffd41bb901ed0364372e7f65b5c845315c4b5e65b2866f81d8c04e48",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05032024_clean.json": "7876ba175a6b7df82e028d25b7dd7c7ff407bc4d5c7118e9dbae07b8f2d829a1",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05042007_clean.json": "d237e643d0d44a4d379cc750ce1de986f2b42a87099afc696cdcbf965f326103",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05042012_clean.json": "bbf128ba0ae203786ada3c981ad211da3d4a1520f7bef4e72c63545180740820",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05042018_clean.json": "92e7497443d75311d34e6e37ce9e36fd3f9d2459e4ab6a0b9316582682d88604",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05052006_clean.json": "a16e8284e807026e2531a3e8a395a1d01ba91a2f08b973229405d0f1dd3eab7a",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05052017_clean.json": "85ccf6fab8f0fefbbd44bae7f6a0455be203acff812fe3460d884f0337d35d76",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05052023_clean.json": "2c6dc68c98f9210baeb1844d75ae9ba25073bd7653dfeea6eb2867c02a8df5ad",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05062011_clean.json": "804a2ffc958e18836b393c0fd815eca1679c79eb5d6f27b8f0de5fe8ecfe5920",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05062016_clean.json": "9d3a89d880ab7d9ec3e96a740fcdb2b50fddebbe957acf26ea3c913d8ff35c9f",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05062022_clean.json": "cb5915202f86c5759deba233b61af31b1ccc6b8aa3223dd6dbc1113a333526c2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05072010_clean.json": "d56687439a3014675293e6100b575b9e9743fdecda57d58a9f167c20109c2e6b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05072021_clean.json": "2279d691360f150b9643e84159acd567dd708047aeb0fb5ced491d3570d25ec9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05082009_clean.json": "a596c27e01a51245547c48d540a831f22ef54b67a1374d5046691e9f7958242e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05082015_clean.json": "6b58d65eb30c1dfa6a771553db83304eac14573e9d6d37a80d21a62d9eecb338",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05082020_clean.json": "93bda69884e7d6242e2776edbfea4892fe2aed427963de6c2cf0779d7cf64ff4",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_05082026_clean.json": "e6f0f222573c43295ff06be8547e7b003cb70791ad5796006776f035ab86f538",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06012007_clean.json": "a3b60b7bf35e20ce84b001dfaf375bd17cc285e6e8b5c7a8c203094954a4f6d3",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06012012_clean.json": "0ff3ca28d5c5793871aa0434c2346df4d4beadc9a6092abaeb0e449db2fe6dd3",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06012018_clean.json": "233f89cae54f11bf2f7c298b50de10c834c6d87473a8e23e2ba3cf626c1ed99a",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06022006_clean.json": "ad8d2068c4942ea90e84da17b2581dba3d9940f5efcf3b3d7d958b0c6759b36e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06022017_clean.json": "6088ee9bff354712c58bb8ffba5092946d38d91fecf45ce54f77ee03417352fb",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06022023_clean.json": "61f2ab8d1b08eb27805525f43ff93c3e1a37882dac59e559785fcc7cc228d481",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06032011_clean.json": "eea67d568de302a5631adda3743ebe6fc212514dcf4f6d45c1e006a82fd77715",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06032016_clean.json": "0f7c4345180262c1e693c38eb56abf90690ea7178c3725de8e2784ed3599320d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06032022_clean.json": "f5a14be3c84093002faae1ce8347a585a22bd8db421bd804bd772f7568d30a62",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06042010_clean.json": "debcf60b75b5be1f9777c7bc0f8170eedc5c514ec32e203ccd9b536e440d53f8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06042021_clean.json": "a7c0263373fac433632373caab6cadfd8d2ce801aa66536f49d181604d331dd6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06052009_clean.json": "bfecc3cc6e1494b8797f0508f1341135ccfab2bff311901bb4060c5067fd7b3e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06052015_clean.json": "b3a18534684766aaec8dd958f26a395421dcc913b0fb7bad794a0496bf60cc7d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06052020_clean.json": "0d95138eb1906fe24174e02b29bd90debf08df4a4728be1dcb8f323af3606fc6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06052026_clean.json": "2a76198b94604208092d71ab2889652d53d614859a946712eab0c43bc33115df",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06062008_clean.json": "f6baa2eab415970d41b2fab55e7069c8d9ee28c3dd25ed87a8478f6b8072419e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06062014_clean.json": "9c3f02bb958b29be68a8d987fc941a988ed7e0eb30e722ce2af822da1a2cb031",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06062025_clean.json": "4c68e683a9b16756c6fa206a3d59853834278d8aee74eb92d2ef040174de9d8b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06072013_clean.json": "3d9f04c9825391f50f19ec43cdc98454ec87f00eadd8a480cdf7e789aab5dfae",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06072019_clean.json": "55f99a226b7975744eee2ec0bc717cfa6eeac7de4879068c50d65c8ab82c009c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_06072024_clean.json": "3e5651717742650901ae98f6ffd18272812a2ac85b8e23e1a1319dc5d8cc36a7",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022009_clean.json": "d1e1eae8caada4a3d02ccdd3e36719f791ef0dc790f779e43bdc34f8d9bfd702",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022010_clean.json": "a9cec48b0c64996d545e981b9ccfe3cacf6fe27538bf491866465b4fc3f4ec52",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022015_clean.json": "4dd30abf745c53474ea787ce9c2e74ee083975f02415e07a59a974e9f86cfab5",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022020_clean.json": "1246eceb64e99d42080fcd7866ee6a19d9f5c9314d56c01abb1ad83876119ddd",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022021_clean.json": "86a4db51b0d7c63d5ad736b28ce144ed58dd202391fefb32219527b20adfc815",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07022026_clean.json": "b798aa91455c566f183eaa28d96647e590b6b01e3a7e10f037984f4f115fbf31",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07032008_clean.json": "4faec844e3a924a924f59e0d1f9bb0ff6d97c9c734b08caaede5c0a0f486db73",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07032014_clean.json": "625c228b65b51e18ede088a3966a068bbbaee4a0e526c714ec2537aa512e90b7",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07032025_clean.json": "f43e67f8331ba1adbd32d458a71d2dbde703a0c1eeeb0e6009ce399ede007e0e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07052013_clean.json": "3b92683da293d32124ee460d71e0142c66e80dabd93842d85a72145d0e21a89e",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07052019_clean.json": "5c82a2f9f15a0ca63b4ac98cb0905b150415bf33c7bc3ea8ebb3549576de1989",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07052024_clean.json": "ba3e6ae97843b5b09a623db308e02780c549246f3b6ee14d66b0303b7dc1280c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07062007_clean.json": "3b0e256fc0e8dc80d526c5483eb9d341ad0d08eb4b7b8de8ac3e43a4336dad12",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07062012_clean.json": "d2a89c64ab7f04729d52b7a6f635cbb02b976787854e7c88c7441e68287440f1",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07062018_clean.json": "62e0f11d6f10b0bae16320f851cb2b1c63429cffae6767fa72da8c9047fed8fa",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07072006_clean.json": "a9eda245d4618e6d2e5338dc7ffefd8c46d38c88e0b45d7e400c048f4b4a34c0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07072017_clean.json": "62db17a050a588b5c3c07120c91b3c7fe55e4260c0a6bf6cdfb8c12f24f93618",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07072023_clean.json": "77a76ef872edf586d79444e705d9976a6a3bfd64f26f73490c17e4f31bc9d367",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07082011_clean.json": "98b0965084e83c16bcefdf4ae6311675533b2ad22389b931136e5f41cb103187",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07082016_clean.json": "ef085a7f8e13567b0eb8021f887bd96c8c261a95464d6180dfe383a42e5501ed",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_07082022_clean.json": "f28face45caeec14877e6a70181bb8f148246d7ae0450813f4751c6c0eb6d8b1",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08012008_clean.json": "aa17377286f96e28a55edb6bccdec1a6398850ceff8729d588422a9a02124d71",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08012014_clean.json": "c43b3aa555103b95dee32915e2c250244812e9d7e464a3cf55b5ec6743dea335",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08012025_clean.json": "a80ac4da9d6352951f5f38e24d6068ac4010320a15b4835a7d2439f511d71358",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08022013_clean.json": "42f3e066497add7062a7a879c5361ace7a23d0c0c7aff1f14ef1dcbfdae796c9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08022019_clean.json": "832bdd5cf73604e4e21b09fe636b39178a6142a9360e8e2ed003cc774d5072a9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08022024_clean.json": "1ff284d4ea92fa078715a7ea0ce0c041f08ba05cff72e50b9fb3faf3dae3775a",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08032007_clean.json": "8f227b29e867a7a6dfbb9374b57587209133cb65c0539502cb176497d57fd27b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08032012_clean.json": "a6e640f89bdea5974b2ee397c16a1ed6d6584272250a44d06b080d8289c5b8ab",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08032018_clean.json": "2e973eb52629b104df83459d19a227cd2774e99e1c811108066aa2b34e5ea4c8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08042006_clean.json": "1ff00cc1573e1516536cbfa764eef02c343657f0f3cc66be853b275a2a2f562a",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08042017_clean.json": "7c5fc99925c6b2420c2f49f3d9633535c28a4e6a5dd96f1b623f8cfdb31fd480",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08042023_clean.json": "fd6725cf6047bb9fda9141a308762ca75e0d075cfa383a09ae5c60b9e223f993",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08052011_clean.json": "2c14d6d28c6b79fe66349cd0ca29ef228b7d758af4be9b78c745b1be4c4c4587",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08052016_clean.json": "6240ebf5632732a54d0ba422876d7dd516e5ff6bf423f1a60822cb6cf2829b08",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08052022_clean.json": "feb842f7c45a4c27454e3cc7b200cbd0d33c558e55be7d951dcdb971ec1f3cd0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08062010_clean.json": "03e3f000bddb47feaf4c0c548f39fd0bdff0db0df1570b38a8ec44b33f7b4ce3",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08062021_clean.json": "db512cf6d21229c3fc55a44af2d2cf77b43fd1ae10ca2c7fcf881c1a2dae5b17",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08072009_clean.json": "e0529377928a1a5f568c3d01d9994e03d20bf5564ddf7230c50556e82307c438",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08072015_clean.json": "7f784f0365ba63b09cbc99a9702620a3e165f1f4878c8d182e4581530d838827",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08072020_clean.json": "2184804e809c2fe0ef76b40190e249ac5304bbd1f76279f0a51bf022023af82b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_08072026_clean.json": "b8f710d2ddd1744736f55c094df82af13f9c2483a05c21a4c3c067200029aa39",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09012006_clean.json": "69f6f70fcf20d1ac90780244364983e43112a23adb801cc5ed821500bdf443b4",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09012017_clean.json": "04dacc0c29696697edf7178cb6dfa27e0f05755b4e6de3ba71cb94a706dbdbc1",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09012023_clean.json": "f136b5031370183d3b5e2316c586dab658e12a326fca93ff159b3ac599106666",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09022011_clean.json": "e7a26442f452ef42b528756e035a7c6b9522783d413dbb5ba63981a91bd9c7ce",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09022016_clean.json": "8f013bc2e9b6b101c43e8ebec7ab595baac580a3f6bfc43edd47b156329e0be9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09022022_clean.json": "59c5b8f0af041247d9d34c8656559461fdd05b5904dc22fba140b8c79b4f3b47",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09032010_clean.json": "06a68f1259d15718f2434dfbca965b636c9a92cbd2963d7a1b32252199416570",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09032021_clean.json": "1fa1967f9545d7d397c0209d952caea7d6b109a60275287475e374ab03a487ec",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09042009_clean.json": "cc507c4711de564ccb17abcf7434a0cbb7df741a04edd5333be84aec19b13d3b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09042015_clean.json": "c65060ad41533908530742f1372c3b240db7bcfab1e1243a54c9d154812690fa",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09042020_clean.json": "eb5e94f413c870a2debe7099d355f655ea587281855f1609a3119da8410059ee",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09042026_clean.json": "023f5cf3254107f310204d6b98518fcacc1e72a6a23385e0b169bb54c19d5398",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09052008_clean.json": "e6c63e4cfc0f9c9a6a668d8a7c305a7f8b4a1081e8f0279985d8f49cb0dd2ca0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09052014_clean.json": "eb7a5cc1f85c7d90f500cecc489276b33e5f37efd87cecbe4ad04a17590100de",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09052025_clean.json": "e8f26a4bdbee8f4e33b873e19540b589bd1edcff6800d5ed7cc60f28dd72ca6c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09062013_clean.json": "ac7463ea8fdabc291cd1bbc3a371c6be624849d8d24a5cffa4f5db4bd18471d6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09062019_clean.json": "afcb82b6be41c775dc2e54209f1afc51b5c550c0444a12e3ca169cf241ae1b27",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09062024_clean.json": "25a6e5450dd32bb33898413a1fe3652c1d26e50efd63d2383504f4e69cddc3d8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09072007_clean.json": "b189b9af31c786f7861146394850e02a976d240dc2cec9aba190589b941097b9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09072012_clean.json": "0652bbd5854fd360fa6c5ae994d3b43c8e4a768bfe9e3f58f31c3d595073599f",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_09072018_clean.json": "f49b337d22cebe811d6af7aead034d65bfb6d39a05c00f3ab4c7dd2c6015c45d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10022009_clean.json": "909dd047227cd8c2f2d617e3ad010d7a3ec266e9268159fd761c56fc6a216fda",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10022015_clean.json": "50182d0949574d7bfed5eb51865627c68512032e5c6a13f24af669481bad54dc",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10022020_clean.json": "e76a92a81f04c56a2d6a4b72d86753ac4c3a002500a527216ee8888c1fab7df6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10022026_clean.json": "1d163c3d48eff0be55f40b03e0af07a96df2e48b06d44947fd85a9e012930354",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10032008_clean.json": "d243a3626b4ee9fffbe3bf6ca0329aa8545e5f70333d25d569713e09b00b27c6",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10032014_clean.json": "26cd4ca2d6d29d87a6ba90de5e9d082180cd9fb81be792207ea992cff01a1bb8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10042019_clean.json": "5e8f2f9361f6d07aac6c3d38333ce258707082c31567ada78519b6e20d52f2bb",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10042024_clean.json": "a1c76c91c821e6d58916c3c68a523a0f3bc8a7ac99f3903196f92ed117077853",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10052007_clean.json": "6d793017adc185912d11eab702aefd52d8506cf3b2a2a896364f1223a05cec11",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10052012_clean.json": "5778672601bfe3b7f5d90a8e11f35c1a453f0f843c8d0e9916d94872b53c3aa2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10052018_clean.json": "f5da00546d87632094e2004cd467f3ebf341f72ccc1ec7459ff23f0f12d114a1",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10062006_clean.json": "1951ea0a526502f37f2dae89959f138e996e78b11aee49099ffbe1eb66a4cf89",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10062017_clean.json": "af4eedc16f98a45e2c57db76f680109bdd7b4180f09f8aabdfc076c5a298124d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10062023_clean.json": "733d0cf8ba4f5be2bce49ad2b89cd4bda3e4b32fb815dc173e7864be8ebdc488",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10072011_clean.json": "f4c7e6764fb3a982459adb328cba72eff17fc2ddeca17054c98fbea8ee0d686c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10072016_clean.json": "03e6752653e4134ac4894f73ba540bd1d2e4104c849b27edacce831d828d4a73",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10072022_clean.json": "c9296afae433e5abb94c63878b802a7a12101a553c730283b5cc37cac2c08926",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10082010_clean.json": "14c8cc3a8bd757be66a5c7ee722f2778129b08d28f81f2777d1ee4afdecbaffe",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10082021_clean.json": "28ffad76d2accf4cb67ef139b190cdea3a7c14aac4aed6da6a44aa53b8c89244",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_10222013_clean.json": "90b3e93c7ae6572959dfd4619c12e851a82808b329a98979961fd1c9d9178f66",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11012019_clean.json": "3bfe5bef834994c6d46912888a1da4da399575c6218ef9ab0b4cdefcbda9e686",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11012024_clean.json": "da03a0db2f5165fbd0497cfbf96117418b1421199a00e337e780d45b2f2dbd5b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11022007_clean.json": "02cde37dbae49ff287e59cd0334fd51703de3938cc6063b196a9321c72b62473",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11022012_clean.json": "b1fa51aa4225fc045e9a2ee409439a62a45f1ef77006e365769da7af32283eba",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11022018_clean.json": "9567d282eb23297f7d19d5f658511d7a2786cacfad53d1f45d898cd472c2abd2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11032006_clean.json": "2018ff2efaab95397b98ac79a1155d73ca0338eae50c28144f3094fed4f809c9",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11032017_clean.json": "a96c90c19bdfb268f7d07901d170836838829f41c33069cbe8e07af0c4fbbcb3",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11032023_clean.json": "ca87120a740b3d294b23c183c0ffd05923fb4818f13f0ea9bf0a31c26aea6c81",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11042011_clean.json": "564833d796398a2aee7a18c598da3272960bb861fe2a8708b02f0822a7bcd1f7",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11042016_clean.json": "bd8078f63aaae5329e579b3f833919569ad7091d809650b76ac2cf824ab95e21",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11042022_clean.json": "0c24e1cd92aff5cb940332c5ca7d73fae4e88929eacaa2923b48b4c310312203",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11052010_clean.json": "0a62d3255ef37aab090e88380991d31c2536fb59d5d46e35b6a3b36036478c14",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11052021_clean.json": "156a9dec8130405e2408b48be0f0a0069d607ed8c4733f9d57d2e3aba6ed26c4",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11062009_clean.json": "be955c9f4e14c600a7f9df6dd60c9f787f700c541369b5e271dd38540ff8c1e0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11062015_clean.json": "5e5a0e77345f5cd6e2a17bd047e2b5b6702382afd168df4921be1ff5aae4ff29",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11062020_clean.json": "aeb2d150e8d8b7ab385284699a51acf488253582a5177c5a3e1ecc9b6818de09",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11072008_clean.json": "40b6ad8b68c6c8b95b2a20a24b5ad80b0a1708cc1b26a2c0fc32c7f8c0515c37",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11072014_clean.json": "3ba76750c0f41447d3b0026bdcdd6d292ec37d22fa1db6bc6b34fd6da39530e8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11082013_clean.json": "47cb32386610424edf1b39846eb11d4b5cdf775f0924d01ddea5ca31c3e869f2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_11202025_clean.json": "bc8471de698e7837d17cbeaf508f52d1e8526e175fc1f7cbb7c723fff33fde10",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12022011_clean.json": "5432d431f93adfb6900e0f7b2b95a3008b263db06c4f493bd411e42506d78233",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12022016_clean.json": "21b98a66cb90105dcd475f571f1913bdf9bd0e02b9972c3baf0a2ebf75079c53",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12022022_clean.json": "995939ca51bc0ddb1ceb99d40cd8dd1a9a23577a89f18b81f4a7651d66c7f93f",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12032010_clean.json": "0d835bdb71f5fc5d526a68adf382c692fe49a5e5e5cdce14ec2ac7f9252f504c",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12032021_clean.json": "6514267b6bf203a5c81655793639e7f50e88f975fc28401c6104ae9d922403c8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12042009_clean.json": "98aa4b5ea37f2cf83b0e054b2f737c2cf827f19a78a689713334c503df8a9d0a",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12042015_clean.json": "4851c2fd6563cab60e0779feac41a932b51e5657ee0cf7c0d05565529f095b3d",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12042020_clean.json": "d1f43dc955acf2a653cdea32783caf08015ff8cb130d8bd9077affd0e50ca0fd",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12052008_clean.json": "534045e661d019a9c23261e4170712e35ebfa060761a69b5ce4ad6ed7b099caf",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12052014_clean.json": "50351625ab0bac7389addd09931579369a521f6b7b4d53a7eece87b714d228d8",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12062013_clean.json": "81cfbd8c0f86a0acaf222e3bbd65ded1879e1b52c2d3101c2f5ddde5e83623e5",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12062019_clean.json": "56bfdf60ada953508393808233165ca107d93cebfb758770841bbb8647297dd0",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12062024_clean.json": "37981e6c2ea811b0a94388e24da8bcb76c4a6bcaa293aee44d2e539ff74647b3",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12072007_clean.json": "7c039073e39ec723ddd3c40bca89b5a1c921f939363bcdba141dc6dd0467fb4b",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12072012_clean.json": "b975edccaa3005b39d3ad902743e068e4bef8c579fe20b0ca1dacbfcf6730706",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12072018_clean.json": "c6ffc91d1a4967d6939e29b7775f83b5daf2bb41089a45db60fbbe0a6caa9829",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12082006_clean.json": "a1a8ff144d271c8fd1b53256034df216fe69d42162e55399b81f9be06fd429e2",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12082017_clean.json": "ffff965ea04ea8634f9b6b0fde803a8a375285e261be457325c16b447a15a887",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12082023_clean.json": "b353ffc0600082417478b40b272c421c7af5ec70d9f5d40ca0aa69b1df71b813",
+        "dataset\\news\\bls\\nfp\\clean\\empsit_12162025_clean.json": "5681a2c32dd0234b34d3306c805bd99c19d506732aca404c41fbcd8edee4484e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01112019_clean.json": "75d5b629f3e2e00c4ada0ff697fe30a4ef5641437e607e0b157e024b6206d218",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01112024_clean.json": "40d2c3d0375a08f799426e715647c446f47a3d0127686ed0cc7ebf6f5b9ef342",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01122018_clean.json": "af5dd0b40c31d42f444dd7247dbd55d7507a1c1d20062a011d8390fe85fc2083",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01122022_clean.json": "766fc3a10d08c3f4be3533ec415e5099eaa7025594de36e46c35daa0f255e407",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01122023_clean.json": "a2debd3b5affefb69425e25824ad3f9d209268d39038bbbcc016d7809797f2ca",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01132021_clean.json": "ce517db8d3f386ade02c7a950fb462f25e54eff70025a5212d5da4979456535b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01132026_clean.json": "e55880b7d93b9c00646d56a9fdf0a0f519ad74bef7330ca4d48f1f18ab7f8c20",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01142011_clean.json": "8b45caa042ec4c5067501e7e61352d676c8260294a06b406c9a12271ccc35911",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01142020_clean.json": "984c22420e8b1d363ccf79e01781debdbb5ee00b1f39bbf5ba32e71fd60ac9da",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01152010_clean.json": "2bf7e4e4c652ce7a55f2f812078ff6c5e91e6925e86a7497f82e98db9fadc69c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01152025_clean.json": "4aaf846a640ad1323f944b8f80ae7b12dd79089cfda0fe53d56dd6f475ebbd27",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01162009_clean.json": "a7a64e2b781274a5b06ca99c8de8aaaad6b7b45659e48c6d0278c6f8398fe906",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01162013_clean.json": "f4a0701e7284e06b6167323417024efda3d873b134729b33e12309e598cf385a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01162014_clean.json": "5f0a6a1bf509c53ac4c0e8f687bd87265435427f38ac55bf4d05f65601717f40",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01162015_clean.json": "327d2b9c73dc61ae4473ac127c4c018ae63eaecae849c30c30f4bd260c7121bc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01182006_clean.json": "f8e1db95e096b9fea187fbcabbf664a314d4fb7441090bd843765eddd1086d6c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01182007_clean.json": "b18ef7151478ce7d63e9f0c14fa39bc56152d3784244513cfc2241a2145bc9bc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01182017_clean.json": "acfd42b8812970b568c95ba481cf6ea75dec2435062167b380235a531d33a711",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01192012_clean.json": "3ef7100aadae68b46daf3141b9da326b57793b2c638e117be62c7eee2577865b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_01202016_clean.json": "717eb7bfcd85364620c5244582202fc95abd4aa0412321c66417e26f7e661da5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02102021_clean.json": "4b23046fc514584ef9408dab4f17a84e9dfa2938b007de8e8e25277f36710d9b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02102022_clean.json": "8d3d3e09ccc288c92889055d04c70d68f15c63869faa92136896e73e56eb1fdb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02122025_clean.json": "ff3cc6d44e64418b46fc06e91a734cff1dda571df661dbda113d9dcba524c966",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02132019_clean.json": "802dc9a701e48918e78387590a9d06363897679790b4b0528c361805fe833d78",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02132020_clean.json": "aa829fa6c71f9b8262414b6c68c2547ad8494bec2e8c7f2a08f5b8b37d7227c4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02132024_clean.json": "77f3da56ed1e749c8135b4389c12911b8f7b8bf8b73a3ceef90ad0fb4cfeda7a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02132026_clean.json": "2bae25eda0410ce89be009fd6cf0a681fd84703ff051efee00cb02ff7426983c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02142018_clean.json": "1275bfd6d79f9920e10063cba3bf62205b188cf183f74f1df7251d6637a72f20",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02142023_clean.json": "cd4dd732c52a831cc5b45a494af8f5f9977920e7901d9a51156985201a3647da",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02152017_clean.json": "7cbcddd9ee1b818fd5213614886b1b8f5bf2db22e2207940d8beb94fa303efe4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02172011_clean.json": "f415c33d6be66406d390d000f6a02c3234d436334d309442e080ed8008186804",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02172012_clean.json": "df35dab902be5b21a7d3d064936aa26b7eef064d1d08c9bd2af7034cb7da2913",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02192010_clean.json": "11a1f76b1bb3cfc70c2d12af8d8ed4e9a4a69f3d6f303dd7c42f116e26cae3a2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02192016_clean.json": "bc11e5ca22de7fa146930060dd1c9b3f1636b5cd7095d53cbbeb36411176bb60",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02202008_clean.json": "e2bb7090594700595800ee71e6cfe70356f384c092f9958313626a1c047e1dae",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02202009_clean.json": "1eb0e6b5bd2d5018e30fe3243898195c308414994aa6e9ce795d4eeec1d99d30",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02202014_clean.json": "6f6ec2aa700fedaf6f2e799667f38782c5fd9b82592593ab9219da3177c9933f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02212007_clean.json": "867144a99a2bf81a8cc23a63581fdedcf3168f5058c65a97ae875a77229af17a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02212013_clean.json": "4c7f09dcac0d8bbc7ae11e8511702f978403dbd3ad30ef315c05924f2fb2a78f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02222006_clean.json": "2a6fec35b644f2cdbd7cdb56ab6a4333f8e30705abb3e7c4dbe39029549cb9ac",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_02262015_clean.json": "c5fce5e9febe17078c45341a8a461978e3075bb99172c1f7f11eae32c49428ba",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03102021_clean.json": "c4190d99c0ce3055df7317cf7455d938fe4e59dac60eee75dac53851597386f4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03102022_clean.json": "a7d1c0e020297aeecf04bbdac0198e987a9389125a446e35bfdc778f50f9541c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03112020_clean.json": "5a33301fa13f647390be4029ab1546a58682900e8d81fe96f113ffd757717e13",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03112026_clean.json": "0fd300ee5af9caf22759fe509554f141c789a495a1b316cae16ff4803676e9af",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03122019_clean.json": "b7886466edd26a05c25f95d48845423aa918e9e1fbd104c58f7203ee061adfa9",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03122024_clean.json": "bedf6c987940200232a570da075498eee8331f227f0381e467699b616e3b3bc2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03122025_clean.json": "cb7fb235f0508f58b371539fb4d2bc3751fa5cdbdcf5c77a0f6daa889240271e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03132018_clean.json": "13cedf364d8c809d256df578d0262675afca8160a7bc7537a4a92788176e10ae",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03142008_clean.json": "d17e45f50a734570f839df6c540e11c22138cb26ec619a7fe967bf576e687e15",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03142023_clean.json": "b22ae2eb89786aa0037d671c1e69e7949ed17628cd760406f29cf7084b66f74f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03152013_clean.json": "05ccc6983bf444a0b430d1655b138ec9311a280e0a0b0c105d51a66d8e0706e6",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03152017_clean.json": "2ef87b4421c5b0ec591b2d16e8fe60184ce8d867c1b5f1b3a2f1516a37feaaab",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03162006_clean.json": "2dd08ac0083e53abeccbfe8545da912045f86a0ed29cd2276366d4b8554b0d1d",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03162007_clean.json": "57ef0ce7339c52428b4f0e29032e4dd530507377bdcb83d62a8b210bb8852df5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03162012_clean.json": "34bdfd2a30819b5eb2da09e8f39062567ae1b509016c7458940c16fafb3819af",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03162016_clean.json": "46e88656c9acd01b339448ed0b829c2ed76d7f29ceb7c728df2b0d992625d0da",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03172011_clean.json": "5149f8d2fe15f5cfacbf879834aca02051f7a6715c3ce6e9f72e6ff787ceb9e7",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03182009_clean.json": "b2b7ae6770170d85865b793f89cc47fa2e02261f7a9bd66836d5b99e2878845f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03182010_clean.json": "2d75799f9fe085d2ca3eda226e50eba37d5430e6504b165bb6eeb6c23571357b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03182014_clean.json": "c5a3ad4a3b0a63a5a9ee932d3c40f9402f3fa8288d8d10121954caf2f6eb8431",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_03242015_clean.json": "1457ef4dafe292e257d7755ad0f33238b19d4d794243be04d992076b777350d4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04102019_clean.json": "7cf9cab66bf28ee3504048e332945f1bac1f46d040040f8bb2f15888564567cc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04102020_clean.json": "3a136a1e062de9359da4efcf3b6f861c8e89428751c71cfaf69a4ccd02b8d3ae",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04102024_clean.json": "285a5a3cccdbde99c6b193911a690c99f78399944080d64f0e70975e46162db5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04102025_clean.json": "32d89a3e6aae214e410744f956f935e9cd0b8c66316b4c8430d5b7e0a8a76b30",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04102026_clean.json": "7faa9a5cfbe73a5f9a23312cbef91e92ca608c92534933fb7ca77a4b916084e3",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04112018_clean.json": "026be66bb3d89f5e4c1b83aabbe704a9d614eca9cfb15e84d4757932d4917a20",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04122022_clean.json": "3b95d5e0e3cbeb7e8abad3a35808b118cd89ac66ce8bf3cbd065e94f11537e1a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04122023_clean.json": "12dd8ef531cfe999840b485532cc9fb3c9a59ef9690d981a7fc61aec931b69d9",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04132012_clean.json": "fb5e4091fc6e06d82f06ab6bc28692d620b56b65d07716f5fc1c27cc4e15e5b5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04132021_clean.json": "b845cc2f04a99af0cff53d79e785b18ba6c1c3691887d31cb901569eb87dc1e1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04142010_clean.json": "2f05681f61c2e28dce367dd0bc568dd88f0eb0939fd2747fdcf5d9df0d212edb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04142016_clean.json": "d7d976cfaca2d3f8f9751f9d5142d1b21554ecef0b074df4a8d578c68f3bbb14",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04142017_clean.json": "32545372edc9a4b808ac1f0ea2c22f26f6170a63522c4f88dd772d84453ca90e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04152009_clean.json": "4250ddf7d0a86b2823561de34fa4f61e9faaf72271048724319b0149662c0add",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04152011_clean.json": "dcae54f1f2e27980ca9ecc9f1468d20d20876402b9c09c8793498e854b1c7c5a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04152014_clean.json": "1a10002d7f1ef7f514071e10ea6804a116058442bbfe39a0dd4ef9d3f39964a9",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04162008_clean.json": "8d11d629b0152b7cf196079bc5248806b00459d450a7cb3a7090e396b3fd250a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04162013_clean.json": "37cb702f6803dcb7433936f756ac7d8272b73f06c6e6cb2687a190f744b639e5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04172007_clean.json": "bd045f0341977bf441e5e46632b23d6576d3db1d6dd70f363a7d936b3473f014",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04172015_clean.json": "1812512ae41ce1e0008cc8bf811941ffe2c6965b30e8849a175ae1ff02b1fa9e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_04192006_clean.json": "dca8984fa2d51293e4d136d9bb0b93110fe714998ca104fa1152b15a87860706",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05102018_clean.json": "c312634f926b4a3f3fcab9a93f026a3ad1c8838f038ae4471ee1afc0248cb214",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05102019_clean.json": "144fd42b60126b0e9b8290b0f0662f980d5ca212153750bc3cb9e6fadf36e0ed",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05102023_clean.json": "3126e39e36d093196ec5fa0d5de2803d433a63e1f54ecdbbb27edd25d7f3050b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05112022_clean.json": "7cf9b1cc9ad2a5e12f93095ef28f1d668c23e7a7c4932f963cb88fa4cbae01a7",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05122017_clean.json": "d7d29ce1afb45f7bd87a3db75f138c7c85fc4d1ccec980e593ae3f74a7f0edef",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05122020_clean.json": "812f64ab79ef9b7ac75f73db79c4d5ff1af20bd60e67e75ad4afc5d0f87ef125",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05122021_clean.json": "3b94ab29d2424536c02ea94dac1af77b78ae9b68a0ebd2951a65c6f6fa50a27e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05122026_clean.json": "bc593cc3c3ef3a756ba689b0f816da9bcc9594f8e9b58fc6e99dee897b762e46",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05132011_clean.json": "6f31db8f28af8d5761c85edbb7d190d8f1d7b2d8c6ee5a33592a312af477f70a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05132025_clean.json": "da17f96b07541439029a982681c99f3761cd059e53c184793d2007cd7a8eb838",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05142008_clean.json": "4cc8be08832f886f9731df5a949817a99118529da6408cb8bf17c1eb61174cab",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05152007_clean.json": "159cad36d10a97ea5c7455b3ca65e9d641c5a4c6617ed7615842e735b749e974",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05152009_clean.json": "32af05996bfa8260873e9b339f2cb010292acf103279992623f9ea676630a3b6",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05152012_clean.json": "bc37dc032ee3840ff5bc3355e9ad1e09f701e8ff2f17cbc84522d6202bfe4baf",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05152014_clean.json": "87f8fb851039f683ee43dc2c746e536548a1dc26ba31259522eeedb240128df0",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05152024_clean.json": "0dd54c67017dce53990a8874415bd86095eabdc6254e0234bf36643615d98a39",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05162013_clean.json": "e2fa96be324f82370953c88bfad3111b2ca1e2a1259cb85aeff205dcd73dd861",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05172006_clean.json": "4f433ad4f09cc4437940bb976c3ae5721d8c8b25629c827eb0bb67bcd9416a96",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05172016_clean.json": "a3c3c8a9894fbc5d8867051d86eb45528f7c4caa803fcf9634d332c92497ead8",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05192010_clean.json": "27e2e55fff0aaf00c7007a47f73846ca7c6a5aa3a87b1c2eb174203abfaa0748",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_05222015_clean.json": "3a269b63ae645fb972b67f230dc495be6dad90194bf0447298880ffc1073e8ab",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06102020_clean.json": "708f887a6d57ff12f620df6f0fcfcccc5470f9c35420036a6398e10abd048a0b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06102021_clean.json": "7b1be1aebd850f0b47f4702558d9eb5e36337f1b23049ffb9dd23f179a659823",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06102022_clean.json": "c72de16729f9e1c6f0516c1e6b03bcbbde761ec65c8d09e4aeac931219d88d70",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06102026_clean.json": "ff3096d61d835aec73c9fb6711317add6e9071a6dd7da1a6816a93255bd55ec1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06112025_clean.json": "b6404c93c62e64381e9ada648c50f77497249f32f8134ea3e80fe3b1eb426346",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06122018_clean.json": "8b8dcef10adabbdcf6f9f1f2fc928a8814334d1c3c7a414bec9b1ff0c0a1314c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06122019_clean.json": "d7dcfec741ed16dd21309d02ac7f6692b06b1cae509f450a79bc993448e64249",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06122024_clean.json": "6b2cf6d32ff85f7c42d04c93d300a9526332f55cece76ac27f1c9e19086e2664",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06132008_clean.json": "9f871c8ad380adacde2c5feff71b8c7c66feea1213533f361a20580765f3dbe1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06132023_clean.json": "8551cf80423fed4076baac858e96c6f4317c4834ed599e4549cc848d67944a5c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06142006_clean.json": "58f92881a775d1319b52e30cea89e40d70e909961a1ff241f7448479156b264f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06142012_clean.json": "9e44d174dbfc889325ed210ac9ae28b382334412c0718fb572c302fb535dcba0",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06142017_clean.json": "47a82777d5fded6414fc3989d2d6d6523ac47beea8aab061e563cc0eea92d0be",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06152007_clean.json": "81c4fc3e60386126d0e16ac9ee140d0edc70c0861f2a1f0d550179aabbba8933",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06152011_clean.json": "168fce6d39c43066444310f98b49ebf3f099c10b88f4e52465f585329d3e8b89",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06162016_clean.json": "ae317bf2d261b6991656a67fdcc15c2d8bcc3d5257ada1986f8930910b78e857",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06172009_clean.json": "2439750e2935b35c59ec6bf336a2064c21b4a2d62ca0b574771734dc08801697",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06172010_clean.json": "8a68e82b61a6ab283632065214ee22a100377964f4dd7f08718468307996794f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06172014_clean.json": "50cede5000f14c7925913ed4c728e615e62a525d8eba691ebc49f2f6e2d03868",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06182013_clean.json": "13fba9ea77a45c892d1f5c12bb67c7cd0665e032578c810448928d778d2477f4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_06182015_clean.json": "af4d5dda72f99de3e39f3004cbd6ecc76672df203ec6a645bf526c7aac1bd5c5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07112019_clean.json": "4f40ed6e27c002448409790da814dba39146e2b4aba4bd758430b16c28b6e068",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07112024_clean.json": "883a7bc7da1ac0b1d99392af28fa93bd9fbbca4c308453c4df4d405763bd7ca4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07122018_clean.json": "0571b3e8021524c1a5497f68159dad8c531acfd1e7376e8ddeb06418c502defc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07122023_clean.json": "b395fa0f6415a52ee31dfdf7ac7ed37c1a7cc482bb34009dc148a625af9ce8d1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07132021_clean.json": "9060285ddcc2a3ae0b86bfd624e73225e9e26cf876472b5d7a73ea07e9d3eb2e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07132022_clean.json": "fcd06a2d8edf140c62c9efd6b404b9450eb855cd6df2ad76c49889b0397f4ef9",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07142017_clean.json": "0b769d8d84f7463a8ae163ef59aaa8d5db551b3627dcb48e004f536be7a274db",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07142020_clean.json": "44e0ea1187805cc488310e37c1a8dba937947b07d2a360ff06fbba50ff9c2122",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07142026_clean.json": "c0f2ca5d0f7847b83cfcc815fec6d02746742b0f297f1d996fcbaaa48cb26f62",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07152009_clean.json": "c4c1b2ef2c71498fe9762a1b7869b95fad2b88a564a39b0aeffd5f7f31ec8b65",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07152011_clean.json": "e0401cebcd4e75c5b1ed34bdeb0e7e04c7db08871d133e58dfb49c2c93c51c99",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07152016_clean.json": "a8da0af3757e8ba14e01d4d816e9ddc9fd031f3fbe188135e897694fce7587da",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07152025_clean.json": "7f2d3774186c52fa43942c7c4761619747979f89a6b15b04a2b1907569cc324c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07162008_clean.json": "1a48f0d7ddbb8e014103149ecc8c3e9f1e3b725e087bf40f7275f9363977cf2f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07162010_clean.json": "93b6e393a32514129f1917a63fd4d57b6600a4106a3f6ff00233fcb09ded06fe",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07162013_clean.json": "11b0306313aba8b65b88c70e37f47e456e44b4eb5ba07fb46a36053b671e1771",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07172012_clean.json": "502f5ff1921c524801b2db39d772e276117fbf29352bd49e24de58e8f6371a42",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07172015_clean.json": "d2d102ba2bb15ae7401c23e499f70ca44ea3889d9605f88391f64f511eb8428e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07182007_clean.json": "dd2d3376697c4eec900b9710a4506f02836bd98323a03927fca21bca3e200fd1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07192006_clean.json": "29b40cc0d852f7aed626b28ce78ea245484c9778eb49ef052ef96bd4b9dbf269",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_07222014_clean.json": "97f5034f7b538ea6b21fadc935c64208b2b8642561c70930a8b4193191915406",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08102018_clean.json": "6691905efdd21506161582974ab4aed3c0a335a48ff05fb2a54ddf0a3f9f4aa3",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08102022_clean.json": "a2281a7740885ac9f282f2c101ec49128688f188d9f10ff8a2264135c197b792",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08102023_clean.json": "879bb5f5926589b20198c70c37b9510ce59bc78ccf2dba6fac162891962c7d97",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08112017_clean.json": "fb838911b83d7be84f38814b0e222d8517c06de0c6b5f68e7924ca326dbffecf",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08112021_clean.json": "67630e2ac2e39dcf03bbb48cf54efbead56cd317e676daa220de7f407f33761f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08122020_clean.json": "39bd1a0d4f717bb829c32f201f446f8cd7ae271590ad4257cae312eb9b66d0c4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08122025_clean.json": "64221d2b0ad97eab0e83ec630397b8af8b585644f1f18cb6966e6d4a3fdae73b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08122026_clean.json": "5b48662768fe89e1b01d9bf98ab9d015b46642f5b80217bb27031041cb8ceb8b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08132010_clean.json": "72182df5f4af47334a6f9e940ad32bdbf967d53fa6a1fd0ae0862d3e71240808",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08132019_clean.json": "dd6550ca148007c031088861b79a33617b50a69e11bfda4b992cc25884e06166",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08142008_clean.json": "7e702cd848ab65789057709d71afcfac210b6dc92ddfbc9d45e1a213636d2ff1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08142009_clean.json": "5fda35489cf309d4ae440f3afa075efd86dfafebd3ef2240b95631e0ebf716fc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08142024_clean.json": "af2e10961b82a95fe14d2998f6563b6d1d68efc20f1a72815f8c7b59c005f0ba",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08152007_clean.json": "fa6c1acce8bcd6f5a3d621a011c8723ff243ee4b3c78f35273a821b360eee043",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08152012_clean.json": "d4c809d1596f3cf6a9b9ebd4cfc7d2e79e01a33ba3f2947ff9bd1cdce1a457fb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08152013_clean.json": "20b616cbba18ad5b9f0afb6ca7327e41890cd9ef5e373a281021008033c9a2f3",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08162006_clean.json": "0bea87d725ae0bbb4da1a3fbee30f2b49419a38ff8bd5985c6616f910c59692a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08162016_clean.json": "4cead5a5b4779c7de4422003925fe8e28f5cfd126dce7850af2017a58e8dd732",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08182011_clean.json": "a8a03b7984c49db1eba30bf8fd2a8e168f66babf31f50be049c33738d4fdeb03",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08192014_clean.json": "1816200a8d45f32cd59f1a0a0c868445ba7ea92ce06bd88b8c7be556a4bf66b4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_08192015_clean.json": "412e145347b35b5a6416bc9b093669516983ae77df108be6d4e948c50411f18f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09112020_clean.json": "0e18a4208bee61c115c37ae7fa729fd9393f9f4a074890b8fb1eedc171950ac1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09112024_clean.json": "b5076e27c6768493af8cbb3a00ab5e87b20d95b2c9d922b5284a1e1153b765db",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09112025_clean.json": "292ca47502c09279ba5fe8a9079eabedcac4e32466c1564d99e3a88d301ecff4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09112026_clean.json": "8e86d6c06bf5b6775840da195541f0a890da9055c7c7db1b630a162ea12b8d98",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09122019_clean.json": "347099d6bebc098bbd22528d14e1c25defc8b0a631d51baefe22711d56b45e84",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09132018_clean.json": "bf78a222bfa6299b87eb64af11dc20ac6a9551d4a69825636b0239446e98c558",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09132022_clean.json": "7c71800af3eaf8851e6b5b3fa7bf49c5a88ee58c946d118b570116a8eb000905",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09132023_clean.json": "8cd863e980dc0831ab9dec4359f7efc23f8c49e8516276596dcd023cc7cd87ed",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09142012_clean.json": "37c7ebd2aea5a419079a121d3188e68e5a2b83f74016e3cb7b220fe6b776ed23",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09142017_clean.json": "7593acd019493795ff2f2c86f42308249ea287f33bd58c0cf71622c0664b6eaa",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09142021_clean.json": "51a14abe2e34a7fa2f9096c5baaa27cbeef1f5f63043d2a73b5956a565cb48f2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09152006_clean.json": "18ff97d3981f5763be737bf7ad1452de29425bb2a5b5596530944335a450d348",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09152011_clean.json": "30a5c6847f397df55d2be297ed579e722119fb928b8db9de8e756c09095a64c3",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09162008_clean.json": "80fca488bae8d905c3da8356b1d04eb19be4070c1dd7e8b1534b15d07d760e0b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09162009_clean.json": "dc4442427f3a3ee818fc8c61d719ed3d7b2603c6b544f8fd85aa1426650f0f3c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09162015_clean.json": "4f6737a27d6b6ad46b84445713f29dcb44bb9cf36e46879aaf6668f8e8795d18",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09162016_clean.json": "6484faf3a6c61dc0149bd286aa7333defd19f695d50628745ec47d53560d5661",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09172010_clean.json": "06156145635743ba7e8c7d0c3b46b7deb885d4e1d4686d4792d6dc0819a6e77b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09172013_clean.json": "8fa30b95bbe947ecaa1d38cfdd9e3b3f7a7df6e337768fdeeba6610bfdf276f2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09172014_clean.json": "f8e692b5e13bd635882ec2c4a5d6343b180659428d4efc718a1da8f09c4caed8",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_09192007_clean.json": "59244422988945fe8b6b943aac2b33e66df0cb21c6085cbb7499e6ff67d6595d",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10102019_clean.json": "bafd72774d73515c6638d315997fdc85d4f644d2540d564dba34e850f9c84111",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10102024_clean.json": "35ede8e4e175f6008cde066ea994281bf2ac74758d11025326d7d7dcf67c06e8",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10112018_clean.json": "6b2da09a616e05fd452ad40c488575995959b6c7b7f79bad9e4ff62e9647f8d2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10122023_clean.json": "b90e300f724295b7caa1993fe716a356b6e7b7200ed5589f069769cc19bee575",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10132017_clean.json": "971875737f6137ebdb3fd02443a7e6a8befd0412cd5f8a41ecc988520eb8a097",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10132020_clean.json": "47ea644a4a329ab98c800940c6bfe567f392b71fad5b6f17a96d754765454484",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10132021_clean.json": "01ddeac4aca871504e3369a5c48045de22460435e04a83304936d6aad7de3740",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10132022_clean.json": "5b44ea4ca97fd116a7353faa8ec92e47d12f2f68fff5ae190472619017f0c7ea",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10142026_clean.json": "e576e8796751c05caf5d692dcf7ce7ee9b3569c2e43d38fa703bf9484b798b16",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10152009_clean.json": "241b400121243b34e7b90d47f17ccbef236b7a8f4db24ec86fe7b35ae10e1223",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10152010_clean.json": "fca2def52427ac84952613e75a67fabf1ed93cd30e6c7e41786fcd86eb55c3c7",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10152015_clean.json": "ec5af9b116dfc127f42fb26a778d888553d4906514e8ea196f7cf0a8581007bb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10162008_clean.json": "a16b1dd848168846bfaf412fbaa66d39c85d788a52f7ae30f60b847564c35704",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10162012_clean.json": "51e74896b92fdb52a2fdff8fac529e5186b894660181c634d4b667f4d33856d5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10172007_clean.json": "b543eb2d5f14b08d4d3f10b572c7150f1911d51d156d07a5f35e4383f21c0ac4",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10182006_clean.json": "244f19dbde693b242cd7533e5a4dbe6983322f0a0e42d490052316028d3909d7",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10182016_clean.json": "9bd25b9a0900f1b023528fbbbf6395f00978156c2559f21548af6bff8317d43f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10192011_clean.json": "68f761e140ef2865bd3d0357555e62739efbc74cd25ff049d641b8cc876a8137",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10222014_clean.json": "0e363101e8dfecc12bc92e89424501089d91295780e06199cbf23c25888d20c1",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10242025_clean.json": "9473081925d3e2b7b2ce8f2926174fba9a4bbf20e3aa4a94068a5904f6ccf505",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_10302013_clean.json": "51037c879d94a5e0e0e62d1c693f2ac84dd6d616bfcce0781cfdd60ec58c2a48",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11102021_clean.json": "5d6a0e4c6d4ee6a8d7838080f95a0559fcc9214e732d96a40bbc3bd181ac0fd6",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11102022_clean.json": "b33bef813ad7140024a69bfc3ad99e9af39b8c7b59215c82164e64854b6c7eec",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11122020_clean.json": "990bced69d5c8bdf6a98eb4a0bdc8b19865786418dea88d2d9dd9b41d573bd1b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11132019_clean.json": "f13f0ae0fa5fb6830f767be603f8714c09d0de3491d6470323fa92c87d7c0f96",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11132024_clean.json": "1004474863a489cd69255a9959bd9d608efe40fec9a401c611abd578ab652adb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11142018_clean.json": "6026aa862d327e11f0f88ef0d3e44fdc05d21a2b56991eb82da222d34f067b6f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11142023_clean.json": "9df53a353d34d2ed3a24f52a3208da3c1c1db1fe9129a0f1501b55d0d57e7afd",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11152007_clean.json": "4f0bbefff71fc4002e6bb1c7d9fe7f0d95eccaf5e4ef45b2bba72b58a3b35c3b",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11152012_clean.json": "9cc52ac91a4025a41cc8dfb599a4234288b245c49aa6298948ab05bc3d8ce006",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11152017_clean.json": "e692739b65b6c54757c99aedf71f6505ee1b2c70f12df32d4351cfbfac7f17ec",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11162006_clean.json": "dc6fd4bc336dfbb6fc34879e021dcce45e2295619f61b1287a200a3ddaf902fc",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11162011_clean.json": "160364a82d97f065ffdb0c31ee1215cd87364e6d9248a4e59cf6b7d14b22abb5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11172010_clean.json": "4bfaae5d391d651d2cf6aa4fc9ed8b509394bdaf64f2268e274f062b87d3eef2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11172015_clean.json": "b02c7ff04956e2292f640ff2b6f5db6cf4410a8b1e1025e6a7295a151a7f9fdb",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11172016_clean.json": "02f306fee96c2957bb4afd0fe537d3c121c2e1701594c55aeeddeb5cb0c9addf",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11182009_clean.json": "8caddef3b46c6954f74533065c750ca85c513d6eeb682d2e9269b259cf5d76fe",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11192008_clean.json": "0ed21e603baadca23ccda5a80da7fdfbe0dbf7b277dfaf013e126c2ef4d7f9d5",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11202013_clean.json": "c44a16b7c7d16d4099a4672772a13f1b85f0ff7034bc56ae0b2bcc6ef7ab5695",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_11202014_clean.json": "e2e1c2478af8eac7016f73aedab283ba5c1e5625d422289c244008798acd2ef8",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12102020_clean.json": "aa4775082f88554ed874bbbcde177639e2e7ab4227d167db19a18e121132338f",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12102021_clean.json": "ade324d7cdc0d45c744d86f626a521c52cc636bb6a07c175f2fb8125bb8b846a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12112019_clean.json": "9ce25cff58f6cc40b3a00cc6d7e69b31a8120da8431994da99e7b2b0a8e0f9d0",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12112024_clean.json": "aea4c000d9cb7bbf5c16d7786d99835720c086f2b2981d5e8d2a31d3f2dba400",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12122018_clean.json": "137bdf725bdc3383110b70d3afaafa3c087246f7c06d48e3e588bbdbf79baa1d",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12122023_clean.json": "082c31e8a23a83a8f1ea00464edd2f8ea5e68ff71722396fdb53f9194e4d9221",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12132017_clean.json": "9848ac65183cb746a906ab78d0f5faee8cf45ac8c8d6cf5d7fb702d67879f666",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12132022_clean.json": "41d9dad8792acd6d902735378c7d19ef4b164a094e7387ee26f459c9eb0db68a",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12142007_clean.json": "bb1184b0992798df8f06a0d278074b34d3c5de2ece3e8227ef1fa647ccc44b07",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12142012_clean.json": "b6fa5f28d29bcb08b3b56b3d830a5b30a345862638462b5806f283f3d208bca0",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12152006_clean.json": "6d6f796f91dc95cab7515d9e1a722a3d8b11aeb73aaad134dfd8cf3f03b430e2",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12152010_clean.json": "e427fd69963f648ed28f4cad2dc4e9819c65182c4e37bc5e4934a6078a23f081",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12152015_clean.json": "772643e0f168a01eb8f8bc1dde309a06daf919437173c72774b7a18c4d23a4aa",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12152016_clean.json": "d5b70fa85869a697e0043a908f71b07e348c5f0967d7e7c178ed51c8b40d1a26",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12162008_clean.json": "bcc570e8eb5b926d95271c9945e7a0a9e0a5cbb8e6661556d37b30ead1fe2d56",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12162009_clean.json": "52e311918428cec26570486da3a127a940b7f519bc1d3c62386c1b76a6bfde7e",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12162011_clean.json": "b35ce104f36dcab8df06200c3e96adce22136cbde47e03876f2c62d3329ded57",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12172013_clean.json": "c29c2625c2014327bec241058b0aff8e77bad8b363695151ef13006dba8cab6c",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12172014_clean.json": "6a56b28086da6a09ef3b9b846a9617e417aac3caf2e90f1751eb6c5680cd2812",
+        "dataset\\news\\bls\\cpi\\clean\\cpi_12182025_clean.json": "e643017900797312565cbb447cf1860f56799d8bf20114636b8f01cc9d97527c"
+      },
+      "gold_price_csv": {
+        "path": "dataset\\datset a gold price\\gold_price_2006_2026.csv",
+        "exists": true,
+        "rows": 24519,
+        "columns": [
+          "date",
+          "time",
+          "session",
+          "ornament_buy",
+          "ornament_sell",
+          "bar_buy",
+          "bar_sell",
+          "gold_spot",
+          "thb_usd",
+          "change"
+        ],
+        "first_date": "2006-05-01",
+        "last_date": "2026-10-13",
+        "used_for_query_generation": false,
+        "reason_not_used": "It is not part of the indexed document corpus; using prices to imply causation would exceed the source evidence."
+      },
+      "query_count": 149,
+      "human_reviewed_query_count": 0
+    },
+    "split": "test",
+    "candidate_query_count": 39,
+    "human_approved_query_count": 0,
+    "evaluation_candidate_count": 39,
+    "eligible_common_coverage_query_count": 39,
+    "evaluated_query_count": 39,
+    "candidate_selection_notes": {
+      "included_without_human_review": 39
+    },
+    "coverage_exclusions": {},
+    "human_review_required": false,
+    "evaluation_policy": "Include structurally valid source-grounded generated test candidates without human review at user instruction; all scores are exploratory and not human-verified.",
+    "judgments_exhaustive": false
+  },
+  "chunk_collections": {
+    "directory": "D:\\Project_Github\\gold assisstant\\vector_database\\embedding\\chunking_benchmark",
+    "sha256_by_method": {
+      "existing_baseline": "a12d03675039e0f7ba3706790d071328fdd11aaa86b2ee46c914cbe03e33b558",
+      "recursive_fixed": "f5048d9ecc7e638078ecf73a03e30adab3ee6672f04c6d3eb49c5784112c2787",
+      "structure_aware": "f78961bcf8457555ff3e06af5f3dbf9896adab45bc69d59e7e772317a6954248",
+      "semantic": "3911e8e8ce0751c3743b0656b0cd8b7610af4dcc4759323c476b01299002f2a9",
+      "adaptive": "3de7841196257f709669cf9f56ce8dde1de4e4badc2c08c2bf4e75860bf5d29a"
+    },
+    "validation": {
+      "methods": {
+        "existing_baseline": {
+          "chunk_count": 1146,
+          "document_count": 69,
+          "duplicate_content_count": 326,
+          "missing_metadata_count": 0
+        },
+        "recursive_fixed": {
+          "chunk_count": 1522,
+          "document_count": 69,
+          "duplicate_content_count": 563,
+          "missing_metadata_count": 0
+        },
+        "structure_aware": {
+          "chunk_count": 1605,
+          "document_count": 69,
+          "duplicate_content_count": 605,
+          "missing_metadata_count": 0
+        },
+        "semantic": {
+          "chunk_count": 7707,
+          "document_count": 69,
+          "duplicate_content_count": 5011,
+          "missing_metadata_count": 0
+        },
+        "adaptive": {
+          "chunk_count": 2498,
+          "document_count": 69,
+          "duplicate_content_count": 1054,
+          "missing_metadata_count": 0
+        }
+      },
+      "shared_document_count": 69,
+      "shared_document_ids": [
+        "0e85b311d7929361368b5fab43e14936c8c45cde",
+        "1f9afc42981e55eb5c73005a25aabbf4a05061c3",
+        "254e81a7b341366e765d2aed6a85ee4974249881",
+        "30f3a4ed81b42bf294591f8e2a1bc1d6ed8e3e76",
+        "352922d6f155b76f11e10d6a24b066a1de46fdd7",
+        "55cb268b967b49cd6c67b2c6fed0c5a7bcf7eb63",
+        "612b283088714359a349861ee45b824e8f00849c",
+        "725569c3b0909cb1d6cbe2dfbf36b32d90db1357",
+        "7b052e98973399f5664817978bf0896efa85104e",
+        "9c151b4312acfd74447918881efd3949580e6f65",
+        "a394a3f608955222917844f33a3c32670a26f32c",
+        "b19c164d25993bf2e7ad55318eac78f6956deeb8",
+        "b8068c21d5da79e52eb13801024a0745772ca844",
+        "bbd07d77601eaaac432b867560e03af2305acb2e",
+        "bls_cpi_2005_12",
+        "bls_cpi_2007_01",
+        "bls_cpi_2008_03",
+        "bls_cpi_2009_04",
+        "bls_cpi_2010_05",
+        "bls_cpi_2011_06",
+        "bls_cpi_2012_07",
+        "bls_cpi_2013_08",
+        "bls_cpi_2014_09",
+        "bls_cpi_2015_10",
+        "bls_cpi_2016_11",
+        "bls_cpi_2017_12",
+        "bls_cpi_2019_01",
+        "bls_cpi_2020_02",
+        "bls_cpi_2021_03",
+        "bls_cpi_2022_04",
+        "bls_cpi_2023_05",
+        "bls_cpi_2024_06",
+        "bls_cpi_2025_07",
+        "bls_cpi_2026_09",
+        "bls_nfp_2005_12",
+        "bls_nfp_2007_01",
+        "bls_nfp_2008_03",
+        "bls_nfp_2009_04",
+        "bls_nfp_2010_05",
+        "bls_nfp_2011_06",
+        "bls_nfp_2012_07",
+        "bls_nfp_2013_08",
+        "bls_nfp_2014_09",
+        "bls_nfp_2015_10",
+        "bls_nfp_2016_11",
+        "bls_nfp_2017_12",
+        "bls_nfp_2019_01",
+        "bls_nfp_2020_02",
+        "bls_nfp_2021_03",
+        "bls_nfp_2022_04",
+        "bls_nfp_2023_05",
+        "bls_nfp_2024_06",
+        "bls_nfp_2025_07",
+        "bls_nfp_2026_09",
+        "cadde35138dce92c97864c9226f119fb70f625b6",
+        "cc5fa1e490edff719af112f162ce0f171ce827ed",
+        "ed1932668ee79f9bd9da13332c5f63126ab67613",
+        "f225e4dbeab9f9b24889ab6977db98ebf42e6296",
+        "fae74924f647a897a203ffea2b9cf523b2cfafd6",
+        "fe283a4d738a52f3965cc6e253035b54d9521d20",
+        "thaipbs:news:570971",
+        "thaipbs:news:571012",
+        "thaipbs:news:571033",
+        "thaipbs:news:571076",
+        "thaipbs:news:571164",
+        "thaipbs:news:571381",
+        "thaipbs:news:571437",
+        "thaipbs:news:571503",
+        "thaipbs:news:571550"
+      ],
+      "document_coverage_is_identical": true
+    }
+  },
+  "chunking_configuration_source": "D:\\Project_Github\\gold assisstant\\vector_database\\embedding\\chunking_benchmark\\run_manifest.json",
+  "chunking_configuration": {
+    "created_at_epoch": 1793075711.5559616,
+    "embedding_model": "@cf/baai/bge-m3",
+    "chunking_methods": [
+      "existing_baseline",
+      "recursive_fixed",
+      "structure_aware",
+      "semantic",
+      "adaptive"
+    ],
+    "sample_documents": 69,
+    "available_documents_loaded": 1758,
+    "max_docs_per_source": 20,
+    "include_fed_not_relevant": false,
+    "target_chunk_tokens_estimate": 280,
+    "max_chunk_tokens_estimate": 400,
+    "semantic_similarity_threshold": 0.62,
+    "note": "Token counts are approximate, not provider tokenizer counts. Document metrics aggregate the maximum chunk score per document; evidence metrics check exact source quotes in top-k chunks. Unreviewed candidate queries produce preliminary metrics only.",
+    "selected_document_ids": [
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2005_12",
+        "published_at": "2006-01-18",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2007_01",
+        "published_at": "2007-02-21",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2008_03",
+        "published_at": "2008-04-16",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2009_04",
+        "published_at": "2009-05-15",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2010_05",
+        "published_at": "2010-06-17",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2011_06",
+        "published_at": "2011-07-15",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2012_07",
+        "published_at": "2012-08-15",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2013_08",
+        "published_at": "2013-09-17",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2014_09",
+        "published_at": "2014-10-22",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2015_10",
+        "published_at": "2015-11-17",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2016_11",
+        "published_at": "2016-12-15",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2017_12",
+        "published_at": "2018-01-12",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2019_01",
+        "published_at": "2019-02-13",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2020_02",
+        "published_at": "2020-03-11",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2021_03",
+        "published_at": "2021-04-13",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2022_04",
+        "published_at": "2022-05-11",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2023_05",
+        "published_at": "2023-06-13",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2024_06",
+        "published_at": "2024-07-11",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2025_07",
+        "published_at": "2025-08-12",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_cpi",
+        "document_id": "bls_cpi_2026_09",
+        "published_at": "2026-10-14",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2005_12",
+        "published_at": "2006-01-06",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2007_01",
+        "published_at": "2007-02-02",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2008_03",
+        "published_at": "2008-04-04",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2009_04",
+        "published_at": "2009-05-08",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2010_05",
+        "published_at": "2010-06-04",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2011_06",
+        "published_at": "2011-07-08",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2012_07",
+        "published_at": "2012-08-03",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2013_08",
+        "published_at": "2013-09-06",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2014_09",
+        "published_at": "2014-10-03",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2015_10",
+        "published_at": "2015-11-06",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2016_11",
+        "published_at": "2016-12-02",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2017_12",
+        "published_at": "2018-01-05",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2019_01",
+        "published_at": "2019-02-01",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2020_02",
+        "published_at": "2020-03-06",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2021_03",
+        "published_at": "2021-04-02",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2022_04",
+        "published_at": "2022-05-06",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2023_05",
+        "published_at": "2023-06-02",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2024_06",
+        "published_at": "2024-07-05",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2025_07",
+        "published_at": "2025-08-01",
+        "relevance_label": null
+      },
+      {
+        "source": "bls_nfp",
+        "document_id": "bls_nfp_2026_09",
+        "published_at": "2026-10-02",
+        "relevance_label": null
+      },
+      {
+        "source": "fed",
+        "document_id": "55cb268b967b49cd6c67b2c6fed0c5a7bcf7eb63",
+        "published_at": "2006-01-09",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "b19c164d25993bf2e7ad55318eac78f6956deeb8",
+        "published_at": "2006-01-31",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "bbd07d77601eaaac432b867560e03af2305acb2e",
+        "published_at": "2008-04-30",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "725569c3b0909cb1d6cbe2dfbf36b32d90db1357",
+        "published_at": "2008-09-22",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "7b052e98973399f5664817978bf0896efa85104e",
+        "published_at": "2009-03-03",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "ed1932668ee79f9bd9da13332c5f63126ab67613",
+        "published_at": "2009-10-06",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "352922d6f155b76f11e10d6a24b066a1de46fdd7",
+        "published_at": "2010-10-12",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "612b283088714359a349861ee45b824e8f00849c",
+        "published_at": "2012-03-13",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "f225e4dbeab9f9b24889ab6977db98ebf42e6296",
+        "published_at": "2012-12-12",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "30f3a4ed81b42bf294591f8e2a1bc1d6ed8e3e76",
+        "published_at": "2014-05-08",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "b8068c21d5da79e52eb13801024a0745772ca844",
+        "published_at": "2015-07-08",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "9c151b4312acfd74447918881efd3949580e6f65",
+        "published_at": "2016-12-12",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "254e81a7b341366e765d2aed6a85ee4974249881",
+        "published_at": "2018-01-10",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "0e85b311d7929361368b5fab43e14936c8c45cde",
+        "published_at": "2018-11-20",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "fae74924f647a897a203ffea2b9cf523b2cfafd6",
+        "published_at": "2020-03-17",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "a394a3f608955222917844f33a3c32670a26f32c",
+        "published_at": "2020-09-29",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "1f9afc42981e55eb5c73005a25aabbf4a05061c3",
+        "published_at": "2022-10-12",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "cc5fa1e490edff719af112f162ce0f171ce827ed",
+        "published_at": "2023-07-27",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "fed",
+        "document_id": "fe283a4d738a52f3965cc6e253035b54d9521d20",
+        "published_at": "2026-09-16",
+        "relevance_label": "relevant"
+      },
+      {
+        "source": "fed",
+        "document_id": "cadde35138dce92c97864c9226f119fb70f625b6",
+        "published_at": "2026-10-02",
+        "relevance_label": "uncertain"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:570971",
+        "published_at": "2026-10-14",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571012",
+        "published_at": "2026-10-14",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571033",
+        "published_at": "2026-10-15",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571076",
+        "published_at": "2026-10-15",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571164",
+        "published_at": "2026-10-16",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571381",
+        "published_at": "2026-10-20",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571437",
+        "published_at": "2026-10-21",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571503",
+        "published_at": "2026-10-22",
+        "relevance_label": "direct"
+      },
+      {
+        "source": "thaipbs",
+        "document_id": "thaipbs:news:571550",
+        "published_at": "2026-10-23",
+        "relevance_label": "direct"
+      }
+    ],
+    "chunk_counts": {
+      "existing_baseline": 1146,
+      "recursive_fixed": 1522,
+      "structure_aware": 1605,
+      "semantic": 7707,
+      "adaptive": 2498
+    },
+    "ground_truth": {
+      "file": "ground_truth_queries.jsonl",
+      "sha256": "0fa833cd376da21f29aab0c815808fadba7eb9ce32037c45849aaf98bfcc1651",
+      "query_count": 149,
+      "query_counts_by_split": {
+        "test": 39,
+        "train": 82,
+        "validation": 28
+      },
+      "review_status_counts": {
+        "needs_review": 149
+      },
+      "evaluation_split": "test",
+      "human_review_complete": false
+    }
+  },
+  "embedding": {
+    "provider": "Cloudflare Workers AI",
+    "model": "@cf/baai/bge-m3",
+    "context_window_tokens": 60000,
+    "truncate_inputs": false,
+    "documentation": "https://developers.cloudflare.com/workers-ai/models/bge-m3/",
+    "smoke_test": {
+      "status": "passed",
+      "language_test_count": 2,
+      "vector_shape": [
+        2,
+        1024
+      ],
+      "finite_values": true,
+      "model": "@cf/baai/bge-m3"
+    },
+    "query_stats": {
+      "requests": 0,
+      "retry_attempts": 0,
+      "cache_hits": 41,
+      "cache_misses": 0,
+      "successful_texts": 0,
+      "failed_texts": 0,
+      "latency_seconds": 0.0,
+      "provider_usage": [],
+      "errors": []
+    },
+    "query_failures": [],
+    "method_stats": {
+      "existing_baseline": {
+        "requests": 0,
+        "retry_attempts": 0,
+        "cache_hits": 1146,
+        "cache_misses": 0,
+        "successful_texts": 0,
+        "failed_texts": 0,
+        "latency_seconds": 0.0,
+        "provider_usage": [],
+        "errors": []
+      },
+      "recursive_fixed": {
+        "requests": 0,
+        "retry_attempts": 0,
+        "cache_hits": 1517,
+        "cache_misses": 0,
+        "successful_texts": 0,
+        "failed_texts": 0,
+        "latency_seconds": 0.0,
+        "provider_usage": [],
+        "errors": []
+      },
+      "structure_aware": {
+        "requests": 0,
+        "retry_attempts": 0,
+        "cache_hits": 1600,
+        "cache_misses": 0,
+        "successful_texts": 0,
+        "failed_texts": 0,
+        "latency_seconds": 0.0,
+        "provider_usage": [],
+        "errors": []
+      },
+      "semantic": {
+        "requests": 0,
+        "retry_attempts": 0,
+        "cache_hits": 6168,
+        "cache_misses": 0,
+        "successful_texts": 0,
+        "failed_texts": 0,
+        "latency_seconds": 0.0,
+        "provider_usage": [],
+        "errors": []
+      },
+      "adaptive": {
+        "requests": 0,
+        "retry_attempts": 0,
+        "cache_hits": 2461,
+        "cache_misses": 0,
+        "successful_texts": 0,
+        "failed_texts": 0,
+        "latency_seconds": 0.0,
+        "provider_usage": [],
+        "errors": []
+      }
+    },
+    "api_stats_at_export": {
+      "requests": 0,
+      "retry_attempts": 0,
+      "cache_hits": 12933,
+      "cache_misses": 0,
+      "successful_texts": 0,
+      "failed_texts": 0,
+      "latency_seconds": 0.0,
+      "provider_usage": [],
+      "errors": []
+    },
+    "failures": [],
+    "cache_path": "D:\\Project_Github\\gold assisstant\\artifacts\\chunking_retrieval_benchmark\\cache\\embedding_cache.sqlite3",
+    "legacy_cache_path_read_only": "D:\\Project_Github\\gold assisstant\\vector_database\\embedding\\chunking_benchmark\\embedding_cache.sqlite",
+    "cost_estimate": null
+  },
+  "retrieval": {
+    "similarity": "exact cosine after L2 normalization",
+    "top_k": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "query_preprocessing": "unchanged raw query text",
+    "chunk_embedding_text": "chunk.embedding_text when present, otherwise content",
+    "depth": 10,
+    "deduplicate_by_document": false,
+    "tie_break": "descending similarity, then ascending chunk_id",
+    "source_filter": "source_scope only when it contains exactly one source",
+    "llm_reranking": false
+  },
+  "metrics": {
+    "evidence_match": "normalized exact quote substring in chunk content and matching document_id",
+    "primary_query_policy": "source-grounded candidate queries included without human review at user instruction; exact cited evidence must be covered by every method; results are exploratory",
+    "bootstrap": {
+      "method": "paired source-document-cluster bootstrap",
+      "resamples": 2000,
+      "seed": 42
+    }
+  },
+  "software": {
+    "python": "3.11.12",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6"
+  },
+  "retrieval_latency_seconds_by_method": {
+    "existing_baseline": 0.6582201000001078,
+    "recursive_fixed": 0.7993925000009767,
+    "structure_aware": 0.8813138999994408,
+    "semantic": 3.5575560000015685,
+    "adaptive": 1.2479564999994182
+  },
+  "limitations": [
+    "Human review was explicitly waived by the user; generated candidate labels are not human-verified and all scores are exploratory.",
+    "Non-exhaustive evidence judgments limit recall interpretation.",
+    "Embedding and retrieval results evaluate evidence retrieval only; they do not establish economic causality.",
+    "Monetary cost is not estimated without verified provider pricing and token usage."
+  ]
+}
