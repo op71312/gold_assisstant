@@ -47,7 +47,7 @@ Open **ข้อมูลโครงการ** in the sidebar to browse the la
 
 ## Project research and documentation
 
-The single **ข้อมูลโครงการ** page groups the project's dataset tables and research in tabs. Its research is summarized from the repository `README` and `md/eda.md`:
+The single **ข้อมูลโครงการ** page groups the project's dataset tables and research in tabs. Its research is summarized from the repository [research methodology](../docs/research-methodology.md) and [EDA notes](../md/eda.md):
 
 - GTA price history → EDA/data-quality decisions → daily feature engineering → Gaussian HMM.
 - Thai PBS/Fed/BLS evidence corpus → chunking and embedding evaluation → Qdrant → hybrid RAG.

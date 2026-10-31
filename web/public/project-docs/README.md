@@ -347,7 +347,7 @@ run ปัจจุบัน `R_FEATURE_V1` replay ข้อมูลราค�
 - **ข้อมูลไม่สมบูรณ์:** ค่า null คงอยู่ตามต้นทาง; ช่วงปี 2026 เป็นข้อมูลบางส่วน; ไม่มี live gold feed
 - **แบบจำลอง HMM:** `GaussianHMM` v1 มี 3 statistical states และใช้ `bar_buy_log_return`, `intraday_range_pct`; state เป็น regime เชิงสถิติ ไม่ใช่ label วิกฤตหรือสัญญาณซื้อขาย และยังไม่มีผลทดสอบ accuracy ที่ควรอ้างใน README
 - **Vector store:** ผลที่เก็บใน Notebook เป็น snapshot ของการรัน; ตรวจ live Qdrant และ checkpoint ก่อนนำไปใช้จริง เพราะตัวนับในไฟล์ checkpoint ปัจจุบันไม่ตรงกัน
-- **เว็บไม่คงข้อมูลเขียนใหม่:** JSON bundle เป็น snapshot ที่อ่านอย่างเดียว; การอัปเดตต้อง export และ deploy รุ่นใหม่ ระบบ agent 5 ตัวและการส่งข้อมูลพอร์ตเข้า agent ยังไม่ได้เชื่อมในขั้นนี้
+- **ขอบเขตการใช้งานเว็บ:** ตารางโครงการอ่านจาก JSON snapshot แบบ read-only; Gold Assistant เรียก GAIB-1 ผ่าน Python runtime และใช้ Qdrant สำหรับค้นหลักฐาน แต่ยังไม่รับ portfolio ID ที่เลือกในหน้าตาราง จึงไม่ใช่การวิเคราะห์บัญชีส่วนบุคคล
 
 ## เริ่มเว็บและ Deploy บน Render
 

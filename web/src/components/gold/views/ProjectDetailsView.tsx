@@ -116,7 +116,7 @@ export function ProjectDetailsView({
     <div className="space-y-5">
       <ViewHeader
         title="รายละเอียดโปรเจกต์"
-        subtitle="ที่มาของข้อมูล ผล EDA/Feature Engineering/HMM และสถาปัตยกรรม pipeline อ้างอิง README และเอกสารวิจัย"
+        subtitle="ที่มาของข้อมูล ผล EDA/Feature Engineering/HMM และสถาปัตยกรรม pipeline อ้างอิงรายงานวิจัยและเอกสารประกอบ"
         data={data}
         right={
           <button
@@ -397,7 +397,7 @@ export function ProjectDetailsView({
           <section className="card-warm overflow-hidden rounded-2xl">
             <SectionTitle
               title="ผล prompt, citation และ latency"
-              note="ตัวเลขจาก README ของแต่ละ run; 114 queries × 3 รอบต่อ variant. ห้ามเทียบ latency ข้าม run เป็น SLA"
+              note="ตัวเลขจากรายงานผลการทดลอง; 114 queries × 3 รอบต่อ variant. ห้ามเทียบ latency ข้าม run เป็น SLA"
             />
             <div className="nice-scroll overflow-x-auto">
               <table className="w-full min-w-[820px] text-left text-xs">
@@ -450,7 +450,7 @@ export function ProjectDetailsView({
             ข้อจำกัดร่วม: Ground Truth ทั้ง 114 queries ผ่านการตรวจ source span แต่ยังรอ human semantic review; retrieval/RAG metrics จึงเป็น provisional. งาน chunking ใช้ exact NumPy cosine ไม่ได้วัด ANN; retrieval latency ไม่รวม generation; development benchmark ไม่ใช่การรับรอง production.
           </p>
           <p className="text-[12px] leading-relaxed text-muted-foreground">
-            แหล่ง: README ส่วน Chunking/Embedding, Vector Store, Retrieval/RAG และ GAIB-1; embedding/embedding/retrieval_eval_v2/benchmark_summary.md; rag/rag_comparison/rag_comparison_summary.csv; rag/rag_latency_experiments/20261028T070459Z/experiment_summary.csv.
+            แหล่ง: รายงานวิจัยส่วน Chunking/Embedding, Vector Store, Retrieval/RAG และ GAIB-1; embedding/embedding/retrieval_eval_v2/benchmark_summary.md; rag/rag_comparison/rag_comparison_summary.csv; rag/rag_latency_experiments/20261028T070459Z/experiment_summary.csv.
           </p>
         </section>
       )}
