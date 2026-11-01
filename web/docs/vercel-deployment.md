@@ -22,6 +22,7 @@ The root [`render.yaml`](../../render.yaml) manages only the Render Python servi
    Set them for Production and Preview only if those deployments should be able to call the production backend. Never expose the token with a `NEXT_PUBLIC_` prefix.
 
 5. Deploy and wait for the build to finish.
+6. In the Vercel project, open **Settings → Analytics** and enable Web Analytics. The app already includes the `<Analytics />` component; the Analytics dashboard is for page views/visitors and does not report Render or AI health.
 
 ## Data snapshots and API functions
 
@@ -40,6 +41,7 @@ These are read-only, versioned files; no application database or writable disk i
 2. Open `/api/data`, `/api/data/market?limit=5`, and `/api/data/portfolios?limit=5`. Confirm the endpoints return the expected snapshots.
 3. Submit a non-sensitive question through Gold Assistant and confirm streamed agent events and the final citation-checked report appear.
 4. If the AI request fails, check both deployments' logs and confirm `GAIB_RUNTIME_URL`, matching service tokens, and provider credentials. A missing backend configuration must remain an explicit error.
+5. In **ถาม Gold Assistant**, use the Render status panel to check whether the backend is ready, starting/cold-starting, missing configuration, or unavailable. It retries a few times while starting and can be checked manually. A healthy `/health` confirms the Python process and shared token only; a real question is still needed to verify external AI providers and the complete pipeline.
 
 The agent route allows up to 300 seconds per Vercel function invocation. If a request exceeds the maximum duration available to the Vercel plan, the function will time out; inspect actual request duration before raising the limit or changing plans.
 

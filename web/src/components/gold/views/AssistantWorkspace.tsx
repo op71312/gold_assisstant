@@ -20,6 +20,7 @@ import {
 import ReactMarkdown from 'react-markdown';
 import { AGENT_META, STATUS_LABEL, type AgentStatus } from '../agent-meta';
 import { AgentGraph, type GraphAgentState } from './AgentGraph';
+import { GaibRuntimeStatus } from '../GaibRuntimeStatus';
 import { ViewHeader } from './shared';
 import { formatPct } from '@/lib/gold/format';
 import type { MarketPayload } from '@/lib/gold/payload';
@@ -372,6 +373,8 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
           )
         }
       />
+
+      <GaibRuntimeStatus requestPending={running && (run?.agents.length ?? 0) === 0} />
 
       <section className="rounded-2xl border border-gold/40 bg-white p-4 md:p-5">
         <div className="mb-4 flex items-start gap-3 rounded-xl border border-sky-200 bg-sky-50 px-3.5 py-3 text-sky-950">

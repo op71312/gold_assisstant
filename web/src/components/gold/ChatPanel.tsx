@@ -332,7 +332,9 @@ export function ChatPanel({ data, onAgentActivity, onClose, onCollapse }: ChatPa
         {running && (
           <div className="flex items-center gap-2 rounded-full bg-muted/80 px-3 py-2 text-[11px] text-muted-foreground">
             <Loader2 className="h-3.5 w-3.5 animate-spin text-gold-deep" />
-            ทีมนักวิเคราะห์กำลังทำงานอยู่ ดูว่าแต่ละตัวกำลังคิดอะไรได้จากด้านบน...
+            {(runs[runs.length - 1]?.agents.length ?? 0) === 0
+              ? 'กำลังเชื่อมต่อ GAIB-1 บน Render; หาก backend กำลัง cold start อาจใช้เวลาสักครู่...'
+              : 'ทีมนักวิเคราะห์กำลังทำงานอยู่ ดูว่าแต่ละตัวกำลังคิดอะไรได้จากด้านบน...'}
           </div>
         )}
       </div>
