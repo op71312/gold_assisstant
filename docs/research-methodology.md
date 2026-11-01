@@ -131,7 +131,7 @@ flowchart LR
   parquet["Project Parquet tables"] --> export["Validate · count · SHA-256"]
   export --> bundle["Versioned gzip JSON<br/>manifest + snapshots"]
   bundle --> next["Next.js standalone<br/>read-only API + UI"]
-  next --> render["Render Bun Web Service<br/>UI + SSE proxy"]
+  next --> render["Render Node.js Web Service<br/>UI + SSE proxy"]
   render --> py["Render Python Service<br/>GAIB-1 notebook runtime"]
   py --> artifacts["Features · HMM · simulator · RAG corpus"]
   py --> remote["Cloudflare · Qdrant · Jina · ThaiLLM"]
@@ -356,7 +356,7 @@ run ปัจจุบัน `R_FEATURE_V1` replay ข้อมูลราค�
 
 ## เริ่มเว็บและ Deploy บน Render
 
-เว็บอยู่ใน [`web/`](../web/): Render สร้าง Bun/Next.js web service และ Python GAIB-1 service แยกกัน. Project-data APIs ใช้ไฟล์ JSON ที่ export ไว้แล้ว ส่วน Assistant ต้องโหลด notebook artifacts ใน Python runtime และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk.
+เว็บอยู่ใน [`web/`](../web/): Render สร้าง Node.js/Next.js web service และ Python GAIB-1 service แยกกัน. Project-data APIs ใช้ไฟล์ JSON ที่ export ไว้แล้ว ส่วน Assistant ต้องโหลด notebook artifacts ใน Python runtime และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk.
 
 ```powershell
 cd web

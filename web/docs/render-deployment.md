@@ -6,7 +6,7 @@ The root [`render.yaml`](../../render.yaml) creates two Render Web Services:
 
 | Service | Runtime | Role |
 |---|---|---|
-| `gold-assistant` | Bun | Next.js UI, static project-data APIs, and authenticated SSE proxy |
+| `gold-assistant` | Node.js | Next.js UI, static project-data APIs, and authenticated SSE proxy |
 | `gold-assistant-gaib` | Python | Executes the GAIB-1 notebook pipeline and streams agent results |
 
 The Python service is configured as a Standard instance because the notebook loads a 19,784-chunk local BM25 corpus in memory. The web service can remain on the Free plan. No PostgreSQL, Supabase, SQLite, or persistent Render disk is provisioned.
@@ -45,6 +45,7 @@ The Python endpoint is publicly addressable by Render but rejects requests witho
 
 1. Push the repository and generated `web/data/` exports to the connected Git repository.
 2. Create a Render Blueprint from the repository root and apply `render.yaml`.
+   The frontend uses Render's Node.js runtime and installs the pinned dependencies from `web/package-lock.json`.
 3. In the `gold-assistant-gaib` Environment tab, add the ThaiLLM, Cloudflare, Qdrant, Jina, and `GAIB_SERVICE_TOKEN` secrets.
 4. Add the same `GAIB_SERVICE_TOKEN` to the `gold-assistant` web service. Confirm `GAIB_RUNTIME_URL` points to the Python service.
 5. Wait for both health checks. `GET /health` checks the Python process; `GET /api` reports whether the web proxy settings are present.
