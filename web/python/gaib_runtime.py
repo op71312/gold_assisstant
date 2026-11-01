@@ -346,7 +346,21 @@ def _run_with_events(
 
     def tracked_lead_run(*args: Any, **kwargs: Any) -> Any:
         events.put(_agent_start_event("AI5_Lead_Researcher"))
-        return original_lead_run(*args, **kwargs)
+        try:
+            result = original_lead_run(*args, **kwargs)
+        except Exception as error:
+            failed_result = {
+                "status": "error",
+                "schema_valid": False,
+                "data": {},
+                "metrics": {"error_type": type(error).__name__},
+            }
+            for event in _agent_events(module, "AI5_Lead_Researcher", failed_result):
+                events.put(event)
+            raise
+        for event in _agent_events(module, "AI5_Lead_Researcher", result):
+            events.put(event)
+        return result
 
     def report_progress(step: str, status: str, message: str) -> None:
         events.put({
