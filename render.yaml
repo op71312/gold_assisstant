@@ -40,17 +40,3 @@ services:
         sync: false
       - key: JINA_API_KEY4
         sync: false
-
-  - type: web
-    name: gold-assistant
-    runtime: node
-    plan: free
-    buildCommand: cd web && npm ci && npm run build
-    startCommand: cd web && npm run start
-    healthCheckPath: /api
-    autoDeploy: true
-    envVars:
-      - key: GAIB_RUNTIME_URL
-        value: https://gold-assistant-gaib.onrender.com
-      - key: GAIB_SERVICE_TOKEN
-        sync: false

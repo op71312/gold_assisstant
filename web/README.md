@@ -5,13 +5,13 @@
 Requires Node.js 20.9 or newer. From `web/`:
 
 ```powershell
-bun install --frozen-lockfile
-bun run dev
+npm ci
+npm run dev
 ```
 
-Open `http://localhost:3000`. To use npm, run `npm install` and then `npm run dev`, `npm run lint`, or `npm run build`.
+Open `http://localhost:3000`. Bun is also supported for local development with `bun install --frozen-lockfile` and `bun run dev`.
 
-The production build includes the static project data in `.next/standalone/data`. Start it with `bun run start` (or `npm start`).
+For a local production check, run `npm run build` followed by `npm start`.
 
 ## Versioned project data
 
@@ -35,7 +35,7 @@ Read-only APIs:
 - `GET /api/data/market?from=2026-01-01&to=2026-10-13&limit=100&offset=0&order=desc` — paginated rows from the feature table.
 - `GET /api/data/portfolios?year=2025&limit=25&offset=0` — paginated synthetic portfolio catalog.
 - `GET /api/data/portfolios/P20250001` — one portfolio's source master row, monthly valuations, and transaction ledger, including rejected orders.
-- `GET /api` — Render health check.
+- `GET /api` — frontend health check.
 - `POST /api/agents` — validates a question and streams the response from the Python GAIB-1 runtime. The runtime executes the selected code cells from `multi_agent/GAIB-1/Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb`; it does not use the former deterministic web-agent tools or fallback narration.
 
 The web data APIs use static, versioned files and do not depend on PostgreSQL, SQLite, Supabase, or writable disk. GAIB-1 separately uses the notebook's remote Qdrant vector collection for retrieval; it also requires Cloudflare embeddings and Jina reranking. Portfolio simulator rows remain synthetic.
@@ -59,6 +59,6 @@ The EDA tab visualizes the recorded return correlations; the data-table tab char
 
 The **Gold Assistant** navigation opens the interactive question-and-answer workspace. Each question is sent to the GAIB-1 Python service, which runs the notebook's hybrid RAG, market/HMM/risk analysis, structured ThaiLLM agents, and citation audit. The UI streams agent results, schema status, citations, and the validated Lead Researcher report. A failed provider or missing secret is shown as an error; no deterministic answer is substituted.
 
-## Render
+## Deployment
 
-The repository-root [`render.yaml`](../render.yaml) defines a Node.js/Next.js web service and a Python GAIB-1 service. The web build uses `web/package-lock.json`; local development can still use Bun. The Python service reads notebook artifacts from the checked-out repository and needs no persistent disk, but it does require a remote Qdrant collection plus private ThaiLLM, Cloudflare, Jina, and shared-service-token secrets. Set the same `GAIB_SERVICE_TOKEN` on both Render services. The Python worker is configured as a Standard instance because it loads the 19,784-chunk local BM25 corpus in memory. See [`docs/render-deployment.md`](docs/render-deployment.md) for service configuration, secrets, and operational limits.
+Deploy the Next.js frontend and read-only project-data APIs on Vercel, with `web/` as the project root. The root [`render.yaml`](../render.yaml) deploys only the GAIB-1 Python backend on Render. Set `GAIB_RUNTIME_URL` and `GAIB_SERVICE_TOKEN` in Vercel, and set the matching `GAIB_SERVICE_TOKEN` plus provider credentials in Render. The Python service needs a remote Qdrant collection and a Standard instance for its in-memory corpus. See the [Vercel deployment guide](docs/vercel-deployment.md) and [Render backend guide](docs/render-deployment.md).

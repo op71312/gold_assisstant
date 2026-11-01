@@ -181,7 +181,7 @@ const PANELS: { id: PanelId; title: string; icon: LucideIcon }[] = [
   { id: 'agents', title: '5-Agent workflow', icon: Network },
   { id: 'retrieval', title: 'Hybrid RAG', icon: Search },
   { id: 'evaluation', title: 'ผลประเมิน', icon: CheckCircle2 },
-  { id: 'render', title: 'Render architecture', icon: Layers3 },
+  { id: 'render', title: 'Vercel + Render', icon: Layers3 },
 ];
 
 const percent = (value: number) => `${(value * 100).toFixed(2)}%`;
@@ -229,7 +229,7 @@ export function MultiAgentPipelineView({
       <section className="rounded-2xl border border-gold/50 bg-white px-4 py-3.5" role="note">
         <p className="text-sm font-bold text-foreground">ขอบเขตที่ต้องแยกให้ชัด</p>
         <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-          Gold Assistant บน Render เรียก Python service ที่รัน pipeline จาก notebook จริง รวม hybrid RAG, HMM/risk evidence และ agent 1–5. Qdrant เป็น vector store ภายนอก; คำถามสดใช้ artifacts ย้อนหลังและไม่ได้วิเคราะห์ portfolio ที่เลือกในหน้าตารางหรือข้อมูลตลาดสด
+          Gold Assistant บน Vercel ส่งคำถามผ่าน streaming proxy ไปยัง Render Python service ที่รัน pipeline จาก notebook จริง รวม hybrid RAG, HMM/risk evidence และ agent 1–5. Qdrant เป็น vector store ภายนอก; คำถามสดใช้ artifacts ย้อนหลังและไม่ได้วิเคราะห์ portfolio ที่เลือกในหน้าตารางหรือข้อมูลตลาดสด
         </p>
       </section>
 
@@ -294,17 +294,17 @@ export function MultiAgentPipelineView({
           <SectionHeading
             eyebrow="DEPLOYMENT BOUNDARY"
             title="สิ่งที่ถูก deploy กับสิ่งที่ยังเป็น research"
-            description="Render ใช้ Next.js proxy และ Python service ที่รัน GAIB-1 notebook จริง; RAG เชื่อม Qdrant, Cloudflare embeddings และ Jina reranking"
+            description="Vercel ให้บริการ Next.js UI/proxy และ Render รัน Python service จาก GAIB-1 notebook; RAG เชื่อม Qdrant, Cloudflare embeddings และ Jina reranking"
           />
           <RenderArchitectureDiagram />
           <div className="grid gap-3 md:grid-cols-2">
             <RuntimeCard
-              title="เว็บที่เรียกได้บน Render"
+              title="ขอบเขตบริการ Vercel + Render"
               icon={CheckCircle2}
               items={[
-                'Next.js standalone ใช้ PORT ที่ Render กำหนด',
-                'GET /api/data อ่าน gzip JSON snapshot และ cache ใน process',
-                'POST /api/agents proxy SSE ไปยัง Python GAIB-1 runtime',
+                'Vercel ให้บริการ Next.js UI และ API routes',
+                'GET /api/data อ่าน versioned gzip JSON snapshots',
+                'POST /api/agents proxy SSE ไปยัง Render Python runtime',
                 'Notebook agents 1–5 รัน structured ThaiLLM outputs และ citation audit',
                 'RAG ใช้ Cloudflare embeddings + Qdrant hybrid search + Jina reranking',
               ]}
@@ -323,7 +323,7 @@ export function MultiAgentPipelineView({
             />
           </div>
           <p className="rounded-xl border border-gold/40 bg-accent/30 px-3.5 py-3 text-xs leading-relaxed text-accent-foreground">
-            ThaiLLM, Cloudflare, Qdrant, Jina และ shared service token ถูกตั้งเป็น secrets ใน Render environment เท่านั้น. หาก runtime หรือ provider ไม่พร้อม เว็บจะแสดง error และไม่สลับไปใช้คำตอบ fallback
+            ThaiLLM, Cloudflare, Qdrant และ Jina secrets อยู่ใน Render; shared service token ตั้งค่าเหมือนกันบน Render และ Vercel. หาก runtime หรือ provider ไม่พร้อม เว็บจะแสดง error และไม่สลับไปใช้คำตอบ fallback
           </p>
         </section>
       )}
@@ -670,8 +670,8 @@ function RenderArchitectureDiagram() {
         role="img"
         aria-labelledby="gaib-render-title gaib-render-desc"
       >
-        <title id="gaib-render-title">Gold Assistant Render production boundary</title>
-        <desc id="gaib-render-desc">The browser streams questions to a Next.js proxy, which forwards them to a Python service running the GAIB-1 notebook. The Python service reads repository artifacts and calls Qdrant, Cloudflare embeddings, Jina, and ThaiLLM.</desc>
+        <title id="gaib-render-title">Gold Assistant Vercel and Render production boundary</title>
+        <desc id="gaib-render-desc">The browser streams questions to a Next.js proxy on Vercel, which forwards them to a Python service on Render running the GAIB-1 notebook. The Python service reads repository artifacts and calls Qdrant, Cloudflare embeddings, Jina, and ThaiLLM.</desc>
         <defs>
           <marker id="gaib-render-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
             <polygon points="0 0,8 3,0 6" fill="#6e6552" />
@@ -683,7 +683,7 @@ function RenderArchitectureDiagram() {
         <rect width="1240" height="332" fill="#fbf8f1" />
         <path d="M 210 166 H 285 M 525 154 H 600 M 600 184 H 525 M 870 144 H 905 V 84 H 940 M 870 190 H 905 V 250 H 940 M 525 210 V 250 H 940" fill="none" stroke="#6e6552" strokeWidth="1.5" markerEnd="url(#gaib-render-arrow)" />
         <DiagramNode x={30} y={124} width={180} height={84} eyebrow="PUBLIC UI" title={['Browser']} detail={['HTTPS · streamed SSE']} />
-        <DiagramNode x={285} y={112} width={240} height={108} eyebrow="RENDER · BUN" title={['Next.js proxy']} detail={['/api/agents · /api/data']} focal />
+        <DiagramNode x={285} y={112} width={240} height={108} eyebrow="VERCEL · NEXT.JS" title={['Frontend + API proxy']} detail={['/api/agents · /api/data']} focal />
         <DiagramNode x={600} y={112} width={270} height={108} eyebrow="RENDER · PYTHON" title={['GAIB-1 notebook']} detail={['RAG → HMM → agents 1–5 → audit']} />
         <DiagramNode x={940} y={38} width={280} height={92} eyebrow="REPOSITORY ARTIFACTS" title={['Features · HMM · corpus']} detail={['Versioned JSON · simulator tables']} />
         <DiagramNode x={940} y={204} width={280} height={92} eyebrow="REMOTE SERVICES" title={['Qdrant · Cloudflare · Jina']} detail={['ThaiLLM · secrets server-side']} />

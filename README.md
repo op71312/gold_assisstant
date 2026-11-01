@@ -41,24 +41,24 @@ flowchart LR
 
 ## ลองเปิดเว็บในเครื่อง
 
-ต้องใช้ Node.js 20.9 ขึ้นไปและ [Bun](https://bun.sh/) เปิด PowerShell ที่ root ของ repository แล้วรัน:
+ต้องใช้ Node.js 20.9 ขึ้นไป เปิด PowerShell ที่ root ของ repository แล้วรัน:
 
 ```powershell
 cd web
-bun install --frozen-lockfile
-bun run dev
+npm ci
+npm run dev
 ```
 
 เปิด `http://localhost:3000` เพื่อดูเว็บและข้อมูลชุดที่เตรียมไว้ การถาม Gold Assistant ต้องตั้งค่า Python runtime และ credentials ของบริการภายนอกเพิ่ม; หากยังไม่ได้ตั้ง ระบบจะแจ้งข้อผิดพลาดแทนการสร้างคำตอบสำรอง ดู [คู่มือเว็บ](web/README.md).
 
-## Deploy บน Render
+## Deploy เว็บและ AI backend
 
-ไฟล์ [`render.yaml`](render.yaml) เตรียมบริการไว้ 2 ส่วน:
+แยก deploy ตาม runtime เพื่อให้แต่ละบริการทำงานตรงกับแพลตฟอร์ม:
 
-1. **`gold-assistant`** — เว็บ Next.js และ API สำหรับข้อมูลโครงการ
-2. **`gold-assistant-gaib`** — Python runtime สำหรับ GAIB-1 notebook และ agent 5 บทบาท
+- **Vercel** — เว็บ Next.js, API ข้อมูลโครงการ และ streaming proxy; ตั้ง Root Directory เป็น `web`
+- **Render** — Python runtime สำหรับ GAIB-1 notebook และ agent 5 บทบาท; สร้างจาก Blueprint [`render.yaml`](render.yaml)
 
-การใช้งาน Assistant ต้องมี Qdrant Cloud สำหรับ vector retrieval รวมถึง credentials ของ Cloudflare, Jina และ ThaiLLM ตั้งค่า secrets ใน Render เท่านั้น ห้ามใส่ค่า secrets ใน source code หรือ commit ลง Git ดู [คู่มือ Deploy แบบทีละขั้น](web/docs/render-deployment.md).
+ตั้ง `GAIB_RUNTIME_URL` และ `GAIB_SERVICE_TOKEN` ใน Vercel โดยใช้ URL ของ Python service และ token เดียวกับที่ตั้งใน Render; ตั้ง credentials ของ Qdrant, Cloudflare, Jina และ ThaiLLM ใน Render เท่านั้น ห้ามใส่ secrets ใน source code หรือ commit ลง Git ดู [คู่มือ Vercel](web/docs/vercel-deployment.md) และ [คู่มือ Render](web/docs/render-deployment.md).
 
 ## แผนที่ repository
 
@@ -74,7 +74,7 @@ bun run dev
 | [`artifacts/`](artifacts/) | ผลทดลองและ artifacts สำหรับ benchmark |
 | [`function/`](function/) | Notebook ทดลองดึงและเตรียมข้อมูล |
 | [`md/`](md/) และ [`docs/`](docs/) | เอกสารประกอบและแผนภาพ |
-| [`render.yaml`](render.yaml) | การตั้งค่า Render Blueprint |
+| [`render.yaml`](render.yaml) | การตั้งค่า Render Blueprint สำหรับ Python backend |
 
 ## ข้อควรรู้ก่อนนำผลไปใช้
 
@@ -90,7 +90,8 @@ bun run dev
 - [รายงานวิจัย: ที่มาข้อมูล, EDA, HMM, embeddings, RAG และตัวเลขผลทดลอง](docs/research-methodology.md)
 - [แผนภาพ pipeline](docs/pipeline-diagrams.html)
 - [คู่มือเริ่มเว็บและ API](web/README.md)
-- [คู่มือ Deploy บน Render](web/docs/render-deployment.md)
+- [คู่มือ Deploy frontend บน Vercel](web/docs/vercel-deployment.md)
+- [คู่มือ Deploy backend บน Render](web/docs/render-deployment.md)
 - [ที่มาและขั้นตอนเตรียมข้อมูล](md/dataset.md)
 - [EDA และ HMM](md/eda.md)
 - [ข้อกำหนดและข้อจำกัดของ simulator](dataset/thai-gold-portfolio-simulator/README.md)

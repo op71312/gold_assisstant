@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 
+export const runtime = 'nodejs';
+export const maxDuration = 300;
+
 const requestSchema = z.object({
   question: z.string().trim().min(1, 'กรุณาพิมพ์คำถาม').max(500, 'คำถามยาวเกิน 500 ตัวอักษร'),
   scenario: z.string().optional(),
@@ -36,7 +39,7 @@ export async function POST(request: Request) {
   const serviceToken = process.env.GAIB_SERVICE_TOKEN?.trim();
   if (!upstreamUrl || !serviceToken) {
     return NextResponse.json(
-      { error: 'GAIB-1 runtime ยังไม่ได้ตั้งค่าใน Render (GAIB_RUNTIME_URL และ GAIB_SERVICE_TOKEN)' },
+      { error: 'GAIB-1 runtime ยังไม่ได้ตั้งค่า (GAIB_RUNTIME_URL และ GAIB_SERVICE_TOKEN)' },
       { status: 503 },
     );
   }

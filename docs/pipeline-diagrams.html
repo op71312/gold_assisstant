@@ -508,12 +508,12 @@
     </section>
 
     <section id="web">
-      <h2>06 · Static data bundle ไปยังเว็บบน Render</h2>
-      <p>Build package รวม snapshot ที่ export ล่วงหน้า; API route อ่านและ cache ไฟล์ JSON — ไม่มี database, persistent disk หรือ agent integration ในรอบนี้</p>
+      <h2>06 · Static data bundle ไปยัง Vercel และ Render</h2>
+      <p>Build package รวม snapshot ที่ export ล่วงหน้า; Vercel API routes อ่านไฟล์ JSON ที่ trace เข้า deployment และ stream คำตอบจาก GAIB-1 บน Render — ไม่มี database หรือ persistent disk</p>
       <div class="diagram-container">
         <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="web-title web-desc">
           <title id="web-title">Pipeline ข้อมูลเว็บและ Render deployment</title>
-          <desc id="web-desc">Parquet ต้นทางถูก export เป็น gzip JSON พร้อม manifest แล้วรวมใน Next.js standalone และให้หน้าเว็บกับ read-only API บน Render โดยไม่ใช้ฐานข้อมูล</desc>
+          <desc id="web-desc">Parquet ต้นทางถูก export เป็น gzip JSON พร้อม manifest แล้วให้ Vercel Next.js UI และ read-only API ใช้ โดย SSE proxy เชื่อม Python GAIB-1 service บน Render</desc>
           <defs><marker id="web-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6e6552"/></marker></defs>
           <rect width="1280" height="720" fill="#fbf8f1"/>
           <text x="64" y="52" class="svg-kicker">VERSIONED SNAPSHOT · READ-ONLY RUNTIME</text>
@@ -548,17 +548,17 @@
           </g>
           <g class="node backend">
             <rect x="772" y="278" width="164" height="120" rx="6"/>
-            <text x="788" y="304" class="tag">NEXT STANDALONE</text>
+            <text x="788" y="304" class="tag">VERCEL · NEXT.JS</text>
             <text x="788" y="337" class="node-title">API + UI</text>
-            <text x="788" y="362" class="node-sub">manifest · tables</text>
-            <text x="788" y="382" class="node-sub">cache per process</text>
+            <text x="788" y="362" class="node-sub">manifest · tables · SSE proxy</text>
+            <text x="788" y="382" class="node-sub">traced snapshots · serverless</text>
           </g>
           <g class="node external">
             <rect x="994" y="278" width="222" height="120" rx="6"/>
-            <text x="1010" y="304" class="tag">RENDER · WEB SERVICE</text>
-            <text x="1010" y="337" class="node-title">Deploy from Blueprint</text>
-            <text x="1010" y="362" class="node-sub">health: /api · PORT provided</text>
-            <text x="1010" y="382" class="node-sub">no database / no disk</text>
+            <text x="1010" y="304" class="tag">RENDER · PYTHON</text>
+            <text x="1010" y="337" class="node-title">GAIB-1 runtime</text>
+            <text x="1010" y="362" class="node-sub">notebook · agents · /health</text>
+            <text x="1010" y="382" class="node-sub">no app DB / no persistent disk</text>
           </g>
 
           <rect x="64" y="468" width="1152" height="76" rx="6" class="note-box"/>
@@ -568,12 +568,12 @@
           <circle cx="82" cy="674" r="6" class="legend-external"/><text x="96" y="679" class="legend-text">source / hosting</text>
           <circle cx="268" cy="674" r="6" class="legend-process"/><text x="282" y="679" class="legend-text">build-time transform</text>
           <circle cx="510" cy="674" r="6" class="legend-store"/><text x="524" y="679" class="legend-text">versioned artifact</text>
-          <text x="1216" y="679" text-anchor="end" class="svg-foot">npm build · Node standalone runtime</text>
+          <text x="1216" y="679" text-anchor="end" class="svg-foot">Vercel Next.js · Render Python</text>
         </svg>
       </div>
       <div class="techniques">
-        <div><h3>เทคนิคเด่น</h3><p>Build-time Parquet validation, deterministic gzip JSON, SHA-256 provenance, Node filesystem cache และ read-only paginated API; Render ไม่ต้องติดตั้ง Python หรือเชื่อมฐานข้อมูล</p></div>
-        <div class="technique-list"><code>no database</code><code>gzip snapshot</code><code>SHA-256 manifest</code><code>standalone output</code><code>read-only API</code></div>
+        <div><h3>เทคนิคเด่น</h3><p>Build-time Parquet validation, deterministic gzip JSON, SHA-256 provenance, Next.js output tracing, read-only paginated API และ SSE proxy; Render ใช้เฉพาะ Python runtime โดยไม่มี application database</p></div>
+        <div class="technique-list"><code>no app database</code><code>gzip snapshot</code><code>SHA-256 manifest</code><code>output tracing</code><code>SSE proxy</code></div>
       </div>
     </section>
 

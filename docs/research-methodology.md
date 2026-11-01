@@ -124,20 +124,19 @@ flowchart LR
 
 Hybrid RRF + Jina ได้ evidence recall@10 **52.6%** (เพิ่ม 17.1 จุดเปอร์เซ็นต์จาก RRF) และ retrieval/reranking เฉลี่ย **6.40 s** ไม่รวม generation; citation ID ที่ถูกต้องไม่ได้ยืนยันว่า claim ได้รับหลักฐานรองรับ
 
-### 6. Snapshot ข้อมูลเว็บและ Render
+### 6. Snapshot ข้อมูลเว็บ, Vercel และ Render
 
 ```mermaid
 flowchart LR
   parquet["Project Parquet tables"] --> export["Validate · count · SHA-256"]
   export --> bundle["Versioned gzip JSON<br/>manifest + snapshots"]
-  bundle --> next["Next.js standalone<br/>read-only API + UI"]
-  next --> render["Render Node.js Web Service<br/>UI + SSE proxy"]
-  render --> py["Render Python Service<br/>GAIB-1 notebook runtime"]
+  bundle --> next["Vercel · Next.js<br/>UI + read-only APIs + SSE proxy"]
+  next --> py["Render · Python Web Service<br/>GAIB-1 notebook runtime"]
   py --> artifacts["Features · HMM · simulator · RAG corpus"]
   py --> remote["Cloudflare · Qdrant · Jina · ThaiLLM"]
 ```
 
-เทคนิคเด่น: versioned immutable snapshots, API อ่าน/ทำ cache ใน process, paginated read-only endpoints และ SSE proxy ไปยัง worker ที่รัน notebook pipeline จริง; ไม่มี application database หรือ persistent disk. Qdrant เป็น vector store ภายนอก ไม่ใช่ฐานข้อมูลผู้ใช้
+เทคนิคเด่น: versioned immutable snapshots, Next.js output tracing สำหรับรวม JSON ที่ API ต้องอ่าน, paginated read-only endpoints และ SSE proxy ไปยัง Render worker ที่รัน notebook pipeline จริง; ไม่มี application database หรือ persistent disk. Qdrant เป็น vector store ภายนอก ไม่ใช่ฐานข้อมูลผู้ใช้
 
 ## สถาปัตยกรรม GAIB-1 และผลประเมินล่าสุด
 
@@ -354,14 +353,14 @@ run ปัจจุบัน `R_FEATURE_V1` replay ข้อมูลราค�
 - **Vector store:** ผลที่เก็บใน Notebook เป็น snapshot ของการรัน; ตรวจ live Qdrant และ checkpoint ก่อนนำไปใช้จริง เพราะตัวนับในไฟล์ checkpoint ปัจจุบันไม่ตรงกัน
 - **ขอบเขตการใช้งานเว็บ:** ตารางโครงการอ่านจาก JSON snapshot แบบ read-only; Gold Assistant เรียก GAIB-1 ผ่าน Python runtime และใช้ Qdrant สำหรับค้นหลักฐาน แต่ยังไม่รับ portfolio ID ที่เลือกในหน้าตาราง จึงไม่ใช่การวิเคราะห์บัญชีส่วนบุคคล
 
-## เริ่มเว็บและ Deploy บน Render
+## เริ่มเว็บและ Deploy บน Vercel + Render
 
-เว็บอยู่ใน [`web/`](../web/): Render สร้าง Node.js/Next.js web service และ Python GAIB-1 service แยกกัน. Project-data APIs ใช้ไฟล์ JSON ที่ export ไว้แล้ว ส่วน Assistant ต้องโหลด notebook artifacts ใน Python runtime และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk.
+เว็บอยู่ใน [`web/`](../web/): Vercel ให้บริการ Next.js UI, project-data APIs และ SSE proxy; Render ให้บริการ Python GAIB-1 runtime. Project-data APIs ใช้ไฟล์ JSON snapshots ที่ versioned และถูกติดตามเข้า serverless functions; Assistant โหลด notebook artifacts ใน Python runtime และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk.
 
 ```powershell
 cd web
-bun install --frozen-lockfile
-bun run dev
+npm ci
+npm run dev
 ```
 
 หากอัปเดต Parquet ให้สร้าง bundle ใหม่จาก root โปรเจกต์:
@@ -378,7 +377,7 @@ Endpoints อ่านข้อมูล:
 - `GET /api/data/portfolios?year=2025&limit=25&offset=0` — catalog พอร์ตสังเคราะห์
 - `GET /api/data/portfolios/P20250001` — รายละเอียด portfolio, valuation และ transaction ledger
 
-ดู build/start/health check, secrets และขั้นตอนสร้าง Render Blueprint ใน [`web/README.md`](../web/README.md), [`render.yaml`](../render.yaml) และ [`web/docs/render-deployment.md`](../web/docs/render-deployment.md). ไม่มี database service, Supabase หรือ persistent disk; Qdrant เป็นบริการ vector store ภายนอกที่ runtime ต้องใช้
+ดูวิธีตั้ง Root Directory, environment variables และ deploy frontend ใน [`web/docs/vercel-deployment.md`](../web/docs/vercel-deployment.md); สร้าง Render Blueprint จาก [`render.yaml`](../render.yaml) สำหรับ Python backend แล้วตั้ง secrets ตาม [`web/docs/render-deployment.md`](../web/docs/render-deployment.md). ไม่มี database service, Supabase หรือ persistent disk; Qdrant เป็น vector store ภายนอกที่ runtime ต้องใช้
 
 ## เอกสารและ Notebook ที่เกี่ยวข้อง
 
