@@ -38,8 +38,11 @@ export async function POST(request: Request) {
   const upstreamUrl = runtimeUrl();
   const serviceToken = process.env.GAIB_SERVICE_TOKEN?.trim();
   if (!upstreamUrl || !serviceToken) {
+    const missing: string[] = [];
+    if (!upstreamUrl) missing.push('GAIB_RUNTIME_URL (Vercel service binding)');
+    if (!serviceToken) missing.push('GAIB_SERVICE_TOKEN');
     return NextResponse.json(
-      { error: 'GAIB-1 runtime ยังไม่ได้ตั้งค่า (GAIB_RUNTIME_URL และ GAIB_SERVICE_TOKEN)' },
+      { error: `GAIB-1 runtime ยังไม่ได้ตั้งค่า: ${missing.join(' และ ')}` },
       { status: 503 },
     );
   }

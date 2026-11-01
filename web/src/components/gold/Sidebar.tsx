@@ -127,6 +127,7 @@ export function Sidebar({
               src="/gold/cat-hero.png"
               alt="แมววิเชียรมาสกอดทองคำ"
               fill
+              unoptimized
               className="object-cover object-top"
               sizes="216px"
             />

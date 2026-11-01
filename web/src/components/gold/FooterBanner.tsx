@@ -10,6 +10,7 @@ export function FooterBanner() {
           src="/gold/cat-footer.png"
           alt="แมววิเชียรมาสนอนบนกองทองคำหน้าเมืองยามค่ำคืน"
           fill
+          unoptimized
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 800px"
         />

@@ -23,7 +23,10 @@ export async function GET() {
   const configuredUrl = process.env.GAIB_RUNTIME_URL?.trim();
   const serviceToken = process.env.GAIB_SERVICE_TOKEN?.trim();
   if (!configuredUrl || !serviceToken) {
-    return statusResponse('not_configured', 'ยังไม่ได้ตั้งค่า GAIB runtime หรือ service token');
+    const missing: string[] = [];
+    if (!configuredUrl) missing.push('GAIB_RUNTIME_URL (service binding)');
+    if (!serviceToken) missing.push('GAIB_SERVICE_TOKEN');
+    return statusResponse('not_configured', `ยังไม่ได้ตั้งค่า ${missing.join(' และ ')}`);
   }
 
   let healthUrl: URL;

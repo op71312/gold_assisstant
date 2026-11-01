@@ -226,7 +226,7 @@ export default function Home() {
               aria-label="ให้ทีม Gold Assistant วินิจฉัยพอร์ต"
               title="ให้ทีม Gold Assistant วินิจฉัยพอร์ต"
             >
-              <Image src="/gold/cat-hero.png" alt="Gold Assistant" fill className="object-cover object-top" sizes="112px" />
+              <Image src="/gold/cat-hero.png" alt="Gold Assistant" fill unoptimized className="object-cover object-top" sizes="112px" />
             </button>
             <span className="hidden max-w-[150px] text-[11px] leading-snug text-muted-foreground lg:block">
               กดรูปแมว

@@ -76,6 +76,7 @@ export function StatsRow({ data }: StatsRowProps) {
             src="/gold/cat-hero.png"
             alt="แมววิเชียรมาสงุนงมหน้าทองคำ"
             fill
+            unoptimized
             className="rounded-2xl object-cover"
             sizes="150px"
           />
