@@ -14,8 +14,8 @@ import uuid
 from contextlib import redirect_stdout
 from datetime import date, datetime
 from pathlib import Path
+from types import ModuleType
 from typing import Any
-from unittest.mock import patch
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import StreamingResponse
@@ -23,8 +23,6 @@ from fastapi.responses import StreamingResponse
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
 ROOT = Path(os.getenv("GOLD_ASSISTANT_ROOT", Path(__file__).resolve().parents[2])).resolve()
-NOTEBOOK_PATH = ROOT / "multi_agent" / "GAIB-1" / "Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb"
-NOTEBOOK_CELLS = (3, 5, 7, 9, 11, 13, 15, 17, 19, 21)
 AGENT_INFO = {
     "AI1_News_Analyst": (1, "News Analyst", "ค้นหลักฐานข่าวจาก RAG และแยกข้อเท็จจริงจากการตีความ", "#3e5f8a"),
     "AI2_Macro_Analyst": (2, "Macro Analyst", "อ่าน market snapshot และอธิบายกลไกมหภาคโดยไม่อ้างเหตุและผลเกินข้อมูล", "#3e7c5b"),
@@ -41,7 +39,7 @@ AGENT_TOOLS = {
 }
 
 _pipeline: Any | None = None
-_notebook_namespace: dict[str, Any] | None = None
+_pipeline_module: ModuleType | None = None
 _initialization_lock = threading.Lock()
 _active_run_lock = threading.Lock()
 _event_sentinel = object()
@@ -80,77 +78,65 @@ def _sse(event: dict[str, Any]) -> str:
     return f"data: {payload}\n\n"
 
 
-def _load_notebook_namespace(require_remote_config: bool = True) -> dict[str, Any]:
-    if not NOTEBOOK_PATH.is_file():
-        raise PipelineConfigurationError(["notebook source file"])
-
-    notebook = json.loads(NOTEBOOK_PATH.read_text(encoding="utf-8"))
-    cells = notebook.get("cells", [])
-    missing_cells = [
-        index for index in NOTEBOOK_CELLS
-        if index >= len(cells) or cells[index].get("cell_type") != "code"
-    ]
-    if missing_cells:
-        raise PipelineConfigurationError(["expected GAIB-1 notebook code cells"])
-
+def _load_pipeline_module(require_remote_config: bool = True) -> ModuleType:
     os.environ["GOLD_ASSISTANT_ROOT"] = str(ROOT)
-    namespace: dict[str, Any] = {"__name__": "gaib_notebook_runtime"}
-    disable_dotenv = os.getenv("GAIB_DISABLE_DOTENV", "").strip().lower() in {"1", "true", "yes"}
-    dotenv_patch = patch("dotenv.load_dotenv", return_value=False) if disable_dotenv else None
-
-    if dotenv_patch:
-        dotenv_patch.start()
-    try:
-        with redirect_stdout(sys.stderr):
-            for index in NOTEBOOK_CELLS:
-                source = cells[index].get("source", "")
-                if isinstance(source, list):
-                    source = "".join(source)
-                compile(source, f"{NOTEBOOK_PATH.name}:cell-{index}", "exec")
-                exec(compile(source, f"{NOTEBOOK_PATH.name}:cell-{index}", "exec"), namespace)
-    finally:
-        if dotenv_patch:
-            dotenv_patch.stop()
+    with redirect_stdout(sys.stderr):
+        from web.python import gaib_pipeline as module
 
     missing: list[str] = []
     if require_remote_config:
-        if not namespace.get("THAILLM_API_KEYS"):
+        if not module.THAILLM_API_KEYS:
             missing.append("THAILLM_API_KEY1–7")
-        if not namespace.get("CF_ACCOUNT_ID"):
+        if not module.CF_ACCOUNT_ID:
             missing.append("CLOUDFLARE_ACCOUNT_ID")
-        if not namespace.get("CF_API_TOKEN"):
+        if not module.CF_API_TOKEN:
             missing.append("CLOUDFLARE_API_TOKEN")
-        if not namespace.get("QDRANT_URL"):
+        if not module.QDRANT_URL:
             missing.append("QDRANT_URL")
-        if not namespace.get("QDRANT_API_KEY"):
+        if not module.QDRANT_API_KEY:
             missing.append("QDRANT_API_KEY")
-        if not namespace.get("JINA_API_KEYS"):
+        if not module.JINA_API_KEYS:
             missing.append("JINA_API_KEY, JINA_API_KEY2, JINA_API_KEY3, or JINA_API_KEY4")
     for symbol in ("FEATURE_PATH", "HMM_PATH", "CHUNKS_PATH"):
-        artifact = namespace.get(symbol)
+        artifact = getattr(module, symbol, None)
         if not artifact or not Path(artifact).is_file():
             missing.append(symbol)
     if missing:
         raise PipelineConfigurationError(missing)
-    return namespace
+    return module
 
 
-def _get_pipeline() -> tuple[Any, dict[str, Any]]:
-    global _pipeline, _notebook_namespace
-    if _pipeline is not None and _notebook_namespace is not None:
-        return _pipeline, _notebook_namespace
+def _get_pipeline(progress_callback=None) -> tuple[Any, ModuleType]:
+    global _pipeline, _pipeline_module
+    if _pipeline is not None and _pipeline_module is not None:
+        if progress_callback:
+            progress_callback("runtime", "success", "Python pipeline พร้อมใช้งาน; กำลังเริ่มคำถามใหม่")
+        return _pipeline, _pipeline_module
     with _initialization_lock:
-        if _pipeline is not None and _notebook_namespace is not None:
-            return _pipeline, _notebook_namespace
-        namespace = _load_notebook_namespace()
+        if _pipeline is not None and _pipeline_module is not None:
+            if progress_callback:
+                progress_callback("runtime", "success", "Python pipeline พร้อมใช้งาน; กำลังเริ่มคำถามใหม่")
+            return _pipeline, _pipeline_module
+        if progress_callback:
+            progress_callback("runtime", "running", "กำลังโหลด Python modules และตรวจสอบการตั้งค่า")
         try:
-            pipeline = namespace["GoldAssistantMultiAgent"]()
+            module = _load_pipeline_module()
+        except PipelineConfigurationError as error:
+            if progress_callback:
+                progress_callback("runtime", "error", f"ยังตั้งค่า runtime ไม่ครบ: {', '.join(error.missing)}")
+            raise
+        try:
+            pipeline = module.GoldAssistantMultiAgent(progress_callback=progress_callback)
         except Exception as error:
+            if progress_callback:
+                progress_callback("runtime", "error", f"เริ่ม Python runtime ไม่สำเร็จ ({type(error).__name__})")
             logging.error("GAIB-1 initialization failed (%s)", type(error).__name__)
-            raise RuntimeError("The notebook pipeline could not connect to its required remote services") from error
-        _notebook_namespace = namespace
+            raise RuntimeError("The Python pipeline could not connect to its required remote services") from error
+        _pipeline_module = module
         _pipeline = pipeline
-        return pipeline, namespace
+        if progress_callback:
+            progress_callback("runtime", "success", "เตรียม GAIB-1 runtime และบริการ RAG สำเร็จ")
+        return pipeline, module
 
 
 def _first_text(data: dict[str, Any], *keys: str) -> str:
@@ -189,8 +175,8 @@ def _key_finding(agent_name: str, data: dict[str, Any], success: bool) -> str:
     return _first_text(data, "executive_summary") or "Lead Researcher งดสรุปข้อกล่าวอ้างที่ไม่มีหลักฐานรองรับ"
 
 
-def _evidence_ids(namespace: dict[str, Any], data: dict[str, Any]) -> list[str]:
-    collect = namespace.get("_collect_evidence_ids")
+def _evidence_ids(module: ModuleType, data: dict[str, Any]) -> list[str]:
+    collect = getattr(module, "_collect_evidence_ids", None)
     if not callable(collect):
         return []
     try:
@@ -199,7 +185,7 @@ def _evidence_ids(namespace: dict[str, Any], data: dict[str, Any]) -> list[str]:
         return []
 
 
-def _agent_events(namespace: dict[str, Any], agent_name: str, result: dict[str, Any]) -> list[dict[str, Any]]:
+def _agent_events(module: ModuleType, agent_name: str, result: dict[str, Any]) -> list[dict[str, Any]]:
     metadata = AGENT_INFO.get(agent_name)
     if metadata is None:
         return []
@@ -209,7 +195,7 @@ def _agent_events(namespace: dict[str, Any], agent_name: str, result: dict[str, 
     metrics = result.get("metrics") if isinstance(result.get("metrics"), dict) else {}
     status = str(result.get("status", "error"))
     success = status in {"success", "recovered"} and result.get("schema_valid") is True
-    evidence = _evidence_ids(namespace, data)
+    evidence = _evidence_ids(module, data)
     latency = metrics.get("latency_ms")
     summary = (
         f"สถานะ {status} · JSON {'ผ่าน' if result.get('json_valid') else 'ไม่ผ่าน'}"
@@ -241,7 +227,7 @@ def _agent_events(namespace: dict[str, Any], agent_name: str, result: dict[str, 
             "agentId": agent_id,
             "keyFinding": _key_finding(agent_name, raw_data, success),
             "evidence": evidence,
-            "narrationMode": "gaib-notebook",
+            "narrationMode": "gaib-python",
             "status": "done" if success else "error",
         },
     ]
@@ -317,10 +303,15 @@ def _pipeline_summary(result: dict[str, Any]) -> dict[str, Any]:
     })
 
 
-def _run_with_events(pipeline: Any, namespace: dict[str, Any], question: str, events: queue.Queue) -> dict[str, Any]:
+def _run_with_events(
+    pipeline: Any,
+    module: ModuleType,
+    question: str,
+    events: queue.Queue,
+) -> dict[str, Any]:
     original_retrieve = pipeline.evidence.retrieve
     original_specialists = pipeline._run_specialists
-    lead_agent = namespace["agent5"]
+    lead_agent = module.agent5
     original_lead_run = lead_agent.run
 
     def tracked_retrieve(*args: Any, **kwargs: Any) -> Any:
@@ -335,7 +326,7 @@ def _run_with_events(pipeline: Any, namespace: dict[str, Any], question: str, ev
             events.put(_agent_start_event(agent_name))
 
         def on_result(agent_name: str, agent_result: dict[str, Any]) -> None:
-            for event in _agent_events(namespace, agent_name, agent_result):
+            for event in _agent_events(module, agent_name, agent_result):
                 events.put(event)
             if telemetry_callback:
                 telemetry_callback(agent_name, agent_result)
@@ -346,11 +337,19 @@ def _run_with_events(pipeline: Any, namespace: dict[str, Any], question: str, ev
         events.put(_agent_start_event("AI5_Lead_Researcher"))
         return original_lead_run(*args, **kwargs)
 
+    def report_progress(step: str, status: str, message: str) -> None:
+        events.put({
+            "type": "pipeline_progress",
+            "step": step,
+            "status": status,
+            "message": message,
+        })
+
     pipeline.evidence.retrieve = tracked_retrieve
     pipeline._run_specialists = tracked_specialists
     lead_agent.run = tracked_lead_run
     try:
-        return pipeline.run(question)
+        return pipeline.run(question, progress_callback=report_progress)
     finally:
         pipeline.evidence.retrieve = original_retrieve
         pipeline._run_specialists = original_specialists
@@ -369,7 +368,7 @@ def _missing_runtime_config() -> list[str]:
 async def health() -> dict[str, Any]:
     return {
         "status": "ok",
-        "runtime": "GAIB-1 notebook",
+        "runtime": "GAIB-1 Python",
         "serviceAuthConfigured": not _missing_runtime_config(),
         "externalRetrievalRequired": True,
     }
@@ -409,30 +408,50 @@ async def post_agents(request: Request) -> StreamingResponse:
             _active_run_lock.release()
 
     async def stream_events():
-        yield _sse({"type": "run_start", "question": question, "scenario": "GAIB-1 notebook", "runId": run_id})
+        yield _sse({"type": "run_start", "question": question, "scenario": "GAIB-1 Python", "runId": run_id})
         yield _sse({"type": "analysis_mode", "mode": "connecting"})
         yield _sse({
             "type": "analysis_notice",
-            "message": "กำลังเตรียม GAIB-1 จาก notebook: โหลด feature/HMM/risk artifacts และเชื่อมต่อบริการ RAG ภายนอก",
+            "message": "กำลังเตรียม GAIB-1 Python modules: โหลด feature/HMM/risk artifacts และเชื่อมต่อบริการ RAG ภายนอก",
         })
 
         try:
-            initialization = asyncio.create_task(asyncio.to_thread(_get_pipeline))
+            initialization = asyncio.create_task(
+                asyncio.to_thread(_get_pipeline, lambda step, status, message: events.put({
+                    "type": "pipeline_progress",
+                    "step": step,
+                    "status": status,
+                    "message": message,
+                }))
+            )
             while not initialization.done():
                 try:
-                    await asyncio.wait_for(asyncio.shield(initialization), timeout=12)
+                    event = await asyncio.wait_for(asyncio.to_thread(events.get, True, 1), timeout=2)
+                    if event is not _event_sentinel:
+                        yield _sse(event)
                 except asyncio.TimeoutError:
-                    yield ": keep-alive\n\n"
-            pipeline, namespace = initialization.result()
-            yield _sse({"type": "analysis_mode", "mode": "gaib-notebook"})
+                    if not initialization.done():
+                        yield ": keep-alive\n\n"
+                except queue.Empty:
+                    if not initialization.done():
+                        yield ": keep-alive\n\n"
+            while True:
+                try:
+                    event = events.get_nowait()
+                except queue.Empty:
+                    break
+                if event is not _event_sentinel:
+                    yield _sse(event)
+            pipeline, module = initialization.result()
+            yield _sse({"type": "analysis_mode", "mode": "gaib-python"})
             yield _sse({
                 "type": "analysis_notice",
-                "message": "ใช้ GAIB-1 notebook จริง: RAG → market snapshot → Gaussian HMM/risk audit → agents 1–4 → citation-checked Lead Researcher. ไม่มีคำตอบ fallback",
+                "message": "ใช้ GAIB-1 Python pipeline: RAG → market snapshot → Gaussian HMM/risk audit → agents 1–4 → citation-checked Lead Researcher. ไม่มีคำตอบ fallback",
             })
 
             async def run_pipeline() -> None:
                 try:
-                    result = await asyncio.to_thread(_run_with_events, pipeline, namespace, question, events)
+                    result = await asyncio.to_thread(_run_with_events, pipeline, module, question, events)
                     events.put({"type": "pipeline_summary", "summary": _pipeline_summary(result)})
                     events.put({"type": "final_answer", "text": result.get("final_text") or "Lead Researcher ไม่มีคำตอบที่ผ่านการตรวจสอบ", "agentId": 5})
                     events.put({"type": "done"})
@@ -465,7 +484,7 @@ async def post_agents(request: Request) -> StreamingResponse:
             logging.error("GAIB-1 configuration missing: %s", ", ".join(error.missing))
             yield _sse({
                 "type": "pipeline_error",
-                "message": f"GAIB-1 ยังไม่พร้อม: ต้องมี {', '.join(error.missing)} และไฟล์ notebook/artifacts ที่จำเป็นบน Render",
+                "message": f"GAIB-1 ยังไม่พร้อม: ต้องมี {', '.join(error.missing)} และ Python modules/artifacts ที่จำเป็น",
             })
             yield _sse({"type": "done"})
         except Exception as error:
@@ -473,7 +492,7 @@ async def post_agents(request: Request) -> StreamingResponse:
             yield _sse({
                 "type": "pipeline_error",
                 "message": (
-                    "เริ่ม GAIB-1 ไม่สำเร็จ ตรวจสอบ secrets, notebook artifacts และการเชื่อมต่อ Qdrant/Cloudflare/Jina "
+                    "เริ่ม GAIB-1 ไม่สำเร็จ ตรวจสอบ secrets, Python modules/artifacts และการเชื่อมต่อ Qdrant/Cloudflare/Jina "
                     f"(ชนิดข้อผิดพลาด: {type(error).__name__}) ไม่มีการใช้ fallback"
                 ),
             })
@@ -493,22 +512,21 @@ async def post_agents(request: Request) -> StreamingResponse:
 
 
 def _self_check() -> int:
-    os.environ["GAIB_DISABLE_DOTENV"] = "1"
-    namespace = _load_notebook_namespace(require_remote_config=False)
-    features = namespace.get("df_features")
+    module = _load_pipeline_module(require_remote_config=False)
+    features = module.df_features
     if features is None or features.empty:
-        raise RuntimeError("The notebook feature dataset is empty")
+        raise RuntimeError("The feature dataset is empty")
     query = "ทดสอบสถานะทองคำ 2026-10-13"
-    market = namespace["build_market_snapshot"](query, features)
-    hmm = namespace["run_hmm_snapshot"](query, features, namespace["HMM_PATH"])
-    risk = namespace.get("risk_snapshot_global", {})
+    market = module.build_market_snapshot(query, features)
+    hmm = module.run_hmm_snapshot(query, features, module.HMM_PATH)
+    risk = module.get_risk_snapshot_global()
     summary = {
-        "notebook": NOTEBOOK_PATH.relative_to(ROOT).as_posix(),
+        "pipelineModule": "web.python.gaib_pipeline",
         "featureRows": int(len(features)),
         "featureAsOf": market.get("as_of"),
         "hmmStatus": hmm.get("status"),
         "riskRecords": len(risk.get("records", [])),
-        "chunkCorpusExists": Path(namespace["CHUNKS_PATH"]).is_file(),
+        "chunkCorpusExists": Path(module.CHUNKS_PATH).is_file(),
     }
     print(json.dumps(_json_safe(summary), ensure_ascii=False))
     return 0

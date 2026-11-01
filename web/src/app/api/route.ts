@@ -7,7 +7,7 @@ export async function GET() {
     status: "ok",
     app: "Gold Assistant",
     mode: "versioned-project-data",
-    assistantMode: "gaib-1-notebook-proxy",
+    assistantMode: "gaib-1-python-proxy",
     gaibRuntimeConfigured: Boolean(process.env.GAIB_RUNTIME_URL?.trim() && process.env.GAIB_SERVICE_TOKEN?.trim()),
     dataThrough: manifest.market.end_date,
   });

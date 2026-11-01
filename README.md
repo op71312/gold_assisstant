@@ -9,7 +9,7 @@
 - **สำรวจตลาด:** รวมข้อมูลราคาทองไทย ทองโลก และอัตราแลกเปลี่ยน พร้อมตรวจคุณภาพข้อมูลและสร้างตัวชี้วัด
 - **ทดลองวิเคราะห์ภาวะตลาด:** ใช้ Gaussian HMM แบ่งภาวะจากรูปแบบข้อมูลทางสถิติ ไม่ได้ทำนายราคาหรือให้สัญญาณซื้อขาย
 - **ค้นหลักฐานประกอบคำตอบ:** ทดลองค้นข่าวและรายงานด้วย hybrid retrieval แล้วแสดงแหล่งอ้างอิง
-- **ดูผลผ่านเว็บ:** สำรวจข้อมูลตลาดย้อนหลัง พอร์ตจำลอง และ Gold Assistant ที่ใช้ GAIB-1 notebook pipeline กับ agent 5 บทบาท
+- **ดูผลผ่านเว็บ:** สำรวจข้อมูลตลาดย้อนหลัง พอร์ตจำลอง และ Gold Assistant ที่ใช้ GAIB-1 Python pipeline กับ agent 5 บทบาท
 
 ## ภาพรวมการทำงาน
 
@@ -53,12 +53,7 @@ npm run dev
 
 ## Deploy เว็บและ AI backend
 
-แยก deploy ตาม runtime เพื่อให้แต่ละบริการทำงานตรงกับแพลตฟอร์ม:
-
-- **Vercel** — เว็บ Next.js, API ข้อมูลโครงการ และ streaming proxy; ตั้ง Root Directory เป็น `web`
-- **Render** — Python runtime สำหรับ GAIB-1 notebook และ agent 5 บทบาท; สร้างจาก Blueprint [`render.yaml`](render.yaml)
-
-ตั้ง `GAIB_RUNTIME_URL` และ `GAIB_SERVICE_TOKEN` ใน Vercel โดยใช้ URL ของ Python service และ token เดียวกับที่ตั้งใน Render; ตั้ง credentials ของ Qdrant, Cloudflare, Jina และ ThaiLLM ใน Render เท่านั้น ห้ามใส่ secrets ใน source code หรือ commit ลง Git ดู [คู่มือ Vercel](web/docs/vercel-deployment.md) และ [คู่มือ Render](web/docs/render-deployment.md).
+ใช้ **Vercel Services** deploy Next.js frontend และ Python/FastAPI runtime ใน deployment เดียว โดย frontend เรียก backend ผ่าน private service binding; GAIB-1 runtime import Python modules ที่เตรียมไว้ ไม่โหลดหรือ execute notebook ใน production. สามารถใช้ Render เป็นทางเลือกสำหรับ Python backend ได้ด้วย [`render.yaml`](render.yaml). ดู [คู่มือ Vercel Services](web/docs/vercel-deployment.md) และ [คู่มือ Render](web/docs/render-deployment.md).
 
 ## แผนที่ repository
 
@@ -69,7 +64,8 @@ npm run dev
 | [`embedding/`](embedding/) | การแบ่งข้อความ การสร้าง embeddings และผลประเมิน retrieval |
 | [`vector_database/`](vector_database/) | Notebook และ artifacts สำหรับ Qdrant |
 | [`rag/`](rag/) | การทดลอง retrieval, RAG และ prompt |
-| [`multi_agent/GAIB-1/`](multi_agent/GAIB-1/) | Notebook pipeline ของ GAIB-1 และการประเมิน agent |
+| [`multi_agent/GAIB-1/`](multi_agent/GAIB-1/) | Notebook ต้นฉบับสำหรับงานวิจัยและประเมิน agent; ไม่ถูก execute ใน runtime |
+| [`web/python/`](web/python/) | Python modules สำหรับ GAIB-1 serving pipeline และ FastAPI runtime |
 | [`model/`](model/) | ไฟล์โมเดล HMM และข้อมูลประกอบ |
 | [`artifacts/`](artifacts/) | ผลทดลองและ artifacts สำหรับ benchmark |
 | [`function/`](function/) | Notebook ทดลองดึงและเตรียมข้อมูล |

@@ -184,7 +184,7 @@ export function ProjectDetailsView({
           </section>
 
           <section className="card-warm rounded-2xl p-4 md:p-5">
-            <h2 className="font-display text-sm font-bold">จากต้นทางสู่เว็บ Render</h2>
+            <h2 className="font-display text-sm font-bold">จากต้นทางสู่เว็บ</h2>
             <ol className="mt-3 grid gap-3 md:grid-cols-5">
               {[
                 ['เก็บต้นทาง', 'GTA HTML · Thai PBS API · Fed/BLS archives'],

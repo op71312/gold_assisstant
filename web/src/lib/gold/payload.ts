@@ -96,13 +96,14 @@ export interface GaibPipelineSummary {
 export type ChatEvent =
   | { type: 'run_start'; question: string; scenario: string; runId?: string }
   | { type: 'analysis_notice'; message: string }
-  | { type: 'analysis_mode'; mode: 'connecting' | 'gaib-notebook' }
+  | { type: 'analysis_mode'; mode: 'connecting' | 'gaib-python' }
+  | { type: 'pipeline_progress'; step: string; status: 'running' | 'success' | 'error' | 'skipped'; message: string }
   | { type: 'agent_start'; agentId: number; name: string; role: string; color: string }
   | { type: 'tool_call'; agentId: number; tool: string }
   | { type: 'tool_result'; agentId: number; tool: string; summary: string; data: Record<string, unknown> }
   | { type: 'thinking_start'; agentId: number }
   | { type: 'thinking_delta'; agentId: number; text: string }
-  | { type: 'agent_done'; agentId: number; keyFinding: string; evidence: string[]; thinking?: string; narrationMode: 'gaib-notebook'; status: 'done' | 'error' }
+  | { type: 'agent_done'; agentId: number; keyFinding: string; evidence: string[]; thinking?: string; narrationMode: 'gaib-python'; status: 'done' | 'error' }
   | { type: 'pipeline_summary'; summary: GaibPipelineSummary }
   | { type: 'pipeline_error'; message: string }
   | { type: 'final_answer'; text: string; agentId: number }

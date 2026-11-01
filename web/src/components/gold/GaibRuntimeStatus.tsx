@@ -15,7 +15,7 @@ const MAX_AUTOMATIC_RETRIES = 4;
 
 export function GaibRuntimeStatus({ requestPending = false }: { requestPending?: boolean }) {
   const [status, setStatus] = useState<RuntimeStatus>('checking');
-  const [message, setMessage] = useState('กำลังตรวจสถานะ GAIB-1 บน Render');
+  const [message, setMessage] = useState('กำลังตรวจสถานะ GAIB-1 Python service');
   const [checking, setChecking] = useState(false);
   const retriesRef = useRef(0);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -70,12 +70,12 @@ export function GaibRuntimeStatus({ requestPending = false }: { requestPending?:
       className={`flex flex-col gap-3 rounded-xl border px-3.5 py-3 sm:flex-row sm:items-center ${tone}`}
       role="status"
       aria-live="polite"
-      aria-label="สถานะ GAIB-1 Render runtime"
+      aria-label="สถานะ GAIB-1 Python runtime"
     >
       <Icon className={`h-5 w-5 shrink-0 ${pending ? 'animate-spin' : ''}`} />
       <div className="min-w-0 flex-1">
         <p className="text-sm font-bold">
-          {ready ? 'Render backend พร้อมรับคำขอ' : status === 'starting' || pending ? 'กำลังเชื่อมต่อกับ Render' : 'Render backend ยังไม่พร้อม'}
+          {ready ? 'GAIB-1 Python service พร้อมรับคำขอ' : status === 'starting' || pending ? 'กำลังเชื่อมต่อกับ Python service' : 'GAIB-1 Python service ยังไม่พร้อม'}
         </p>
         <p className="mt-0.5 text-xs leading-relaxed">{message}</p>
         <p className="mt-1 text-[11px] opacity-80">

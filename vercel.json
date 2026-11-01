@@ -1,0 +1,45 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "web",
+      "framework": "nextjs",
+      "bindings": [
+        {
+          "type": "service",
+          "service": "gaib-runtime",
+          "format": "url",
+          "env": "GAIB_RUNTIME_URL"
+        }
+      ]
+    },
+    "gaib-runtime": {
+      "root": ".",
+      "framework": "fastapi",
+      "entrypoint": "web.python.gaib_runtime:app",
+      "installCommand": "python -m pip install -r web/python/requirements.txt",
+      "functions": {
+        "web/python/gaib_runtime.py": {
+          "includeFiles": [
+            "web/python/gaib_pipeline.py",
+            "dataset/datset a gold price/data/processed/thai_gold_features_v1.parquet",
+            "dataset/datset a gold price/data/processed/thai_gold_features_v1.csv",
+            "dataset/thai-gold-portfolio-simulator/outputs/*.parquet",
+            "dataset/thai-gold-portfolio-simulator/outputs/*.csv",
+            "model/gold_hmm_v1/model.joblib",
+            "embedding/artifacts/chunking_real/structure_aware/chunks_structure_aware_real.jsonl"
+          ],
+          "maxDuration": 300
+        }
+      }
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}

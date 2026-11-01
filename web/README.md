@@ -43,7 +43,7 @@ Open **ข้อมูลโครงการ** in the sidebar to browse the la
 
 ### Snapshot boundary
 
-`data/market-history.json.gz` contains 6,261 feature rows through `2026-10-13`. The GAIB-1 runtime loads the notebook's source feature table, HMM bundle, simulator audit tables, and RAG corpus from the repository. These are historical/research inputs, not live market or news feeds. GAIB-1 does not receive the portfolio ID selected in the web data-table view, so its risk audit is project-level simulator evidence, not a personal portfolio diagnosis.
+`data/market-history.json.gz` contains 6,261 feature rows through `2026-10-13`. The GAIB-1 Python module loads the source feature table, HMM bundle, simulator audit tables, and RAG corpus from the repository; production does not execute the research notebook. These are historical/research inputs, not live market or news feeds. GAIB-1 does not receive the portfolio ID selected in the web data-table view, so its risk audit is project-level simulator evidence, not a personal portfolio diagnosis.
 
 ## Project research and documentation
 
@@ -52,13 +52,13 @@ The single **ข้อมูลโครงการ** page groups the project's
 - GTA price history → EDA/data-quality decisions → daily feature engineering → Gaussian HMM.
 - Thai PBS/Fed/BLS evidence corpus → chunking and embedding evaluation → Qdrant → hybrid RAG.
 - Embedding/RAG experiment metrics: five chunking strategies over 114 queries; hybrid + Jina evidence recall 52.6% versus 35.5% for hybrid RRF; prompt runs include citation, structured-output, and latency measures.
-- GAIB-1 five-agent architecture, A2 hybrid retrieval, recorded development metrics, and the live web-to-notebook runtime boundary.
+- GAIB-1 five-agent architecture, A2 hybrid retrieval, recorded development metrics, and the live web-to-Python runtime boundary.
 - Dataset sources and acquisition, return/correlation summaries, missing-data handling, HMM state profiles, and model limitations.
 
-The EDA tab visualizes the recorded return correlations; the data-table tab charts valuations for a selected synthetic portfolio. Select a diagram node to inspect inputs, processing, measured outputs, selection rationale, and source evidence. The web `/api/agents` route now executes GAIB-1's notebook pipeline; the recorded `DEVELOPMENT_PASS` remains a development evaluation, not an accuracy score for an individual response or release approval because human review gates remain incomplete.
+The EDA tab visualizes the recorded return correlations; the data-table tab charts valuations for a selected synthetic portfolio. Select a diagram node to inspect inputs, processing, measured outputs, selection rationale, and source evidence. The web `/api/agents` route now executes GAIB-1's static Python pipeline; the recorded `DEVELOPMENT_PASS` remains a development evaluation, not an accuracy score for an individual response or release approval because human review gates remain incomplete.
 
-The **Gold Assistant** navigation opens the interactive question-and-answer workspace. Each question is sent to the GAIB-1 Python service, which runs the notebook's hybrid RAG, market/HMM/risk analysis, structured ThaiLLM agents, and citation audit. The UI streams agent results, schema status, citations, and the validated Lead Researcher report. A failed provider or missing secret is shown as an error; no deterministic answer is substituted.
+The **Gold Assistant** navigation opens the interactive question-and-answer workspace. Each question is sent to the GAIB-1 Python service, which imports `web/python/gaib_pipeline.py` for hybrid RAG, market/HMM/risk analysis, structured ThaiLLM agents, and citation audit. The UI streams agent results, schema status, citations, and the validated Lead Researcher report. A failed provider or missing secret is shown as an error; no deterministic answer is substituted.
 
 ## Deployment
 
-Deploy the Next.js frontend and read-only project-data APIs on Vercel, with `web/` as the project root. The root [`render.yaml`](../render.yaml) deploys only the GAIB-1 Python backend on Render. Set `GAIB_RUNTIME_URL` and `GAIB_SERVICE_TOKEN` in Vercel, and set the matching `GAIB_SERVICE_TOKEN` plus provider credentials in Render. The Python service needs a remote Qdrant collection and a Standard instance for its in-memory corpus. See the [Vercel deployment guide](docs/vercel-deployment.md) and [Render backend guide](docs/render-deployment.md).
+The root [`vercel.json`](../vercel.json) deploys the Next.js frontend and GAIB-1 Python/FastAPI runtime as Vercel Services in one project. The frontend calls the Python service through a private binding; configure `GAIB_SERVICE_TOKEN` and provider credentials in Vercel, but do not set `GAIB_RUNTIME_URL` manually. The root [`render.yaml`](../render.yaml) remains an alternative Python backend deployment. See the [Vercel Services guide](docs/vercel-deployment.md) and [Render backend guide](docs/render-deployment.md).

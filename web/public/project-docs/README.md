@@ -2,7 +2,7 @@
 
 Gold Assistant เป็นโปรเจกต์ทดลองวิเคราะห์ราคาทองคำไทยด้วยข้อมูลตลาด ข่าว/เหตุการณ์ การค้นคืนหลักฐาน และการจำลองพอร์ต โดยแยกให้ชัดว่าอะไรคือ **ข้อมูลที่สังเกตได้จริง** และอะไรคือ **ผลจำลองตามสมมติฐาน** ตัวเลขจากพอร์ตจำลองไม่ใช่ประวัติการซื้อขายของลูกค้าหรือตัวแทนของนักลงทุนไทย
 
-> **สถานะข้อมูลที่เว็บใช้:** market features และ simulator run `R_FEATURE_V1` (สร้างจากข้อมูลถึง 13 ต.ค. 2026) เว็บส่งข้อมูลที่ export ไว้เป็น gzip JSON แบบอ่านอย่างเดียว ส่วน Gold Assistant เรียก Python service บน Render ซึ่งรัน pipeline จาก notebook GAIB-1 และใช้ Qdrant Cloud, Cloudflare, Jina และ ThaiLLM. ไม่มี Supabase, application database หรือ persistent disk; Qdrant เป็น vector database ภายนอกที่จำเป็นต่อ RAG. Assistant ไม่ได้รับ portfolio ID ที่เลือกในหน้าตารางและไม่ใช้ราคาหรือข่าวสด ดู [คู่มือ deploy frontend บน Vercel](../../docs/vercel-deployment.md) และ [คู่มือ backend บน Render](../../docs/render-deployment.md)
+> **สถานะข้อมูลที่เว็บใช้:** market features และ simulator run `R_FEATURE_V1` (สร้างจากข้อมูลถึง 13 ต.ค. 2026) เว็บส่งข้อมูลที่ export ไว้เป็น gzip JSON แบบอ่านอย่างเดียว ส่วน Gold Assistant ใช้ FastAPI ที่ import GAIB-1 Python modules และเชื่อม Qdrant Cloud, Cloudflare, Jina และ ThaiLLM. Notebook เป็น research artifact และไม่ถูก execute ใน runtime. ไม่มี Supabase, application database หรือ persistent disk; Qdrant เป็น vector database ภายนอกที่จำเป็นต่อ RAG. Assistant ไม่ได้รับ portfolio ID ที่เลือกในหน้าตารางและไม่ใช้ราคาหรือข่าวสด ดู [คู่มือ Vercel Services](../../docs/vercel-deployment.md) และ [คู่มือ backend บน Render](../../docs/render-deployment.md)
 
 ## สารบัญ
 
@@ -11,7 +11,7 @@ Gold Assistant เป็นโปรเจกต์ทดลองวิเค�
 - [สถาปัตยกรรม GAIB-1 และผลประเมินล่าสุด](#สถาปัตยกรรม-gaib-1-และผลประเมินล่าสุด)
 - [หลักการทดลองและผลเชิงตัวเลข](#หลักการทดลองและผลเชิงตัวเลข)
 - [วิธีอ่านผลและข้อจำกัด](#วิธีอ่านผลและข้อจำกัด)
-- [เริ่มเว็บและ Deploy บน Render](#เริ่มเว็บและ-deploy-บน-render)
+- [เริ่มเว็บและ Deploy บน Vercel](#เริ่มเว็บและ-deploy-บน-vercel)
 - [เอกสารและ Notebook ที่เกี่ยวข้อง](#เอกสารและ-notebook-ที่เกี่ยวข้อง)
 
 ## ชุดข้อมูลและที่มา
@@ -122,21 +122,21 @@ flowchart LR
 
 Hybrid RRF + Jina ได้ evidence recall@10 **52.6%** (เพิ่ม 17.1 จุดเปอร์เซ็นต์จาก RRF) และ retrieval/reranking เฉลี่ย **6.40 s** ไม่รวม generation; citation ID ที่ถูกต้องไม่ได้ยืนยันว่า claim ได้รับหลักฐานรองรับ
 
-### 6. Snapshot ข้อมูลเว็บ, Vercel และ Render
+### 6. Snapshot ข้อมูลเว็บและ Vercel Services
 
 ```mermaid
 flowchart LR
   parquet["Project Parquet tables"] --> export["Validate · count · SHA-256"]
   export --> bundle["Versioned gzip JSON<br/>manifest + snapshots"]
-  bundle --> next["Vercel · Next.js<br/>read-only API + UI + SSE proxy"]
-  next --> render["Render · Python Web Service<br/>GAIB-1 notebook runtime"]
+  bundle --> next["Vercel · Next.js frontend<br/>read-only API + UI + SSE proxy"]
+  next --> fastapi["Vercel · FastAPI service<br/>GAIB-1 Python modules"]
 ```
 
-เทคนิคเด่น: versioned immutable snapshots, Next.js output tracing สำหรับรวม JSON ที่ API ต้องอ่าน, paginated read-only endpoints และ SSE proxy ไปยัง Render worker ที่รัน notebook pipeline จริง; ไม่มี application database หรือ persistent disk. Qdrant เป็น vector store ภายนอก ไม่ใช่ฐานข้อมูลผู้ใช้
+เทคนิคเด่น: versioned immutable snapshots, Next.js output tracing สำหรับรวม JSON ที่ API ต้องอ่าน, paginated read-only endpoints และ private service binding ไปยัง FastAPI ที่ import Python pipeline module; ไม่มี application database หรือ persistent disk. Qdrant เป็น vector store ภายนอก ไม่ใช่ฐานข้อมูลผู้ใช้
 
 ## สถาปัตยกรรม GAIB-1 และผลประเมินล่าสุด
 
-GAIB-1 เป็น pipeline จาก notebook ที่เว็บเรียกใช้จริงผ่าน Python service บน Render: retrieval, market/HMM/risk evidence และ agent 1–5 ทำงานตาม implementation ใน notebook. ส่วน **benchmark/evaluation run** ที่รายงานด้านล่างเป็น run ที่บันทึกไว้แยกจากคำถามสด; คะแนนนั้นไม่ใช่ accuracy guarantee ของแต่ละคำตอบหรือ release approval
+GAIB-1 runtime import implementation จาก `web/python/gaib_pipeline.py`; notebook ต้นฉบับเก็บไว้สำหรับ research และ evaluation ไม่ถูกเปิดหรือ execute เมื่อรับคำถามจากเว็บ. Retrieval, market/HMM/risk evidence และ agent 1–5 ใช้ pipeline เดียวกัน; ส่วน **benchmark/evaluation run** ที่รายงานด้านล่างเป็น run ที่บันทึกไว้แยกจากคำถามสด และคะแนนนั้นไม่ใช่ accuracy guarantee ของแต่ละคำตอบหรือ release approval
 
 ```mermaid
 flowchart LR
@@ -184,7 +184,7 @@ flowchart LR
 | Critical truncation / judge timeout | ไม่มี failed gates ในสรุป run | ผ่านตาม notebook summary |
 | Overall development decision | **DEVELOPMENT_PASS** | ยังไม่ใช่ release approval |
 
-Notebook ระบุ development exemptions สำหรับ human spot-check 10–20 claims และ human review ของ Ground Truth; ทั้งสองรายการยังไม่ครบ จึงยังห้ามสรุปว่า release GO. Known-relevant judgments ไม่ exhaustive และ citation ID validity แบบ raw rate ไม่ได้อยู่ใน JSON summary นี้. ตัวเลขข้างต้นไม่ใช่ความแม่นยำหรือ latency ของคำตอบสดจากเว็บ แม้เว็บจะเรียก notebook pipeline เดียวกัน
+Notebook ระบุ development exemptions สำหรับ human spot-check 10–20 claims และ human review ของ Ground Truth; ทั้งสองรายการยังไม่ครบ จึงยังห้ามสรุปว่า release GO. Known-relevant judgments ไม่ exhaustive และ citation ID validity แบบ raw rate ไม่ได้อยู่ใน JSON summary นี้. ตัวเลขข้างต้นไม่ใช่ความแม่นยำหรือ latency ของคำตอบสดจากเว็บ แม้ runtime จะใช้ Python implementation ที่แยกจาก notebook ต้นฉบับ
 
 เกณฑ์และ safeguards ฉบับเต็มอยู่ใน [GAIB-1 AI-as-a-judge acceptance policy](multi_agent/GAIB1_AI_AS_JUDGE_ACCEPTANCE_POLICY.md); notebook คือ [Gold Assistant GAIB-1 Exit Criteria v2](multi_agent/GAIB-1/Gold_Assistant_GAIB1_Exit_Criteria_v2.ipynb). สรุปผลที่เว็บ deploy ใช้คือ [`web/data/gaib1-evaluation.json`](web/data/gaib1-evaluation.json).
 
@@ -349,9 +349,9 @@ run ปัจจุบัน `R_FEATURE_V1` replay ข้อมูลราค�
 - **Vector store:** ผลที่เก็บใน Notebook เป็น snapshot ของการรัน; ตรวจ live Qdrant และ checkpoint ก่อนนำไปใช้จริง เพราะตัวนับในไฟล์ checkpoint ปัจจุบันไม่ตรงกัน
 - **ขอบเขตการใช้งานเว็บ:** ตารางโครงการอ่านจาก JSON snapshot แบบ read-only; Gold Assistant เรียก GAIB-1 ผ่าน Python runtime และใช้ Qdrant สำหรับค้นหลักฐาน แต่ยังไม่รับ portfolio ID ที่เลือกในหน้าตาราง จึงไม่ใช่การวิเคราะห์บัญชีส่วนบุคคล
 
-## เริ่มเว็บและ Deploy บน Vercel + Render
+## เริ่มเว็บและ Deploy บน Vercel
 
-เว็บอยู่ใน [`web/`](web/): Vercel ให้บริการ Next.js UI, project-data APIs และ SSE proxy; Render ให้บริการ Python GAIB-1 runtime. Project-data APIs ใช้ไฟล์ JSON snapshots ที่ versioned และถูกติดตามเข้า serverless functions; Assistant โหลด notebook artifacts ใน Python runtime และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk.
+เว็บอยู่ใน [`web/`](web/): Vercel Services ให้บริการ Next.js UI/project-data APIs และ private FastAPI service ที่ import GAIB-1 Python modules. Project-data APIs ใช้ไฟล์ JSON snapshots แบบ versioned; Python runtime อ่าน feature/model/simulator/corpus artifacts จาก repository และเชื่อม Qdrant, Cloudflare, Jina, ThaiLLM. ไม่มี application database, Supabase หรือ persistent disk. `render.yaml` ยังคงเป็นทางเลือกสำหรับ host Python service บน Render.
 
 ```powershell
 cd web
@@ -373,7 +373,7 @@ Endpoints อ่านข้อมูล:
 - `GET /api/data/portfolios?year=2025&limit=25&offset=0` — catalog พอร์ตสังเคราะห์
 - `GET /api/data/portfolios/P20250001` — รายละเอียด portfolio, valuation และ transaction ledger
 
-ดูวิธีตั้ง Root Directory, environment variables และ deploy frontend ใน [`Vercel guide`](../../docs/vercel-deployment.md); สร้าง Render Blueprint จาก [`render.yaml`](../../../render.yaml) สำหรับ Python backend แล้วตั้ง secrets ตาม [`Render guide`](../../docs/render-deployment.md). ไม่มี database service, Supabase หรือ persistent disk; Qdrant เป็น vector store ภายนอกที่ runtime ต้องใช้
+ดูวิธีตั้ง Root Directory, private service binding, environment variables และ deploy ทั้งสอง service ใน [`Vercel Services guide`](../../docs/vercel-deployment.md). หากใช้ Render แทน ให้นำ `GAIB_RUNTIME_URL` และ `GAIB_SERVICE_TOKEN` ไปตั้งตาม [`Render guide`](../../docs/render-deployment.md). ไม่มี database service, Supabase หรือ persistent disk; Qdrant เป็น vector store ภายนอกที่ runtime ต้องใช้
 
 ## เอกสารและ Notebook ที่เกี่ยวข้อง
 

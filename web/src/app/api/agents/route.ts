@@ -59,7 +59,7 @@ export async function POST(request: Request) {
     });
   } catch {
     return NextResponse.json(
-      { error: 'เชื่อมต่อ GAIB-1 Python runtime ไม่ได้ ตรวจสอบสถานะบริการบน Render แล้วลองใหม่' },
+      { error: 'เชื่อมต่อ GAIB-1 Python runtime ไม่ได้ ตรวจสอบสถานะบริการแล้วลองใหม่' },
       { status: 502 },
     );
   }

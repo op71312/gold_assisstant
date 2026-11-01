@@ -41,7 +41,7 @@ interface WsAgent {
   toolData?: Record<string, unknown>;
   keyFinding?: string;
   evidence?: string[];
-  narrationMode?: 'gaib-notebook';
+  narrationMode?: 'gaib-python';
 }
 
 interface WsRun {
@@ -53,7 +53,8 @@ interface WsRun {
   notice?: string;
   error?: string;
   pipelineSummary?: GaibPipelineSummary;
-  narrationMode: 'connecting' | 'gaib-notebook';
+  pipelineProgress: Extract<ChatEvent, { type: 'pipeline_progress' }>[];
+  narrationMode: 'connecting' | 'gaib-python';
   done: boolean;
 }
 
@@ -70,6 +71,25 @@ const QUICK_PROMPTS = [
   'ข่าวใน corpus สนับสนุนข้อสรุปเรื่องทองข้อไหนบ้าง?',
   'ข้อจำกัดสำคัญของข้อมูลและผลวิเคราะห์มีอะไร?',
 ];
+
+const PIPELINE_STEP_LABELS: Record<string, string> = {
+  artifacts: 'โหลด project artifacts',
+  qdrant: 'เชื่อมต่อ Qdrant',
+  corpus: 'โหลด RAG corpus',
+  bm25_index: 'เตรียม BM25 index',
+  runtime: 'เตรียม Python runtime',
+  embedding: 'สร้าง query embedding',
+  qdrant_search: 'ค้น dense candidates ใน Qdrant',
+  bm25_search: 'ค้น keyword ด้วย BM25',
+  rrf: 'รวมผลค้นหาด้วย RRF',
+  reranker: 'จัดอันดับด้วย Jina Reranker',
+  market_snapshot: 'คำนวณ market snapshot',
+  hmm_inference: 'รัน Gaussian HMM',
+  risk_audit: 'ตรวจ risk/data audit',
+  agents: 'เรียก specialist agents 1–4',
+  lead_researcher: 'สังเคราะห์โดย Lead Researcher',
+  citation_audit: 'ตรวจ citation และหลักฐาน',
+};
 
 const TOOLS_BY_AGENT: Record<number, { name: string; desc: string }[]> = {
   1: [{ name: 'GAIB-1 RAG evidence review', desc: 'ใช้ hybrid retrieval และ reranking เพื่อหาข้อความอ้างอิงจาก corpus ของโครงการ' }],
@@ -175,6 +195,12 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
             next.notice = evt.message;
             break;
           }
+          case 'pipeline_progress': {
+            const currentIndex = next.pipelineProgress.findIndex((step) => step.step === evt.step);
+            if (currentIndex >= 0) next.pipelineProgress[currentIndex] = evt;
+            else next.pipelineProgress.push(evt);
+            break;
+          }
           case 'pipeline_summary': {
             next.pipelineSummary = evt.summary;
             break;
@@ -182,6 +208,19 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
           case 'pipeline_error': {
             next.error = evt.message;
             next.notice = evt.message;
+            next.pipelineProgress = next.pipelineProgress.map((step) =>
+              step.status === 'running'
+                ? { ...step, status: 'error', message: `หยุดก่อนขั้นตอนนี้เสร็จ: ${evt.message}` }
+                : step,
+            );
+            if (!next.pipelineProgress.length) {
+              next.pipelineProgress.push({
+                type: 'pipeline_progress',
+                step: 'runtime',
+                status: 'error',
+                message: evt.message,
+              });
+            }
             break;
           }
           case 'done': {
@@ -202,7 +241,15 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
       if (!question.trim() || running) return;
       const runId = `ws-${Date.now()}`;
       runIdRef.current = runId;
-      setRun({ id: runId, question, scenarioName: 'GAIB-1 notebook', agents: [], narrationMode: 'connecting', done: false });
+      setRun({
+        id: runId,
+        question,
+        scenarioName: 'GAIB-1 Python',
+        agents: [],
+        pipelineProgress: [],
+        narrationMode: 'connecting',
+        done: false,
+      });
       setRunning(true);
       scrolledForRef.current = '';
 
@@ -247,6 +294,18 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
                   ...prev,
                   error: (e as Error).message || 'เชื่อมต่อ GAIB-1 runtime ไม่สำเร็จ',
                   notice: (e as Error).message || 'เชื่อมต่อ GAIB-1 runtime ไม่สำเร็จ',
+                  pipelineProgress: prev.pipelineProgress.length
+                    ? prev.pipelineProgress.map((step) =>
+                        step.status === 'running'
+                          ? { ...step, status: 'error', message: `หยุดก่อนขั้นตอนนี้เสร็จ: ${(e as Error).message}` }
+                          : step,
+                      )
+                    : [{
+                        type: 'pipeline_progress',
+                        step: 'runtime',
+                        status: 'error',
+                        message: (e as Error).message || 'เชื่อมต่อ GAIB-1 runtime ไม่สำเร็จ',
+                      }],
                   done: true,
                 }
               : prev,
@@ -377,21 +436,6 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
       <GaibRuntimeStatus requestPending={running && (run?.agents.length ?? 0) === 0} />
 
       <section className="rounded-2xl border border-gold/40 bg-white p-4 md:p-5">
-        <div className="mb-4 flex items-start gap-3 rounded-xl border border-sky-200 bg-sky-50 px-3.5 py-3 text-sky-950">
-          <Info className="mt-0.5 h-5 w-5 shrink-0 text-sky-800" />
-          <div className="text-[13px] leading-relaxed">
-            <p className="font-bold">ใช้ GAIB-1 notebook pipeline จริง</p>
-            <p className="mt-1">
-              คำถามส่งผ่าน <code className="rounded bg-white/80 px-1">POST /api/agents</code> ไปยัง Python runtime ที่โหลดโค้ดจาก notebook โดยตรง: corpus ข่าว → Cloudflare embeddings + Qdrant hybrid search (BM25/RRF) + Jina reranking → market features/HMM/risk audit → ThaiLLM agents 1–5 และ citation validation.
-            </p>
-            <p className="mt-1">
-              ใช้ข้อมูลย้อนหลังจากไฟล์ใน repository ไม่ใช่ราคาทองหรือข่าวสด; ผล portfolio audit มาจาก simulator ของโครงการ ไม่ใช่บัญชีส่วนตัวหรือ portfolio ID ที่เลือกในหน้าเว็บ.
-            </p>
-            <p className="mt-1">
-              ถ้า notebook, secrets หรือบริการภายนอกไม่พร้อม ระบบจะแจ้งข้อผิดพลาดและไม่สร้างคำตอบ fallback แทนผล GAIB-1.
-            </p>
-          </div>
-        </div>
         <form
           onSubmit={(event) => {
             event.preventDefault();
@@ -473,6 +517,53 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
             </button>
           )}
         </div>
+      )}
+
+      {run && (
+        <section
+          aria-label="สถานะการทำงานของ GAIB-1"
+          aria-live="polite"
+          className="rounded-2xl border border-border bg-white p-4"
+        >
+          <div className="mb-3 flex items-center gap-2">
+            <ScanLine className="h-4 w-4 text-gold-deep" />
+            <h2 className="text-sm font-bold text-foreground">ขั้นตอนการวิเคราะห์</h2>
+            {running && <span className="text-xs text-muted-foreground">อัปเดตจาก Python runtime แบบสด</span>}
+          </div>
+          {run.pipelineProgress.length ? (
+            <ol className="grid gap-2 sm:grid-cols-2">
+              {run.pipelineProgress.map((step) => {
+                const isRunning = step.status === 'running';
+                const isError = step.status === 'error';
+                const StepIcon = isRunning ? Loader2 : isError ? ShieldX : step.status === 'skipped' ? Info : CheckCircle2;
+                const iconClass = isRunning
+                  ? 'animate-spin text-gold-deep'
+                  : isError
+                    ? 'text-loss'
+                    : step.status === 'skipped'
+                      ? 'text-muted-foreground'
+                      : 'text-gain';
+                return (
+                  <li key={step.step} className="flex min-w-0 items-start gap-2 rounded-xl bg-cream/55 px-3 py-2">
+                    <StepIcon className={`mt-0.5 h-4 w-4 shrink-0 ${iconClass}`} />
+                    <div className="min-w-0">
+                      <p className="text-xs font-semibold text-foreground">
+                        {PIPELINE_STEP_LABELS[step.step] ?? step.step}
+                      </p>
+                      <p className={`text-xs leading-relaxed ${isError ? 'text-loss' : 'text-muted-foreground'}`}>
+                        {step.message}
+                      </p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ol>
+          ) : (
+            <p className="text-xs text-muted-foreground">
+              กำลังเชื่อมต่อ Python runtime เพื่อรับสถานะการทำงาน...
+            </p>
+          )}
+        </section>
       )}
 
       {/* Answer-first summary: Lead's plain-Thai conclusion above everything (research:
@@ -633,11 +724,11 @@ export function AssistantWorkspace({ data, onAgentActivity, autoQuestion, onAuto
 function NarrationBadge({ mode, error = false }: { mode: WsRun['narrationMode']; error?: boolean }) {
   const label = error ? 'GAIB-1 runtime · error' : {
     connecting: 'กำลังเชื่อม GAIB-1 runtime',
-    'gaib-notebook': 'GAIB-1 notebook · ThaiLLM',
+    'gaib-python': 'GAIB-1 Python · ThaiLLM',
   }[mode];
   const style = error
     ? 'border-loss/40 bg-loss/5 text-loss'
-    : mode === 'gaib-notebook'
+    : mode === 'gaib-python'
       ? 'border-sky-200 bg-sky-50 text-sky-900'
       : 'border-border bg-muted text-muted-foreground';
 
