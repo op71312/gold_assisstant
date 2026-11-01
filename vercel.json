@@ -16,10 +16,10 @@
     "gaib-runtime": {
       "root": ".",
       "framework": "fastapi",
-      "entrypoint": "web.python.gaib_runtime:app",
+      "entrypoint": "app:app",
       "installCommand": "python -m pip install -r web/python/requirements.txt",
       "functions": {
-        "web/python/gaib_runtime.py": {
+        "app.py": {
           "includeFiles": "{web/python/gaib_pipeline.py,dataset/{datset a gold price/data/processed/thai_gold_features_v1.*,thai-gold-portfolio-simulator/outputs/*},model/gold_hmm_v1/model.joblib,embedding/artifacts/chunking_real/structure_aware/chunks_structure_aware_real.jsonl}",
           "maxDuration": 300
         }
