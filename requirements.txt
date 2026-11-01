@@ -1,0 +1,12 @@
+# Lean Vercel runtime dependencies; serving reads CSV snapshots, so it does not need pyarrow.
+fastapi>=0.115,<1
+hmmlearn>=0.3.2,<0.4
+joblib>=1.4,<2
+numpy>=1.26,<2.3
+openai>=1.55,<4
+pandas>=2.2,<3
+pythainlp>=5,<6
+qdrant-client>=1.12,<2
+rank-bm25==0.2.2
+requests>=2.32,<3
+scikit-learn>=1.9.1,<2

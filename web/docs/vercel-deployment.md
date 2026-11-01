@@ -11,9 +11,9 @@ This deployment uses no application database or persistent disk. Qdrant remains 
 
 ## Deploy both services
 
-1. Push the repository to GitHub, including `web/package-lock.json`, the generated `web/data/` snapshots, and runtime artifacts listed in root [`vercel.json`](../../vercel.json).
+1. Push the repository to GitHub, including `web/package-lock.json`, root `requirements.txt`, the generated `web/data/` snapshots, and runtime artifacts listed in root [`vercel.json`](../../vercel.json).
 2. In Vercel, import the repository and keep **Root Directory** at the repository root. Do not set it to `web`; the root `vercel.json` defines both services.
-3. Vercel reads `vercel.json`: `frontend` builds the Next.js app from `web/`; `gaib-runtime` builds FastAPI from the repository root. The root rewrite sends all public requests to the frontend, while the backend is reachable only through its binding.
+3. Vercel reads `vercel.json`: `frontend` builds the Next.js app from `web/`; `gaib-runtime` builds FastAPI from the repository root using the lean root `requirements.txt`. Keep the Python `installCommand` unset so Vercel can optimize the function bundle. The Python function uses versioned CSV data and excludes Parquet files, research-only notebooks, raw news, embeddings, and benchmark outputs; only the required feature/simulator/model/RAG artifacts are packaged. The root rewrite sends all public requests to the frontend, while the backend is reachable only through its binding.
 4. Add these environment variables in the Vercel project for Production and Preview environments that should call the providers:
 
    | Variable | Value |
@@ -57,7 +57,7 @@ The agent route and Python function allow up to 300 seconds per invocation. Verc
 - Keep all API keys and `GAIB_SERVICE_TOKEN` in platform environment settings, never in source or browser-visible variables.
 - The browser calls the same-origin Next.js proxy; it does not receive the backend token.
 - The Python service has no public rewrite. `/health` is used by the server-side status route over the private binding; the agent endpoint additionally requires the shared bearer token.
-- Python is pinned to 3.12 through the root `.python-version`. Python functions have a 500 MB uncompressed bundle limit on the standard runtime; the RAG chunk corpus alone is about 47 MB. Check the Vercel build output against the current [function limits](https://vercel.com/docs/functions/limitations) if artifact inclusion fails.
+- Python is pinned to 3.12 through the root `.python-version`. The latest deployment log for this project reported a 225 MB function limit; limits can vary by plan and runtime, so use the deployment's own error/output as authoritative. Keep research files excluded and avoid a custom Python install command. The RAG chunk corpus alone is about 47 MB.
 
 ## Optional Render backend
 

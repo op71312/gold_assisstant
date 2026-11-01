@@ -17,10 +17,10 @@
       "root": ".",
       "framework": "fastapi",
       "entrypoint": "app:app",
-      "installCommand": "python -m pip install -r web/python/requirements.txt",
       "functions": {
         "app.py": {
-          "includeFiles": "{web/python/gaib_pipeline.py,dataset/{datset a gold price/data/processed/thai_gold_features_v1.*,thai-gold-portfolio-simulator/outputs/*},model/gold_hmm_v1/model.joblib,embedding/artifacts/chunking_real/structure_aware/chunks_structure_aware_real.jsonl}",
+          "includeFiles": "{web/python/*.py,dataset/{datset a gold price/data/processed/thai_gold_features_v1.csv,thai-gold-portfolio-simulator/outputs/*.csv},model/gold_hmm_v1/model.joblib,embedding/artifacts/chunking_real/structure_aware/chunks_structure_aware_real.jsonl}",
+          "excludeFiles": "{dataset/{news/**,*.{jsonl,zip},datset a gold price/*.csv,thai-gold-portfolio-simulator/{baseline_raw_R001/**,outputs_features_v1/**,dataset/**}},vector_database/**,artifacts/**,rag/**,multi_agent/**,embedding/embedding/**,**/*.{ipynb,html,parquet}}",
           "maxDuration": 300
         }
       }
