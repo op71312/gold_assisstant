@@ -84,6 +84,7 @@ THAILLM_MAX_ATTEMPTS = min(7, max(1, int(os.getenv("THAILLM_MAX_ATTEMPTS", "3"))
 # Shared gates coordinate requests across every worker in this process.
 API_MAX_RETRIES = max(0, int(os.getenv("API_MAX_RETRIES", "3")))
 API_RETRY_BASE_SECONDS = max(0.1, float(os.getenv("API_RETRY_BASE_SECONDS", "0.5")))
+API_RETRY_MAX_WAIT_SECONDS = 30.0
 QDRANT_MAX_CONCURRENT_REQUESTS = max(1, int(os.getenv("QDRANT_MAX_CONCURRENT_REQUESTS", "2")))
 CLOUDFLARE_MAX_CONCURRENT_REQUESTS = max(1, int(os.getenv("CLOUDFLARE_MAX_CONCURRENT_REQUESTS", "2")))
 JINA_MAX_CONCURRENT_REQUESTS = max(1, int(os.getenv("JINA_MAX_CONCURRENT_REQUESTS", "1")))
@@ -163,7 +164,14 @@ class ApiRequestGate:
     def defer_after_error(self, error, attempt):
         retry_after = self._retry_after_seconds(error)
         backoff = min(API_RETRY_BASE_SECONDS * (2 ** attempt), 30.0)
-        delay = retry_after if retry_after is not None else backoff + random.uniform(0.0, min(backoff * 0.25, 1.0))
+        delay = (
+            min(retry_after, API_RETRY_MAX_WAIT_SECONDS)
+            if retry_after is not None
+            else min(
+                backoff + random.uniform(0.0, min(backoff * 0.25, 1.0)),
+                API_RETRY_MAX_WAIT_SECONDS,
+            )
+        )
         if self._status_code(error) == 429 or retry_after is not None:
             with self.lock:
                 self.blocked_until = max(self.blocked_until, time.monotonic() + delay)
