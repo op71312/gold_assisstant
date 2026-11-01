@@ -210,6 +210,9 @@ def _agent_events(module: ModuleType, agent_name: str, result: dict[str, Any]) -
         summary += f" · ThaiLLM HTTP {provider_status}"
     if provider_hint:
         summary += f" · {provider_hint}"
+    recovery_strategy = metrics.get("citation_recovery_strategy")
+    if recovery_strategy:
+        summary += f" · citation fallback: {recovery_strategy}"
     data["_gaib"] = {
         "status": status,
         "jsonValid": bool(result.get("json_valid")),

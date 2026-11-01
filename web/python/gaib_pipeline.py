@@ -1547,6 +1547,7 @@ def call_agent_json(llm, agent_name, role_instruction, user_payload, max_tokens=
             if attempt < 2:
                 continue
             break
+        parsed = normalize_citation_fields(parsed)
         if agent_name == "AI5_Lead_Researcher":
             rejected_invalid_evidence_ids, dropped_unsupported_findings = sanitize_ai5_evidence_findings(
                 parsed, available_ids
@@ -1747,6 +1748,38 @@ class RiskAuditorAgent:
 agent1=NewsAnalystAgent(); agent2=MacroAnalystAgent(); agent3=QuantRegimeAgent(); agent4=RiskAuditorAgent()
 # ---- GAIB-1 source notebook cell 21 ----
 CITATION_TOKEN_RE=re.compile(r"\[((?:S|Q|H|R)\d+)\]")
+CITATION_ID_RE=re.compile(r"\[?((?:S|Q|H|R)\d+)\]?", re.I)
+CITATION_ID_LIST_RE=re.compile(
+    r"\s*\[?(?:S|Q|H|R)\d+\]?(?:\s*(?:[,;|]|\s)\s*\[?(?:S|Q|H|R)\d+\]?)*\s*",
+    re.I,
+)
+
+def normalize_citation_fields(value):
+    citation_fields = {"evidence_ids", "tool_result_ids", "citation_ids", "supporting_citation_ids"}
+
+    def normalize_ids(items):
+        if isinstance(items, str):
+            if not CITATION_ID_LIST_RE.fullmatch(items):
+                return items
+            return [identifier.upper() for identifier in CITATION_ID_RE.findall(items)]
+        if not isinstance(items, list):
+            return items
+        normalized = []
+        for item in items:
+            if isinstance(item, str) and CITATION_ID_LIST_RE.fullmatch(item):
+                normalized.extend(identifier.upper() for identifier in CITATION_ID_RE.findall(item))
+            else:
+                normalized.append(item)
+        return normalized
+
+    if isinstance(value, dict):
+        return {
+            key: normalize_ids(item) if key in citation_fields else normalize_citation_fields(item)
+            for key, item in value.items()
+        }
+    if isinstance(value, list):
+        return [normalize_citation_fields(item) for item in value]
+    return value
 
 def allowed_evidence_ids(sources,market,hmm,risk):
     ids={s.get("citation_id") for s in sources if s.get("citation_id")}
@@ -1760,7 +1793,10 @@ def citation_audit(text,allowed_ids):
     unique=sorted(set(found),key=lambda x:(x[0],int(x[1:])))
     invalid=sorted(set(found)-set(allowed_ids))
     valid_unique=sorted(set(found).intersection(set(allowed_ids)),key=lambda x:(x[0],int(x[1:])))
-    paragraphs=[p.strip() for p in re.split(r"\n+",str(text or "")) if len(p.strip())>=25]
+    paragraphs=[
+        line.strip() for line in str(text or "").splitlines()
+        if line.strip().startswith("- ") and len(line.strip()) >= 25
+    ]
     cited_paragraphs=sum(any(tok in p for tok in valid_unique) for p in paragraphs)
     return {"citation_count":len(found),"unique_citation_count":len(unique),"invalid_citation_ids":invalid,
             "all_citation_ids_valid":bool(found) and not invalid,
@@ -1769,6 +1805,15 @@ def citation_audit(text,allowed_ids):
             "citation_id_valid_rate_when_present":len(valid_unique)/len(unique) if unique else "NO_CITATIONS",
             "citation_paragraph_coverage":cited_paragraphs/len(paragraphs) if paragraphs else "NO_PARAGRAPHS",
             "paragraphs_checked":len(paragraphs),"cited_paragraphs":cited_paragraphs}
+
+def citation_audit_passes(audit):
+    return (
+        audit.get("all_citation_ids_valid") is True
+        and audit.get("claim_count", 0) > 0
+        and audit.get("unsupported_claim_count") == 0
+        and audit.get("claim_citation_coverage") == 1.0
+        and audit.get("citation_paragraph_coverage") == 1.0
+    )
 
 def claim_evidence_audit(findings, allowed_ids):
     claims = findings if isinstance(findings, list) else []
@@ -1805,6 +1850,9 @@ def render_evidence_report(final_data, allowed_ids):
     if not isinstance(findings, list):
         findings = []
     lines = ["## Evidence-based findings"]
+    fallback_notice = str(final_data.get("fallback_notice") or "").strip()
+    if fallback_notice:
+        lines.append(f"> **หมายเหตุ:** {fallback_notice}")
     for finding in findings:
         if not isinstance(finding, dict) or not str(finding.get("claim") or "").strip():
             continue
@@ -1823,6 +1871,148 @@ def render_evidence_report(final_data, allowed_ids):
     if len(lines) == 1:
         lines.append("No cited, schema-valid evidence-based findings were produced.")
     return "\n".join(lines), claim_evidence_audit(findings, allowed_ids)
+
+def deterministic_citation_fallback_findings(query, manifest, prechecks=None):
+    source_facts = _lead_source_numeric_findings(query, manifest, prechecks)
+    if source_facts:
+        return [fact for _, fact in source_facts[:5]], "source_numeric"
+
+    text = str(query or "")
+    findings = []
+
+    def add(claim, evidence_ids):
+        ids = list(dict.fromkeys(str(identifier) for identifier in evidence_ids if identifier))
+        if ids and all(identifier in allowed_ids for identifier in ids):
+            findings.append({
+                "claim": claim,
+                "claim_type": "fact",
+                "evidence_ids": ids,
+                "confidence": "high",
+                "limitations": [],
+            })
+
+    allowed_ids = {
+        str(source.get("citation_id"))
+        for source in manifest.get("rag_sources", [])
+        if source.get("citation_id")
+    }
+    for section in ("market_records", "hmm_records", "risk_records"):
+        allowed_ids.update(
+            str(record.get("evidence_id"))
+            for record in manifest.get(section, [])
+            if record.get("evidence_id")
+        )
+
+    risk_requested = bool(re.search(r"พอร์ต|portfolio|ความเสี่ยง|risk|simulator|จำลอง|audit|ตรวจสอบ", text, re.I))
+    if risk_requested:
+        records = {
+            record.get("name"): record
+            for record in manifest.get("risk_records", [])
+            if isinstance(record, dict)
+        }
+        for name, template in (
+            ("synthetic_portfolio_rate", "พอร์ตใน simulator เป็นข้อมูลสังเคราะห์ {value}%"),
+            ("duplicate_transaction_id_rate", "อัตราแถว transaction ID ซ้ำใน simulator คือ {value}% (สถานะ {status})"),
+            ("valuation_non_ok_rate", "อัตรารายการ valuation ที่ไม่อยู่ในสถานะ OK คือ {value}% (สถานะ {status})"),
+            ("attribution_synthetic_rate", "รายการ P&L attribution ที่เป็นข้อมูลสังเคราะห์มีสัดส่วน {value}%"),
+        ):
+            record = records.get(name)
+            if not record or record.get("evidence_id") not in allowed_ids:
+                continue
+            try:
+                percentage = float(record["value"]) * 100
+            except (KeyError, TypeError, ValueError):
+                continue
+            rendered = f"{percentage:.2f}".rstrip("0").rstrip(".")
+            add(template.format(value=rendered, status=record.get("status", "ไม่ระบุ")), [record["evidence_id"]])
+        for name, label in (
+            ("attribution_reconciliation_failures_gt_0_01_thb", "จำนวนรายการที่คลาดเคลื่อนเกิน 0.01 บาท"),
+            ("feature_vs_simulator_market_date_lag_days", "จำนวนวันที่ feature และ simulator market ต่างกัน"),
+        ):
+            record = records.get(name)
+            if not record or record.get("evidence_id") not in allowed_ids:
+                continue
+            try:
+                value = int(record["value"])
+            except (KeyError, TypeError, ValueError):
+                continue
+            add(f"{label} {value}", [record["evidence_id"]])
+        if findings:
+            return findings[:5], "project_risk_metrics"
+
+    if re.search(r"(?i)HMM|regime|latent state|สภาวะ|สถานะตลาด|สถานะของโมเดล", text):
+        records = {
+            record.get("name"): record
+            for record in manifest.get("hmm_records", [])
+            if isinstance(record, dict)
+        }
+        state = records.get("hmm_latest_state")
+        observed = records.get("hmm_latest_observation")
+        if state and state.get("evidence_id") in allowed_ids:
+            evidence_ids = [state["evidence_id"]]
+            date_text = ""
+            if observed and observed.get("evidence_id") in allowed_ids:
+                evidence_ids.append(observed["evidence_id"])
+                date_text = f" ณ {observed.get('value')}"
+            add(
+                f"Gaussian HMM ระบุ latent state ID {state.get('value')}{date_text}; state ID เป็นป้ายกำกับของโมเดล ไม่ใช่ทิศทางราคาทอง",
+                evidence_ids,
+            )
+        if findings:
+            return findings, "hmm_snapshot"
+
+    if re.search(r"ราคา|ทองคำแท่ง|ทองรูปพรรณ|USD.?THB|ค่าเงินบาท|spot|volatility|ความผันผวน", text, re.I):
+        records = {
+            record.get("name"): record
+            for record in manifest.get("market_records", [])
+            if isinstance(record, dict)
+        }
+        labels = (
+            ("thai_gold_bar_buy", "ราคาซื้อทองคำแท่ง"),
+            ("thai_gold_bar_sell", "ราคาขายทองคำแท่ง"),
+            ("global_gold_spot", "ราคาทองคำ spot"),
+            ("USD_THB", "อัตรา USD/THB"),
+            ("thai_gold_vol_20d", "ความผันผวนทองไทย 20 วัน"),
+        )
+        observed = records.get("observation_as_of")
+        as_of = f" ณ {observed['value']}" if observed and observed.get("value") else ""
+        for name, label in labels:
+            record = records.get(name)
+            if not record or record.get("evidence_id") not in allowed_ids:
+                continue
+            value = record.get("value")
+            if not isinstance(value, (int, float)):
+                continue
+            rendered = f"{value:,.4f}".rstrip("0").rstrip(".")
+            add(f"ข้อมูลย้อนหลัง{as_of}: {label} {rendered} {record.get('unit', '')}".strip(), [record["evidence_id"]])
+        if findings:
+            return findings[:5], "market_snapshot"
+
+    sources = _unique_article_sources(manifest.get("rag_sources", []))
+    for source in sources:
+        citation_id = str(source.get("citation_id") or "")
+        excerpt = " ".join(str(source.get("text_excerpt") or "").split())
+        title = " ".join(str(source.get("title") or "").split())
+        published = str(source.get("publication_date") or "")[:10]
+        if not citation_id or citation_id not in allowed_ids:
+            continue
+        if excerpt:
+            if len(excerpt) > 420:
+                excerpt = excerpt[:420].rsplit(" ", 1)[0].rstrip(" ,;:")
+            if not excerpt:
+                continue
+            attribution = f"แหล่งข่าว “{title}”" if title else "ข้อความจากแหล่งข่าว"
+            if published:
+                attribution += f" ({published})"
+            add(f"{attribution} ระบุว่า “{excerpt}”", [citation_id])
+        elif title:
+            attribution = f"พาดหัวข่าวลงวันที่ {published}" if published else "พาดหัวข่าว"
+            add(f"{attribution}: “{title}”", [citation_id])
+        if len(findings) >= 3:
+            break
+    if findings:
+        return findings, "quoted_source_excerpt"
+    return [], "none"
 
 def simple_directions(agent_results):
     out={}
@@ -2266,31 +2456,57 @@ class LeadResearcherAgent:
                 result["data"]["evidence_based_findings"] = repair_source_supported_numeric_findings(
                     query, findings, manifest, prechecks
                 )
-        else:
-            source_facts = _lead_source_numeric_findings(query, manifest, prechecks)
-            if source_facts:
+        current_data = result.get("data") if isinstance(result.get("data"), dict) else {}
+        _, current_claim_audit = render_evidence_report(current_data, allowed_ids)
+        if (
+            result.get("status") not in {"success", "recovered"}
+            or not current_claim_audit.get("claim_count")
+            or current_claim_audit.get("unsupported_claim_count") > 0
+        ):
+            fallback_findings, fallback_strategy = deterministic_citation_fallback_findings(
+                query, manifest, prechecks
+            )
+            if fallback_findings:
+                recovery_reason = str(result.get("status") or "invalid_citations")
                 api_succeeded = bool(result.get("metrics", {}).get("api_success"))
+                fallback_notice = (
+                    "AI5 ไม่สามารถสังเคราะห์คำตอบที่ผ่านการตรวจ citation ได้ "
+                    "ระบบจึงแสดงเฉพาะข้อเท็จจริงที่ดึงจากข้อมูลหรือข้อความต้นทางโดยตรง"
+                )
                 recovered_data = {
                     "status": "partial",
-                    "executive_summary": "แสดงเฉพาะตัวเลขที่ตรวจได้โดยตรงจากหลักฐานที่ดึงมา",
-                    "evidence_based_findings": [fact for _, fact in source_facts],
+                    "executive_summary": "แสดงข้อเท็จจริงจากหลักฐานที่ตรวจสอบแหล่งอ้างอิงได้",
+                    "evidence_based_findings": fallback_findings,
                     "agent_agreement": [], "agent_disagreements": [], "risk_flags": [],
                     "confidence": "medium",
                     "limitations": [
-                        "คำตอบ AI5 ไม่ผ่าน schema; แสดงเฉพาะข้อเท็จจริงจากแหล่งต้นทางที่ตรวจได้"
-                        if api_succeeded else "AI5 เรียก API ไม่สำเร็จ; แสดงเฉพาะข้อเท็จจริงจากแหล่งต้นทางที่ตรวจได้"
+                        "AI5 ไม่ผ่านการตรวจ citation; คำตอบนี้เป็น deterministic fallback ไม่ใช่การสังเคราะห์จาก AI5"
+                        if api_succeeded else "AI5 เรียก API หรือสร้างคำตอบไม่สำเร็จ; แสดงเฉพาะข้อมูลที่ตรวจสอบแหล่งอ้างอิงได้"
                     ],
-                    "next_research_steps": ["ตรวจสอบคำตอบ AI5 ในรอบถัดไป"],
+                    "next_research_steps": ["ลองถามใหม่เมื่อบริการ AI พร้อมใช้งาน"],
                     "abstention_reason": "",
+                    "fallback_notice": fallback_notice,
                 }
                 recovery_errors = validate_agent_schema(self.name, recovered_data)
-                if not recovery_errors:
+                recovered_report, recovered_audit = render_evidence_report(recovered_data, allowed_ids)
+                recovered_citations = citation_audit(recovered_report, allowed_ids)
+                recovered_audit.update(recovered_citations)
+                if not recovery_errors and citation_audit_passes(recovered_audit):
                     result["data"] = recovered_data
                     result["status"] = "recovered"
-                    result["metrics"]["source_fact_recovery"] = True
-                    result["metrics"]["source_fact_recovery_kinds"] = [kind for kind, _ in source_facts]
+                    result["schema_valid"] = True
+                    metrics = result.setdefault("metrics", {})
+                    metrics.update({
+                        "schema_valid": True,
+                        "citation_recovery_strategy": fallback_strategy,
+                        "citation_recovery_reason": recovery_reason,
+                    })
                 else:
-                    result["metrics"]["source_fact_recovery_errors"] = recovery_errors
+                    result.setdefault("metrics", {})["citation_fallback_validation_errors"] = recovery_errors
+            elif result.get("status") in {"success", "recovered"}:
+                result["status"] = "citation_error"
+                result["schema_valid"] = False
+                result.setdefault("metrics", {})["error_type"] = "no_renderable_cited_findings"
         return result
 
 agent5=LeadResearcherAgent()
@@ -2436,8 +2652,13 @@ class GoldAssistantMultiAgent:
             final_text="## Evidence-based findings\nAI5 did not produce a schema-valid claim set. No unsupported draft was promoted to the final report."
             audit=citation_audit(final_text,allowed)
             audit.update(claim_evidence_audit([],allowed))
+        audit["valid"] = citation_audit_passes(audit)
         if callback:
-            callback("citation_audit", "success" if audit.get("valid") else "error", "ตรวจ citation audit เสร็จแล้ว" if audit.get("valid") else "citation audit พบข้อจำกัด; รายงานจะระบุข้อจำกัดนี้")
+            callback(
+                "citation_audit",
+                "success" if audit["valid"] else "error",
+                "ตรวจ citation ผ่านครบทุก claim" if audit["valid"] else "citation audit พบข้อจำกัด; รายงานจะระบุข้อจำกัดนี้",
+            )
         agent_rows=[]
         all_results={**specialist_results,"AI5_Lead_Researcher":final}
         for name,res in all_results.items():
@@ -2467,6 +2688,7 @@ class GoldAssistantMultiAgent:
             "risk_snapshot_ms":risk_snapshot_ms,"risk_snapshot_precomputed":risk_snapshot_precomputed,
             "ai5_synthesis_ms":ai5_synthesis_ms,
             "citation_validation_ms":(time.perf_counter()-citation_validation_started)*1000,
+            "citation_recovery_strategy":(final.get("metrics") or {}).get("citation_recovery_strategy"),
             "total_tokens":float(token_total) if pd.notna(token_total) else "NOT_REPORTED",
             "mean_agent_latency_ms":float(pd.to_numeric(agent_df["latency_ms"],errors="coerce").mean()),
             "max_agent_latency_ms":float(pd.to_numeric(agent_df["latency_ms"],errors="coerce").max()),"citation_audit":audit,
