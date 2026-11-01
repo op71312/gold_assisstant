@@ -1,5 +1,7 @@
 # Gold Assistant Web
 
+**Deployed website:** [https://gold-assisstant.vercel.app/](https://gold-assisstant.vercel.app/)
+
 ## Run locally
 
 Requires Node.js 20.9 or newer. From `web/`:
