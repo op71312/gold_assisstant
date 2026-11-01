@@ -51,7 +51,9 @@ GROUND_TRUTH_CANDIDATES = [GAIB_GT_READY_PATH]
 THAILLM_BASE_URL = os.getenv("THAILLM_BASE_URL", "https://thaillm.or.th/api/v1").strip().rstrip("/")
 if not THAILLM_BASE_URL.lower().startswith("https://"):
     raise ValueError("ThaiLLM API credentials must only be sent over HTTPS.")
-THAILLM_MODEL = os.getenv("THAILLM_MODEL", "openthaigpt-thaillm-8b-instruct-v7.2").strip()
+THAILLM_MODEL = os.getenv("THAILLM_MODEL", "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2").strip()
+if THAILLM_MODEL.casefold() == "openthaigpt-thaillm-8b-instruct-v7.2":
+    THAILLM_MODEL = "OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2"
 THAILLM_API_KEYS = [
     (f"THAILLM_API_KEY{i}", value)
     for i in range(1, 8)
@@ -395,6 +397,12 @@ import requests
 from rank_bm25 import BM25Okapi
 from qdrant_client import QdrantClient
 from openai import OpenAI
+
+THAILLM_CLIENTS = {
+    slot: OpenAI(api_key=api_key, base_url=THAILLM_BASE_URL, timeout=THAILLM_TIMEOUT_SECONDS)
+    for slot, api_key in THAILLM_API_KEYS
+}
+
 try:
     from pythainlp.tokenize import word_tokenize
 except Exception:
@@ -1142,6 +1150,45 @@ def next_thaillm_client():
     return key_slot, THAILLM_CLIENTS[key_slot]
 
 
+def provider_error_details(error):
+    current = error
+    seen = set()
+    status_code = None
+    root_error = error
+    while current is not None and id(current) not in seen:
+        seen.add(id(current))
+        root_error = current
+        if status_code is None:
+            status_code = ApiRequestGate._status_code(current)
+        current = getattr(current, "__cause__", None) or getattr(current, "__context__", None)
+
+    hints = {
+        400: "ThaiLLM ปฏิเสธรูปแบบคำขอหรือ model ที่ตั้งไว้",
+        401: "ThaiLLM ปฏิเสธ API key; ตรวจค่า THAILLM_API_KEY ใน Vercel",
+        402: "บัญชี ThaiLLM ไม่มี quota หรือ billing ที่ใช้งานได้",
+        403: "API key ไม่มีสิทธิ์ใช้ ThaiLLM model นี้",
+        404: "ไม่พบ ThaiLLM endpoint หรือ model; ตรวจ THAILLM_BASE_URL และ THAILLM_MODEL",
+        408: "ThaiLLM ใช้เวลาตอบนานเกินกำหนด",
+        429: "ThaiLLM จำกัดอัตราคำขอหรือ quota เต็ม",
+    }
+    if status_code in hints:
+        hint = hints[status_code]
+    elif status_code is not None and status_code >= 500:
+        hint = "ThaiLLM ขัดข้องชั่วคราว"
+    elif type(root_error).__name__ in {
+        "APIConnectionError", "APITimeoutError", "ConnectError", "ConnectTimeout",
+        "ReadTimeout", "TimeoutException", "Timeout",
+    }:
+        hint = "เชื่อมต่อ ThaiLLM ไม่สำเร็จหรือตอบช้าเกินกำหนด"
+    else:
+        hint = "ตรวจสอบ ThaiLLM API key, model และ runtime logs"
+    return {
+        "http_status": status_code,
+        "error_type": type(root_error).__name__,
+        "hint": hint,
+    }
+
+
 class ThaiLLMClient:
     def __init__(self):
         if not THAILLM_API_KEYS:
@@ -1195,10 +1242,13 @@ class ThaiLLMClient:
                 if attempt + 1 >= THAILLM_MAX_ATTEMPTS or not THAILLM_GATE.is_retryable(error):
                     break
                 time.sleep(THAILLM_GATE.defer_after_error(error, attempt))
-        raise RuntimeError(
+        failure = RuntimeError(
             f"ThaiLLM failed after {THAILLM_MAX_ATTEMPTS} attempts using configured key slots "
             f"{attempted_key_slots}: {type(last_error).__name__}: {last_error}"
-        ) from last_error
+        )
+        failure.api_attempt_count = len(attempted_key_slots)
+        failure.provider_error_details = provider_error_details(last_error) if last_error else {}
+        raise failure from last_error
 
 def parse_json_object(text):
     raw = str(text or "").strip()
@@ -1371,6 +1421,8 @@ def call_agent_json(llm, agent_name, role_instruction, user_payload, max_tokens=
     status = "api_error"
     api_success = False
     exception_traceback = None
+    api_attempt_count = 0
+    provider_error = {}
     agent_contract = AGENT_SCHEMAS.get(agent_name, {})
     schema_contract = {
         "required": {
@@ -1472,6 +1524,10 @@ def call_agent_json(llm, agent_name, role_instruction, user_payload, max_tokens=
             status = "api_error"
             parse_error = f"{type(error).__name__}:{error}"
             exception_traceback = traceback.format_exc()
+            provider_error = getattr(error, "provider_error_details", None)
+            if provider_error is None:
+                provider_error = provider_error_details(error)
+            api_attempt_count = getattr(error, "api_attempt_count", 1)
             break
         finish_reason = str(response.get("finish_reason") or "").casefold()
         if finish_reason in {"length", "max_tokens", "max_output_tokens"}:
@@ -1522,6 +1578,7 @@ def call_agent_json(llm, agent_name, role_instruction, user_payload, max_tokens=
         "attempts": len(responses),
         "repair_attempts": max(0, len(responses) - 1),
         "attempt_count": len(responses),
+        "api_attempt_count": api_attempt_count if status == "api_error" else len(responses),
         "request_budgets": request_budgets,
         "initial_tokens": responses[0].get("total_tokens") if responses else None,
         "repair_tokens": sum(
@@ -1542,6 +1599,9 @@ def call_agent_json(llm, agent_name, role_instruction, user_payload, max_tokens=
         "rejected_invalid_evidence_ids": rejected_invalid_evidence_ids,
         "dropped_unsupported_findings": dropped_unsupported_findings,
         "error_type": None if status == "success" else status,
+        "provider_http_status": provider_error.get("http_status") if status == "api_error" else None,
+        "provider_error_type": provider_error.get("error_type") if status == "api_error" else None,
+        "provider_error_hint": provider_error.get("hint") if status == "api_error" else None,
         "traceback": exception_traceback,
     }
     return {

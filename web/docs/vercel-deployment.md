@@ -20,6 +20,7 @@ This deployment uses no application database or persistent disk. Qdrant remains 
    |---|---|
    | `GAIB_SERVICE_TOKEN` | High-entropy shared secret used by the frontend and Python service |
    | `THAILLM_API_KEY1`–`THAILLM_API_KEY7` | ThaiLLM API keys; at least one key is required |
+   | `THAILLM_MODEL` | `OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2` (Config; exact ID from ThaiLLM `/models`) |
    | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account ID for embeddings |
    | `CLOUDFLARE_API_TOKEN` | Cloudflare API token for embeddings |
    | `QDRANT_URL` | Existing Qdrant vector collection endpoint |

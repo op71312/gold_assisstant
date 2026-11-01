@@ -16,7 +16,7 @@
     "API_MAX_RETRIES": "max(0, int(os.getenv('API_MAX_RETRIES', '3')))"
   },
   "multi_agent_values_from_code": {
-    "THAILLM_MODEL": "os.getenv('THAILLM_MODEL', 'openthaigpt-thaillm-8b-instruct-v7.2').strip()",
+    "THAILLM_MODEL": "os.getenv('THAILLM_MODEL', 'OpenThaiGPT-ThaiLLM-8B-Instruct-v7.2').strip()",
     "THAILLM_TIMEOUT_SECONDS": "int(os.getenv('THAILLM_TIMEOUT_SECONDS', '90'))",
     "THAILLM_MAX_TOKENS_AGENT": "int(os.getenv('THAILLM_MAX_TOKENS_AGENT', '900'))",
     "THAILLM_MAX_TOKENS_FINAL": "int(os.getenv('THAILLM_MAX_TOKENS_FINAL', '1600'))",
@@ -35,7 +35,7 @@
   },
   "discrepancies": [
     "The 5-agent notebook uses separate generation budgets (agent=900, final=1600 by code defaults) while A2 uses one max_tokens=1200 generation budget; this benchmark preserves the 5-agent values and does not silently change them.",
-    "The default ThaiLLM model identifier casing differs between notebook code cells; runtime model equivalence is not assumed and must be confirmed from the effective runtime manifest."
+    "The default ThaiLLM model identifier casing differed between notebook code cells; the web runtime now uses the current exact ID reported by ThaiLLM /models."
   ],
   "runtime_env_overrides": "Captured only when the GAIB notebook is run; API credential values are never written."
 }

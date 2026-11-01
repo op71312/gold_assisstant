@@ -204,13 +204,21 @@ def _agent_events(module: ModuleType, agent_name: str, result: dict[str, Any]) -
     )
     if isinstance(latency, (int, float)):
         summary += f" · {latency:.0f} ms"
+    provider_hint = metrics.get("provider_error_hint")
+    provider_status = metrics.get("provider_http_status")
+    if provider_status:
+        summary += f" · ThaiLLM HTTP {provider_status}"
+    if provider_hint:
+        summary += f" · {provider_hint}"
     data["_gaib"] = {
         "status": status,
         "jsonValid": bool(result.get("json_valid")),
         "schemaValid": bool(result.get("schema_valid")),
         "errorType": metrics.get("error_type"),
         "latencyMs": latency,
-        "attempts": metrics.get("attempt_count", metrics.get("attempts")),
+        "attempts": metrics.get("api_attempt_count", metrics.get("attempt_count", metrics.get("attempts"))),
+        "providerHttpStatus": provider_status,
+        "providerErrorHint": provider_hint,
         "evidenceIds": evidence,
     }
     return [
@@ -453,7 +461,19 @@ async def post_agents(request: Request) -> StreamingResponse:
                 try:
                     result = await asyncio.to_thread(_run_with_events, pipeline, module, question, events)
                     events.put({"type": "pipeline_summary", "summary": _pipeline_summary(result)})
-                    events.put({"type": "final_answer", "text": result.get("final_text") or "Lead Researcher ไม่มีคำตอบที่ผ่านการตรวจสอบ", "agentId": 5})
+                    agents = result.get("agents") if isinstance(result.get("agents"), dict) else {}
+                    lead = agents.get("AI5_Lead_Researcher") if isinstance(agents.get("AI5_Lead_Researcher"), dict) else {}
+                    if lead.get("status") in {"success", "recovered"} and result.get("final_text"):
+                        events.put({"type": "final_answer", "text": result["final_text"], "agentId": 5})
+                    else:
+                        metrics = lead.get("metrics") if isinstance(lead.get("metrics"), dict) else {}
+                        hint = metrics.get("provider_error_hint")
+                        message = "GAIB-1 ยังสร้างรายงานที่ผ่านการตรวจสอบไม่ได้"
+                        if hint:
+                            message += f": {hint}"
+                        elif metrics.get("provider_http_status"):
+                            message += f" (ThaiLLM HTTP {metrics['provider_http_status']})"
+                        events.put({"type": "pipeline_error", "message": message})
                     events.put({"type": "done"})
                 except Exception as error:
                     logging.error("GAIB-1 request failed (%s)", type(error).__name__)
